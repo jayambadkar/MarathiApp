@@ -1,5 +1,5 @@
 diff --git a/node_modules/@react-native-voice/voice/android/build.gradle b/node_modules/@react-native-voice/voice/android/build.gradle
-index 8fce879..14aedd8 100644
+index 8fce879..da84139 100644
 --- a/node_modules/@react-native-voice/voice/android/build.gradle
 +++ b/node_modules/@react-native-voice/voice/android/build.gradle
 @@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
@@ -11,6 +11,15 @@ index 8fce879..14aedd8 100644
      maven {
          // For developing the library outside the context of the example app, expect `react-native`
          // to be installed at `./node_modules`.
+@@ -32,7 +32,7 @@ android {
+     buildTypes {
+         release {
+             minifyEnabled false
+-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
++            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+         }
+     }
+ }
 @@ -40,7 +40,7 @@ android {
  buildscript {
      if (project == rootProject) {
