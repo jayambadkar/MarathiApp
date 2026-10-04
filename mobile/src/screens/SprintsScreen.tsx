@@ -5,7 +5,7 @@ import { Timer } from 'lucide-react-native';
 import sprintsData from '../data/sprints.json';
 import { useStore } from '../store';
 import { FONT } from '../theme';
-import { Btn, Card, Gap, HearBtn, Opt, Screen, Seg, XPBadge } from '../ui';
+import { Btn, Card, Gap, HearBtn, Opt, SayText, Screen, Seg, XPBadge } from '../ui';
 import { XP_CORRECT, shuffleOptions } from '../lib';
 
 const BONUS_XP = 5;
@@ -215,8 +215,13 @@ export default function SprintsScreen({ navigation, route }: any): React.JSX.Ele
                 </View>
               </View>
               <Gap />
-              <Text style={[styles.storyText, { color: pal.text }]} testID="sprint-text">
-                {sprint.text_mr}
+              <SayText
+                text={sprint.text_mr}
+                style={[styles.storyText, { color: pal.text }]}
+                testID="sprint-text"
+              />
+              <Text style={[styles.small, { color: pal.muted }]}>
+                💡 वाक्यावर टॅप करा — ऐकू येईल · long-press = सर्व ऐका
               </Text>
               <Text style={[styles.small, { color: pal.muted }]}>{sprint.text_en}</Text>
               {wpm !== null && (

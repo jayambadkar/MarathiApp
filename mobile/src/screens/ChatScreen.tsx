@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
-import { FlatList, KeyboardAvoidingView, Platform, StyleSheet, Text, View } from 'react-native';
+import { FlatList, KeyboardAvoidingView, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import Animated, { FadeIn } from 'react-native-reanimated';
 import { MessageCircle } from 'lucide-react-native';
 import { useStore } from '../store';
 import { FONT } from '../theme';
 import { Btn, Card, Gap, HearBtn, Screen, TextField, XPBadge } from '../ui';
-import { stopSpeak } from '../tts';
+import { speak, stopSpeak } from '../tts';
 import { listenOnce, voiceAvailable } from '../voice';
 
 const XP_CHAT_MSG = 2;
@@ -291,7 +291,7 @@ export default function ChatScreen({ navigation, route }: any): React.JSX.Elemen
           const mine = item.role === 'user';
           return (
             <Animated.View entering={FadeIn.duration(200)}>
-              <View
+              <Pressable
                 testID={`chat-msg-${i}`}
                 style={[
                   styles.bubble,
@@ -299,7 +299,10 @@ export default function ChatScreen({ navigation, route }: any): React.JSX.Elemen
                     ? [styles.mine, { backgroundColor: pal.userBg }]
                     : [styles.theirs, { backgroundColor: pal.tutorBg }],
                 ]}
-              >
+                onLongPress={() => {
+                  stopSpeak();
+                  void speak(item.text, settings.speed);
+                }}>
                 <Text style={[styles.body, { color: mine ? pal.userText : pal.text }]}>
                   {item.text}
                 </Text>
@@ -308,7 +311,7 @@ export default function ChatScreen({ navigation, route }: any): React.JSX.Elemen
                     <HearBtn text={item.text} />
                   </View>
                 )}
-              </View>
+              </Pressable>
               {item.corrected !== undefined && item.corrected !== '' && (
                 <Card>
                   <Text style={[styles.body, { color: pal.text }]}>✏️ {item.corrected}</Text>

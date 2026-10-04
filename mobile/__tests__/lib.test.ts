@@ -1,4 +1,4 @@
-import {XP_CORRECT, normEn, normMr, shuffle, shuffleOptions} from '../src/lib';
+import {XP_CORRECT, normEn, normMr, shuffle, shuffleOptions, splitSentences} from '../src/lib';
 
 test('shuffleOptions remaps the answer to the shuffled position', () => {
   for (let a = 0; a < 4; a++) {
@@ -25,4 +25,12 @@ test('norm strips punctuation and whitespace', () => {
 
 test('XP constant matches web', () => {
   expect(XP_CORRECT).toBe(10);
+});
+
+test('splitSentences splits on danda and ASCII marks', () => {
+  expect(splitSentences('राम घरी गेला। सीता आली।')).toEqual(['राम घरी गेला।', 'सीता आली।']);
+  expect(splitSentences('Hello! How are you? Fine.')).toEqual(['Hello!', 'How are you?', 'Fine.']);
+  expect(splitSentences('no punctuation')).toEqual(['no punctuation']);
+  expect(splitSentences('')).toEqual([]);
+  expect(splitSentences('  एक।  दोन।  ')).toEqual(['एक।', 'दोन।']);
 });

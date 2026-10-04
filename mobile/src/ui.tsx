@@ -1,4 +1,5 @@
 import type {ReactNode} from 'react';
+import {useMemo} from 'react';
 import {
   Pressable,
   ScrollView,
@@ -8,13 +9,14 @@ import {
   TextInput,
   View,
 } from 'react-native';
-import type {StyleProp, ViewStyle} from 'react-native';
+import type {StyleProp, TextStyle, ViewStyle} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import Animated, {useAnimatedStyle, useSharedValue, withSpring} from 'react-native-reanimated';
 import {Flame, Star, Volume2} from 'lucide-react-native';
 import {FONT, FONT_BOLD} from './theme';
 import {useStore} from './store';
-import {speak} from './tts';
+import {speak, stopSpeak} from './tts';
+import {splitSentences} from './lib';
 
 export function Screen({
   children,
@@ -176,6 +178,42 @@ export function HearBtn({text, title}: {text: string; title?: string}) {
 
 export function Gap({h = 12}: {h?: number}) {
   return <View style={{height: h}} />;
+}
+
+/**
+ * Speakable paragraph: tap a sentence to hear it, long-press to hear all.
+ * The mobile equivalent of select-to-read-aloud (RN Text exposes no
+ * selection events, so tap-a-sentence replaces drag-selection).
+ */
+export function SayText({
+  text,
+  style,
+  testID,
+}: {
+  text: string;
+  style?: StyleProp<TextStyle>;
+  testID?: string;
+}) {
+  const {settings} = useStore();
+  const sents = useMemo(() => splitSentences(text), [text]);
+  const say = (s: string) => {
+    stopSpeak();
+    void speak(s, settings.speed);
+  };
+  return (
+    <Pressable
+      onLongPress={() => say(text)}
+      style={({pressed}) => [{opacity: pressed ? 0.7 : 1}]}>
+      <Text style={style} testID={testID}>
+        {sents.map((s, i) => (
+          <Text key={i} onPress={() => say(s)}>
+            {s}
+            {i < sents.length - 1 ? ' ' : ''}
+          </Text>
+        ))}
+      </Text>
+    </Pressable>
+  );
 }
 
 export function TextField({

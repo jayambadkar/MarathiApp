@@ -197,7 +197,13 @@ function Reader({ story, onBack }: { story: Story; onBack: () => void }): React.
       <Gap />
       <Text style={[styles.storyText, { color: pal.text }]} testID="story-text">
         {sents.map((s, i) => (
-          <Text key={i} style={i === active ? { backgroundColor: pal.hiBg } : undefined}>
+          <Text
+            key={i}
+            style={i === active ? { backgroundColor: pal.hiBg } : undefined}
+            onLongPress={() => {
+              stopSpeak();
+              void speak(s, speed);
+            }}>
             {s.split(/\s+/).map((w, j, arr) => {
               const clean = w.replace(/[।.,?!]/g, '');
               const en = gm.get(clean) ?? gm.get(w);
@@ -221,6 +227,9 @@ function Reader({ story, onBack }: { story: Story; onBack: () => void }): React.
             {i < sents.length - 1 ? ' ' : ''}
           </Text>
         ))}
+      </Text>
+      <Text style={[styles.small, { color: pal.muted }]}>
+        💡 शब्दावर टॅप = अर्थ · वाक्यावर long-press = ऐका
       </Text>
       {glossOn !== null && gm.get(glossOn) !== undefined && (
         <Text style={[styles.small, { color: pal.muted }]}>

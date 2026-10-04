@@ -20,14 +20,3 @@ buildscript {
 }
 
 apply plugin: "com.facebook.react.rootproject"
-
-// Silence Kotlin warnings from third-party native modules (reanimated,
-// screens, gesture-handler, ...): the new compiler surfaces deprecation
-// noise in library sources we don't own. Our own sources stay clean.
-subprojects {
-    plugins.withId("org.jetbrains.kotlin.android") {
-        tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
-            it.compilerOptions.freeCompilerArgs.add("-nowarn")
-        }
-    }
-}

@@ -35,6 +35,15 @@ export function normEn(s: string): string {
     .trim();
 }
 
+/**
+ * Split text into sentences on Marathi danda (।) and ASCII end marks.
+ * Used for tap-to-hear-a-sentence in readers.
+ */
+export function splitSentences(text: string): string[] {
+  const out = (text || '').match(/[^।.!?…]+[।.!?…]+|[^।.!?…]+$/g);
+  return (out ?? []).map(s => s.trim()).filter(s => s.length > 0);
+}
+
 export function normMr(s: string): string {
   return (s || '')
     .replace(/[?!.,;:'"“”‘’]/g, '')
