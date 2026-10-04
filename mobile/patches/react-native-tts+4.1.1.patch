@@ -1,8 +1,8 @@
 diff --git a/node_modules/react-native-tts/android/build.gradle b/node_modules/react-native-tts/android/build.gradle
-index dbbe046..e5377f7 100644
+index dbbe046..8f91d78 100644
 --- a/node_modules/react-native-tts/android/build.gradle
 +++ b/node_modules/react-native-tts/android/build.gradle
-@@ -2,16 +2,6 @@ def safeExtGet(prop, fallback) {
+@@ -2,19 +2,10 @@ def safeExtGet(prop, fallback) {
      rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
  }
  
@@ -19,10 +19,22 @@ index dbbe046..e5377f7 100644
  apply plugin: 'com.android.library'
  
  android {
-@@ -31,5 +21,5 @@ repositories {
++    namespace "net.no_mad.tts"
+     compileSdkVersion safeExtGet('compileSdkVersion', 26)
+     buildToolsVersion safeExtGet('buildToolsVersion', '26.0.3')
+ 
+@@ -31,5 +22,5 @@ repositories {
  }
  
  dependencies {
 -    implementation 'com.facebook.react:react-native:+'
 +    implementation "com.facebook.react:react-android"
  }
+diff --git a/node_modules/react-native-tts/android/src/main/AndroidManifest.xml b/node_modules/react-native-tts/android/src/main/AndroidManifest.xml
+index ed0c0a6..a2f47b6 100644
+--- a/node_modules/react-native-tts/android/src/main/AndroidManifest.xml
++++ b/node_modules/react-native-tts/android/src/main/AndroidManifest.xml
+@@ -1,2 +1,2 @@
+-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="net.no_mad.tts">
++<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+ </manifest>
