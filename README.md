@@ -95,3 +95,12 @@ Playwright — needs `pip install playwright` and a built `web/dist/`:
 ```sh
 python3 web/qa/smoke.py
 ```
+
+## CI & deploy (free)
+
+- **CI:** `.github/workflows/ci.yml` runs lint + tests + build on every
+  push to `main` and every pull request.
+- **Deploy:** the repo ships a root `vercel.json` (Vite build in `web/`,
+  static output `web/dist`). Import the repo at
+  [vercel.com/new](https://vercel.com/new) and hit Deploy — no settings
+  to change. Every push to `main` redeploys; every PR gets a preview URL.
