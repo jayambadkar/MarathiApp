@@ -1,2042 +1,2042 @@
 [
- {
-  "id": "s-001",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-001",
-  "title_en": "71 words",
-  "text_mr": "शाळा मुंबई शहरात आहे. पाऊस आला की अनिता आनंदित होतो. आई अर्जुन साठी थालीपीठ बनवते. अनिता सकाळी लवकर उठतो. अनिता कडे एक सुंदर शेळी आहे. अनिता पुस्तक वाचतो आणि चित्र काढतो. स्मिता शाळेत आनंदाने जातो. अनिता संध्याकाळी अभ्यास करतो. आजी अनिता ला गाणे शिकवते. अनिता रोज पाणी पितो. अनिता रोज दूध पितो. मित्र अनिता सोबत जेवतो. अनिता रात्री लवकर झोपतो. अनिता शिक्षकांचे ऐकतो. सचिन केळी आवडीने खातो. अनिता मित्रांसोबत मैदानात खेळतो.",
-  "text_en": "Simple story about अनिता and daily life near मुंबई: home, school, food and play.",
-  "words": 71,
-  "target_wpm": 40,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "प्रिया",
-     "अनिता",
-     "सुरेश",
-     "राधा"
-    ],
-    "answer": 1
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is the passage mostly about?",
-    "options": [
-     "Daily life and family",
-     "Deep-sea diving",
-     "Stock market",
-     "Space travel"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-002",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-002",
-  "title_en": "62 words",
-  "text_mr": "पाऊस आला की अमित आनंदित होतो. बाबा अमित ला गोष्ट सांगतात. सुरेश शिक्षकांचे ऐकतो. अमित पुस्तक वाचतो आणि चित्र काढतो. अमित रोज दूध पितो. अमित मित्रांसोबत मैदानात खेळतो. प्रिया आईला घरकामात मदत करतो. आई अमित साठी पुरणपोळी बनवते. अमित सफरचंद आवडीने खातो. शाळा नागपूर शहरात आहे. अनिता रोज पाणी पितो. अमित स्वच्छ कपडे घालतो. अमित रात्री लवकर झोपतो. मित्र अमित सोबत जेवतो.",
-  "text_en": "Simple story about अमित and daily life near नागपूर: home, school, food and play.",
-  "words": 62,
-  "target_wpm": 41,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "नागपूर",
-     "सातारा",
-     "नाशिक",
-     "अमरावती"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "How does the main person feel?",
-    "options": [
-     "Bored of food",
-     "Angry all day",
-     "Happy and active",
-     "Afraid of books"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-003",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-003",
-  "title_en": "62 words",
-  "text_mr": "शाळा नागपूर शहरात आहे. अनिता रोज दूध पितो. बाबा विकास ला गोष्ट सांगतात. अनिता रोज पाणी पितो. अनिता रात्री लवकर झोपतो. मित्र अनिता सोबत जेवतो. स्मिता शिक्षकांचे ऐकतो. अनिता स्वच्छ कपडे घालतो. अनिता पुस्तक वाचतो आणि चित्र काढतो. अनिता संध्याकाळी अभ्यास करतो. स्नेहा कडे एक सुंदर गाय आहे. अनिता सकाळी लवकर उठतो. आजी अनिता ला गाणे शिकवते. अनिता आईला घरकामात मदत करतो.",
-  "text_en": "Simple story about अनिता and daily life near नागपूर: home, school, food and play.",
-  "words": 62,
-  "target_wpm": 43,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "ससा",
-     "मोर",
-     "वरणभात",
-     "पोहे"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is the passage mostly about?",
-    "options": [
-     "Stock market",
-     "Daily life and family",
-     "Space travel",
-     "Deep-sea diving"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-004",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-004",
-  "title_en": "67 words",
-  "text_mr": "शाळा सोलापूर शहरात आहे. राधा डाळिंब आवडीने खातो. अमित बागेत फुले पाहतो. पाऊस आला की राधा आनंदित होतो. राधा मित्रांसोबत मैदानात खेळतो. राधा कडे एक सुंदर बैल आहे. आई पूजा साठी पोहे बनवते. राधा रोज दूध पितो. राधा शिक्षकांचे ऐकतो. मित्र राधा सोबत जेवतो. निलेश पुस्तक वाचतो आणि चित्र काढतो. राधा रोज पाणी पितो. राधा शाळेत आनंदाने जातो. बाबा राधा ला गोष्ट सांगतात. राहुल संध्याकाळी अभ्यास करतो.",
-  "text_en": "Simple story about राधा and daily life near सोलापूर: home, school, food and play.",
-  "words": 67,
-  "target_wpm": 44,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "सचिन",
-     "सुरेश",
-     "राधा",
-     "स्मिता"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "How does the main person feel?",
-    "options": [
-     "Angry all day",
-     "Afraid of books",
-     "Happy and active",
-     "Bored of food"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-005",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-005",
-  "title_en": "64 words",
-  "text_mr": "बाबा अनिता ला गोष्ट सांगतात. अनिता शिक्षकांचे ऐकतो. पाऊस आला की सुरेश आनंदित होतो. अनिता संत्री आवडीने खातो. अनिता पुस्तक वाचतो आणि चित्र काढतो. मित्र अनिता सोबत जेवतो. अनिता कडे एक सुंदर पोपट आहे. अनिता रात्री लवकर झोपतो. शाळा मुंबई शहरात आहे. आजी अनिता ला गाणे शिकवते. सुरेश बागेत फुले पाहतो. अनिता आईला घरकामात मदत करतो. अनिता रोज दूध पितो. अनिता सकाळी लवकर उठतो.",
-  "text_en": "Simple story about अनिता and daily life near मुंबई: home, school, food and play.",
-  "words": 64,
-  "target_wpm": 46,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "मुंबई",
-     "सातारा",
-     "सोलापूर",
-     "पुणे"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is the passage mostly about?",
-    "options": [
-     "Deep-sea diving",
-     "Daily life and family",
-     "Space travel",
-     "Stock market"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-006",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-006",
-  "title_en": "63 words",
-  "text_mr": "राधा रोज पाणी पितो. राधा शाळेत आनंदाने जातो. निलेश आईला घरकामात मदत करतो. राधा बागेत फुले पाहतो. आई राधा साठी उपमा बनवते. राधा पुस्तक वाचतो आणि चित्र काढतो. विकास कडे एक सुंदर शेळी आहे. राधा मित्रांसोबत मैदानात खेळतो. राधा संध्याकाळी अभ्यास करतो. शाळा सातारा शहरात आहे. स्नेहा रात्री लवकर झोपतो. राधा सकाळी लवकर उठतो. राधा रोज दूध पितो. आजी राधा ला गाणे शिकवते.",
-  "text_en": "Simple story about राधा and daily life near सातारा: home, school, food and play.",
-  "words": 63,
-  "target_wpm": 47,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "बैल",
-     "उपमा",
-     "कुत्रा",
-     "पोपट"
-    ],
-    "answer": 1
-   },
-   {
-    "q_mr": "",
-    "q_en": "How does the main person feel?",
-    "options": [
-     "Angry all day",
-     "Bored of food",
-     "Afraid of books",
-     "Happy and active"
-    ],
-    "answer": 3
-   }
-  ]
- },
- {
-  "id": "s-007",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-007",
-  "title_en": "63 words",
-  "text_mr": "मीरा संध्याकाळी अभ्यास करतो. मीरा आंबा आवडीने खातो. स्नेहा बागेत फुले पाहतो. बाबा मीरा ला गोष्ट सांगतात. शाळा पुणे शहरात आहे. मीरा रोज दूध पितो. राहुल रोज पाणी पितो. पाऊस आला की मीरा आनंदित होतो. मीरा शाळेत आनंदाने जातो. आई मीरा साठी शिरा बनवते. अमित स्वच्छ कपडे घालतो. मीरा मित्रांसोबत मैदानात खेळतो. आजी मीरा ला गाणे शिकवते. मीरा पुस्तक वाचतो आणि चित्र काढतो.",
-  "text_en": "Simple story about मीरा and daily life near पुणे: home, school, food and play.",
-  "words": 63,
-  "target_wpm": 49,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "रोहन",
-     "विकास",
-     "निलेश",
-     "मीरा"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is the passage mostly about?",
-    "options": [
-     "Stock market",
-     "Daily life and family",
-     "Space travel",
-     "Deep-sea diving"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-008",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-008",
-  "title_en": "63 words",
-  "text_mr": "आजी अमित ला गाणे शिकवते. आई अमित साठी उपमा बनवते. प्रिया सफरचंद आवडीने खातो. अमित पुस्तक वाचतो आणि चित्र काढतो. बाबा अमित ला गोष्ट सांगतात. पाऊस आला की अमित आनंदित होतो. अनिता आईला घरकामात मदत करतो. मित्र अमित सोबत जेवतो. अमित शिक्षकांचे ऐकतो. अमित सकाळी लवकर उठतो. स्नेहा बागेत फुले पाहतो. अमित संध्याकाळी अभ्यास करतो. अमित मित्रांसोबत मैदानात खेळतो. शाळा अमरावती शहरात आहे.",
-  "text_en": "Simple story about अमित and daily life near अमरावती: home, school, food and play.",
-  "words": 63,
-  "target_wpm": 50,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "सातारा",
-     "छत्रपती संभाजीनगर",
-     "नागपूर",
-     "अमरावती"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "How does the main person feel?",
-    "options": [
-     "Happy and active",
-     "Afraid of books",
-     "Bored of food",
-     "Angry all day"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-009",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-009",
-  "title_en": "73 words",
-  "text_mr": "स्मिता रोज दूध पितो. स्मिता आईला घरकामात मदत करतो. सुरेश शिक्षकांचे ऐकतो. स्मिता बागेत फुले पाहतो. शाळा कोल्हापूर शहरात आहे. स्मिता कडे एक सुंदर कुत्रा आहे. सुरेश शाळेत आनंदाने जातो. पाऊस आला की स्मिता आनंदित होतो. आई स्मिता साठी आमटी बनवते. स्मिता रोज पाणी पितो. अर्जुन स्वच्छ कपडे घालतो. स्मिता रात्री लवकर झोपतो. बाबा स्मिता ला गोष्ट सांगतात. आजी स्मिता ला गाणे शिकवते. निलेश पुस्तक वाचतो आणि चित्र काढतो. स्मिता सकाळी लवकर उठतो.",
-  "text_en": "Simple story about स्मिता and daily life near कोल्हापूर: home, school, food and play.",
-  "words": 73,
-  "target_wpm": 51,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "मोर",
-     "आमटी",
-     "केळी",
-     "उपमा"
-    ],
-    "answer": 1
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is the passage mostly about?",
-    "options": [
-     "Stock market",
-     "Space travel",
-     "Daily life and family",
-     "Deep-sea diving"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-010",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-010",
-  "title_en": "70 words",
-  "text_mr": "रोहन संध्याकाळी अभ्यास करतो. मित्र रोहन सोबत जेवतो. अर्जुन शिक्षकांचे ऐकतो. पाऊस आला की रोहन आनंदित होतो. रोहन बागेत फुले पाहतो. रोहन रात्री लवकर झोपतो. मीरा मित्रांसोबत मैदानात खेळतो. आई रोहन साठी आमटी बनवते. रोहन स्वच्छ कपडे घालतो. रोहन आईला घरकामात मदत करतो. शाळा पुणे शहरात आहे. आजी रोहन ला गाणे शिकवते. रोहन डाळिंब आवडीने खातो. रोहन सकाळी लवकर उठतो. अर्जुन शाळेत आनंदाने जातो. रोहन पुस्तक वाचतो आणि चित्र काढतो.",
-  "text_en": "Simple story about रोहन and daily life near पुणे: home, school, food and play.",
-  "words": 70,
-  "target_wpm": 53,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "सचिन",
-     "निलेश",
-     "रोहन",
-     "कविता"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "How does the main person feel?",
-    "options": [
-     "Afraid of books",
-     "Bored of food",
-     "Happy and active",
-     "Angry all day"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-011",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-011",
-  "title_en": "62 words",
-  "text_mr": "निलेश सकाळी लवकर उठतो. आई निलेश साठी पुरणपोळी बनवते. पाऊस आला की विकास आनंदित होतो. निलेश पपई आवडीने खातो. निलेश आईला घरकामात मदत करतो. शाळा सोलापूर शहरात आहे. राहुल रोज पाणी पितो. निलेश स्वच्छ कपडे घालतो. मित्र निलेश सोबत जेवतो. आजी निलेश ला गाणे शिकवते. स्नेहा शिक्षकांचे ऐकतो. निलेश पुस्तक वाचतो आणि चित्र काढतो. निलेश संध्याकाळी अभ्यास करतो. निलेश रोज दूध पितो.",
-  "text_en": "Simple story about निलेश and daily life near सोलापूर: home, school, food and play.",
-  "words": 62,
-  "target_wpm": 54,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "अमरावती",
-     "लातूर",
-     "छत्रपती संभाजीनगर",
-     "सोलापूर"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is the passage mostly about?",
-    "options": [
-     "Daily life and family",
-     "Deep-sea diving",
-     "Space travel",
-     "Stock market"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-012",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-012",
-  "title_en": "72 words",
-  "text_mr": "मीरा संध्याकाळी अभ्यास करतो. मित्र मीरा सोबत जेवतो. शाळा छत्रपती संभाजीनगर शहरात आहे. मीरा स्वच्छ कपडे घालतो. मीरा सफरचंद आवडीने खातो. मीरा सकाळी लवकर उठतो. पाऊस आला की रोहन आनंदित होतो. बाबा मीरा ला गोष्ट सांगतात. मीरा बागेत फुले पाहतो. मीरा कडे एक सुंदर मांजर आहे. राहुल मित्रांसोबत मैदानात खेळतो. मीरा शिक्षकांचे ऐकतो. मीरा रोज पाणी पितो. मीरा शाळेत आनंदाने जातो. आई प्रिया साठी पुरणपोळी बनवते. मीरा पुस्तक वाचतो आणि चित्र काढतो.",
-  "text_en": "Simple story about मीरा and daily life near छत्रपती संभाजीनगर: home, school, food and play.",
-  "words": 72,
-  "target_wpm": 56,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "पुरणपोळी",
-     "सफरचंद",
-     "वरणभात",
-     "भाकरी"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "How does the main person feel?",
-    "options": [
-     "Bored of food",
-     "Angry all day",
-     "Happy and active",
-     "Afraid of books"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-013",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-013",
-  "title_en": "67 words",
-  "text_mr": "पूजा शाळेत आनंदाने जातो. पूजा मित्रांसोबत मैदानात खेळतो. कविता स्वच्छ कपडे घालतो. बाबा पूजा ला गोष्ट सांगतात. पाऊस आला की पूजा आनंदित होतो. पूजा आईला घरकामात मदत करतो. आजी राधा ला गाणे शिकवते. मित्र पूजा सोबत जेवतो. पूजा कडे एक सुंदर गाय आहे. पूजा रोज पाणी पितो. आई मीरा साठी पुरणपोळी बनवते. पूजा शिक्षकांचे ऐकतो. पूजा पेरू आवडीने खातो. शाळा नाशिक शहरात आहे. रोहन रोज दूध पितो.",
-  "text_en": "Simple story about पूजा and daily life near नाशिक: home, school, food and play.",
-  "words": 67,
-  "target_wpm": 57,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "विकास",
-     "राहुल",
-     "पूजा",
-     "स्मिता"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is the passage mostly about?",
-    "options": [
-     "Space travel",
-     "Daily life and family",
-     "Deep-sea diving",
-     "Stock market"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-014",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-014",
-  "title_en": "64 words",
-  "text_mr": "पाऊस आला की राधा आनंदित होतो. राधा संध्याकाळी अभ्यास करतो. सचिन मित्रांसोबत मैदानात खेळतो. राधा आईला घरकामात मदत करतो. राधा रोज दूध पितो. राधा कडे एक सुंदर गाय आहे. आई सुरेश साठी भाकरी बनवते. राधा पपई आवडीने खातो. मित्र राधा सोबत जेवतो. राधा बागेत फुले पाहतो. अर्जुन स्वच्छ कपडे घालतो. शाळा छत्रपती संभाजीनगर शहरात आहे. राधा रात्री लवकर झोपतो. बाबा राधा ला गोष्ट सांगतात.",
-  "text_en": "Simple story about राधा and daily life near छत्रपती संभाजीनगर: home, school, food and play.",
-  "words": 64,
-  "target_wpm": 59,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "लातूर",
-     "मुंबई",
-     "छत्रपती संभाजीनगर",
-     "सोलापूर"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "How does the main person feel?",
-    "options": [
-     "Happy and active",
-     "Angry all day",
-     "Afraid of books",
-     "Bored of food"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-015",
-  "level": 1,
-  "title_mr": "वाचन स्प्रिंट S-015",
-  "title_en": "61 words",
-  "text_mr": "राहुल पपई आवडीने खातो. आई राहुल साठी भाकरी बनवते. मीरा शिक्षकांचे ऐकतो. मित्र राहुल सोबत जेवतो. राहुल स्वच्छ कपडे घालतो. राहुल पुस्तक वाचतो आणि चित्र काढतो. पूजा रात्री लवकर झोपतो. राहुल सकाळी लवकर उठतो. राहुल शाळेत आनंदाने जातो. राहुल रोज पाणी पितो. शाळा नागपूर शहरात आहे. राहुल कडे एक सुंदर ससा आहे. राहुल संध्याकाळी अभ्यास करतो. आजी राहुल ला गाणे शिकवते.",
-  "text_en": "Simple story about राहुल and daily life near नागपूर: home, school, food and play.",
-  "words": 61,
-  "target_wpm": 60,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "डाळिंब",
-     "आंबा",
-     "कुत्रा",
-     "भाकरी"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is the passage mostly about?",
-    "options": [
-     "Daily life and family",
-     "Stock market",
-     "Deep-sea diving",
-     "Space travel"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-016",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-016",
-  "title_en": "79 words",
-  "text_mr": "बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. उन्हाळ्यात स्मिता आजोळी जातो आणि आंब्याच्या बागेत खेळतो. स्मिता ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. गेल्या रविवारी स्मिता कुटुंबासोबत पुणे च्या बाजारात गेला. वाचनालयात स्मिता ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. दिवाळीत सचिन च्या घराला दिव्यांनी सुंदर सजावट केली होती. शाळेत शिक्षकांनी स्मिता च्या चित्रकलेचे खूप कौतुक केले. बाबांनी स्मिता ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला.",
-  "text_en": "Everyday narrative: स्मिता visits the market in पुणे, helps family, plays and learns at school.",
-  "words": 79,
-  "target_wpm": 65,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "राधा",
-     "मीरा",
-     "स्मिता",
-     "स्नेहा"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the family do together?",
-    "options": [
-     "Cooked and talked together",
-     "Sailed a ship",
-     "Built an airplane",
-     "Climbed Everest"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-017",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-017",
-  "title_en": "82 words",
-  "text_mr": "उन्हाळ्यात राहुल आजोळी जातो आणि आंब्याच्या बागेत खेळतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. बाबांनी स्नेहा ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. राहुल चा मांजर खूप हुशार आहे आणि तो सर्वांचे ऐकतो. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. वाचनालयात राहुल ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. कविता रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. शाळेच्या सहलीत राहुल ने कोल्हापूर चा किल्ला पाहिला. पावसाळ्यात कोल्हापूर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते.",
-  "text_en": "Everyday narrative: राहुल visits the market in कोल्हापूर, helps family, plays and learns at school.",
-  "words": 82,
-  "target_wpm": 67,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "छत्रपती संभाजीनगर",
-     "कोल्हापूर",
-     "नाशिक",
-     "सोलापूर"
-    ],
-    "answer": 1
-   },
-   {
-    "q_mr": "",
-    "q_en": "What helps improve language?",
-    "options": [
-     "Skipping meals",
-     "Daily reading",
-     "Never opening books",
-     "Avoiding school"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-018",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-018",
-  "title_en": "83 words",
-  "text_mr": "घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. राहुल ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. पावसाळ्यात सोलापूर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. शाळेच्या सहलीत राहुल ने सोलापूर चा किल्ला पाहिला. शाळेत शिक्षकांनी राहुल च्या चित्रकलेचे खूप कौतुक केले. आईने आमटी साठी लागणारे सामान घेतले आणि राहुल ने द्राक्षे निवडले. उन्हाळ्यात रोहन आजोळी जातो आणि आंब्याच्या बागेत खेळतो. वाचनालयात राहुल ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. राहुल रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो.",
-  "text_en": "Everyday narrative: राहुल visits the market in सोलापूर, helps family, plays and learns at school.",
-  "words": 83,
-  "target_wpm": 69,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "पेरू",
-     "संत्री",
-     "बैल",
-     "मांजर"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the family do together?",
-    "options": [
-     "Built an airplane",
-     "Sailed a ship",
-     "Cooked and talked together",
-     "Climbed Everest"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-019",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-019",
-  "title_en": "84 words",
-  "text_mr": "पावसाळ्यात सोलापूर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. सुरेश ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. बाबांनी स्मिता ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. सुरेश रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. दिवाळीत सुरेश च्या घराला दिव्यांनी सुंदर सजावट केली होती. गेल्या रविवारी मीरा कुटुंबासोबत सोलापूर च्या बाजारात गेला. संध्याकाळी सुरेश मित्रांसोबत मैदानावर क्रिकेट खेळायला गेला. शाळेत शिक्षकांनी सुरेश च्या चित्रकलेचे खूप कौतुक केले.",
-  "text_en": "Everyday narrative: सुरेश visits the market in सोलापूर, helps family, plays and learns at school.",
-  "words": 84,
-  "target_wpm": 70,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "सुरेश",
-     "अर्जुन",
-     "कविता",
-     "स्मिता"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What helps improve language?",
-    "options": [
-     "Daily reading",
-     "Avoiding school",
-     "Never opening books",
-     "Skipping meals"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-020",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-020",
-  "title_en": "87 words",
-  "text_mr": "उन्हाळ्यात राहुल आजोळी जातो आणि आंब्याच्या बागेत खेळतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. दिवाळीत स्मिता च्या घराला दिव्यांनी सुंदर सजावट केली होती. वाचनालयात राहुल ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. सुरेश रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. शाळेत शिक्षकांनी राहुल च्या चित्रकलेचे खूप कौतुक केले. पावसाळ्यात अमरावती जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. गेल्या रविवारी राहुल कुटुंबासोबत अमरावती च्या बाजारात गेला.",
-  "text_en": "Everyday narrative: राहुल visits the market in अमरावती, helps family, plays and learns at school.",
-  "words": 87,
-  "target_wpm": 72,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "नाशिक",
-     "कोल्हापूर",
-     "अमरावती",
-     "मुंबई"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the family do together?",
-    "options": [
-     "Sailed a ship",
-     "Cooked and talked together",
-     "Built an airplane",
-     "Climbed Everest"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-021",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-021",
-  "title_en": "79 words",
-  "text_mr": "वाचनालयात स्मिता ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. संध्याकाळी निलेश मित्रांसोबत मैदानावर क्रिकेट खेळायला गेला. बाबांनी स्मिता ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. दिवाळीत स्मिता च्या घराला दिव्यांनी सुंदर सजावट केली होती. गेल्या रविवारी स्मिता कुटुंबासोबत पुणे च्या बाजारात गेला. आईने शिरा साठी लागणारे सामान घेतले आणि अमित ने पेरू निवडले. स्मिता चा कुत्रा खूप हुशार आहे आणि तो सर्वांचे ऐकतो. उन्हाळ्यात स्मिता आजोळी जातो आणि आंब्याच्या बागेत खेळतो.",
-  "text_en": "Everyday narrative: स्मिता visits the market in पुणे, helps family, plays and learns at school.",
-  "words": 79,
-  "target_wpm": 74,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "मांजर",
-     "भाकरी",
-     "कुत्रा",
-     "आमटी"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What helps improve language?",
-    "options": [
-     "Daily reading",
-     "Avoiding school",
-     "Never opening books",
-     "Skipping meals"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-022",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-022",
-  "title_en": "84 words",
-  "text_mr": "कविता चा मांजर खूप हुशार आहे आणि तो सर्वांचे ऐकतो. आईने थालीपीठ साठी लागणारे सामान घेतले आणि कविता ने केळी निवडले. दिवाळीत मीरा च्या घराला दिव्यांनी सुंदर सजावट केली होती. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. गेल्या रविवारी कविता कुटुंबासोबत मुंबई च्या बाजारात गेला. शाळेत शिक्षकांनी कविता च्या चित्रकलेचे खूप कौतुक केले. पावसाळ्यात मुंबई जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. कविता रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. उन्हाळ्यात कविता आजोळी जातो आणि आंब्याच्या बागेत खेळतो.",
-  "text_en": "Everyday narrative: कविता visits the market in मुंबई, helps family, plays and learns at school.",
-  "words": 84,
-  "target_wpm": 76,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "अर्जुन",
-     "निलेश",
-     "कविता",
-     "राहुल"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the family do together?",
-    "options": [
-     "Built an airplane",
-     "Climbed Everest",
-     "Cooked and talked together",
-     "Sailed a ship"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-023",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-023",
-  "title_en": "77 words",
-  "text_mr": "शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. राधा चा शेळी खूप हुशार आहे आणि तो सर्वांचे ऐकतो. सचिन रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. आईने थालीपीठ साठी लागणारे सामान घेतले आणि सचिन ने सफरचंद निवडले. दिवाळीत सचिन च्या घराला दिव्यांनी सुंदर सजावट केली होती. शाळेच्या सहलीत सचिन ने मुंबई चा किल्ला पाहिला. बाबांनी सचिन ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला.",
-  "text_en": "Everyday narrative: सचिन visits the market in मुंबई, helps family, plays and learns at school.",
-  "words": 77,
-  "target_wpm": 77,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "नागपूर",
-     "छत्रपती संभाजीनगर",
-     "नाशिक",
-     "मुंबई"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What helps improve language?",
-    "options": [
-     "Never opening books",
-     "Skipping meals",
-     "Daily reading",
-     "Avoiding school"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-024",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-024",
-  "title_en": "90 words",
-  "text_mr": "बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. गेल्या रविवारी अर्जुन कुटुंबासोबत सोलापूर च्या बाजारात गेला. दिवाळीत प्रिया च्या घराला दिव्यांनी सुंदर सजावट केली होती. वाचनालयात अर्जुन ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. संध्याकाळी अर्जुन मित्रांसोबत मैदानावर क्रिकेट खेळायला गेला. शाळेच्या सहलीत अर्जुन ने सोलापूर चा किल्ला पाहिला. अर्जुन रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. बाबांनी अर्जुन ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. अर्जुन ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या.",
-  "text_en": "Everyday narrative: अर्जुन visits the market in सोलापूर, helps family, plays and learns at school.",
-  "words": 90,
-  "target_wpm": 79,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "शिरा",
-     "पेरू",
-     "आमटी",
-     "मांजर"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the family do together?",
-    "options": [
-     "Cooked and talked together",
-     "Climbed Everest",
-     "Sailed a ship",
-     "Built an airplane"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-025",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-025",
-  "title_en": "82 words",
-  "text_mr": "पावसाळ्यात अमरावती जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. प्रिया ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. वाचनालयात राधा ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. गेल्या रविवारी प्रिया कुटुंबासोबत अमरावती च्या बाजारात गेला. प्रिया चा गाय खूप हुशार आहे आणि तो सर्वांचे ऐकतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. शाळेत शिक्षकांनी राधा च्या चित्रकलेचे खूप कौतुक केले. बाबांनी प्रिया ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या.",
-  "text_en": "Everyday narrative: प्रिया visits the market in अमरावती, helps family, plays and learns at school.",
-  "words": 82,
-  "target_wpm": 81,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "पूजा",
-     "मीरा",
-     "प्रिया",
-     "अनिता"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What helps improve language?",
-    "options": [
-     "Never opening books",
-     "Avoiding school",
-     "Daily reading",
-     "Skipping meals"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-026",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-026",
-  "title_en": "85 words",
-  "text_mr": "आईने पोहे साठी लागणारे सामान घेतले आणि अर्जुन ने डाळिंब निवडले. गेल्या रविवारी अर्जुन कुटुंबासोबत लातूर च्या बाजारात गेला. शाळेत शिक्षकांनी निलेश च्या चित्रकलेचे खूप कौतुक केले. अर्जुन ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. अर्जुन रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. दिवाळीत अमित च्या घराला दिव्यांनी सुंदर सजावट केली होती. पावसाळ्यात लातूर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते.",
-  "text_en": "Everyday narrative: अर्जुन visits the market in लातूर, helps family, plays and learns at school.",
-  "words": 85,
-  "target_wpm": 83,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "लातूर",
-     "कोल्हापूर",
-     "नाशिक",
-     "सोलापूर"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the family do together?",
-    "options": [
-     "Sailed a ship",
-     "Climbed Everest",
-     "Built an airplane",
-     "Cooked and talked together"
-    ],
-    "answer": 3
-   }
-  ]
- },
- {
-  "id": "s-027",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-027",
-  "title_en": "86 words",
-  "text_mr": "बाबांनी निलेश ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. कविता ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. दिवाळीत निलेश च्या घराला दिव्यांनी सुंदर सजावट केली होती. पावसाळ्यात छत्रपती संभाजीनगर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. उन्हाळ्यात निलेश आजोळी जातो आणि आंब्याच्या बागेत खेळतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. शाळेत शिक्षकांनी निलेश च्या चित्रकलेचे खूप कौतुक केले. आईने उपमा साठी लागणारे सामान घेतले आणि निलेश ने आंबा निवडले.",
-  "text_en": "Everyday narrative: निलेश visits the market in छत्रपती संभाजीनगर, helps family, plays and learns at school.",
-  "words": 86,
-  "target_wpm": 85,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "आमटी",
-     "पोहे",
-     "डाळिंब",
-     "उपमा"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What helps improve language?",
-    "options": [
-     "Skipping meals",
-     "Never opening books",
-     "Daily reading",
-     "Avoiding school"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-028",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-028",
-  "title_en": "83 words",
-  "text_mr": "सुरेश चा बैल खूप हुशार आहे आणि तो सर्वांचे ऐकतो. सुरेश रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. आईने पोहे साठी लागणारे सामान घेतले आणि सुरेश ने संत्री निवडले. पावसाळ्यात लातूर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. शाळेच्या सहलीत सुरेश ने लातूर चा किल्ला पाहिला. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. वाचनालयात सुरेश ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते.",
-  "text_en": "Everyday narrative: सुरेश visits the market in लातूर, helps family, plays and learns at school.",
-  "words": 83,
-  "target_wpm": 86,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "सुरेश",
-     "स्नेहा",
-     "मीरा",
-     "अनिता"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the family do together?",
-    "options": [
-     "Built an airplane",
-     "Cooked and talked together",
-     "Climbed Everest",
-     "Sailed a ship"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-029",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-029",
-  "title_en": "75 words",
-  "text_mr": "अनिता रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. शाळेत शिक्षकांनी अर्जुन च्या चित्रकलेचे खूप कौतुक केले. अनिता ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. उन्हाळ्यात अनिता आजोळी जातो आणि आंब्याच्या बागेत खेळतो. आईने थालीपीठ साठी लागणारे सामान घेतले आणि अनिता ने पपई निवडले. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते.",
-  "text_en": "Everyday narrative: अनिता visits the market in पुणे, helps family, plays and learns at school.",
-  "words": 75,
-  "target_wpm": 88,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "सातारा",
-     "नाशिक",
-     "पुणे",
-     "सोलापूर"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What helps improve language?",
-    "options": [
-     "Avoiding school",
-     "Daily reading",
-     "Never opening books",
-     "Skipping meals"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-030",
-  "level": 2,
-  "title_mr": "वाचन स्प्रिंट S-030",
-  "title_en": "84 words",
-  "text_mr": "आईने पोहे साठी लागणारे सामान घेतले आणि पूजा ने संत्री निवडले. बाबांनी पूजा ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. सचिन रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. संध्याकाळी पूजा मित्रांसोबत मैदानावर क्रिकेट खेळायला गेला. पूजा चा शेळी खूप हुशार आहे आणि तो सर्वांचे ऐकतो. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. शाळेत शिक्षकांनी पूजा च्या चित्रकलेचे खूप कौतुक केले. उन्हाळ्यात पूजा आजोळी जातो आणि आंब्याच्या बागेत खेळतो.",
-  "text_en": "Everyday narrative: पूजा visits the market in अमरावती, helps family, plays and learns at school.",
-  "words": 84,
-  "target_wpm": 90,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "संत्री",
-     "थालीपीठ",
-     "द्राक्षे",
-     "पुरणपोळी"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the family do together?",
-    "options": [
-     "Cooked and talked together",
-     "Built an airplane",
-     "Climbed Everest",
-     "Sailed a ship"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-031",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-031",
-  "title_en": "99 words",
-  "text_mr": "छत्रपती संभाजीनगर शहरातील वाचनालयात अर्जुन ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. गावच्या जत्रेत अर्जुन ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. आरोग्य शिबिरात डॉक्टरांनी संतुलित आहार व्यायाम आणि पुरेशी झोप यांचे महत्त्व समजावून सांगितले. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला. शाळेने पर्यावरण सप्ताह साजरा केला आणि अर्जुन ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. अर्जुन रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. पुस्तक वाचताना अनिता ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता.",
-  "text_en": "Intermediate passage: अर्जुन explores history, farming and environment around छत्रपती संभाजीनगर, with reading and community work.",
-  "words": 99,
-  "target_wpm": 95,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "पूजा",
-     "अमित",
-     "अर्जुन",
-     "अनिता"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is a key message?",
-    "options": [
-     "Community effort protects nature and culture",
-     "Avoid all books",
-     "Plastic is best",
-     "Never help others"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-032",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-032",
-  "title_en": "86 words",
-  "text_mr": "शाळेने पर्यावरण सप्ताह साजरा केला आणि स्नेहा ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. तंत्रज्ञानाच्या मदतीने स्नेहा ने थालीपीठ च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. लातूर शहरातील वाचनालयात राहुल ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. पुस्तक वाचताना स्नेहा ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. दुसऱ्या दिवशी स्नेहा ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. स्नेहा रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे.",
-  "text_en": "Intermediate passage: स्नेहा explores history, farming and environment around लातूर, with reading and community work.",
-  "words": 86,
-  "target_wpm": 96,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "मुंबई",
-     "लातूर",
-     "सोलापूर",
-     "नागपूर"
-    ],
-    "answer": 1
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the student do?",
-    "options": [
-     "Wasted water",
-     "Broke library rules",
-     "Ignored teachers",
-     "Led reading and green actions"
-    ],
-    "answer": 3
-   }
-  ]
- },
- {
-  "id": "s-033",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-033",
-  "title_en": "100 words",
-  "text_mr": "पावसाळा सुरू झाला की सातारा जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. सचिन च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि पपई चे उत्पादन घेतले जाते. शाळेने पर्यावरण सप्ताह साजरा केला आणि कविता ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला. गावच्या जत्रेत सचिन ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. दुसऱ्या दिवशी सचिन ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. पुस्तक वाचताना स्मिता ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता.",
-  "text_en": "Intermediate passage: सचिन explores history, farming and environment around सातारा, with reading and community work.",
-  "words": 100,
-  "target_wpm": 98,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "मांजर",
-     "गाय",
-     "पपई",
-     "ससा"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is a key message?",
-    "options": [
-     "Community effort protects nature and culture",
-     "Never help others",
-     "Plastic is best",
-     "Avoid all books"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-034",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-034",
-  "title_en": "111 words",
-  "text_mr": "शाळेने पर्यावरण सप्ताह साजरा केला आणि स्मिता ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. दुसऱ्या दिवशी स्मिता ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. स्मिता रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. पुस्तक वाचताना स्मिता ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. स्मिता च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि आंबा चे उत्पादन घेतले जाते. गावच्या जत्रेत अमित ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. पावसाळा सुरू झाला की नागपूर जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात.",
-  "text_en": "Intermediate passage: स्मिता explores history, farming and environment around नागपूर, with reading and community work.",
-  "words": 111,
-  "target_wpm": 99,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "अर्जुन",
-     "स्मिता",
-     "निलेश",
-     "रोहन"
-    ],
-    "answer": 1
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the student do?",
-    "options": [
-     "Led reading and green actions",
-     "Broke library rules",
-     "Wasted water",
-     "Ignored teachers"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-035",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-035",
-  "title_en": "98 words",
-  "text_mr": "शाळेने पर्यावरण सप्ताह साजरा केला आणि राधा ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. दुसऱ्या दिवशी पूजा ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. राधा च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि आंबा चे उत्पादन घेतले जाते. पावसाळा सुरू झाला की लातूर जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. गावच्या जत्रेत राधा ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. राहुल रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे.",
-  "text_en": "Intermediate passage: राधा explores history, farming and environment around लातूर, with reading and community work.",
-  "words": 98,
-  "target_wpm": 101,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "लातूर",
-     "सातारा",
-     "पुणे",
-     "कोल्हापूर"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is a key message?",
-    "options": [
-     "Community effort protects nature and culture",
-     "Never help others",
-     "Plastic is best",
-     "Avoid all books"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-036",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-036",
-  "title_en": "96 words",
-  "text_mr": "अमित च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि पेरू चे उत्पादन घेतले जाते. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. दुसऱ्या दिवशी अनिता ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. आरोग्य शिबिरात डॉक्टरांनी संतुलित आहार व्यायाम आणि पुरेशी झोप यांचे महत्त्व समजावून सांगितले. शाळेने पर्यावरण सप्ताह साजरा केला आणि अमित ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. तंत्रज्ञानाच्या मदतीने अमित ने शिरा च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. गावच्या जत्रेत स्मिता ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली.",
-  "text_en": "Intermediate passage: अमित explores history, farming and environment around सातारा, with reading and community work.",
-  "words": 96,
-  "target_wpm": 102,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "पेरू",
-     "आंबा",
-     "ससा",
-     "पुरणपोळी"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the student do?",
-    "options": [
-     "Ignored teachers",
-     "Broke library rules",
-     "Wasted water",
-     "Led reading and green actions"
-    ],
-    "answer": 3
-   }
-  ]
- },
- {
-  "id": "s-037",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-037",
-  "title_en": "98 words",
-  "text_mr": "पावसाळा सुरू झाला की अमरावती जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. पुस्तक वाचताना सुरेश ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. शाळेने पर्यावरण सप्ताह साजरा केला आणि कविता ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. सुरेश च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि पेरू चे उत्पादन घेतले जाते. गावच्या जत्रेत सुरेश ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. दुसऱ्या दिवशी सुरेश ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. अमरावती शहरातील वाचनालयात प्रिया ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या.",
-  "text_en": "Intermediate passage: सुरेश explores history, farming and environment around अमरावती, with reading and community work.",
-  "words": 98,
-  "target_wpm": 104,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "रोहन",
-     "अमित",
-     "सुरेश",
-     "राधा"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is a key message?",
-    "options": [
-     "Never help others",
-     "Avoid all books",
-     "Plastic is best",
-     "Community effort protects nature and culture"
-    ],
-    "answer": 3
-   }
-  ]
- },
- {
-  "id": "s-038",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-038",
-  "title_en": "98 words",
-  "text_mr": "आरोग्य शिबिरात डॉक्टरांनी संतुलित आहार व्यायाम आणि पुरेशी झोप यांचे महत्त्व समजावून सांगितले. गावच्या जत्रेत मीरा ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. मीरा रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. शाळेने पर्यावरण सप्ताह साजरा केला आणि मीरा ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. पावसाळा सुरू झाला की सातारा जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. दुसऱ्या दिवशी मीरा ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. सातारा शहरातील वाचनालयात स्मिता ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या.",
-  "text_en": "Intermediate passage: मीरा explores history, farming and environment around सातारा, with reading and community work.",
-  "words": 98,
-  "target_wpm": 105,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "सातारा",
-     "कोल्हापूर",
-     "छत्रपती संभाजीनगर",
-     "मुंबई"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the student do?",
-    "options": [
-     "Led reading and green actions",
-     "Ignored teachers",
-     "Wasted water",
-     "Broke library rules"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-039",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-039",
-  "title_en": "99 words",
-  "text_mr": "शाळेने पर्यावरण सप्ताह साजरा केला आणि प्रिया ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. पावसाळा सुरू झाला की लातूर जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. अनिता रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. प्रिया च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि पपई चे उत्पादन घेतले जाते. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. दुसऱ्या दिवशी प्रिया ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. लातूर शहरातील वाचनालयात सुरेश ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या.",
-  "text_en": "Intermediate passage: प्रिया explores history, farming and environment around लातूर, with reading and community work.",
-  "words": 99,
-  "target_wpm": 106,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "पेरू",
-     "वरणभात",
-     "डाळिंब",
-     "ससा"
-    ],
-    "answer": 1
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is a key message?",
-    "options": [
-     "Never help others",
-     "Plastic is best",
-     "Community effort protects nature and culture",
-     "Avoid all books"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-040",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-040",
-  "title_en": "100 words",
-  "text_mr": "पुस्तक वाचताना स्मिता ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. स्मिता रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. शाळेने पर्यावरण सप्ताह साजरा केला आणि सचिन ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. पावसाळा सुरू झाला की अमरावती जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला. तंत्रज्ञानाच्या मदतीने स्मिता ने आमटी च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. गावच्या जत्रेत अनिता ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली.",
-  "text_en": "Intermediate passage: स्मिता explores history, farming and environment around अमरावती, with reading and community work.",
-  "words": 100,
-  "target_wpm": 108,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "स्मिता",
-     "अर्जुन",
-     "राधा",
-     "रोहन"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the student do?",
-    "options": [
-     "Ignored teachers",
-     "Wasted water",
-     "Broke library rules",
-     "Led reading and green actions"
-    ],
-    "answer": 3
-   }
-  ]
- },
- {
-  "id": "s-041",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-041",
-  "title_en": "100 words",
-  "text_mr": "पावसाळा सुरू झाला की कोल्हापूर जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. प्रिया च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि पपई चे उत्पादन घेतले जाते. कोल्हापूर शहरातील वाचनालयात मीरा ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला. पुस्तक वाचताना मीरा ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. राधा रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे.",
-  "text_en": "Intermediate passage: मीरा explores history, farming and environment around कोल्हापूर, with reading and community work.",
-  "words": 100,
-  "target_wpm": 109,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "कोल्हापूर",
-     "अमरावती",
-     "लातूर",
-     "पुणे"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is a key message?",
-    "options": [
-     "Never help others",
-     "Plastic is best",
-     "Avoid all books",
-     "Community effort protects nature and culture"
-    ],
-    "answer": 3
-   }
-  ]
- },
- {
-  "id": "s-042",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-042",
-  "title_en": "98 words",
-  "text_mr": "पावसाळा सुरू झाला की अमरावती जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. गावच्या जत्रेत निलेश ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. तंत्रज्ञानाच्या मदतीने निलेश ने वरणभात च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. दुसऱ्या दिवशी निलेश ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. अमरावती शहरातील वाचनालयात निलेश ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला.",
-  "text_en": "Intermediate passage: निलेश explores history, farming and environment around अमरावती, with reading and community work.",
-  "words": 98,
-  "target_wpm": 111,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "वरणभात",
-     "संत्री",
-     "ससा",
-     "गाय"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the student do?",
-    "options": [
-     "Led reading and green actions",
-     "Ignored teachers",
-     "Wasted water",
-     "Broke library rules"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-043",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-043",
-  "title_en": "100 words",
-  "text_mr": "नागपूर शहरातील वाचनालयात प्रिया ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. प्रिया रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. शाळेने पर्यावरण सप्ताह साजरा केला आणि कविता ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. दुसऱ्या दिवशी प्रिया ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. तंत्रज्ञानाच्या मदतीने प्रिया ने पोहे च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला.",
-  "text_en": "Intermediate passage: प्रिया explores history, farming and environment around नागपूर, with reading and community work.",
-  "words": 100,
-  "target_wpm": 112,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "सुरेश",
-     "प्रिया",
-     "कविता",
-     "विकास"
-    ],
-    "answer": 1
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is a key message?",
-    "options": [
-     "Community effort protects nature and culture",
-     "Plastic is best",
-     "Avoid all books",
-     "Never help others"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-044",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-044",
-  "title_en": "97 words",
-  "text_mr": "पुस्तक वाचताना राधा ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. पुणे शहरातील वाचनालयात पूजा ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. शाळेने पर्यावरण सप्ताह साजरा केला आणि राधा ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. पावसाळा सुरू झाला की पुणे जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला. पूजा च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि सफरचंद चे उत्पादन घेतले जाते.",
-  "text_en": "Intermediate passage: राधा explores history, farming and environment around पुणे, with reading and community work.",
-  "words": 97,
-  "target_wpm": 114,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "सोलापूर",
-     "छत्रपती संभाजीनगर",
-     "लातूर",
-     "पुणे"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What did the student do?",
-    "options": [
-     "Ignored teachers",
-     "Wasted water",
-     "Led reading and green actions",
-     "Broke library rules"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-045",
-  "level": 3,
-  "title_mr": "वाचन स्प्रिंट S-045",
-  "title_en": "102 words",
-  "text_mr": "सुरेश रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. सुरेश च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि संत्री चे उत्पादन घेतले जाते. आरोग्य शिबिरात डॉक्टरांनी संतुलित आहार व्यायाम आणि पुरेशी झोप यांचे महत्त्व समजावून सांगितले. तंत्रज्ञानाच्या मदतीने सुरेश ने आमटी च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. दुसऱ्या दिवशी सुरेश ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. पुस्तक वाचताना सुरेश ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. पावसाळा सुरू झाला की सोलापूर जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात.",
-  "text_en": "Intermediate passage: सुरेश explores history, farming and environment around सोलापूर, with reading and community work.",
-  "words": 102,
-  "target_wpm": 115,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "पपई",
-     "मांजर",
-     "आमटी",
-     "संत्री"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What is a key message?",
-    "options": [
-     "Avoid all books",
-     "Community effort protects nature and culture",
-     "Never help others",
-     "Plastic is best"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-046",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-046",
-  "title_en": "111 words",
-  "text_mr": "शाळेच्या वादविवाद स्पर्धेत अनिता ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. अखेरीस अनिता ला जाणवले की छोटे सातत्यपूर्ण प्रयत्न एकत्र आले की गावाचे आणि सातारा सारख्या शहराचे भविष्य उज्ज्वल होते. शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. इतिहासाच्या संदर्भात बोलताना अनिता ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे. सातारा येथील संशोधन केंद्रात अनिता ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता.",
-  "text_en": "Advanced passage: अनिता presents ideas on water, farming, heritage and civic action in सातारा with arguments and data.",
-  "words": 111,
-  "target_wpm": 120,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "सचिन",
-     "स्नेहा",
-     "अनिता",
-     "विकास"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What argument is made?",
-    "options": [
-     "Small steady efforts plus data improve water, soil and heritage",
-     "Water needs no saving",
-     "Heritage has no value",
-     "Do nothing for future"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-047",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-047",
-  "title_en": "114 words",
-  "text_mr": "त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. स्थानिक ग्रंथालयाच्या उपक्रमात अनिता ने मुलांसाठी वाचन शिबिर घेतले आणि रोज ठराविक वेगाने वाचनाचा सराव घडवून आणला. नाशिक येथील संशोधन केंद्रात सुरेश ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता. ग्रामसभेत अनिता ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि डाळिंब सारख्या पिकांना चांगला भाव मिळतो. इतिहासाच्या संदर्भात बोलताना अनिता ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला.",
-  "text_en": "Advanced passage: अनिता presents ideas on water, farming, heritage and civic action in नाशिक with arguments and data.",
-  "words": 114,
-  "target_wpm": 121,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "सोलापूर",
-     "छत्रपती संभाजीनगर",
-     "नाशिक",
-     "लातूर"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What outcome is expected?",
-    "options": [
-     "Closed libraries",
-     "Better income and environment together",
-     "More waste and loss",
-     "Less reading forever"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-048",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-048",
-  "title_en": "112 words",
-  "text_mr": "शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. त्याने उदाहरण दिले की आजीची भाकरी ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. ग्रामसभेत अनिता ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि पेरू सारख्या पिकांना चांगला भाव मिळतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. इतिहासाच्या संदर्भात बोलताना अनिता ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे.",
-  "text_en": "Advanced passage: अनिता presents ideas on water, farming, heritage and civic action in लातूर with arguments and data.",
-  "words": 112,
-  "target_wpm": 123,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "केळी",
-     "थालीपीठ",
-     "मांजर",
-     "पेरू"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What argument is made?",
-    "options": [
-     "Do nothing for future",
-     "Heritage has no value",
-     "Small steady efforts plus data improve water, soil and heritage",
-     "Water needs no saving"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-049",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-049",
-  "title_en": "109 words",
-  "text_mr": "शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. ग्रामसभेत निलेश ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि केळी सारख्या पिकांना चांगला भाव मिळतो. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. त्याने उदाहरण दिले की आजीची भाकरी ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो.",
-  "text_en": "Advanced passage: निलेश presents ideas on water, farming, heritage and civic action in नागपूर with arguments and data.",
-  "words": 109,
-  "target_wpm": 124,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "निलेश",
-     "कविता",
-     "प्रिया",
-     "राधा"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What outcome is expected?",
-    "options": [
-     "More waste and loss",
-     "Closed libraries",
-     "Better income and environment together",
-     "Less reading forever"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-050",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-050",
-  "title_en": "113 words",
-  "text_mr": "शाळेच्या वादविवाद स्पर्धेत राधा ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. त्याने उदाहरण दिले की आजीची भाकरी ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. अखेरीस विकास ला जाणवले की छोटे सातत्यपूर्ण प्रयत्न एकत्र आले की गावाचे आणि कोल्हापूर सारख्या शहराचे भविष्य उज्ज्वल होते. ग्रामसभेत राधा ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि पपई सारख्या पिकांना चांगला भाव मिळतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. इतिहासाच्या संदर्भात बोलताना राधा ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे.",
-  "text_en": "Advanced passage: राधा presents ideas on water, farming, heritage and civic action in कोल्हापूर with arguments and data.",
-  "words": 113,
-  "target_wpm": 126,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "लातूर",
-     "कोल्हापूर",
-     "मुंबई",
-     "पुणे"
-    ],
-    "answer": 1
-   },
-   {
-    "q_mr": "",
-    "q_en": "What argument is made?",
-    "options": [
-     "Small steady efforts plus data improve water, soil and heritage",
-     "Do nothing for future",
-     "Water needs no saving",
-     "Heritage has no value"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-051",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-051",
-  "title_en": "104 words",
-  "text_mr": "शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. शाळेच्या वादविवाद स्पर्धेत निलेश ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. स्थानिक ग्रंथालयाच्या उपक्रमात निलेश ने मुलांसाठी वाचन शिबिर घेतले आणि रोज ठराविक वेगाने वाचनाचा सराव घडवून आणला. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो.",
-  "text_en": "Advanced passage: निलेश presents ideas on water, farming, heritage and civic action in अमरावती with arguments and data.",
-  "words": 104,
-  "target_wpm": 127,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "मोर",
-     "द्राक्षे",
-     "थालीपीठ",
-     "संत्री"
-    ],
-    "answer": 1
-   },
-   {
-    "q_mr": "",
-    "q_en": "What outcome is expected?",
-    "options": [
-     "Better income and environment together",
-     "More waste and loss",
-     "Closed libraries",
-     "Less reading forever"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-052",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-052",
-  "title_en": "112 words",
-  "text_mr": "कोल्हापूर येथील संशोधन केंद्रात निलेश ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. इतिहासाच्या संदर्भात बोलताना सुरेश ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे. शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. शाळेच्या वादविवाद स्पर्धेत निलेश ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले.",
-  "text_en": "Advanced passage: निलेश presents ideas on water, farming, heritage and civic action in कोल्हापूर with arguments and data.",
-  "words": 112,
-  "target_wpm": 129,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "निलेश",
-     "राहुल",
-     "पूजा",
-     "सुरेश"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What argument is made?",
-    "options": [
-     "Water needs no saving",
-     "Do nothing for future",
-     "Small steady efforts plus data improve water, soil and heritage",
-     "Heritage has no value"
-    ],
-    "answer": 2
-   }
-  ]
- },
- {
-  "id": "s-053",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-053",
-  "title_en": "104 words",
-  "text_mr": "त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. शाळेच्या वादविवाद स्पर्धेत रोहन ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. त्याने उदाहरण दिले की आजीची वरणभात ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला.",
-  "text_en": "Advanced passage: रोहन presents ideas on water, farming, heritage and civic action in छत्रपती संभाजीनगर with arguments and data.",
-  "words": 104,
-  "target_wpm": 130,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "अमरावती",
-     "सातारा",
-     "नाशिक",
-     "छत्रपती संभाजीनगर"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What outcome is expected?",
-    "options": [
-     "Closed libraries",
-     "Less reading forever",
-     "More waste and loss",
-     "Better income and environment together"
-    ],
-    "answer": 3
-   }
-  ]
- },
- {
-  "id": "s-054",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-054",
-  "title_en": "113 words",
-  "text_mr": "त्याने उदाहरण दिले की आजीची आमटी ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. ग्रामसभेत सुरेश ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि आंबा सारख्या पिकांना चांगला भाव मिळतो. शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. शाळेच्या वादविवाद स्पर्धेत सुरेश ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. छत्रपती संभाजीनगर येथील संशोधन केंद्रात सुरेश ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता.",
-  "text_en": "Advanced passage: सुरेश presents ideas on water, farming, heritage and civic action in छत्रपती संभाजीनगर with arguments and data.",
-  "words": 113,
-  "target_wpm": 131,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "केळी",
-     "बैल",
-     "पपई",
-     "थालीपीठ"
-    ],
-    "answer": 1
-   },
-   {
-    "q_mr": "",
-    "q_en": "What argument is made?",
-    "options": [
-     "Heritage has no value",
-     "Small steady efforts plus data improve water, soil and heritage",
-     "Water needs no saving",
-     "Do nothing for future"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-055",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-055",
-  "title_en": "107 words",
-  "text_mr": "त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. इतिहासाच्या संदर्भात बोलताना सुरेश ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते.",
-  "text_en": "Advanced passage: स्मिता presents ideas on water, farming, heritage and civic action in पुणे with arguments and data.",
-  "words": 107,
-  "target_wpm": 133,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "सुरेश",
-     "मीरा",
-     "निलेश",
-     "स्मिता"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What outcome is expected?",
-    "options": [
-     "Better income and environment together",
-     "More waste and loss",
-     "Less reading forever",
-     "Closed libraries"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-056",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-056",
-  "title_en": "111 words",
-  "text_mr": "छत्रपती संभाजीनगर येथील संशोधन केंद्रात अर्जुन ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. त्याने उदाहरण दिले की आजीची भाकरी ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. इतिहासाच्या संदर्भात बोलताना अर्जुन ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे. शाळेच्या वादविवाद स्पर्धेत अर्जुन ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले.",
-  "text_en": "Advanced passage: अर्जुन presents ideas on water, farming, heritage and civic action in छत्रपती संभाजीनगर with arguments and data.",
-  "words": 111,
-  "target_wpm": 134,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "अमरावती",
-     "नागपूर",
-     "छत्रपती संभाजीनगर",
-     "नाशिक"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What argument is made?",
-    "options": [
-     "Heritage has no value",
-     "Small steady efforts plus data improve water, soil and heritage",
-     "Do nothing for future",
-     "Water needs no saving"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-057",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-057",
-  "title_en": "107 words",
-  "text_mr": "त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. अखेरीस अनिता ला जाणवले की छोटे सातत्यपूर्ण प्रयत्न एकत्र आले की गावाचे आणि सातारा सारख्या शहराचे भविष्य उज्ज्वल होते. सातारा येथील संशोधन केंद्रात अमित ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता. स्थानिक ग्रंथालयाच्या उपक्रमात अमित ने मुलांसाठी वाचन शिबिर घेतले आणि रोज ठराविक वेगाने वाचनाचा सराव घडवून आणला. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला.",
-  "text_en": "Advanced passage: अमित presents ideas on water, farming, heritage and civic action in सातारा with arguments and data.",
-  "words": 107,
-  "target_wpm": 136,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "बैल",
-     "पेरू",
-     "पोहे",
-     "डाळिंब"
-    ],
-    "answer": 2
-   },
-   {
-    "q_mr": "",
-    "q_en": "What outcome is expected?",
-    "options": [
-     "More waste and loss",
-     "Better income and environment together",
-     "Less reading forever",
-     "Closed libraries"
-    ],
-    "answer": 1
-   }
-  ]
- },
- {
-  "id": "s-058",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-058",
-  "title_en": "103 words",
-  "text_mr": "त्याने उदाहरण दिले की आजीची पोहे ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. स्थानिक ग्रंथालयाच्या उपक्रमात रोहन ने मुलांसाठी वाचन शिबिर घेतले आणि रोज ठराविक वेगाने वाचनाचा सराव घडवून आणला. शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. शाळेच्या वादविवाद स्पर्धेत रोहन ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले.",
-  "text_en": "Advanced passage: रोहन presents ideas on water, farming, heritage and civic action in अमरावती with arguments and data.",
-  "words": 103,
-  "target_wpm": 137,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Who is the main person in the passage?",
-    "options": [
-     "सचिन",
-     "राहुल",
-     "स्मिता",
-     "रोहन"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What argument is made?",
-    "options": [
-     "Small steady efforts plus data improve water, soil and heritage",
-     "Heritage has no value",
-     "Do nothing for future",
-     "Water needs no saving"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-059",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-059",
-  "title_en": "114 words",
-  "text_mr": "अखेरीस अमित ला जाणवले की छोटे सातत्यपूर्ण प्रयत्न एकत्र आले की गावाचे आणि कोल्हापूर सारख्या शहराचे भविष्य उज्ज्वल होते. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. कोल्हापूर येथील संशोधन केंद्रात राधा ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता. स्थानिक ग्रंथालयाच्या उपक्रमात अमित ने मुलांसाठी वाचन शिबिर घेतले आणि रोज ठराविक वेगाने वाचनाचा सराव घडवून आणला. शाळेच्या वादविवाद स्पर्धेत अमित ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. ग्रामसभेत अमित ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि द्राक्षे सारख्या पिकांना चांगला भाव मिळतो.",
-  "text_en": "Advanced passage: अमित presents ideas on water, farming, heritage and civic action in कोल्हापूर with arguments and data.",
-  "words": 114,
-  "target_wpm": 139,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which place is mentioned in the passage?",
-    "options": [
-     "कोल्हापूर",
-     "नाशिक",
-     "मुंबई",
-     "सातारा"
-    ],
-    "answer": 0
-   },
-   {
-    "q_mr": "",
-    "q_en": "What outcome is expected?",
-    "options": [
-     "Better income and environment together",
-     "More waste and loss",
-     "Less reading forever",
-     "Closed libraries"
-    ],
-    "answer": 0
-   }
-  ]
- },
- {
-  "id": "s-060",
-  "level": 4,
-  "title_mr": "वाचन स्प्रिंट S-060",
-  "title_en": "109 words",
-  "text_mr": "अखेरीस कविता ला जाणवले की छोटे सातत्यपूर्ण प्रयत्न एकत्र आले की गावाचे आणि अमरावती सारख्या शहराचे भविष्य उज्ज्वल होते. ग्रामसभेत कविता ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि पपई सारख्या पिकांना चांगला भाव मिळतो. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. त्याने उदाहरण दिले की आजीची वरणभात ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला.",
-  "text_en": "Advanced passage: कविता presents ideas on water, farming, heritage and civic action in अमरावती with arguments and data.",
-  "words": 109,
-  "target_wpm": 140,
-  "questions": [
-   {
-    "q_mr": "",
-    "q_en": "Which of these is mentioned in the passage?",
-    "options": [
-     "मोर",
-     "आंबा",
-     "ससा",
-     "वरणभात"
-    ],
-    "answer": 3
-   },
-   {
-    "q_mr": "",
-    "q_en": "What argument is made?",
-    "options": [
-     "Water needs no saving",
-     "Do nothing for future",
-     "Heritage has no value",
-     "Small steady efforts plus data improve water, soil and heritage"
-    ],
-    "answer": 3
-   }
-  ]
- }
+  {
+    "id": "s-001",
+    "level": 1,
+    "title_mr": "मांजराचं दूध",
+    "title_en": "The Cat and the Milk",
+    "text_mr": "मिनी हे छोटं पांढरं मांजर आहे. तिला दूध खूप आवडतं. सकाळी ती बागेत खेळते. ती फुलपाखरामागे धावते. ती चेंडूशीही खेळते. दुपारी ती स्वयंपाकघरात येते. टेबलावर दुधाचं मोठं भांडं असतं. मिनी हळूच टेबलावर चढते. ती दूध चाखते. दूध खूप गोड लागतं. ती आणखी पिते. अचानक भांडं खाली पडतं आणि फुटतं. आवाज ऐकून आई धावत येते. मिनी घाबरून खुर्चीखाली लपते. आई आधी रागावते, मग हसते. ती वाटीत थोडं दूध घालते. मिनी आनंदाने दूध पिते.",
+    "text_en": "Mini is a small white cat. She loves milk very much. In the morning she plays in the garden. She runs after butterflies. She plays with a ball too. In the afternoon she comes into the kitchen. A big pot of milk stands on the table. Mini quietly climbs onto the table. She tastes the milk. The milk tastes very sweet. She drinks more. Suddenly the pot falls down and breaks. Hearing the noise, mother comes running. Frightened, Mini hides under the chair. Mother is angry at first, then laughs. She pours a little milk into a bowl. Mini happily drinks the milk.",
+    "words": 72,
+    "target_wpm": 40,
+    "questions": [
+      {
+        "q_mr": "दुधाचं भांडं कसं फुटलं?",
+        "q_en": "How did the milk pot break?",
+        "options": [
+          "मिनी वर चढली आणि ते पडलं",
+          "आईने ते फोडलं",
+          "कुत्र्याने ते पाडलं",
+          "वाऱ्याने ते उडवलं"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "शेवटी आईने काय केलं?",
+        "q_en": "What did mother do in the end?",
+        "options": [
+          "मिनीला घराबाहेर काढलं",
+          "वाटीत दूध घातलं",
+          "मिनीला रागावून मारलं",
+          "दूध फेकून दिलं"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-002",
+    "level": 1,
+    "title_mr": "हरवलेला चेंडू",
+    "title_en": "The Lost Ball",
+    "text_mr": "रविवारची सकाळ आहे. ऊन छान पडलं आहे. रवी बागेत लाल चेंडूने खेळतो. तो चेंडूला जोरात लाथ मारतो. चेंडू उंच उडतो. तो झुडपात जाऊन पडतो. रवी धावत जातो. तो सगळीकडे शोधतो. पण चेंडू सापडत नाही. रवीचे डोळे पाणावतात. तो रडू लागतो. तेवढ्यात मोती कुत्रा धावत येतो. त्याच्या तोंडात लाल चेंडू असतो. तो आनंदाने शेपूट हलवतो. रवी आनंदाने ओरडतो. तो मोतीला थोपटतो आणि मिठी मारतो. दोघे मिळून पुन्हा खेळू लागतात.",
+    "text_en": "It is Sunday morning. The sun shines pleasantly. Ravi plays in the garden with a red ball. He kicks the ball hard. The ball flies high. It lands in the bushes. Ravi runs over. He searches everywhere. But the ball is not found. Ravi's eyes fill with tears. He starts to cry. Just then Moti the dog comes running. The red ball is in his mouth. He wags his tail happily. Ravi shouts with joy. He pats Moti and hugs him. Together the two start playing again.",
+    "words": 68,
+    "target_wpm": 41,
+    "questions": [
+      {
+        "q_mr": "चेंडू कुठे पडला?",
+        "q_en": "Where did the ball fall?",
+        "options": [
+          "झुडपात",
+          "विहिरीत",
+          "रस्त्यावर",
+          "घरावर"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "चेंडू कोणी परत आणला?",
+        "q_en": "Who brought the ball back?",
+        "options": [
+          "रवीच्या वडिलांनी",
+          "मोती कुत्र्याने",
+          "शेजाऱ्याने",
+          "मांजराने"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-003",
+    "level": 1,
+    "title_mr": "कागदी होड्या",
+    "title_en": "The Paper Boats",
+    "text_mr": "बाहेर मुसळधार पाऊस पडतो. मीना आणि राजू खिडकीतून पाहतात. त्यांना बाहेर खेळायचं असतं. पण आई म्हणते, 'भिजू नका.' दोघांची तोंडं पडतात. मग आई हसून म्हणते, 'कागदी होड्या बनवा.' दोघे जुनी वर्तमानपत्रं घेतात. ते चार सुंदर होड्या बनवतात. प्रत्येक होडीवर ते नाव लिहितात. मग ते गच्चीत जातात. पाण्याच्या छोट्या ओढ्यात ते होड्या सोडतात. होड्या वेगाने वाहतात. मिनाची होडी सगळ्यात पुढे जाते. दोघे आनंदाने टाळ्या वाजवतात.",
+    "text_en": "Heavy rain falls outside. Meena and Raju watch from the window. They want to play outside. But mother says, 'Do not get wet.' Their faces fall. Then mother smiles and says, 'Make paper boats.' The two take old newspapers. They make four beautiful boats. They write a name on each boat. Then they go to the terrace. They float the boats in a small stream of water. The boats sail fast. Meena's boat goes furthest ahead. Both clap happily.",
+    "words": 64,
+    "target_wpm": 43,
+    "questions": [
+      {
+        "q_mr": "मुलांनी पावसात काय बनवलं?",
+        "q_en": "What did the children make in the rain?",
+        "options": [
+          "कागदी होड्या",
+          "मातीची घरं",
+          "पतंग",
+          "फुगे"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "कोणाची होडी पुढे गेली?",
+        "q_en": "Whose boat went ahead?",
+        "options": [
+          "राजूची",
+          "आईची",
+          "मिनाची",
+          "बाबांची"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "s-004",
+    "level": 1,
+    "title_mr": "आजीची गोष्ट",
+    "title_en": "Grandma's Story",
+    "text_mr": "रात्रीचे नऊ वाजले आहेत. घरात शांतता आहे. छोटी सया अंथरुणात झोपली आहे. तिला झोप येत नाही. ती इकडे तिकडे वळते. आजी तिच्याजवळ येऊन बसते. आजी म्हणते, 'चंद्राची गोष्ट ऐकतेस?' सया आनंदाने मान हलवते. आजी सांगते, 'चंद्रावर एक म्हातारा राहतो. तो रोज चांदण्या मोजतो. कधी कधी तो झोपाळ्यावर बसतो.' सया डोळे मिचकावते. तिला हळूहळू झोप येते. आजी तिच्या डोक्यावरून हात फिरवते. ती हलकं गाणं गुणगुणते. सया गोड स्वप्न पाहते.",
+    "text_en": "It is nine at night. The house is quiet. Little Saya lies in bed. She cannot fall asleep. She tosses this way and that. Grandma comes and sits beside her. Grandma says, 'Will you hear the moon's story?' Saya nods happily. Grandma tells, 'An old man lives on the moon. Every day he counts the stars. Sometimes he sits on a swing.' Saya blinks her eyes. Slowly she falls asleep. Grandma strokes her head. She hums a soft song. Saya dreams a sweet dream.",
+    "words": 68,
+    "target_wpm": 44,
+    "questions": [
+      {
+        "q_mr": "सयाला आधी झोप का येत नव्हती?",
+        "q_en": "Why couldn't Saya sleep at first?",
+        "options": [
+          "तिला गोष्ट ऐकायची होती",
+          "तिला भूक लागली होती",
+          "तिला खेळायचं होतं",
+          "उजेड होता"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "आजीने कोणाची गोष्ट सांगितली?",
+        "q_en": "Whose story did grandma tell?",
+        "options": [
+          "सूर्याची",
+          "चंद्रावरच्या म्हाताऱ्याची",
+          "राजाची",
+          "पक्ष्याची"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-005",
+    "level": 1,
+    "title_mr": "बाजारातली सकाळ",
+    "title_en": "Morning at the Market",
+    "text_mr": "शनिवारची सकाळ आहे. मीना आईबरोबर बाजारात जाते. रस्त्यात तिला मैत्रीण भेटते. बाजारात खूप गर्दी असते. भाजीवाला ओरडतो, 'ताजी भाजी घ्या.' फळवाला केळी मांडतो. आई टोमॅटो आणि बटाटे घेते. ती भाव करते. मीना केळी मोजते. एक, दोन, तीन, चार. दुकानदार हसतो. तो मिनाला म्हणतो, 'तू हुशार आहेस.' तो तिला एक पेरू मोफत देतो. मीना 'धन्यवाद' म्हणते. घरी येऊन आई चविष्ट भाजी करते. सगळे आनंदाने जेवतात.",
+    "text_en": "It is Saturday morning. Meena goes to the market with mother. On the way she meets a friend. The market is very crowded. The vegetable seller shouts, 'Buy fresh vegetables.' The fruit seller arranges bananas. Mother buys tomatoes and potatoes. She bargains. Meena counts bananas. One, two, three, four. The shopkeeper smiles. He says to Meena, 'You are clever.' He gives her one guava for free. Meena says 'Thank you'. Coming home, mother cooks tasty vegetables. Everyone eats happily.",
+    "words": 64,
+    "target_wpm": 46,
+    "questions": [
+      {
+        "q_mr": "मीना बाजारात कोणाबरोबर गेली?",
+        "q_en": "Who did Meena go to the market with?",
+        "options": [
+          "आईबरोबर",
+          "बाबांबरोबर",
+          "मैत्रिणीबरोबर",
+          "एकटीच"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "दुकानदाराने मिनाला काय मोफत दिलं?",
+        "q_en": "What did the shopkeeper give Meena for free?",
+        "options": [
+          "केळं",
+          "पेरू",
+          "आंबा",
+          "सफरचंद"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-006",
+    "level": 1,
+    "title_mr": "छोटा पक्षी",
+    "title_en": "The Little Bird",
+    "text_mr": "अजय शाळेतून घरी येतो. वाटेत त्याला झाडाखाली एक छोटा पक्षी दिसतो. पक्ष्याच्या पंखाला जखम झाली आहे. तो उडू शकत नाही. तो घाबरून कापतो. अजय त्याला हळूच उचलतो. तो त्याला दप्तरातल्या डब्यात ठेवतो. घरी आल्यावर तो आईला दाखवतो. आई मलम लावते. अजय रोज त्याला दाणे आणि पाणी देतो. तो त्याच्याशी गोष्टी करतो. आठ दिवसांत पक्षी बरा होतो. एका सकाळी तो खिडकीतून उडून जातो. अजय हसतो आणि हात हलवतो.",
+    "text_en": "Ajay comes home from school. On the way he sees a little bird under a tree. The bird's wing is hurt. It cannot fly. It trembles with fear. Ajay gently picks it up. He places it in the box in his schoolbag. Coming home, he shows it to mother. Mother applies ointment. Every day Ajay gives it grains and water. He talks to it. In eight days the bird recovers. One morning it flies away through the window. Ajay smiles and waves his hand.",
+    "words": 67,
+    "target_wpm": 47,
+    "questions": [
+      {
+        "q_mr": "पक्ष्याला काय झालं होतं?",
+        "q_en": "What had happened to the bird?",
+        "options": [
+          "पंखाला जखम झाली होती",
+          "तो भुकेला होता",
+          "तो हरवला होता",
+          "त्याला थंडी वाजली होती"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "पक्षी बरा झाल्यावर काय झालं?",
+        "q_en": "What happened after the bird recovered?",
+        "options": [
+          "तो पिंजऱ्यात राहिला",
+          "तो उडून गेला",
+          "तो बोलू लागला",
+          "तो आजारी पडला"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-007",
+    "level": 1,
+    "title_mr": "आजीचा वाढदिवस",
+    "title_en": "Grandma's Birthday",
+    "text_mr": "उद्या आजीचा वाढदिवस आहे. घरात सगळे गुपचूप तयारी करतात. आजीला काहीच माहीत नाही. आई केक बनवते. बाबा फुगे फुगवतात. ताई घर सजवते. छोटा नीरज चित्र काढतो. त्यात तो आजी आणि घर काढतो. तो चित्रावर 'आजी' असं लिहितो. सकाळी आजी उठते. सगळे ओरडतात, 'वाढदिवसाच्या शुभेच्छा.' आजी आश्चर्याने हसते. ती केक कापते. सगळ्यांना गोड वाटते. नीरज आजीला चित्र देतो. आजी त्याला जवळ घेते.",
+    "text_en": "Tomorrow is grandma's birthday. Everyone at home prepares secretly. Grandma knows nothing. Mother bakes a cake. Father blows up balloons. Sister decorates the house. Little Neeraj draws a picture. In it he draws grandma and the house. He writes 'Grandma' on the picture. In the morning grandma wakes up. Everyone shouts, 'Happy birthday.' Grandma smiles in surprise. She cuts the cake. Everyone gets sweets. Neeraj gives grandma the picture. Grandma hugs him.",
+    "words": 61,
+    "target_wpm": 49,
+    "questions": [
+      {
+        "q_mr": "वाढदिवस कोणाचा होता?",
+        "q_en": "Whose birthday was it?",
+        "options": [
+          "नीरजचा",
+          "आईचा",
+          "आजीचा",
+          "बाबांचा"
+        ],
+        "answer": 2
+      },
+      {
+        "q_mr": "नीरजने आजीला काय दिलं?",
+        "q_en": "What did Neeraj give grandma?",
+        "options": [
+          "केक",
+          "फुगे",
+          "आपलं चित्र",
+          "फुलं"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "s-008",
+    "level": 1,
+    "title_mr": "शाळेचा पहिला दिवस",
+    "title_en": "The First Day of School",
+    "text_mr": "आज रियाचा शाळेचा पहिला दिवस आहे. तिने नवीन गणवेश घातला आहे. तिला खूप भीती वाटते. ती आईचा हात घट्ट धरते. शाळेच्या दारात खूप मुलं आहेत. वर्गात शिक्षिका हसून स्वागत करतात. त्या म्हणतात, 'घाबरू नकोस.' रिया बाकावर बसते. शेजारी एक मुलगी बसते. ती म्हणते, 'मी स्नेहा. तुझी मैत्रीण.' दोघी मिळून चित्र काढतात. सुट्टीत त्या झोपाळ्यावर खेळतात. घरी आल्यावर रिया आनंदाने म्हणते, 'शाळा खूप छान आहे.'",
+    "text_en": "Today is Riya's first day of school. She wears a new uniform. She feels very scared. She holds mother's hand tightly. There are many children at the school gate. In class the teacher welcomes her with a smile. She says, 'Don't be afraid.' Riya sits on the bench. A girl sits beside her. She says, 'I am Sneha. Your friend.' The two draw pictures together. At break they play on the swings. Coming home, Riya says happily, 'School is very nice.'",
+    "words": 64,
+    "target_wpm": 50,
+    "questions": [
+      {
+        "q_mr": "सुरुवातीला रियाला कसं वाटत होतं?",
+        "q_en": "How did Riya feel at first?",
+        "options": [
+          "आनंदी",
+          "घाबरलेली",
+          "रागावलेली",
+          "कंटाळलेली"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "रियाची भीती कशी गेली?",
+        "q_en": "How did Riya's fear go away?",
+        "options": [
+          "तिला नवीन मैत्रीण मिळाली",
+          "ती घरी परत गेली",
+          "तिने खेळ सोडला",
+          "शिक्षिका रागावल्या"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "s-009",
+    "level": 1,
+    "title_mr": "हुशार मोती",
+    "title_en": "Clever Moti",
+    "text_mr": "संध्याकाळ झाली आहे. बाबा ऑफिसातून घरी येतात. ते खिशात हात घालतात. पण किल्ल्या सापडत नाहीत. त्यांचा चेहरा पडतो. सगळे घर शोधतात. टेबलाखाली पाहतात. कपाटात पाहतात. बिछान्याखालीही पाहतात. किल्ल्या कुठेच नाहीत. तेवढ्यात मोती कुत्रा भुंकत बागेत धावतो. तो एका झाडाखाली खणतो. तिथे किल्ल्या पडल्या आहेत. बाबा खुश होतात. ते मोतीला थोपटतात. ते त्याला बिस्कीट देतात. मोती आनंदाने शेपूट हलवतो.",
+    "text_en": "Evening has come. Father comes home from office. He puts his hand in his pocket. But the keys are not found. His face falls. Everyone searches the house. They look under the table. They look in the cupboard. They look under the bed too. The keys are nowhere. Just then Moti the dog barks and runs to the garden. He digs under a tree. The keys lie there. Father is delighted. He pats Moti. He gives him a biscuit. Moti wags his tail happily.",
+    "words": 58,
+    "target_wpm": 51,
+    "questions": [
+      {
+        "q_mr": "बाबांचं काय हरवलं होतं?",
+        "q_en": "What had father lost?",
+        "options": [
+          "पैसे",
+          "किल्ल्या",
+          "घड्याळ",
+          "चष्मा"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "किल्ल्या कुठे सापडल्या?",
+        "q_en": "Where were the keys found?",
+        "options": [
+          "टेबलाखाली",
+          "कपाटात",
+          "बागेत झाडाखाली",
+          "रस्त्यावर"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "s-010",
+    "level": 1,
+    "title_mr": "झाडातला पतंग",
+    "title_en": "The Kite in the Tree",
+    "text_mr": "मकरसंक्रांत आली आहे. आकाशात रंगीबेरंगी पतंग उडतात. मुले गच्चीवर जमली आहेत. सोहमचा लाल पतंग सगळ्यात उंच जातो. सगळे टाळ्या वाजवतात. अचानक वारा थांबतो. पतंग खाली येऊ लागतो. तो आंब्याच्या झाडात अडकतो. सोहमचे डोळे पाणावतात. तो रडू लागतो. त्याचे मित्र धावत येतात. ते एक लांब काठी आणतात. हळूच ते पतंग सोडवतात. पतंग परत आकाशात उडतो. सगळे आनंदाने नाचतात.",
+    "text_en": "Makar Sankranti has come. Colourful kites fly in the sky. The children gather on the terrace. Soham's red kite goes highest of all. Everyone claps. Suddenly the wind stops. The kite begins to come down. It gets stuck in the mango tree. Soham's eyes fill with tears. He starts to cry. His friends come running. They bring a long stick. Gently they free the kite. The kite flies in the sky again. Everyone dances with joy.",
+    "words": 57,
+    "target_wpm": 53,
+    "questions": [
+      {
+        "q_mr": "पतंग कुठे अडकला?",
+        "q_en": "Where did the kite get stuck?",
+        "options": [
+          "आंब्याच्या झाडात",
+          "घरावर",
+          "तारेत",
+          "विहिरीत"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "मित्रांनी पतंग कसा सोडवला?",
+        "q_en": "How did the friends free the kite?",
+        "options": [
+          "झाड तोडलं",
+          "लांब काठीने सोडवलं",
+          "नवीन पतंग आणला",
+          "वारा आणला"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-011",
+    "level": 1,
+    "title_mr": "छोटी मासोळी",
+    "title_en": "The Little Fish",
+    "text_mr": "पूजाकडे एक छोटी सोनेरी मासोळी आहे. ती काचेच्या गोल भांड्यात राहते. मासोळीचं नाव सोनू आहे. पूजा रोज तिला दाणे देते. ती तिच्याशी गोष्टीही करते. एक दिवस पाणी घाण झालेलं दिसतं. सोनू हळू पोहते. ती दाणेही खात नाही. पूजा काळजीत पडते. ती आईला बोलावते. दोघी मिळून स्वच्छ पाणी घालतात. सोनू आनंदाने उड्या मारते. ती गोल गोल फिरते. पूजा टाळ्या वाजवते. त्या दिवशी पूजा शिकते की स्वच्छता महत्त्वाची असते.",
+    "text_en": "Pooja has a little golden fish. It lives in a round glass bowl. The fish's name is Sonu. Every day Pooja gives it grains. She talks to it too. One day the water looks dirty. Sonu swims slowly. It does not eat grains either. Pooja grows worried. She calls mother. Together they put clean water. Sonu jumps with joy. It swims round and round. Pooja claps. That day Pooja learns that cleanliness is important.",
+    "words": 67,
+    "target_wpm": 54,
+    "questions": [
+      {
+        "q_mr": "सोनू हळू का पोहत होती?",
+        "q_en": "Why was Sonu swimming slowly?",
+        "options": [
+          "पाणी घाण झालं होतं",
+          "तिला भूक लागली होती",
+          "तिला झोप आली होती",
+          "भांडं छोटं होतं"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "पूजा त्या दिवशी काय शिकली?",
+        "q_en": "What did Pooja learn that day?",
+        "options": [
+          "पोहायला",
+          "स्वच्छता महत्त्वाची असते",
+          "गाणं गायला",
+          "चित्र काढायला"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-012",
+    "level": 1,
+    "title_mr": "बागेतला झोपाळा",
+    "title_en": "The Swing in the Park",
+    "text_mr": "संध्याकाळी मुले बागेत खेळतात. तिथे एकच झोपाळा आहे. त्यावर बसायला रांग लागते. आदित्य आधी बसतो. तो खूप वेळ झोके घेतो. मागे छोटी श्रेया उभी असते. ती म्हणते, 'मला पण बसू दे.' आदित्य म्हणतो, 'थांब, पाच मिनिटं.' पण तो उतरत नाही. श्रेयाचे डोळे पाणावतात. ती रडू लागते. आदित्याला वाईट वाटतं. तो लगेच खाली उतरतो. तो श्रेयाला झोपाळ्यावर बसवतो. तो तिला हळू झोका देतो. दोघे आळीपाळीने खेळतात.",
+    "text_en": "In the evening children play in the park. There is only one swing. A queue forms to sit on it. Aditya sits first. He swings for a long time. Little Shreya stands behind. She says, 'Let me sit too.' Aditya says, 'Wait, five minutes.' But he does not get down. Shreya's eyes fill with tears. She starts to cry. Aditya feels bad. He gets down at once. He seats Shreya on the swing. He pushes her gently. The two play by turns.",
+    "words": 65,
+    "target_wpm": 56,
+    "questions": [
+      {
+        "q_mr": "बागेत किती झोपाळे होते?",
+        "q_en": "How many swings were in the park?",
+        "options": [
+          "तीन",
+          "दोन",
+          "एक",
+          "एकही नाही"
+        ],
+        "answer": 2
+      },
+      {
+        "q_mr": "शेवटी मुले कशी खेळली?",
+        "q_en": "How did the children play in the end?",
+        "options": [
+          "भांडून",
+          "आळीपाळीने",
+          "एकटीनेच",
+          "खेळ सोडून"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-013",
+    "level": 1,
+    "title_mr": "सुरवंटाचं फुलपाखरू",
+    "title_en": "The Caterpillar's Butterfly",
+    "text_mr": "बागेतल्या झाडावर एक छोटा हिरवा सुरवंट राहतो. तो रोज हिरवी पानं खातो. तो दिवसेंदिवस जाड होतो. मुले त्याला रोज पाहतात. एक दिवस तो फांदीवर चढतो. तो स्वतःभोवती रेशमी कोश विणतो. आता तो हलत नाही. मुले काळजीत पडतात. पण आई म्हणते, 'थांबा आणि पाहा.' आठवड्यानंतर कोश हलू लागतो. त्यातून एक सुंदर फुलपाखरू बाहेर येतं. त्याचे पंख निळे आणि पिवळे असतात. ते हळूच आकाशात उडून जातं.",
+    "text_en": "A small green caterpillar lives on the garden tree. Every day it eats green leaves. It grows fatter day by day. The children watch it daily. One day it climbs a branch. It weaves a silky cocoon around itself. Now it does not move. The children grow worried. But mother says, 'Wait and watch.' After a week the cocoon begins to shake. A beautiful butterfly comes out of it. Its wings are blue and yellow. It gently flies away into the sky.",
+    "words": 64,
+    "target_wpm": 57,
+    "questions": [
+      {
+        "q_mr": "सुरवंट रोज काय खातो?",
+        "q_en": "What does the caterpillar eat every day?",
+        "options": [
+          "फुलं",
+          "पानं",
+          "फळं",
+          "दाणे"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "कोशातून शेवटी काय बाहेर आलं?",
+        "q_en": "What finally came out of the cocoon?",
+        "options": [
+          "मधमाशी",
+          "फुलपाखरू",
+          "पक्षी",
+          "भुंगा"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-014",
+    "level": 1,
+    "title_mr": "दिवाळीचे दिवे",
+    "title_en": "The Diwali Lamps",
+    "text_mr": "दिवाळी आली आहे. घर स्वच्छ केलं आहे. अंगणात सुंदर रांगोळी काढली आहे. मुले नवीन कपडे घालतात. संध्याकाळी आई पणत्या लावते. बाबा आकाशदिवा बांधतात. आजी करंज्या आणि लाडू वाटते. शेजारी एकमेकांच्या घरी जातात. ते शुभेच्छा देतात. मुले फुलबाज्या पेटवतात. आकाशात रंगीत फटाके उडतात. सगळीकडे प्रकाश पसरतो. मुले आनंदाने म्हणतात, 'दिवाळी खूप छान.'",
+    "text_en": "Diwali has come. The house is cleaned. A beautiful rangoli is drawn in the courtyard. The children wear new clothes. In the evening mother lights the lamps. Father hangs the sky lantern. Grandma serves karanjis and laddus. Neighbours visit one another's homes. They exchange greetings. The children light sparklers. Colourful fireworks fly in the sky. Light spreads everywhere. The children say happily, 'Diwali is wonderful.'",
+    "words": 51,
+    "target_wpm": 59,
+    "questions": [
+      {
+        "q_mr": "अंगणात काय काढलं होतं?",
+        "q_en": "What was drawn in the courtyard?",
+        "options": [
+          "चित्र",
+          "रांगोळी",
+          "नकाशा",
+          "नाव"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "आजीने काय वाटलं?",
+        "q_en": "What did grandma serve?",
+        "options": [
+          "फळं",
+          "भात",
+          "करंज्या आणि लाडू",
+          "चहा"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "s-015",
+    "level": 1,
+    "title_mr": "डॉक्टरकाका",
+    "title_en": "At the Doctor's",
+    "text_mr": "अथर्वला ताप आला आहे. तो अंथरुणात पडला आहे. आई त्याला डॉक्टरकाकांकडे नेते. दवाखान्यात खूप लोक बसले आहेत. अथर्व घाबरतो. तो आईचा हात धरतो. तो म्हणतो, 'इंजेक्शन मिळेल का?' आई म्हणते, 'घाबरू नकोस.' डॉक्टरकाका हसून बोलावतात. ते तपासतात आणि गोळ्या देतात. ते म्हणतात, 'इंजेक्शनची गरज नाही.' अथर्व खुश होतो. डॉक्टरकाका त्याला एक लॉलीपॉप देतात. घरी येऊन अथर्व आराम करतो. दोन दिवसांत तो पूर्ण बरा होतो.",
+    "text_en": "Atharva has a fever. He lies in bed. Mother takes him to the doctor. Many people sit in the clinic. Atharva is scared. He holds mother's hand. He says, 'Will I get an injection?' Mother says, 'Don't be afraid.' The doctor calls him with a smile. He examines him and gives pills. He says, 'No injection needed.' Atharva is delighted. The doctor gives him a lollipop. Coming home, Atharva rests. In two days he fully recovers.",
+    "words": 64,
+    "target_wpm": 60,
+    "questions": [
+      {
+        "q_mr": "अथर्वला काय झालं होतं?",
+        "q_en": "What was wrong with Atharva?",
+        "options": [
+          "ताप आला होता",
+          "पोट दुखत होतं",
+          "पाय मुरगळला होता",
+          "खोकला होता"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "डॉक्टरकाकांनी अथर्वला शेवटी काय दिलं?",
+        "q_en": "What did the doctor give Atharva at the end?",
+        "options": [
+          "इंजेक्शन",
+          "लॉलीपॉप",
+          "खेळणं",
+          "पुस्तक"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-016",
+    "level": 2,
+    "title_mr": "ससा आणि कासव",
+    "title_en": "The Hare and the Tortoise",
+    "text_mr": "एका जंगलात एक वेगवान ससा राहत होता. तो स्वतःला सगळ्यात वेगवान समजायचा. तो रोज संथ कासवाची थट्टा करायचा. 'तू इतका हळू चालतोस,' तो हसायचा. कासव शांतपणे ऐकायचं. एक दिवस कासव म्हणालं, 'चला, शर्यत लावूया.' ससा हसून तयार झाला. जंगलातील प्राणी पाहायला जमले. शर्यत सुरू झाली. ससा वाऱ्यासारखा धावला. तो खूप पुढे गेला. 'कासव यायला खूप वेळ लागेल,' असं म्हणून तो झाडाखाली झोपला. कासव थांबतं न थांबता चालत राहिलं. शेवटी कासवच रेषा ओलांडून जिंकलं. सातत्याचं फळ गोड असतं.",
+    "text_en": "In a forest lived a speedy hare. He considered himself the fastest of all. Every day he mocked the slow tortoise. 'You walk so slowly,' he laughed. The tortoise listened quietly. One day the tortoise said, 'Come, let us race.' Laughing, the hare agreed. The forest animals gathered to watch. The race began. The hare ran like the wind. He went far ahead. 'The tortoise will take very long,' he said, and slept under a tree. The tortoise kept walking without stopping. In the end the tortoise crossed the line and won. Steady effort brings sweet rewards.",
+    "words": 77,
+    "target_wpm": 65,
+    "questions": [
+      {
+        "q_mr": "शर्यतीत ससा का हरला?",
+        "q_en": "Why did the hare lose the race?",
+        "options": [
+          "तो हळू धावला",
+          "तो झाडाखाली झोपला",
+          "तो रस्ता चुकला",
+          "तो आजारी पडला"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "या गोष्टीचं तात्पर्य काय?",
+        "q_en": "What is the moral of this story?",
+        "options": [
+          "वेग महत्त्वाचा",
+          "सातत्याचं फळ गोड",
+          "झोपू नये",
+          "शर्यत लावू नये"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-017",
+    "level": 2,
+    "title_mr": "खरे मित्र",
+    "title_en": "The True Friends",
+    "text_mr": "दोन मित्र जंगलातून प्रवास करत होते. एकाचं नाव रमेश, दुसऱ्याचं नाव सुरेश. दोघांनी एकमेकांना वचन दिलं होतं, 'संकटात साथ सोडणार नाही.' अचानक समोरून एक मोठं अस्वल आलं. रमेश घाबरून झाडावर चढला. त्याने सुरेशचा विचारही केला नाही. सुरेशला झाडावर चढता येत नव्हतं. त्याला एक युक्ती आठवली. अस्वल मेलेल्यांना हात लावत नाही. तो श्वास रोखून जमिनीवर झोपला. अस्वल त्याच्याजवळ आलं. त्याने हुंगलं आणि निघून गेलं. रमेश खाली उतरला. तो म्हणाला, 'अस्वल तुझ्या कानात काय म्हणालं?' सुरेश म्हणाला, 'संकटात सोडणाऱ्याशी मैत्री करू नकोस.'",
+    "text_en": "Two friends were travelling through a forest. One was named Ramesh, the other Suresh. Both had promised each other, 'We will not leave each other's side in danger.' Suddenly a big bear came from the front. Frightened, Ramesh climbed a tree. He did not even think of Suresh. Suresh could not climb trees. He remembered a trick. Bears do not touch the dead. He held his breath and lay on the ground. The bear came near him. It sniffed him and went away. Ramesh climbed down. He said, 'What did the bear say in your ear?' Suresh said, 'Do not befriend one who leaves you in danger.'",
+    "words": 80,
+    "target_wpm": 67,
+    "questions": [
+      {
+        "q_mr": "अस्वल आल्यावर रमेशने काय केलं?",
+        "q_en": "What did Ramesh do when the bear came?",
+        "options": [
+          "तो पळून गेला",
+          "तो झाडावर चढला",
+          "तो अस्वलाशी लढला",
+          "तो ओरडला"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "सुरेशने रमेशला काय शिकवलं?",
+        "q_en": "What did Suresh teach Ramesh?",
+        "options": [
+          "झाडावर चढायला",
+          "संकटात मित्राला सोडू नये",
+          "जंगलात जाऊ नये",
+          "अस्वलाला घाबरू नये"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-018",
+    "level": 2,
+    "title_mr": "मुंगी आणि टोळ",
+    "title_en": "The Ant and the Grasshopper",
+    "text_mr": "उन्हाळ्याचे दिवस होते. शेतात धान्य तयार होतं. एक मुंगी रोज धान्य गोळा करायची. ती मोठे दाणे ओढत घरट्यात न्यायची. तिला घाम यायचा, पण ती थांबायची नाही. जवळच एक टोळ गाणं गायचा आणि नाचायचा. तो मुंगीला म्हणायचा, 'इतकी मेहनत का करतेस? ये, मजा करूया.' मुंगी म्हणायची, 'हिवाळ्यासाठी साठा हवा.' टोळ हसायचा. दिवस गेले. मग कडक हिवाळा आला. सगळीकडे थंडी पडली. टोळाला खायला काहीच नव्हतं. तो थंडीने कापत मुंगीच्या दारात आला. मुंगीने त्याला थोडं धान्य दिलं. टोळ शिकला की आळस वाईट असतो.",
+    "text_en": "It was summer. Grain ripened in the fields. An ant gathered grain every day. She dragged big seeds home to her nest. She sweated, but did not stop. Nearby a grasshopper sang songs and danced. He said to the ant, 'Why work so hard? Come, let us have fun.' The ant said, 'We need stores for winter.' The grasshopper laughed. Days passed. Then harsh winter came. Cold spread everywhere. The grasshopper had nothing to eat. Shivering with cold, he came to the ant's door. The ant gave him a little grain. The grasshopper learned that laziness is bad.",
+    "words": 80,
+    "target_wpm": 69,
+    "questions": [
+      {
+        "q_mr": "उन्हाळ्यात मुंगी काय करायची?",
+        "q_en": "What did the ant do in summer?",
+        "options": [
+          "गाणी गायची",
+          "धान्य गोळा करायची",
+          "झोपायची",
+          "खेळायची"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "हिवाळ्यात टोळाला काय झालं?",
+        "q_en": "What happened to the grasshopper in winter?",
+        "options": [
+          "त्याच्याकडे भरपूर अन्न होतं",
+          "त्याला खायला काहीच नव्हतं",
+          "तो प्रवासाला गेला",
+          "तो झोपून राहिला"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-019",
+    "level": 2,
+    "title_mr": "तहानलेला कावळा",
+    "title_en": "The Thirsty Crow",
+    "text_mr": "कडक उन्हाळा होता. झाडंही माना टाकत होती. एका कावळ्याला खूप तहान लागली होती. तो पाणी शोधत इकडे तिकडे उडाला. त्याने विहीर पाहिली, पण पाणी खोल होतं. तो पुढे गेला. शेवटी त्याला अंगणात एक माठ दिसला. माठात थोडंसं पाणी होतं. पण पाणी खूप खाली होतं. कावळ्याची चोच पाण्याला पोहोचेना. तो विचार करू लागला. त्याने जवळचे छोटे दगड पाहिले. त्याने एकेक दगड माठात टाकला. पाणी हळूहळू वर आलं. कावळ्याने मनसोक्त पाणी प्यायलं. हुशारीने अवघड काम सोपं होतं.",
+    "text_en": "It was fierce summer. Even the trees drooped. A crow was very thirsty. He flew here and there searching for water. He saw a well, but the water was deep. He went ahead. At last he saw a pitcher in a courtyard. There was a little water in the pitcher. But the water was very low. The crow's beak could not reach it. He began to think. He saw small stones nearby. He dropped the stones into the pitcher one by one. Slowly the water rose up. The crow drank water to his heart's content. Cleverness makes hard work easy.",
+    "words": 75,
+    "target_wpm": 70,
+    "questions": [
+      {
+        "q_mr": "कावळ्याची अडचण काय होती?",
+        "q_en": "What was the crow's problem?",
+        "options": [
+          "माठ रिकामा होता",
+          "पाणी खूप खाली होतं",
+          "पाणी घाण होतं",
+          "माठ फुटला होता"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "कावळ्याने प्रश्न कसा सोडवला?",
+        "q_en": "How did the crow solve the problem?",
+        "options": [
+          "माठ फोडला",
+          "दगड टाकून पाणी वर आणलं",
+          "दुसरा माठ शोधला",
+          "मदत मागितली"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-020",
+    "level": 2,
+    "title_mr": "सिंह आणि उंदीर",
+    "title_en": "The Lion and the Mouse",
+    "text_mr": "एका दुपारी सिंह झाडाखाली गाढ झोपला होता. त्याची गर्जना थांबली होती. एक छोटा उंदीर खेळत खेळत त्याच्या अंगावर धावला. सिंह जागा झाला. त्याने रागाने उंदराला पंजाखाली धरलं. उंदीर घाबरून थरथरला. तो म्हणाला, 'महाराज, मला सोडा. एक दिवस मी तुमच्या उपयोगी पडेन.' हे ऐकून सिंह मोठ्याने हसला. 'तू आणि माझ्या उपयोगी?' पण त्याने उंदराला सोडलं. काही दिवसांनी सिंह शिकाऱ्याच्या जाळ्यात अडकला. तो जोरात ओरडला. उंदीर धावत आला. त्याने जाळ्याच्या दोऱ्या कुरतडल्या. सिंह मोकळा झाला. छोटा असला तरी प्रत्येकजण महत्त्वाचा असतो.",
+    "text_en": "One afternoon a lion slept soundly under a tree. His roaring had stopped. A little mouse ran over his body while playing. The lion woke up. Angrily he caught the mouse under his paw. The mouse trembled with fear. It said, 'Your Majesty, spare me. One day I will be useful to you.' Hearing this the lion laughed loudly. 'You, useful to me?' But he freed the mouse. Some days later the lion got caught in a hunter's net. He roared loudly. The mouse came running. It gnawed through the ropes of the net. The lion was freed. However small, everyone matters.",
+    "words": 79,
+    "target_wpm": 72,
+    "questions": [
+      {
+        "q_mr": "सिंहाने उंदराला का सोडलं?",
+        "q_en": "Why did the lion free the mouse?",
+        "options": [
+          "तो घाबरला",
+          "त्याला दया आली आणि गंमत वाटली",
+          "उंदीर पळून गेला",
+          "शिकारी आला"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "उंदराने सिंहाची सुटका कशी केली?",
+        "q_en": "How did the mouse free the lion?",
+        "options": [
+          "जाळं ओढून",
+          "जाळ्याच्या दोऱ्या कुरतडून",
+          "शिकाऱ्याला चावून",
+          "आरडाओरडा करून"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-021",
+    "level": 2,
+    "title_mr": "प्रामाणिक लाकूडतोड्या",
+    "title_en": "The Honest Woodcutter",
+    "text_mr": "एका गावात एक गरीब लाकूडतोड्या राहत होता. तो रोज जंगलातून लाकडं आणून विकायचा. एक दिवस तो नदीकाठी झाड तोडत होता. अचानक त्याची कुऱ्हाड हातातून निसटली. ती खोल पाण्यात पडली. हीच त्याची एकमेव मिळकत होती. तो काठीवर डोकं ठेवून रडू लागला. तेवढ्यात नदीतून एक देवता प्रकटली. तिने सोन्याची कुऱ्हाड दाखवली. 'ही तुझी का?' तिने विचारलं. लाकूडतोड्या म्हणाला, 'नाही. माझी लोखंडाची होती.' मग तिने चांदीची दाखवली. त्याने तीही नाकारली. शेवटी त्याचीच कुऱ्हाड दिली. देवता खुश झाली. तिने तिन्ही कुऱ्हाडी त्याला बक्षीस दिल्या.",
+    "text_en": "In a village lived a poor woodcutter. Every day he brought firewood from the forest and sold it. One day he was cutting a tree by the river. Suddenly his axe slipped from his hand. It fell into the deep water. It was his only livelihood. He put his head on his hands and wept. Just then a goddess appeared from the river. She showed a golden axe. 'Is this yours?' she asked. The woodcutter said, 'No. Mine was of iron.' Then she showed a silver one. He refused that too. At last she gave his own axe. The goddess was pleased. She gifted him all three axes.",
+    "words": 80,
+    "target_wpm": 74,
+    "questions": [
+      {
+        "q_mr": "लाकूडतोड्याची कुऱ्हाड कुठे पडली?",
+        "q_en": "Where did the woodcutter's axe fall?",
+        "options": [
+          "विहिरीत",
+          "नदीच्या खोल पाण्यात",
+          "झुडपात",
+          "शेतात"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "देवतेने त्याला तिन्ही कुऱ्हाडी का दिल्या?",
+        "q_en": "Why did the goddess give him all three axes?",
+        "options": [
+          "तो गरीब होता",
+          "तो प्रामाणिक होता",
+          "तो रडत होता",
+          "तो बलवान होता"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-022",
+    "level": 2,
+    "title_mr": "बिरबलाची हुशारी",
+    "title_en": "Birbal's Cleverness",
+    "text_mr": "बादशहा अकबराला अवघड प्रश्न विचारायची सवय होती. दरबारात तो रोज नवा प्रश्न विचारायचा. एक दिवस तो म्हणाला, 'बिरबल, शहरात किती कावळे आहेत?' दरबारी हसले. हा प्रश्न अशक्य वाटला. सगळे बिरबलाकडे पाहू लागले. बिरबल क्षणभर विचार करून शांतपणे म्हणाला, 'महाराज, शहरात बरोबर पाच हजार कावळे आहेत.' अकबर म्हणाला, 'हे कसं सिद्ध करशील?' बिरबल म्हणाला, 'मोजून पाहा. जास्त असतील तर पाहुणे आले आहेत. कमी असतील तर काही प्रवासाला गेले आहेत.' अकबर खूश झाला. त्याने बिरबलाला बक्षीस दिलं.",
+    "text_en": "Emperor Akbar had a habit of asking difficult questions. In court he asked a new question daily. One day he said, 'Birbal, how many crows are in the city?' The courtiers laughed. The question seemed impossible. All looked at Birbal. Thinking a moment, Birbal said calmly, 'Your Majesty, there are exactly five thousand crows in the city.' Akbar said, 'How will you prove it?' Birbal said, 'Count and see. If there are more, guests have come. If fewer, some have gone travelling.' Akbar was delighted. He gave Birbal a reward.",
+    "words": 75,
+    "target_wpm": 76,
+    "questions": [
+      {
+        "q_mr": "अकबराने बिरबलाला काय विचारलं?",
+        "q_en": "What did Akbar ask Birbal?",
+        "options": [
+          "शहरात किती लोक आहेत",
+          "शहरात किती कावळे आहेत",
+          "शहरात किती झाडं आहेत",
+          "शहरात किती घोडे आहेत"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "बिरबलाने उत्तर कसं दिलं?",
+        "q_en": "How did Birbal answer?",
+        "options": [
+          "मोजून दाखवलं",
+          "हुशारीने उत्तर दिलं जे तपासता येणार नाही",
+          "उत्तर दिलं नाही",
+          "दरबाऱ्यांना विचारलं"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-023",
+    "level": 2,
+    "title_mr": "कोल्हा आणि द्राक्षं",
+    "title_en": "The Fox and the Grapes",
+    "text_mr": "एका दुपारी एक भुकेला कोल्हा बागेत आला. तो अन्न शोधत होता. त्याने वेलीवर रसाळ द्राक्षांचे घड पाहिले. जांभळी द्राक्षं उन्हात चमकत होती. त्याच्या तोंडाला पाणी सुटलं. त्याने उडी मारली. पण द्राक्षं खूप उंच होती. त्याने पुन्हा उडी मारली. पुन्हा अपयश आलं. त्याने दहा वेळा प्रयत्न केला. तो धापा टाकू लागला. शेवटी तो थकला. तो निघताना म्हणाला, 'ही द्राक्षं आंबटच असतील.' जवळचा मोर म्हणाला, 'मिळत नाही म्हणून नावं ठेवू नकोस.' कोल्हा लाजून निघून गेला.",
+    "text_en": "One afternoon a hungry fox came to a garden. He was searching for food. He saw bunches of juicy grapes on a vine. Purple grapes glittered in the sun. His mouth watered. He jumped. But the grapes were too high. He jumped again. Again he failed. He tried ten times. He began to pant. At last he grew tired. Leaving, he said, 'These grapes must be sour anyway.' A nearby peacock said, 'Do not blame what you cannot get.' The fox left, ashamed.",
+    "words": 73,
+    "target_wpm": 77,
+    "questions": [
+      {
+        "q_mr": "कोल्ह्याला द्राक्षं का मिळाली नाहीत?",
+        "q_en": "Why couldn't the fox get the grapes?",
+        "options": [
+          "ती उंच होती",
+          "ती कच्ची होती",
+          "माळी आला",
+          "ती विकली गेली"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "शेवटी कोल्हा काय म्हणाला?",
+        "q_en": "What did the fox say in the end?",
+        "options": [
+          "द्राक्षं गोड आहेत",
+          "द्राक्षं आंबट असतील",
+          "उद्या परत येईन",
+          "मदत मागतो"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-024",
+    "level": 2,
+    "title_mr": "सोनेरी अंडी",
+    "title_en": "The Golden Eggs",
+    "text_mr": "एका खेड्यात एक शेतकरी राहत होता. त्याच्याकडे एक खास कोंबडी होती. ती रोज एक सोनेरी अंडं घालायची. शेतकरी अंडं बाजारात विकायचा. तो सुखात राहायचा. पण तो दिवसेंदिवस लोभी होत गेला. त्याची बायको म्हणायची, 'समाधानी राहा.' पण तो ऐकायचा नाही. तो विचार करू लागला, 'रोज एकच अंडं का? पोटात सगळी अंडी असतील.' एक दिवस त्याने कोंबडीचं पोट चिरलं. आत काहीच नव्हतं. कोंबडी मेली. शेतकरी रडला. पण वेळ निघून गेली होती. लोभामुळे त्याने सगळं गमावलं. समाधान हेच खरं सुख आहे.",
+    "text_en": "In a hamlet lived a farmer. He had a special hen. Every day it laid one golden egg. The farmer sold the egg at the market. He lived comfortably. But he grew greedier day by day. His wife said, 'Stay content.' But he would not listen. He thought, 'Why only one egg a day? All the eggs must be inside its belly.' One day he cut open the hen's belly. There was nothing inside. The hen died. The farmer wept. But the time had passed. Through greed he lost everything. Contentment is the true happiness.",
+    "words": 78,
+    "target_wpm": 79,
+    "questions": [
+      {
+        "q_mr": "कोंबडी रोज काय घालायची?",
+        "q_en": "What did the hen lay every day?",
+        "options": [
+          "दोन अंडी",
+          "एक सोनेरी अंडं",
+          "पांढरं अंडं",
+          "काहीच नाही"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "शेतकऱ्याने सगळं का गमावलं?",
+        "q_en": "Why did the farmer lose everything?",
+        "options": [
+          "आळसामुळे",
+          "लोभामुळे",
+          "आजारामुळे",
+          "चोरीमुळे"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-025",
+    "level": 2,
+    "title_mr": "माकड आणि मगर",
+    "title_en": "The Monkey and the Crocodile",
+    "text_mr": "नदीकाठी एका जांभळाच्या झाडावर माकड राहत होतं. रोज एक मगर तिथे यायचा. माकड त्याला गोड जांभळं द्यायचं. मगर ती बायकोसाठी घरी न्यायचा. दोघांची घट्ट मैत्री झाली. एक दिवस मगरीची बायको म्हणाली, 'रोज जांभळं खाणाऱ्याचं काळीज किती गोड असेल. मला माकडाचं काळीज खायचं आहे.' मगर दुःखी झाला. पण बायकोच्या हट्टामुळे तो माकडाला म्हणाला, 'माझ्या घरी जेवायला चल.' माकड त्याच्या पाठीवर बसलं. वाटेत मगरीने खरं सांगितलं. माकड हुशारीने म्हणालं, 'अरे, माझं काळीज तर झाडावरच ठेवलं. परत चल.' मगर परतला. माकड झाडावर चढलं आणि वाचलं.",
+    "text_en": "A monkey lived on a jamun tree by the river. Every day a crocodile came there. The monkey gave him sweet jamuns. The crocodile took them home for his wife. The two became firm friends. One day the crocodile's wife said, 'How sweet must be the heart of one who eats jamuns daily. I want to eat the monkey's heart.' The crocodile was sad. But due to his wife's insistence he said to the monkey, 'Come to my home for dinner.' The monkey sat on his back. On the way the crocodile told the truth. Cleverly the monkey said, 'Oh, I left my heart on the tree itself. Let us go back.' The crocodile returned. The monkey climbed the tree and was saved.",
+    "words": 82,
+    "target_wpm": 81,
+    "questions": [
+      {
+        "q_mr": "मगरीच्या बायकोला काय हवं होतं?",
+        "q_en": "What did the crocodile's wife want?",
+        "options": [
+          "जांभळं",
+          "माकडाचं काळीज",
+          "मासे",
+          "नवं घर"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "माकड कसं वाचलं?",
+        "q_en": "How did the monkey save himself?",
+        "options": [
+          "पोहून पळालं",
+          "हुशारीने खोटं बोलून परत आलं",
+          "मगरीशी लढलं",
+          "झाडावरून उडी मारली"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-026",
+    "level": 2,
+    "title_mr": "समुद्रकिनारी सहल",
+    "title_en": "A Trip to the Beach",
+    "text_mr": "उन्हाळ्याच्या सुट्टीत पाटील कुटुंब अलिबागला गेलं. सगळे सकाळी लवकर निघाले. समुद्रकिनारी पोहोचल्यावर निळं पाणी आणि सोनेरी वाळू पाहून मुले खुश झाली. आर्या आणि विहानने वाळूचा मोठा किल्ला बांधला. त्यावर शंख आणि शिंपले लावले. बाबांनी फोटो काढले. दुपारी सगळ्यांनी नारळाचं थंड पाणी प्यायलं. आईने आणलेला डबा खाल्ला. अचानक मोठी लाट आली. किल्ला वाहून गेला. मुले क्षणभर थबकली, मग हसली. विहान म्हणाला, 'उद्या आणखी मोठा बांधू.' सूर्यास्त पाहून सगळे घरी परतले.",
+    "text_en": "In the summer holidays the Patil family went to Alibag. Everyone left early in the morning. Reaching the beach, the children were delighted to see the blue water and golden sand. Arya and Vihan built a big sandcastle. They decorated it with conches and shells. Father took photos. At noon everyone drank cool coconut water. They ate the tiffin mother had brought. Suddenly a big wave came. The castle washed away. The children paused a moment, then laughed. Vihan said, 'Tomorrow we will build an even bigger one.' After watching the sunset, all returned home.",
+    "words": 69,
+    "target_wpm": 83,
+    "questions": [
+      {
+        "q_mr": "कुटुंब कुठे गेलं होतं?",
+        "q_en": "Where did the family go?",
+        "options": [
+          "माथेरानला",
+          "अलिबागला",
+          "महाबळेश्वरला",
+          "लोणावळ्याला"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "वाळूच्या किल्ल्याचं काय झालं?",
+        "q_en": "What happened to the sandcastle?",
+        "options": [
+          "तो तसाच राहिला",
+          "मोठ्या लाटेने तो वाहून गेला",
+          "मुलांनी तो फोडला",
+          "वाऱ्याने तो उडाला"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-027",
+    "level": 2,
+    "title_mr": "हरवलेली पिशवी",
+    "title_en": "The Lost Purse",
+    "text_mr": "रामू शाळेतून घरी चालला होता. रस्त्यात त्याला एक चामड्याची पिशवी दिसली. त्याने उचलून पाहिलं. आत शंभर रुपयांच्या नोटा होत्या. रामूचं मन क्षणभर हललं. एवढे पैसे त्याने कधीच पाहिले नव्हते. पण त्याला बाबांचे शब्द आठवले, 'प्रामाणिकपणा हेच खरं धन.' तो पिशवी घेऊन सरळ पोलीस चौकीत गेला. तिथे एक आजी रडत बसली होती. तिचीच पिशवी हरवली होती. रामूने पिशवी परत दिली. आजीने त्याला आशीर्वाद दिले. दुसऱ्या दिवशी शाळेत मुख्याध्यापकांनी रामूचं कौतुक केलं.",
+    "text_en": "Ramu was walking home from school. On the road he saw a leather purse. He picked it up and looked. Inside were hundred-rupee notes. Ramu's heart wavered a moment. He had never seen so much money. But he remembered father's words, 'Honesty is the true wealth.' He took the purse straight to the police station. There an old woman sat weeping. It was her purse that was lost. Ramu returned the purse. The woman blessed him. The next day at school the headmaster praised Ramu.",
+    "words": 70,
+    "target_wpm": 85,
+    "questions": [
+      {
+        "q_mr": "रामूला वाटेत काय सापडलं?",
+        "q_en": "What did Ramu find on the way?",
+        "options": [
+          "घड्याळ",
+          "पैशांची पिशवी",
+          "पुस्तक",
+          "चाव्या"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "रामूने पिशवीचं काय केलं?",
+        "q_en": "What did Ramu do with the purse?",
+        "options": [
+          "घरी नेली",
+          "पोलीस चौकीत नेऊन परत केली",
+          "मित्रांना वाटली",
+          "लपवून ठेवली"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-028",
+    "level": 2,
+    "title_mr": "दोन मांजरं आणि माकड",
+    "title_en": "Two Cats and the Monkey",
+    "text_mr": "एका घरात दोन मांजरं राहत होती. दोघी बहिणी होत्या, पण सतत भांडायच्या. एक दिवस त्यांना भाकरीचा मोठा तुकडा सापडला. दोघी भांडू लागल्या, 'माझा वाटा मोठा हवा.' कोणीच माघार घेईना. तेवढ्यात एक माकड तिथे आलं. तो म्हणाला, 'मी न्याय्य वाटणी करतो.' त्याने तुकड्याचा एक घास घेतला. 'अरे, हा भाग मोठा झाला,' म्हणून दुसऱ्या भागाचा घास घेतला. असं करता करता त्याने सगळी भाकर खाल्ली. मांजरं तोंड पाहत राहिली. भांडणात तिसऱ्याचाच फायदा होतो.",
+    "text_en": "Two cats lived in a house. They were sisters, but quarrelled constantly. One day they found a big piece of bhakri. Both began to quarrel, 'I want the bigger share.' Neither would yield. Just then a monkey came there. He said, 'I will divide fairly.' He took a bite of the piece. 'Oh, this part became bigger,' so he bit the other part. Doing this, he ate the whole bhakri. The cats were left staring. In a quarrel, only the third party gains.",
+    "words": 70,
+    "target_wpm": 86,
+    "questions": [
+      {
+        "q_mr": "मांजरं कशावरून भांडत होती?",
+        "q_en": "What were the cats quarrelling over?",
+        "options": [
+          "दुधावरून",
+          "भाकरीच्या तुकड्यावरून",
+          "घरावरून",
+          "उंदरावरून"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "माकडाने शेवटी काय केलं?",
+        "q_en": "What did the monkey do in the end?",
+        "options": [
+          "न्याय्य वाटणी केली",
+          "सगळी भाकर स्वतः खाल्ली",
+          "निघून गेला",
+          "मांजरांना मारलं"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-029",
+    "level": 2,
+    "title_mr": "शेतकऱ्याचे तीन मुलगे",
+    "title_en": "The Farmer's Three Sons",
+    "text_mr": "एका गावात एक म्हातारा शेतकरी राहत होता. त्याचे तीन मुलगे धट्टेकट्टे होते. पण ते सतत भांडायचे. शेत वाटून घेण्यावरून रोज वाद व्हायचे. शेतकरी दुःखी होता. एक दिवस त्याने तिघांना अंगणात बोलावलं. त्याने काठ्यांची एक घट्ट मोळी आणली. तो म्हणाला, 'ही मोळी मोडून दाखवा.' तिघांनी आळीपाळीने खूप प्रयत्न केले. पण मोळी मोडली नाही. मग शेतकऱ्याने मोळी सोडली. त्याने प्रत्येकाला एकेक काठी दिली. तिघांनी सहज मोडल्या. शेतकरी म्हणाला, 'एकजुटीने राहिलात तर कोणीच हरवू शकणार नाही.' तिघे लाजले. त्या दिवसापासून ते मिळून राहू लागले.",
+    "text_en": "In a village lived an old farmer. His three sons were sturdy. But they quarrelled constantly. Daily fights broke over dividing the farm. The farmer was sad. One day he called all three to the courtyard. He brought a tight bundle of sticks. He said, 'Break this bundle.' All three tried hard by turns. But the bundle did not break. Then the farmer untied the bundle. He gave each one stick. The three broke them easily. The farmer said, 'If you stay united, no one can defeat you.' The three felt ashamed. From that day they began to live together.",
+    "words": 81,
+    "target_wpm": 88,
+    "questions": [
+      {
+        "q_mr": "तीन मुलगे कोणत्या गोष्टीवरून भांडायचे?",
+        "q_en": "What did the three sons quarrel over?",
+        "options": [
+          "शेताच्या वाटणीवरून",
+          "पैशावरून",
+          "घरावरून",
+          "अन्नावरून"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "शेतकऱ्याने एकजुटीचा धडा कसा दिला?",
+        "q_en": "How did the farmer teach unity?",
+        "options": [
+          "गोष्ट सांगून",
+          "काठ्यांच्या मोळीचा प्रयोग करून",
+          "रागावून",
+          "बक्षीस देऊन"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-030",
+    "level": 2,
+    "title_mr": "चांदोबाचं स्वप्न",
+    "title_en": "Dream of the Moon",
+    "text_mr": "छोटा ईशान आजोळी गच्चीवर झोपला होता. आकाशात पूर्ण चंद्र चमकत होता. चांदण्या लुकलुकत होत्या. तो आजोबांना म्हणाला, 'चांदोबावर जायचं आहे.' आजोबा हसले. ते म्हणाले, 'अभ्यास कर, शास्त्रज्ञ हो. मग चंद्रही दूर नाही.' ईशानने हे मनावर घेतलं. तो रोज मन लावून अभ्यास करू लागला. तो विज्ञानाची पुस्तकं वाचायचा. शाळेत त्याचे सगळे प्रयोग यशस्वी व्हायचे. शिक्षक त्याचं कौतुक करायचे. वर्षांनंतर ईशान खरंच शास्त्रज्ञ झाला. तो चांद्रयान मोहिमेत काम करू लागला. स्वप्नं मेहनतीने खरी होतात.",
+    "text_en": "Little Ishaan lay on the terrace at grandma's village. The full moon shone in the sky. The stars twinkled. He said to grandpa, 'I want to go to the moon.' Grandpa smiled. He said, 'Study hard, become a scientist. Then even the moon is not far.' Ishaan took this to heart. He began to study diligently every day. He read science books. At school all his experiments succeeded. Teachers praised him. Years later Ishaan truly became a scientist. He began to work on the Chandrayaan mission. Dreams come true through hard work.",
+    "words": 72,
+    "target_wpm": 90,
+    "questions": [
+      {
+        "q_mr": "ईशानचं स्वप्न काय होतं?",
+        "q_en": "What was Ishaan's dream?",
+        "options": [
+          "शिक्षक व्हायचं",
+          "चांदोबावर जायचं",
+          "खेळाडू व्हायचं",
+          "गायक व्हायचं"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "ईशानचं स्वप्न कसं पूर्ण झालं?",
+        "q_en": "How did Ishaan's dream come true?",
+        "options": [
+          "नशिबाने",
+          "मेहनत आणि अभ्यासाने",
+          "पैशाने",
+          "ओळखीने"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-031",
+    "level": 3,
+    "title_mr": "बिरबलाची खिचडी",
+    "title_en": "Birbal's Khichdi",
+    "text_mr": "कडाक्याची थंडी पडली होती. बादशहा अकबर म्हणाला, 'इतक्या थंडीत तलावात रात्रभर उभं राहणं अशक्य आहे.' एक गरीब माणूस म्हणाला, 'महाराज, मी राहीन.' तो रात्रभर थंड पाण्यात उभा राहिला. सकाळी अकबराने विचारलं, 'रात्री काय दिसलं?' तो म्हणाला, 'दूरवर एक दिवा दिसला.' अकबर म्हणाला, 'मग दिव्याच्या उष्णतेने वाचलास. बक्षीस नाही.' माणूस दुःखी झाला. बिरबलाने युक्ती केली. त्याने अंगणात खिचडीचं भांडं टांगलं. खाली जमिनीवर विस्तव ठेवला. अकबर हसला, 'अशी खिचडी कशी शिजेल?' बिरबल म्हणाला, 'दूरच्या दिव्याने माणूस वाचतो, तर दूरच्या विस्तवाने खिचडी का नाही?' अकबर लाजला. त्याने माणसाला बक्षीस दिलं.",
+    "text_en": "Bitter cold had set in. Emperor Akbar said, 'Standing all night in the lake in such cold is impossible.' A poor man said, 'Your Majesty, I will.' He stood all night in the cold water. In the morning Akbar asked, 'What did you see at night?' He said, 'I saw a lamp far away.' Akbar said, 'Then the lamp's warmth saved you. No reward.' The man was saddened. Birbal devised a plan. He hung a pot of khichdi in the courtyard. Below, on the ground, he placed embers. Akbar laughed, 'How will khichdi cook like this?' Birbal said, 'If a distant lamp can save a man, why can't distant embers cook khichdi?' Akbar was shamed. He gave the man the reward.",
+    "words": 87,
+    "target_wpm": 95,
+    "questions": [
+      {
+        "q_mr": "अकबराने गरिबाला बक्षीस का नाकारलं?",
+        "q_en": "Why did Akbar deny the poor man the reward?",
+        "options": [
+          "तो पाण्यात उतरलाच नाही",
+          "दूरचा दिवा दिसल्याचं कारण सांगून",
+          "तो उशिरा आला",
+          "बक्षीस संपलं होतं"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "बिरबलाने अकबराची चूक कशी दाखवली?",
+        "q_en": "How did Birbal show Akbar his error?",
+        "options": [
+          "वाद घालून",
+          "दूरच्या विस्तवावर खिचडी शिजवण्याचा प्रयोग करून",
+          "दरबार सोडून",
+          "माणसाला पैसे देऊन"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-032",
+    "level": 3,
+    "title_mr": "निळा कोल्हा",
+    "title_en": "The Blue Jackal",
+    "text_mr": "एका जंगलाजवळ एक कोल्हा राहत होता. एक दिवस कुत्र्यांनी त्याचा पाठलाग केला. तो जीव वाचवण्यासाठी धावत सुटला. वाटेत त्याला रंगाऱ्याचं निळ्या रंगाचं भांडं दिसलं. तो त्यात पडला. बाहेर आल्यावर त्याचं अंग पूर्ण निळं झालं होतं. जंगलातील प्राणी त्याला पाहून घाबरले. कोल्हा हुशारीने म्हणाला, 'मी देवाने पाठवलेला तुमचा राजा आहे.' सगळे प्राणी त्याला राजा मानू लागले. तो ऐषोआरामात राहू लागला. पण एका पौर्णिमेच्या रात्री त्याने कोल्ह्यांचं ओरडणं ऐकलं. तो राहवेना. तोही मोठ्याने ओरडला. त्याचं खरं रूप उघड झालं. प्राण्यांनी त्याला हाकललं. खोटं फार काळ टिकत नाही.",
+    "text_en": "A jackal lived near a forest. One day dogs chased him. He ran to save his life. On the way he saw a dyer's pot of blue colour. He fell into it. When he came out, his body was fully blue. The forest animals were frightened to see him. Cleverly the jackal said, 'I am your king, sent by God.' All the animals accepted him as king. He began to live in luxury. But one full-moon night he heard jackals howling. He could not restrain himself. He too howled loudly. His true form was revealed. The animals drove him away. Falsehood does not last long.",
+    "words": 85,
+    "target_wpm": 96,
+    "questions": [
+      {
+        "q_mr": "कोल्हा निळा कसा झाला?",
+        "q_en": "How did the jackal turn blue?",
+        "options": [
+          "रंग खाल्ल्याने",
+          "रंगाऱ्याच्या भांड्यात पडून",
+          "आजाराने",
+          "देवाच्या कृपेने"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "कोल्ह्याचं खरं रूप कसं उघड झालं?",
+        "q_en": "How was the jackal's true form revealed?",
+        "options": [
+          "आरशात पाहून",
+          "कोल्ह्यांसारखं ओरडल्याने",
+          "पावसाने रंग धुतल्याने",
+          "सिंहाने ओळखल्याने"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-033",
+    "level": 3,
+    "title_mr": "कृतज्ञ पोपट",
+    "title_en": "The Grateful Parrot",
+    "text_mr": "एका मोठ्या आंब्याच्या झाडावर पोपटांचं थवं राहत होतं. झाड दरवर्षी गोड आंबे द्यायचं. पोपट आनंदात राहायचे. त्यांची किलबिल दिवसभर चालायची. वर्षं गेली. झाड म्हातारं झालं. त्याची पानं गळू लागली. त्याला फळं येईनाशी झाली. एकेक करून सगळे पोपट दुसऱ्या झाडांवर निघून गेले. पण एक म्हातारा पोपट थांबला. तो म्हणाला, 'या झाडाने मला आयुष्यभर खायला दिलं. संकटात मी याला सोडणार नाही.' देवाला हे पाहून कौतुक वाटलं. तो म्हणाला, 'तुझ्या निष्ठेवर खूश आहे. वर माग.' पोपट म्हणाला, 'माझ्या झाडाला पुन्हा फळं येऊ देत.' दुसऱ्याच दिवशी झाडाला मोहोर आला. कृतज्ञता हेच मोठं पुण्य आहे.",
+    "text_en": "A flock of parrots lived on a big mango tree. Every year the tree bore sweet mangoes. The parrots lived happily. Their chatter lasted all day. Years passed. The tree grew old. Its leaves began to fall. It stopped bearing fruit. One by one all the parrots left for other trees. But one old parrot stayed. He said, 'This tree fed me all my life. In trouble I will not leave it.' God was touched to see this. He said, 'I am pleased with your loyalty. Ask a boon.' The parrot said, 'Let my tree bear fruit again.' The very next day the tree blossomed. Gratitude is the greatest virtue.",
+    "words": 90,
+    "target_wpm": 98,
+    "questions": [
+      {
+        "q_mr": "सगळे पोपट झाड सोडून का गेले?",
+        "q_en": "Why did all the parrots leave the tree?",
+        "options": [
+          "झाड कोसळलं",
+          "झाडाला फळं येईनाशी झाली",
+          "वादळ आलं",
+          "शिकारी आला"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "म्हाताऱ्या पोपटाने कोणता वर मागितला?",
+        "q_en": "What boon did the old parrot ask for?",
+        "options": [
+          "स्वतःसाठी घर",
+          "झाडाला पुन्हा फळं यावीत",
+          "नवं झाड",
+          "अमरत्व"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-034",
+    "level": 3,
+    "title_mr": "तेनाली आणि चोर",
+    "title_en": "Tenali and the Thieves",
+    "text_mr": "तेनाली रामाच्या गावात चोऱ्या वाढल्या होत्या. लोक रात्री जागून काढायचे. एका रात्री तेनालीला घरामागे चाहूल लागली. त्याने खिडकीतून पाहिलं. दोन चोर भिंत चढत होते. त्यांच्या हातात पोती होती. तेनालीने आरडाओरडा केला नाही. त्याने बायकोला मोठ्याने सांगितलं, 'आपले सगळे दागिने या पेटीत भर. चोर आले तर विहिरीत टाकू.' चोरांनी हे ऐकलं. ते खुश झाले. तेनालीने दगडांनी भरलेली पेटी विहिरीजवळ ठेवली. मग तो झोपल्याचं नाटक करू लागला. चोर आत आले. त्यांनी जड पेटी उचलली. त्यांनी ती विहिरीत टाकली. धप्प असा आवाज झाला. तेनाली उठला. तो ओरडला, 'चोर, चोर.' गावकरी काठ्या घेऊन धावले. चोर पकडले गेले. हुशारीपुढे बळ कमी पडतं.",
+    "text_en": "Thefts had risen in Tenali Rama's village. People spent nights awake. One night Tenali sensed movement behind the house. He looked out of the window. Two thieves were climbing the wall. They held sacks in their hands. Tenali did not raise an alarm. He told his wife loudly, 'Pack all our jewellery in this box. If thieves come, we will throw it in the well.' The thieves heard this. They were pleased. Tenali placed a box full of stones near the well. Then he pretended to sleep. The thieves came in. They lifted the heavy box. They threw it into the well. There was a splash. Tenali got up. He shouted, 'Thieves, thieves.' The villagers ran with sticks. The thieves were caught. Strength fails before wit.",
+    "words": 97,
+    "target_wpm": 99,
+    "questions": [
+      {
+        "q_mr": "तेनालीने बायकोला मोठ्याने काय सांगितलं?",
+        "q_en": "What did Tenali tell his wife loudly?",
+        "options": [
+          "पोलीस बोलाव",
+          "दागिने पेटीत भरून विहिरीत टाकू",
+          "दार बंद कर",
+          "गावकऱ्यांना उठव"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "पेटीत खरं काय होतं?",
+        "q_en": "What was really in the box?",
+        "options": [
+          "दागिने",
+          "दगड",
+          "कपडे",
+          "पैसे"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-035",
+    "level": 3,
+    "title_mr": "कोंढाणा घेतला",
+    "title_en": "The Fall of Kondhana",
+    "text_mr": "छत्रपती शिवाजी महाराजांना कोंढाणा किल्ला परत हवा होता. तो मोगलांच्या ताब्यात होता. त्यांनी ही अवघड जबाबदारी तानाजी मालुसऱ्यांवर सोपवली. तेव्हा तानाजींच्या मुलाचं लग्न ठरलं होतं. घरात आनंदाचं वातावरण होतं. पण तानाजी म्हणाले, 'आधी लगीन कोंढाण्याचं.' ते निवडक मावळ्यांसह रात्री निघाले. काळोखी रात्र होती. ते दोरखंडाच्या शिडीने किल्ल्यावर चढले. तिथे उदयभानू सैन्यासह वाट पाहत होता. घनघोर लढाई झाली. तानाजी धारातीर्थी पडले. पण मावळ्यांनी हार मानली नाही. त्यांनी किल्ला जिंकला. ही बातमी ऐकून शिवाजी महाराज म्हणाले, 'गड आला, पण सिंह गेला.' स्वराज्यासाठी दिलेलं बलिदान अजरामर झालं.",
+    "text_en": "Chhatrapati Shivaji Maharaj wanted the Kondhana fort back. It was under Mughal control. He entrusted this hard task to Tanaji Malusare. Then Tanaji's son's wedding was fixed. The house was full of joy. But Tanaji said, 'First the wedding of Kondhana.' He set out at night with chosen soldiers. It was a dark night. They climbed the fort with a rope ladder. Udaybhanu waited there with his army. A fierce battle followed. Tanaji fell in battle. But the soldiers did not give up. They won the fort. Hearing this news, Shivaji Maharaj said, 'The fort came, but the lion is gone.' The sacrifice for Swarajya became immortal.",
+    "words": 84,
+    "target_wpm": 101,
+    "questions": [
+      {
+        "q_mr": "तानाजींच्या मुलाचं काय ठरलं होतं?",
+        "q_en": "What was fixed for Tanaji's son?",
+        "options": [
+          "लग्न",
+          "नोकरी",
+          "प्रवास",
+          "शाळाप्रवेश"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "किल्ला जिंकल्यावर शिवाजी महाराज काय म्हणाले?",
+        "q_en": "What did Shivaji Maharaj say after winning the fort?",
+        "options": [
+          "आनंद झाला",
+          "गड आला, पण सिंह गेला",
+          "पुन्हा लढू",
+          "मिठाई वाटा"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-036",
+    "level": 3,
+    "title_mr": "पुरात अडकलेले गाव",
+    "title_en": "The Flooded Village",
+    "text_mr": "सलग चार दिवस मुसळधार पाऊस पडत होता. गावाजवळची नदी दुथडी भरून वाहत होती. पाणी शेतात शिरलं. मग घरांमध्ये शिरू लागलं. लोक घाबरले. जनावरंही अस्वस्थ झाली. सरपंचांनी धैर्याने पुढाकार घेतला. त्यांनी गावकऱ्यांची बैठक घेतली. तरुणांनी मिळून वाळूची पोती रचली. बायकांनी शाळेत स्वयंपाक सुरू केला. मुलांना आणि वृद्धांना सुरक्षित ठिकाणी हलवलं. दोन दिवसांनी पाऊस थांबला. पाणी हळूहळू ओसरलं. सगळ्यांनी मिळून गाव स्वच्छ केलं. त्या वर्षी शेतात विक्रमी पीक आलं. गावकरी म्हणाले, 'एकजुटीपुढे कोणतंच संकट मोठं नाही.' संकटातच माणुसकी दिसते.",
+    "text_en": "Heavy rain fell for four straight days. The river near the village flowed full to its banks. Water entered the fields. Then it began to enter homes. People were frightened. The cattle too grew restless. The sarpanch boldly took the lead. He called a meeting of villagers. The youth together stacked sandbags. The women started cooking at the school. The children and elders were moved to safety. After two days the rain stopped. Slowly the water receded. Everyone together cleaned the village. That year the fields bore a record crop. The villagers said, 'No calamity is greater than unity.' Humanity shows itself in crisis.",
+    "words": 77,
+    "target_wpm": 102,
+    "questions": [
+      {
+        "q_mr": "गावाचं संकट काय होतं?",
+        "q_en": "What was the village's crisis?",
+        "options": [
+          "दुष्काळ",
+          "पूर",
+          "भूकंप",
+          "आग"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "गावकऱ्यांनी संकटाचा सामना कसा केला?",
+        "q_en": "How did the villagers face the crisis?",
+        "options": [
+          "गाव सोडून",
+          "एकजुटीने काम करून",
+          "मदतीची वाट पाहून",
+          "भांडून"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-037",
+    "level": 3,
+    "title_mr": "अंतराळाचं स्वप्न",
+    "title_en": "Dream of Space",
+    "text_mr": "साताऱ्याजवळच्या छोट्या गावात स्नेहा नावाची मुलगी राहते. तिला रात्री गच्चीवर झोपून तारे मोजायला खूप आवडतं. ती ताऱ्यांना नावंही ठेवते. एक दिवस शाळेत विज्ञान दिन साजरा झाला. शिक्षकांनी कल्पना चावलांची गोष्ट सांगितली. स्नेहाच्या डोळ्यांत चमक आली. तिने ठरवलं, 'मी अंतराळवीर होणार.' तेव्हापासून ती रोज गणित आणि विज्ञानाचा अभ्यास करते. तिने पुठ्ठ्याचं आणि बाटल्यांचं रॉकेट बनवलं. तालुका विज्ञान प्रदर्शनात तिच्या प्रतिकृतीला पहिलं बक्षीस मिळालं. वर्तमानपत्रात तिचं नाव आणि फोटो छापला. आजी म्हणाली, 'आकाशालाही गवसणी घाल.' स्वप्न मोठं असलं की मेहनतही मोठी होते.",
+    "text_en": "In a small village near Satara lives a girl named Sneha. She loves lying on the terrace at night counting stars. She even names the stars. One day Science Day was celebrated at school. The teacher told Kalpana Chawla's story. Sneha's eyes sparkled. She decided, 'I will become an astronaut.' Since then she studies maths and science every day. She made a rocket of cardboard and bottles. At the taluka science exhibition her model won first prize. Her name and photo appeared in the newspaper. Grandma said, 'Touch the sky itself.' When the dream is big, the effort too is big.",
+    "words": 80,
+    "target_wpm": 104,
+    "questions": [
+      {
+        "q_mr": "स्नेहाला प्रेरणा कोणापासून मिळाली?",
+        "q_en": "Who inspired Sneha?",
+        "options": [
+          "शिक्षकांकडून",
+          "कल्पना चावलांच्या गोष्टीतून",
+          "आईकडून",
+          "चित्रपटातून"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "विज्ञान प्रदर्शनात स्नेहाला काय मिळालं?",
+        "q_en": "What did Sneha win at the science exhibition?",
+        "options": [
+          "दुसरं बक्षीस",
+          "पहिलं बक्षीस",
+          "प्रमाणपत्रच नाही",
+          "सांत्वनपर बक्षीस"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-038",
+    "level": 3,
+    "title_mr": "आजोबांचा आंबा",
+    "title_en": "Grandpa's Mango Tree",
+    "text_mr": "आमच्या अंगणात एक जुना आंब्याचा झाड आहे. आजोबांनी तो लहान असताना स्वतःच्या हाताने लावला होता. उन्हाळ्यात त्याला शेकडो आंबे लागतात. आजोबा म्हणतात, 'झाड माझा मित्र आहे.' ते रोज सकाळी त्याला पाणी घालतात. गेल्या वर्षी आजोबा आजारी पडले. ते अंथरुणाला खिळले. झाडाखाली बसू शकत नव्हते. मी रोज त्यांना झाडाची खबर द्यायचो. 'आज नवीन पालवी आली,' मी सांगायचो. 'आज कोकिळा बसली होती.' आजोबा हसायचे. हळूहळू ते बरे झाले. पहिल्या दिवशी ते झाडाला भेटायला आले. त्यांनी झाडाला मिठी मारली. झाडं फक्त फळं देत नाहीत, आठवणीही देतात.",
+    "text_en": "In our courtyard stands an old mango tree. Grandpa planted it with his own hands when he was young. In summer it bears hundreds of mangoes. Grandpa says, 'The tree is my friend.' Every morning he waters it. Last year grandpa fell ill. He was bedridden. He could not sit under the tree. Every day I brought him news of the tree. 'Today new leaves sprouted,' I told him. 'Today a koel sat on it.' Grandpa smiled. Slowly he recovered. On the first day he came to meet the tree. He hugged the tree. Trees give not only fruits, but memories too.",
+    "words": 83,
+    "target_wpm": 105,
+    "questions": [
+      {
+        "q_mr": "आंब्याचं झाड कोणी लावलं होतं?",
+        "q_en": "Who planted the mango tree?",
+        "options": [
+          "वडिलांनी",
+          "आजोबांनी लहानपणी",
+          "शेजाऱ्याने",
+          "मी"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "आजोबा आजारी असताना मुलगा काय करायचा?",
+        "q_en": "What did the boy do while grandpa was ill?",
+        "options": [
+          "खेळायचा",
+          "रोज झाडाची खबर द्यायचा",
+          "शाळेत जायचा",
+          "झोपायचा"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-039",
+    "level": 3,
+    "title_mr": "कबुतरं आणि जाळं",
+    "title_en": "The Doves and the Net",
+    "text_mr": "एका शेतात धान्याचे दाणे पसरले होते. कबुतरांचा मोठा थवा तिथे उतरला. ते आनंदाने दाणे टिपू लागले. त्यांना धोक्याची कल्पना नव्हती. अचानक वरून जाळं पडलं. सगळी कबुतरं अडकली. ते घाबरून फडफडू लागले. कोणी इकडे ओढायचं, कोणी तिकडे. त्यांचा म्हातारा नेता म्हणाला, 'घाबरू नका. वाद थांबवा. सगळ्यांनी एकदम एकाच दिशेने उडा.' सगळ्यांनी एकत्र जोर लावला. जाळ्यासकट थवा आकाशात उडाला. शिकारी तोंड पाहत राहिला. कबुतरं त्यांच्या उंदीर मित्राकडे गेली. उंदराने जाळ्याच्या गाठी एकेक करून कुरतडल्या. सगळी मोकळी झाली. एकजूट हेच खरं बळ आहे.",
+    "text_en": "Grains lay scattered in a field. A large flock of doves landed there. They began to pick grains happily. They had no idea of danger. Suddenly a net fell from above. All the doves were trapped. They fluttered in panic. Some pulled this way, some that. Their old leader said, 'Do not fear. Stop quarrelling. All fly together at once in one direction.' All pulled together. The flock rose into the sky with the net. The hunter was left staring. The doves went to their mouse friend. The mouse gnawed the knots of the net one by one. All were freed. Unity itself is the true strength.",
+    "words": 80,
+    "target_wpm": 106,
+    "questions": [
+      {
+        "q_mr": "कबुतरं जाळ्यात कशी अडकली?",
+        "q_en": "How were the doves trapped in the net?",
+        "options": [
+          "झोपेत असताना",
+          "दाणे टिपत असताना वरून जाळं पडलं",
+          "पिंजऱ्यात शिरून",
+          "पाण्यात उतरून"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "कबुतरं आकाशात कशी उडाली?",
+        "q_en": "How did the doves fly into the sky?",
+        "options": [
+          "एकेकटीने",
+          "सगळ्यांनी एकत्र जोर लावून",
+          "जाळं तोडून",
+          "शिकाऱ्याच्या मदतीने"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-040",
+    "level": 3,
+    "title_mr": "ससे आणि हत्ती",
+    "title_en": "The Rabbits and the Elephants",
+    "text_mr": "जंगलातल्या तळ्याजवळ सशांची मोठी वस्ती होती. तिथे त्यांची घरं आणि बिळं होती. उन्हाळ्यात हत्तींचा कळप पाणी प्यायला येऊ लागला. त्यांच्या जड पायांखाली सशांची घरं चिरडली जाऊ लागली. ससे घाबरले. ते एकत्र जमले. त्यांचा नेता हुशार होता. तो हत्तींच्या राजाकडे गेला. तो नम्रपणे म्हणाला, 'तळ्यात चंद्र राहतो. तुम्ही पाणी घाण करता म्हणून तो रागावला आहे.' पौर्णिमेच्या रात्री त्याने हत्तींना तळं दाखवलं. पाण्यात चंद्राचं प्रतिबिंब हलत होतं. हत्ती घाबरले. ते दुसऱ्या तळ्यावर गेले. सशांची वस्ती वाचली. बुद्धीपुढे शक्ती नमते.",
+    "text_en": "Near the jungle lake lived a large colony of rabbits. Their homes and burrows were there. In summer a herd of elephants began to come to drink water. Under their heavy feet the rabbits' homes were crushed. The rabbits were frightened. They gathered together. Their leader was clever. He went to the king of elephants. Humbly he said, 'The moon lives in the lake. He is angry because you dirty the water.' On full-moon night he showed the elephants the lake. The moon's reflection trembled in the water. The elephants were frightened. They went to another lake. The rabbits' colony was saved. Strength bows before wisdom.",
+    "words": 77,
+    "target_wpm": 108,
+    "questions": [
+      {
+        "q_mr": "सशांची अडचण काय होती?",
+        "q_en": "What was the rabbits' trouble?",
+        "options": [
+          "पाणी संपलं",
+          "हत्तींच्या पायांखाली घरं चिरडली जात होती",
+          "अन्न नव्हतं",
+          "आजार पसरला"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "सशांच्या नेत्याने हत्तींना कसं घाबरवलं?",
+        "q_en": "How did the rabbits' leader frighten the elephants?",
+        "options": [
+          "सैन्य बोलावून",
+          "तळ्यात रागावलेल्या चंद्राची गोष्ट सांगून",
+          "आरडाओरडा करून",
+          "जाळं लावून"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-041",
+    "level": 3,
+    "title_mr": "लोभी कुत्रा",
+    "title_en": "The Greedy Dog",
+    "text_mr": "एक कुत्रा बाजारातून भाकरीचा मोठा तुकडा घेऊन चालला होता. तो खूप खुश होता. वाटेत एक छोटा पूल लागला. खाली स्वच्छ पाणी वाहत होतं. कुत्रा पुलावर थांबला. त्याने पाण्यात पाहिलं. त्याला आपलंच प्रतिबिंब दिसलं. पण त्याला वाटलं, दुसऱ्या कुत्र्याकडेही भाकर आहे. त्याच्या मनात लोभ आला. 'त्याची भाकरही मीच घेईन,' त्याने ठरवलं. 'मग माझ्याकडे दोन भाकरी होतील.' त्याने तोंड उघडून भुंकायला सुरुवात केली. त्याची स्वतःची भाकर पाण्यात पडली. ती वाहून गेली. कुत्रा तोंड पाहत राहिला. लोभाने हातचंही जातं.",
+    "text_en": "A dog walked from the market with a big piece of bhakri. He was very happy. On the way came a small bridge. Clean water flowed below. The dog stopped on the bridge. He looked into the water. He saw his own reflection. But he thought another dog also had bread. Greed rose in his mind. 'I will take his bread too,' he decided. 'Then I will have two breads.' He opened his mouth to bark. His own bread fell into the water. It washed away. The dog was left staring. Greed loses even what is in hand.",
+    "words": 76,
+    "target_wpm": 109,
+    "questions": [
+      {
+        "q_mr": "कुत्र्याला पाण्यात काय दिसलं?",
+        "q_en": "What did the dog see in the water?",
+        "options": [
+          "मासे",
+          "आपलंच प्रतिबिंब",
+          "दुसरा कुत्रा",
+          "खजिना"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "कुत्र्याची भाकर का गेली?",
+        "q_en": "Why did the dog lose his bread?",
+        "options": [
+          "चोरीला गेली",
+          "भुंकायला तोंड उघडलं म्हणून पाण्यात पडली",
+          "कोणी हिसकावली",
+          "खराब झाली"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-042",
+    "level": 3,
+    "title_mr": "खरा खजिना",
+    "title_en": "The Real Treasure",
+    "text_mr": "एका गावात एक कष्टाळू शेतकरी राहत होता. त्याचे दोन मुलगे धट्टेकट्टे होते. पण ते आळशी होते. ते दिवसभर झाडाखाली बसून गप्पा मारत. शेतकरी समजावून थकला. तो म्हातारा झाला. मरताना त्याने दोघांना जवळ बोलावलं. तो म्हणाला, 'शेतात खजिना पुरला आहे. खणून काढा.' असं म्हणून त्याने डोळे मिटले. दोघांनी दुसऱ्याच दिवसापासून शेत खणायला सुरुवात केली. त्यांनी पूर्ण शेत खोल खणलं. पण खजिना सापडला नाही. निराश होऊन ते बसले. तेवढ्यात शेजारी म्हणाला, 'आता यात बी पेरा.' त्यांनी ज्वारी पेरली. त्या वर्षी भरघोस पीक आलं. तेव्हा त्यांना वडिलांचं खरं सांगणं कळलं. मेहनत हाच खरा खजिना आहे.",
+    "text_en": "In a village lived a hardworking farmer. His two sons were sturdy. But they were lazy. All day they sat under a tree chatting. The farmer tired of advising them. He grew old. Dying, he called both near. He said, 'Treasure is buried in the field. Dig it out.' Saying this, he closed his eyes. From the very next day the two began to dig the field. They dug the whole field deep. But no treasure was found. Disappointed, they sat down. Just then the neighbour said, 'Now sow seeds in it.' They sowed sorghum. That year a rich harvest came. Then they understood father's true message. Hard work itself is the real treasure.",
+    "words": 92,
+    "target_wpm": 111,
+    "questions": [
+      {
+        "q_mr": "मुलगे दिवसभर काय करायचे?",
+        "q_en": "What did the sons do all day?",
+        "options": [
+          "शेतात काम",
+          "झाडाखाली बसून गप्पा",
+          "शाळेत अभ्यास",
+          "बाजारात विक्री"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "मुलांना खरा खजिना कसा सापडला?",
+        "q_en": "How did the sons find the real treasure?",
+        "options": [
+          "सोनं सापडलं",
+          "खणलेल्या शेतात पीक घेऊन",
+          "नकाशा सापडला",
+          "कोणी दिलं"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-043",
+    "level": 3,
+    "title_mr": "विज्ञान प्रदर्शन",
+    "title_en": "The Science Exhibition",
+    "text_mr": "आमच्या शाळेत यंदा मोठं विज्ञान प्रदर्शन भरलं होतं. मी आणि माझा मित्र साहिलने पाण्याच्या शुद्धीकरणाचा प्रकल्प करायचं ठरवलं. आम्ही आठवडाभर मेहनत केली. आम्ही बाटलीत वाळू, कोळसा आणि कापसाचे थर लावले. घाण पाणी वरून ओतलं की खाली स्वच्छ पाणी यायचं. प्रदर्शनाच्या दिवशी खूप गर्दी होती. परीक्षकांनी आम्हाला अनेक प्रश्न विचारले. मी थोडा घाबरलो होतो. पण साहिलने धीटपणे उत्तरं दिली. आमच्या प्रकल्पाला दुसरं बक्षीस मिळालं. मुख्याध्यापकांनी सर्वांचं कौतुक केलं. घरी आईने पेढे वाटले. त्या दिवसापासून मला विज्ञानाची गोडी लागली.",
+    "text_en": "This year our school held a big science exhibition. My friend Sahil and I decided to make a water-purification project. We worked hard for a week. We layered sand, coal and cotton in a bottle. Poured dirty water on top, clean water came below. On the exhibition day there was a big crowd. The judges asked us many questions. I was a little nervous. But Sahil answered boldly. Our project won second prize. The headmaster praised everyone. At home mother distributed pedhas. Since that day I have loved science.",
+    "words": 77,
+    "target_wpm": 112,
+    "questions": [
+      {
+        "q_mr": "मुलांनी प्रकल्पासाठी काय वापरलं?",
+        "q_en": "What did the boys use for the project?",
+        "options": [
+          "वीज आणि तारा",
+          "वाळू, कोळसा आणि कापसाचे थर",
+          "रसायनं",
+          "यंत्रं"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "प्रकल्पाला कोणतं बक्षीस मिळालं?",
+        "q_en": "Which prize did the project win?",
+        "options": [
+          "पहिलं",
+          "दुसरं",
+          "तिसरं",
+          "काहीच नाही"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-044",
+    "level": 3,
+    "title_mr": "रेल्वेचा प्रवास",
+    "title_en": "The Train Journey",
+    "text_mr": "उन्हाळ्याच्या सुट्टीत आम्ही आजोळी जायचं ठरवलं. आदल्या रात्री बॅगा भरल्या. पहाटे पुणे स्थानकावर पोहोचलो. फलाटावर प्रचंड गर्दी होती. लोक धावत होते. गाडी येताच आम्ही खिडकीजवळच्या जागा पकडल्या. गाडी सुरू झाली. बाहेर हिरवी शेतं धावत होती. समोरच्या आजीने आम्हाला लाडू दिले. मी त्यांना गोष्टीचं पुस्तक वाचून दाखवलं. त्या खुश झाल्या. वाटेत लांब बोगदे आले. मुले आनंदाने ओरडली. तीन तासांत आम्ही पोहोचलो. मामा स्थानकावर वाट पाहत होता. प्रवासात भेटलेली माणसं प्रवासापेक्षाही गोड असतात.",
+    "text_en": "In the summer holidays we decided to visit grandma's village. We packed bags the previous night. We reached Pune station at dawn. The platform was hugely crowded. People were running. As the train arrived we grabbed window seats. The train started. Outside, green fields raced by. The old woman opposite gave us laddus. I read out a storybook to her. She was delighted. Long tunnels came on the way. The children shouted with joy. In three hours we arrived. Uncle waited at the station. People met on a journey are sweeter than the journey itself.",
+    "words": 71,
+    "target_wpm": 114,
+    "questions": [
+      {
+        "q_mr": "कुटुंब कुठे चाललं होतं?",
+        "q_en": "Where was the family going?",
+        "options": [
+          "मुंबईला",
+          "आजीच्या गावी",
+          "शाळेला",
+          "बाजारात"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "प्रवासात मुलाने आजीला काय दिलं?",
+        "q_en": "What did the boy give the old woman on the journey?",
+        "options": [
+          "लाडू",
+          "गोष्टीचं पुस्तक वाचून दाखवलं",
+          "पैसे",
+          "खेळणं"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-045",
+    "level": 3,
+    "title_mr": "दिवा आणि वारा",
+    "title_en": "The Lamp and the Wind",
+    "text_mr": "एका छोट्या घरात मातीचा दिवा जळत होता. बाहेर जोराचा वारा वाहत होता. झाडं हलत होती. वारा दिव्याजवळ आला. तो म्हणाला, 'मी मोठा वादळ आहे. मी तुला एका फुंकरित विझवीन.' दिवा शांतपणे म्हणाला, 'प्रयत्न करून पाहा.' वाऱ्याने जोरात फुंकर घातली. खिडक्या वाजल्या. दिव्याची ज्योत हलली, पण विझली नाही. वाऱ्याने पुन्हा प्रयत्न केला. यावेळी आणखी जोरात. पण पुन्हा अपयश आलं. वारा थकला. दिवा म्हणाला, 'माझ्यात तेल आणि वात आहे. माझं बळ आतून येतं.' वारा लाजला. तो हळू वाहू लागला. त्या रात्री दिवा पहाटेपर्यंत जळत राहिला. आतलं बळ हेच खरं बळ आहे.",
+    "text_en": "In a small house an earthen lamp burned. Outside a strong wind blew. Trees swayed. The wind came near the lamp. It said, 'I am a great storm. I will blow you out in one puff.' The lamp said calmly, 'Try and see.' The wind blew hard. Windows rattled. The lamp's flame trembled, but did not die. The wind tried again. This time even harder. But again it failed. The wind grew tired. The lamp said, 'I have oil and a wick. My strength comes from within.' The wind was shamed. It began to blow softly. That night the lamp burned till dawn. Inner strength is the true strength.",
+    "words": 89,
+    "target_wpm": 115,
+    "questions": [
+      {
+        "q_mr": "वाऱ्याने दिव्याला काय आव्हान दिलं?",
+        "q_en": "What challenge did the wind give the lamp?",
+        "options": [
+          "विझवून टाकण्याचं",
+          "पळवून नेण्याचं",
+          "फोडण्याचं",
+          "हलवण्याचं"
+        ],
+        "answer": 0
+      },
+      {
+        "q_mr": "दिवा का विझला नाही?",
+        "q_en": "Why didn't the lamp go out?",
+        "options": [
+          "वारा थांबला",
+          "त्याचं बळ आतून येत होतं",
+          "कोणी आडोसा केला",
+          "पाऊस आला"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-046",
+    "level": 4,
+    "title_mr": "ब्राह्मण आणि तीन ठक",
+    "title_en": "The Brahmin and the Three Rogues",
+    "text_mr": "एका गावात एक गरीब पण भोळा ब्राह्मण राहत होता. तो नित्य पूजा करायचा. एक दिवस एका श्रीमंत यजमानाने त्याला दानात एक चांगली बकरी दिली. ब्राह्मण तिला खांद्यावर घेऊन घरी चालला होता. वाटेत तीन ठकांनी त्याला पाहिलं. त्यांनी बकरी हडपायची युक्ती केली. तिघे वाटेत अंतराअंतरावर उभे राहिले. पहिला ठक समोर आला. तो नाक मुरडून म्हणाला, 'महाराज, कुत्रा खांद्यावर घेऊन कुठे चाललात?' ब्राह्मण रागावला, 'डोळे फुटले का? ही बकरी आहे.' थोडं पुढे गेल्यावर दुसरा म्हणाला, 'मेलेलं वासरू का वाहता?' ब्राह्मण गोंधळला. त्याने खांद्यावरची बकरी न्याहाळून पाहिली. आणखी पुढे तिसरा म्हणाला, 'गाढव घेऊन जाता की काय?' ब्राह्मण घाबरला. त्याला वाटलं, ही नक्कीच भुताटकी आहे. त्याने बकरी टाकून दिली आणि तो पळाला. ठकांनी बकरी उचलली. ते हसत सुटले. खोटं वारंवार ऐकलं की खरंही डळमळतं.",
+    "text_en": "In a village lived a poor but simple Brahmin. He prayed daily. One day a rich patron gave him a fine goat in charity. The Brahmin walked home carrying it on his shoulder. On the way three rogues saw him. They schemed to grab the goat. The three stood spaced out along the path. The first rogue came forward. Wrinkling his nose he said, 'Sir, where are you going with a dog on your shoulder?' The Brahmin was annoyed, 'Are you blind? This is a goat.' A little further the second said, 'Why do you carry a dead calf?' The Brahmin was confused. He examined the goat on his shoulder. Further still the third said, 'Are you carrying a donkey?' The Brahmin was frightened. He thought, this must surely be witchcraft. He dropped the goat and ran. The rogues picked up the goat. They burst out laughing. When a lie is heard repeatedly, even truth wavers.",
+    "words": 120,
+    "target_wpm": 120,
+    "questions": [
+      {
+        "q_mr": "ब्राह्मणाला बकरी कशी मिळाली होती?",
+        "q_en": "How had the Brahmin got the goat?",
+        "options": [
+          "विकत घेतली",
+          "दानात मिळाली",
+          "शेतात सापडली",
+          "बक्षीस मिळालं"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "ठकांनी बकरी कशी हडपली?",
+        "q_en": "How did the rogues grab the goat?",
+        "options": [
+          "बळजबरीने हिसकावून",
+          "वारंवार खोटं बोलून ब्राह्मणाला घाबरवून",
+          "चोरी करून",
+          "पैसे देऊन"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-047",
+    "level": 4,
+    "title_mr": "सोनेरी हंस",
+    "title_en": "The Golden Goose",
+    "text_mr": "एका स्वच्छ तळ्याकाठी हंसांचं थवं राहत होतं. त्यांचा राजा धृतराष्ट्र मोठा ज्ञानी होता. तो रोज थव्याला नीतीच्या गोष्टी सांगायचा. एक दिवस एका हंसीने सोनेरी पिसांचं पिल्लू जन्माला घातलं. सगळे आश्चर्यचकित झाले. पिल्लू मोठं झाल्यावर त्याची पिसं सोन्यासारखी चमकू लागली. त्याची कीर्ती दूरवर पसरली. एक लोभी राजा शिकारीसाठी आला. त्याने सोनेरी हंस जाळ्यात पकडला. तो म्हणाला, 'रोज एक पीस उपटेन. माझा खजिना भरेल.' हंस दुःखी झाला. तो म्हणाला, 'स्वेच्छेने दिलं असतं तर सोनं राहिलं असतं. बळजबरीने घेतलं म्हणून आता पिसं पांढरी होतील.' राजाने हसून एक पीस उपटलं. खरंच ते पांढरं झालं. राजा पश्चात्तापला. त्याने हंसाला मुक्त केलं. लोभ आणि बळजबरीने चांगलंही वाया जातं.",
+    "text_en": "A flock of swans lived by a clear lake. Their king, Dhritarashtra, was very wise. Every day he told the flock moral tales. One day a swan gave birth to a chick with golden feathers. All were amazed. When the chick grew, its feathers shone like gold. Its fame spread far and wide. A greedy king came hunting. He caught the golden swan in a net. He said, 'I will pluck one feather daily. My treasury will fill.' The swan was sad. It said, 'Had I given willingly, it would have stayed gold. Because you take by force, now the feathers will turn white.' Laughing, the king plucked one feather. Truly it turned white. The king repented. He freed the swan. Greed and force ruin even the good.",
+    "words": 102,
+    "target_wpm": 121,
+    "questions": [
+      {
+        "q_mr": "सोनेरी हंसाची पिसं पांढरी का झाली?",
+        "q_en": "Why did the golden swan's feathers turn white?",
+        "options": [
+          "आजारामुळे",
+          "बळजबरीने उपटल्यामुळे",
+          "वयामुळे",
+          "पाण्यामुळे"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "राजाने शेवटी काय केलं?",
+        "q_en": "What did the king do in the end?",
+        "options": [
+          "हंस मारला",
+          "पश्चात्तापून हंसाला मुक्त केलं",
+          "हंस विकला",
+          "पिसं साठवली"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-048",
+    "level": 4,
+    "title_mr": "अकबराची रेघ",
+    "title_en": "Akbar's Line",
+    "text_mr": "एक दिवस बादशहा अकबराने दरबारात जमिनीवर खडूने एक रेघ ओढली. तो म्हणाला, 'या रेघेला हात न लावता, न पुसता तिला आखूड करा.' दरबारी विचारात पडले. एक म्हणाला, 'हे अशक्य आहे.' दुसरा म्हणाला, 'जादूच हवी.' तिसऱ्याने डोकं खाजवलं. कोणीच पुढे येईना. बिरबल शांतपणे जागेवर बसला होता. तो मंद हसला. तो उठून पुढे आला. त्याने त्या रेघेजवळ आणखी एक लांब रेघ ओढली. तो म्हणाला, 'महाराज, पहिली रेघ आता आखूड झाली.' दरबारात हास्य पसरलं. अकबरही मनापासून हसला. तो म्हणाला, 'बिरबल, तुझी बुद्धी खरोखर तीक्ष्ण आहे.' त्याने बिरबलाला मोत्यांची माळ बक्षीस दिली. प्रश्नाकडे नव्या दृष्टीने पाहिलं की उत्तर सापडतं.",
+    "text_en": "One day Emperor Akbar drew a line with chalk on the floor of the court. He said, 'Without touching this line, without erasing it, make it shorter.' The courtiers fell into thought. One said, 'This is impossible.' Another said, 'Only magic can do it.' A third scratched his head. No one stepped forward. Birbal sat quietly in his place. He smiled faintly. He rose and came forward. He drew another, longer line beside that line. He said, 'Your Majesty, the first line is now shorter.' Laughter spread in the court. Akbar too laughed heartily. He said, 'Birbal, your wit is truly sharp.' He gifted Birbal a pearl necklace. Look at a question with fresh eyes and the answer appears.",
+    "words": 95,
+    "target_wpm": 123,
+    "questions": [
+      {
+        "q_mr": "अकबराने दरबारापुढे काय आव्हान ठेवलं?",
+        "q_en": "What challenge did Akbar place before the court?",
+        "options": [
+          "रेघ पुसण्याचं",
+          "रेघेला हात न लावता आखूड करण्याचं",
+          "रेघ मोजण्याचं",
+          "रेघ रंगवण्याचं"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "बिरबलाने आव्हान कसं पूर्ण केलं?",
+        "q_en": "How did Birbal meet the challenge?",
+        "options": [
+          "रेघ पुसून",
+          "शेजारी लांब रेघ ओढून",
+          "रेघ तोडून",
+          "उत्तर न देता"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-049",
+    "level": 4,
+    "title_mr": "विक्रम आणि वेताळ",
+    "title_en": "Vikram and the Vampire",
+    "text_mr": "राजा विक्रमादित्य शूर, दानशूर आणि सत्यवचनी होता. त्याच्या कीर्तीने एका तांत्रिकाचं लक्ष वेधलं. तांत्रिक म्हणाला, 'माझ्या यज्ञासाठी स्मशानातल्या पिंपळावर लटकलेला वेताळ आण.' विक्रमाने वचन दिलं. अमावस्येच्या रात्री तो स्मशानात गेला. सगळीकडे काळोख होता. त्याने वेताळाला खांद्यावर घेतलं. वेताळ म्हणाला, 'वाटेत मी गोष्ट सांगेन. शेवटी प्रश्न विचारेन. उत्तर माहीत असून गप्प राहिलास तर डोक्याची शंभर शकलं होतील.' त्याने रंजक गोष्ट सांगितली. शेवटी त्याने अवघड प्रश्न विचारला. विक्रमाला उत्तर माहीत होतं. सत्यवचनी राजा राहवेना. त्याने उत्तर दिलं. वेताळ हसून परत झाडावर गेला. विक्रम पुन्हा गेला. असं पंचवीस वेळा झालं. शेवटी वेताळ विक्रमाच्या चिकाटीवर खूश झाला. चिकाटी आणि सत्य यांचा विजय होतो.",
+    "text_en": "King Vikramaditya was brave, generous and truthful. His fame caught a tantrik's attention. The tantrik said, 'For my ritual, bring the vampire hanging on the peepal tree in the cremation ground.' Vikram gave his word. On the moonless night he went to the ground. Darkness lay everywhere. He took the vampire on his shoulder. The vampire said, 'On the way I will tell a story. At the end I will ask a question. If you know the answer yet stay silent, your head will split into a hundred pieces.' He told an entertaining tale. At the end he asked a hard question. Vikram knew the answer. The truthful king could not restrain himself. He answered. Laughing, the vampire returned to the tree. Vikram went again. This happened twenty-five times. At last the vampire was pleased with Vikram's perseverance. Perseverance and truth triumph.",
+    "words": 99,
+    "target_wpm": 124,
+    "questions": [
+      {
+        "q_mr": "तांत्रिकाने विक्रमाला काय सांगितलं?",
+        "q_en": "What did the tantrik ask Vikram?",
+        "options": [
+          "यज्ञ कर",
+          "स्मशानातला वेताळ आण",
+          "तलवार आण",
+          "मंत्र शिक"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "वेताळ झाडावर परत का जायचा?",
+        "q_en": "Why did the vampire return to the tree?",
+        "options": [
+          "तो घाबरायचा",
+          "विक्रम उत्तर द्यायचा म्हणून",
+          "रात्र संपायची",
+          "तांत्रिक बोलवायचा"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-050",
+    "level": 4,
+    "title_mr": "वेताळाची पहिली गोष्ट",
+    "title_en": "The Vampire's First Tale",
+    "text_mr": "वेताळाने विक्रमाला पहिली गोष्ट सांगितली. एका संपन्न नगरात तीन तरुण राहत होते. तिघंही विद्वान आणि देखणे होते. तिघंही एकाच राजकन्येवर प्रेम करत होते. राजकन्या कोणाची निवड करावी हे ठरवू शकत नव्हती. तेवढ्यात ती अचानक आजारी पडून मरण पावली. नगरात शोक पसरला. पहिला तरुण तिच्या अस्थी घेऊन वनात गेला. दुसऱ्याने तिच्या अस्थींची राख अंगाला लावून संन्यासी झाला. तिसऱ्याने स्मशानात बसून घोर तपश्चर्या केली. त्याच्या तपाने प्रसन्न होऊन देवाने राजकन्येला जिवंत केलं. मग वेताळाने विचारलं, 'राजा, सांग. राजकन्येशी लग्नाचा खरा हक्क कोणाचा?' विक्रम म्हणाला, 'ज्याने तप करून तिला जिवंत केलं, तो तिचा पिता झाला. राख लावणारा पुत्र झाला. अस्थी जपणाऱ्याचाच पती होण्याचा हक्क आहे.' वेताळ म्हणाला, 'उत्तर बरोबर.' तो हसून झाडावर परत गेला.",
+    "text_en": "The vampire told Vikram the first tale. In a prosperous city lived three youths. All three were learned and handsome. All three loved the same princess. The princess could not decide whom to choose. Just then she suddenly fell ill and died. Grief spread through the city. The first youth took her bones and went to the forest. The second smeared her ashes on his body and became an ascetic. The third sat in the cremation ground and performed severe penance. Pleased with his penance, God revived the princess. Then the vampire asked, 'King, tell me. Who has the true right to marry the princess?' Vikram said, 'He who revived her through penance became her father. He who wore the ash became her son. Only he who guarded her bones has the right to be her husband.' The vampire said, 'The answer is correct.' Laughing, he returned to the tree.",
+    "words": 111,
+    "target_wpm": 126,
+    "questions": [
+      {
+        "q_mr": "तिसऱ्या तरुणाने काय केलं?",
+        "q_en": "What did the third youth do?",
+        "options": [
+          "वनात गेला",
+          "घोर तपश्चर्या केली",
+          "संन्यासी झाला",
+          "रडत बसला"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "विक्रमाच्या मते लग्नाचा हक्क कोणाचा?",
+        "q_en": "In Vikram's view, whose is the right to marry?",
+        "options": [
+          "तप करणाऱ्याचा",
+          "राख लावणाऱ्याचा",
+          "अस्थी जपणाऱ्याचा",
+          "कोणाचाच नाही"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "s-051",
+    "level": 4,
+    "title_mr": "रायगडावरचा सोहळा",
+    "title_en": "The Ceremony at Raigad",
+    "text_mr": "इसवी सन सोळाशे चौऱ्याहत्तर सालची गोष्ट आहे. ज्येष्ठ महिन्यात रायगडावर मोठी तयारी सुरू होती. गडावर तोरणं बांधली होती. सनई चौघडे वाजत होते. दूरदूरहून सरदार, विद्वान आणि रयत आली होती. छत्रपती शिवाजी महाराजांचा राज्याभिषेक होणार होता. महाराज सोनेरी पालखीत बसून मिरवणुकीने आले. त्यांनी आधी जगदीश्वराच्या मंदिरात दर्शन घेतलं. मग ते भर दरबारात सिंहासनावर बसले. ब्राह्मणांनी वेदमंत्र म्हटले. त्यांच्यावर सुवर्णमुद्रांचा अभिषेक झाला. तोफांची सलामी झाली. 'छत्रपती शिवाजी महाराज की जय' चा गजर दऱ्याखोऱ्यात घुमला. त्या दिवसापासून स्वराज्याला छत्रपती मिळाले. रयतेच्या डोळ्यांत आनंदाचे अश्रू आले. हा दिवस इतिहासात सुवर्णाक्षरांनी लिहिला गेला.",
+    "text_en": "This is the tale of the year sixteen seventy-four. In the month of Jyeshtha, great preparations were under way at Raigad. Festooned arches were tied on the fort. Pipes and drums played. Chiefs, scholars and subjects had come from far and wide. The coronation of Chhatrapati Shivaji Maharaj was to take place. The Maharaj came in procession, seated in a golden palanquin. First he prayed at the Jagdishwar temple. Then he sat on the throne in full court. Brahmins chanted Vedic hymns. He was anointed with gold coins. Cannons saluted. 'Victory to Chhatrapati Shivaji Maharaj' echoed through the valleys. From that day Swarajya gained a Chhatrapati. Tears of joy came to the subjects' eyes. This day was written in history in golden letters.",
+    "words": 88,
+    "target_wpm": 127,
+    "questions": [
+      {
+        "q_mr": "राज्याभिषेक कुठे झाला?",
+        "q_en": "Where did the coronation take place?",
+        "options": [
+          "शिवनेरीवर",
+          "रायगडावर",
+          "प्रतापगडावर",
+          "सिंहगडावर"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "राज्याभिषेक कोणत्या सालात झाला?",
+        "q_en": "In which year did the coronation take place?",
+        "options": [
+          "सोळाशे चौऱ्याहत्तर",
+          "सोळाशे सत्त्याऐंशी",
+          "सोळाशे साठ",
+          "सोळाशे पंचाऐंशी"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "s-052",
+    "level": 4,
+    "title_mr": "नदी वाचवणारे गाव",
+    "title_en": "The Village That Saved Its River",
+    "text_mr": "मुळशीजवळचं एक छोटं गाव होतं. गावाशेजारून वाहणारी नदी दिवसेंदिवस घाण होत चालली होती. वरच्या बाजूच्या कारखान्याचं पाणी आणि गावातला प्लास्टिक कचरा त्यात मिसळत होता. पाण्याला वास येऊ लागला. मासे मरू लागले. गावकऱ्यांनी शाळेत बैठक घेतली. सुरुवातीला वाद झाला. मग ठरलं, प्रत्येकाने हातभार लावायचा. शाळेच्या मुलांनी नदीची स्वच्छता मोहीम सुरू केली. दर रविवारी ते काठावरचा कचरा गोळा करायचे. महिलांनी प्लास्टिक बंदीचा ठराव केला. सरपंचांनी कारखान्याला नोटीस पाठवली. कारखान्याने प्रक्रिया यंत्र बसवलं. वर्षभरात नदीचं पाणी स्वच्छ झालं. मासे परत आले. पक्षी किलबिलू लागले. आजूबाजूच्या गावांनीही हाच आदर्श घेतला. छोट्या कृतींतून मोठा बदल घडतो.",
+    "text_en": "There was a small village near Mulshi. The river flowing by the village grew dirtier day by day. Effluent from the upstream factory and the village's plastic waste mixed into it. The water began to stink. Fish began to die. The villagers held a meeting at the school. At first there was argument. Then it was decided: everyone would lend a hand. The schoolchildren started a river-cleaning drive. Every Sunday they collected rubbish from the banks. The women passed a plastic-ban resolution. The sarpanch sent the factory a notice. The factory installed a treatment plant. Within a year the river water turned clean. Fish returned. Birds chirped. Neighbouring villages too followed this example. Small deeds bring big change.",
+    "words": 91,
+    "target_wpm": 129,
+    "questions": [
+      {
+        "q_mr": "नदी घाण का झाली होती?",
+        "q_en": "Why had the river become dirty?",
+        "options": [
+          "पुरामुळे",
+          "कारखान्याचं पाणी आणि प्लास्टिकमुळे",
+          "दुष्काळामुळे",
+          "वाळूमुळे"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "मुलांनी स्वच्छतेसाठी काय केलं?",
+        "q_en": "What did the children do for cleanliness?",
+        "options": [
+          "झाडं लावली",
+          "दर रविवारी काठावरचा कचरा गोळा केला",
+          "पैसे जमवले",
+          "पोहायला शिकले"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-053",
+    "level": 4,
+    "title_mr": "तारकांमधली लेक",
+    "title_en": "The Daughter Among the Stars",
+    "text_mr": "हरियाणाच्या कर्नाल गावात एक छोटी मुलगी राहायची. तिचं नाव कल्पना चावला. घराजवळच विमानतळ होतं. तिला विमानं पाहून खूप आनंद व्हायचा. वडील तिला धावपट्टीजवळ न्यायचे. ती आकाशाकडे बोट दाखवून म्हणायची, 'मी एक दिवस तिथे उडेन.' तिने मन लावून अभ्यास केला. तिने अभियांत्रिकीचं शिक्षण घेतलं. मग उच्च शिक्षणासाठी ती अमेरिकेत गेली. तिथे तिने अंतराळ संशोधनात काम केलं. एकोणीसशे सत्त्याण्णव साली ती पहिल्यांदा अंतराळात गेली. भारतात सगळीकडे आनंद झाला. शाळाशाळांतून तिची गोष्ट सांगितली गेली. दुर्दैवाने दुसऱ्या मोहिमेत तिचं निधन झालं. पण तिचं स्वप्न हजारो मुलींच्या डोळ्यांत आजही जिवंत आहे. आकाशाला गवसणी घालणारी ती ताराच झाली.",
+    "text_en": "In Karnal village of Haryana lived a little girl. Her name was Kalpana Chawla. An airstrip lay near her home. She was thrilled to see aeroplanes. Father took her near the runway. Pointing at the sky she said, 'One day I will fly there.' She studied with devotion. She studied engineering. Then she went to America for higher studies. There she worked in space research. In nineteen ninety-seven she first went to space. Joy spread all over India. Her story was told in school after school. Sadly, she died in the second mission. But her dream lives today in the eyes of thousands of girls. She herself became a star, touching the sky.",
+    "words": 92,
+    "target_wpm": 130,
+    "questions": [
+      {
+        "q_mr": "कल्पना चावला कुठल्या गावची?",
+        "q_en": "Which village was Kalpana Chawla from?",
+        "options": [
+          "पुण्याची",
+          "कर्नालची",
+          "मुंबईची",
+          "नागपूरची"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "ती पहिल्यांदा अंतराळात कधी गेली?",
+        "q_en": "When did she first go to space?",
+        "options": [
+          "एकोणीसशे सत्त्याण्णव साली",
+          "दोन हजार साली",
+          "एकोणीसशे नव्वद साली",
+          "दोन हजार तीन साली"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "s-054",
+    "level": 4,
+    "title_mr": "जुनं पुस्तकांचं दुकान",
+    "title_en": "The Old Bookshop",
+    "text_mr": "लक्ष्मी रस्त्याच्या एका जुन्या बोळात छोटं पुस्तकांचं दुकान आहे. त्याचे मालक गोखले काका आहेत. त्यांची पांढरी दाढी आणि हसरे डोळे सगळ्यांना माहीत आहेत. दुकानात हजारो जुनी पुस्तकं आहेत. ती छतापर्यंत रचली आहेत. धुळीचा वास आणि पिवळी पानं यांचं वेगळंच जग आहे. मी दर शनिवारी तिथे जातो. काका विचारतात, 'आज कोणतं पुस्तक हवं?' एक दिवस मला कपाटाच्या मागे एक जुनं गोष्टींचं पुस्तक सापडलं. त्याच्या पहिल्या पानावर माझ्या आजोबांचं नाव लिहिलं होतं. माझ्या डोळ्यांत पाणी आलं. काकांनी हसून ते पुस्तक मला भेट दिलं. ते म्हणाले, 'पुस्तकं हीच खरी ठेव.' त्या दिवसापासून मी ठरवलं, जुन्या पुस्तकांत नवी स्वप्नं असतात.",
+    "text_en": "In an old lane off Laxmi Road stands a small bookshop. Its owner is Gokhale uncle. His white beard and smiling eyes are known to all. The shop holds thousands of old books. They are stacked to the ceiling. The smell of dust and yellowed pages is a world apart. I go there every Saturday. Uncle asks, 'Which book today?' One day I found an old storybook behind a shelf. On its first page my grandpa's name was written. Tears came to my eyes. Smiling, uncle gifted me the book. He said, 'Books are the true treasure.' Since that day I have decided: old books hold new dreams.",
+    "words": 96,
+    "target_wpm": 131,
+    "questions": [
+      {
+        "q_mr": "पुस्तकांचं दुकान कुठे आहे?",
+        "q_en": "Where is the bookshop?",
+        "options": [
+          "फर्ग्युसन रस्त्यावर",
+          "लक्ष्मी रस्त्याच्या बोळात",
+          "स्टेशनजवळ",
+          "बागेत"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "मुलाला जुन्या पुस्तकात काय सापडलं?",
+        "q_en": "What did the boy find in the old book?",
+        "options": [
+          "पैसे",
+          "आजोबांचं नाव",
+          "पत्र",
+          "चित्र"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-055",
+    "level": 4,
+    "title_mr": "शेवटचं षटक",
+    "title_en": "The Final Over",
+    "text_mr": "गल्ली क्रिकेटची अंतिम फेरी होती. मैदानाभोवती गर्दी जमली होती. आमच्या संघाला जिंकायला शेवटच्या षटकात बारा धावा हव्या होत्या. सगळ्यांच्या छातीत धडधड होत होती. कर्णधाराने सागरला फलंदाजीला पाठवलं. पहिला चेंडू निर्धाव गेला. गर्दीत शांतता पसरली. दुसऱ्या चेंडूवर त्याने जोरात षटकार मारला. गर्दीने टाळ्या वाजवल्या. तिसरा चेंडू पुन्हा निर्धाव गेला. चौथ्यावर त्याने चौकार मारला. आता दोन चेंडूंत दोन धावा हव्या होत्या. पाचवा चेंडू हवेत गेला. सगळ्यांचा श्वास रोखला. पण क्षेत्ररक्षकाने सोपा झेल सोडला. शेवटच्या चेंडूवर सागरने चेंडू सीमारेषेबाहेर पाठवला. आम्ही जिंकलो. मित्रांनी सागरला खांद्यावर घेतलं. कर्णधाराने सागराचं अभिनंदन केलं. तो दिवस अजूनही आठवतो.",
+    "text_en": "It was the final of street cricket. A crowd had gathered around the ground. Our team needed twelve runs in the last over to win. Everyone's heart pounded. The captain sent Sagar to bat. The first ball was a dot. Silence spread through the crowd. On the second he smashed a six. The crowd clapped. The third ball was a dot again. On the fourth he hit a four. Now two runs were needed off two balls. The fifth ball went in the air. Everyone held their breath. But the fielder dropped an easy catch. On the last ball Sagar sent it beyond the boundary. We won. Friends lifted Sagar onto their shoulders. The captain congratulated Sagar. That day is still remembered.",
+    "words": 91,
+    "target_wpm": 133,
+    "questions": [
+      {
+        "q_mr": "शेवटच्या षटकात किती धावा हव्या होत्या?",
+        "q_en": "How many runs were needed in the last over?",
+        "options": [
+          "दहा",
+          "बारा",
+          "पंधरा",
+          "आठ"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "सामना कसा जिंकला गेला?",
+        "q_en": "How was the match won?",
+        "options": [
+          "पहिल्याच चेंडूवर",
+          "शेवटच्या चेंडूवर सीमारेषेबाहेर धावा काढून",
+          "वॉकओव्हरने",
+          "पावसामुळे"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-056",
+    "level": 4,
+    "title_mr": "आजीचा डबा",
+    "title_en": "Grandma's Tiffin",
+    "text_mr": "मुंबईत राहणारा स्वप्निल रोज ऑफिसला डबा नेतो. त्याच्या डब्यात आजीच्या हातची भाजी आणि पोळी असते. मुंबईच्या डबेवाल्यांची साखळी जगप्रसिद्ध आहे. लाखो डबे रोज योग्य ठिकाणी पोहोचतात. चूक जवळजवळ कधीच होत नाही. पण एक दिवस स्वप्निलचा डबा दुसऱ्याच माणसाकडे गेला. त्या माणसाने डबा खाल्ला. त्याने त्यात चिठ्ठी लिहून ठेवली, 'तुमच्या आजीची पुरणपोळी खूप गोड. धन्यवाद.' दुसऱ्या दिवशी स्वप्निलने चिठ्ठी वाचली. तो मनापासून हसला. त्याने दोन पुरणपोळ्या जास्त ठेवल्या. आता दोघं रोज एकमेकांना चिठ्ठ्या पाठवतात. एका चुकलेल्या डब्याने नवी मैत्री जोडली. स्वप्निलच्या आजीला ही गोष्ट कळल्यावर त्या खूप खुश झाल्या. मुंबईच्या धावपळीतही माणुसकी जिवंत आहे.",
+    "text_en": "Swapnil, who lives in Mumbai, takes a tiffin to office daily. His tiffin holds grandma's vegetables and rotis. Mumbai's dabbawala chain is world-famous. Lakhs of tiffins reach the right place daily. A mistake almost never happens. But one day Swapnil's tiffin went to another man. The man ate the tiffin. He left a note in it, 'Your grandma's puranpoli is very sweet. Thank you.' The next day Swapnil read the note. He laughed heartily. He packed two extra puranpolis. Now the two send each other notes daily. One misplaced tiffin forged a new friendship. When Swapnil's grandma heard this, she was delighted. Even in Mumbai's rush, humanity is alive.",
+    "words": 93,
+    "target_wpm": 134,
+    "questions": [
+      {
+        "q_mr": "स्वप्निलच्या डब्यात कोणाच्या हातचं जेवण असतं?",
+        "q_en": "Whose cooking is in Swapnil's tiffin?",
+        "options": [
+          "आईच्या",
+          "आजीच्या",
+          "बायकोच्या",
+          "हॉटेलचं"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "चुकलेल्या डब्यामुळे काय झालं?",
+        "q_en": "What came of the misplaced tiffin?",
+        "options": [
+          "भांडण झालं",
+          "नवी मैत्री जोडली गेली",
+          "डबा हरवला",
+          "तक्रार झाली"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-057",
+    "level": 4,
+    "title_mr": "सिंहगडची पहाट",
+    "title_en": "Dawn at Sinhagad",
+    "text_mr": "आम्ही मित्रांनी सिंहगडावर जायचं ठरवलं. आदल्या संध्याकाळी तयारी केली. पहाटे चार वाजता पुण्यातून निघालो. रस्त्यात दाट धुकं होतं. गाडीचे दिवे अंधार कापत होते. पायथ्याशी पोहोचल्यावर चढायला सुरुवात केली. वाटेत पक्ष्यांची किलबिल ऐकू येत होती. दमल्यावर एका कट्ट्यावर थांबलो. एका वळणावर सूर्याची पहिली किरणं दिसली. आम्ही थांबून सूर्योदय पाहिला. सोनेरी प्रकाशात दऱ्या चमकत होत्या. गडावर पोहोचल्यावर गरम कांदा भजी आणि ताक घेतलं. तानाजींच्या समाधीचं दर्शन घेतलं. गडाचा इतिहास आठवून अंगावर शहारे आले. परतताना सगळे शांत होतो. वाटेत आम्ही खूप फोटो काढले आणि गाणी म्हटली. निसर्ग आणि इतिहास एकत्र भेटतात तेव्हा मन भरून येतं.",
+    "text_en": "We friends decided to visit Sinhagad. We prepared the previous evening. We left Pune at four in the morning. Thick fog lay on the road. The car's headlights cut the dark. Reaching the base, we began to climb. On the way birds chirped. When tired, we rested on a stone bench. At one bend the sun's first rays appeared. We stopped to watch the sunrise. Valleys glittered in golden light. Reaching the fort, we had hot onion fritters and buttermilk. We paid respects at Tanaji's memorial. Remembering the fort's history gave us goosebumps. Returning, all were quiet. On the way we took many photos and sang songs. When nature and history meet, the heart fills.",
+    "words": 92,
+    "target_wpm": 136,
+    "questions": [
+      {
+        "q_mr": "मित्र पहाटे किती वाजता निघाले?",
+        "q_en": "At what time did the friends leave at dawn?",
+        "options": [
+          "तीन वाजता",
+          "चार वाजता",
+          "पाच वाजता",
+          "सहा वाजता"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "गडावर पोहोचल्यावर त्यांनी काय खाल्लं?",
+        "q_en": "What did they eat on reaching the fort?",
+        "options": [
+          "वडा पाव",
+          "गरम कांदा भजी",
+          "भेळ",
+          "आईस्क्रीम"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-058",
+    "level": 4,
+    "title_mr": "बडबडं कासव",
+    "title_en": "The Talkative Tortoise",
+    "text_mr": "एका हिरव्या तळ्यात एक कासव राहत होतं. त्याचे दोन हंस घनिष्ठ मित्र होते. कासव खूप बोलकं होतं. तो दिवसभर बडबड करायचा. एक वर्षी भयंकर दुष्काळ पडला. तळं आटू लागलं. मासे तडफडू लागले. हंस म्हणाले, 'आम्ही दूरच्या मोठ्या तळ्यावर जातो. तुला यायचं असेल तर एक काठी तोंडात धर.' कासवाने काठी तोंडात घट्ट धरली. दोन हंसांनी काठीची टोकं चोचीत धरली. ते आकाशात उडाले. हंस म्हणाले, 'काहीही झालं तरी तोंड उघडू नकोस. हा प्राणाचा प्रश्न आहे.' वाटेत खाली गावकऱ्यांनी हे विचित्र दृश्य पाहिलं. मुले ओरडली, 'पाहा, कासव उडतंय.' कासवाला राहवेना. अभिमानाने तो म्हणाला, 'हो, मीच...' तोंड उघडताच तो खाली पडला. अति बोलणं नेहमीच घातक ठरतं.",
+    "text_en": "In a green lake lived a tortoise. It had two close swan friends. The tortoise was very talkative. It chattered all day. One year a terrible drought struck. The lake began to dry. Fish gasped. The swans said, 'We go to a distant big lake. If you wish to come, hold a stick in your mouth.' The tortoise gripped the stick firmly in its mouth. The two swans held the stick's ends in their beaks. They flew into the sky. The swans said, 'Whatever happens, do not open your mouth. This is a matter of life and death.' On the way villagers below saw this strange sight. Children shouted, 'Look, the tortoise flies.' The tortoise could not restrain itself. Proudly it said, 'Yes, it is I...' As its mouth opened, it fell down. Excessive talking always proves fatal.",
+    "words": 102,
+    "target_wpm": 137,
+    "questions": [
+      {
+        "q_mr": "कासव आकाशात कसं गेलं?",
+        "q_en": "How did the tortoise go into the sky?",
+        "options": [
+          "उडून",
+          "तोंडात काठी धरून हंसांबरोबर",
+          "फुग्याने",
+          "जादूने"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "कासव खाली का पडलं?",
+        "q_en": "Why did the tortoise fall down?",
+        "options": [
+          "काठी तुटली",
+          "तोंड उघडून बोलल्यामुळे",
+          "हंसांनी सोडलं",
+          "वारा आला"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-059",
+    "level": 4,
+    "title_mr": "वारा आणि सूर्य",
+    "title_en": "The Wind and the Sun",
+    "text_mr": "एक दिवस वारा आणि सूर्य यांच्यात मोठा वाद झाला. कोण अधिक बलवान, यावरून भांडण सुरू झालं. वारा म्हणाला, 'मी झाडं उन्मळून टाकतो. जहाजं हलवतो.' सूर्य म्हणाला, 'माझ्या एका किरणापुढे बर्फही वितळतं.' तेवढ्यात खाली एक प्रवासी चालला होता. त्याने जाड लोकरीचा कोट घातला होता. दोघांनी ठरवलं, जो त्याचा कोट काढेल तो जिंकेल. आधी वाऱ्याची पाळी आली. त्याने जोरात वाहायला सुरुवात केली. झाडं वाकली. पण प्रवाशाने कोट आणखी घट्ट धरला. वाऱ्याने वादळ केलं. तरी कोट निघाला नाही. वारा हरला. मग सूर्याची पाळी आली. त्याने हळूहळू उष्णता वाढवली. प्रवाशाला घाम आला. त्याने स्वतःच कोट काढून खांद्यावर टाकला. प्रेमळपणा बळजबरीपेक्षा मोठा असतो.",
+    "text_en": "One day the wind and the sun had a great quarrel. A fight began over who was stronger. The wind said, 'I uproot trees. I shake ships.' The sun said, 'Before a single ray of mine even ice melts.' Just then a traveller walked below. He wore a thick woollen coat. The two decided: whoever removes his coat wins. First came the wind's turn. It began to blow hard. Trees bent. But the traveller gripped his coat tighter. The wind stormed. Still the coat did not come off. The wind lost. Then came the sun's turn. It slowly increased the heat. The traveller sweated. He removed the coat himself and slung it on his shoulder. Gentleness is greater than force.",
+    "words": 98,
+    "target_wpm": 139,
+    "questions": [
+      {
+        "q_mr": "वारा आणि सूर्य यांच्यात काय ठरलं?",
+        "q_en": "What did the wind and the sun decide?",
+        "options": [
+          "झाड पाडायचं",
+          "प्रवाशाचा कोट जो काढेल तो जिंकेल",
+          "पाऊस पाडायचा",
+          "शर्यत लावायची"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "शेवटी कोण जिंकलं आणि कसं?",
+        "q_en": "Who won in the end, and how?",
+        "options": [
+          "वारा, जोराने वाहून",
+          "सूर्य, हळूहळू उष्णता वाढवून",
+          "दोघंही हरले",
+          "प्रवासी जिंकला"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "s-060",
+    "level": 4,
+    "title_mr": "माझं स्वप्न, माझं गाव",
+    "title_en": "My Dream, My Village",
+    "text_mr": "मी शहरात शिकायला आलो तेव्हा गाव डोळ्यांत होतं. आमच्या गावात वीज यायची, जायची. शाळेत एकच शिक्षक होते. ते पाचही इयत्ता शिकवायचे. पण माझ्या आईने हट्ट धरला, 'मुलगा शिकणारच.' ती शेतात राबायची. मी दिव्याच्या उजेडात अभ्यास केला. दहावीत तालुक्यात पहिला आलो. शिष्यवृत्ती मिळवून शहरात आलो. अभियंता झालो. नोकरीची पहिली संधी परदेशातून आली. पगार मोठा होता. पण मी गावाकडे परतलो. गावात सौर दिवे लावले. शाळेसाठी ग्रंथालय उभारलं. आज गावातली मुलं संगणक शिकतात. माझी आई आजही शेतात राबते, पण तिच्या चेहऱ्यावर अभिमान असतो. आजी म्हणते, 'तू गावाचं नाव उजळ केलंस.' खरं यश म्हणजे आपल्या माणसांसाठी जगणं.",
+    "text_en": "When I came to the city to study, the village was in my eyes. In our village power came and went. The school had a single teacher. He taught all five classes. But my mother insisted, 'My son WILL study.' She toiled in the fields. I studied by lamplight. I stood first in the taluka in tenth standard. Winning a scholarship, I came to the city. I became an engineer. The first job offer came from abroad. The salary was large. But I returned to the village. I installed solar lamps in the village. I built a library for the school. Today the village children learn computers. My mother still toils in the fields, but her face carries pride. Grandma says, 'You have brightened the village's name.' True success means living for your own people.",
+    "words": 93,
+    "target_wpm": 140,
+    "questions": [
+      {
+        "q_mr": "मुलाने परदेशाची नोकरी का नाकारली?",
+        "q_en": "Why did the boy decline the foreign job?",
+        "options": [
+          "पगार कमी होता",
+          "गावाकडे परतून सेवा करायची होती",
+          "भीती वाटली",
+          "आईने मनाई केली"
+        ],
+        "answer": 1
+      },
+      {
+        "q_mr": "त्याने गावासाठी काय केलं?",
+        "q_en": "What did he do for the village?",
+        "options": [
+          "रस्ता बांधला",
+          "सौर दिवे आणि ग्रंथालय उभारलं",
+          "विहीर खणली",
+          "दुकान उघडलं"
+        ],
+        "answer": 1
+      }
+    ]
+  }
 ]

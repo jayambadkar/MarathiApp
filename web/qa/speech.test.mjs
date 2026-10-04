@@ -109,6 +109,15 @@ test('speakMarathi plays mr/en audio queue in order, applies rate, fires callbac
   assert.equal(done, true)
 })
 
+test('queued audio suppresses Referer (Google TTS 404s non-Google referers)', async () => {
+  played.length = 0
+  speakMarathi('नमस्कार', {})
+  await tick(30)
+  assert.ok(played.length >= 1)
+  for (const a of played) assert.equal(a.referrerPolicy, 'no-referrer')
+  stopSpeak()
+})
+
 test('speakMarathi error calls onError, never browser TTS', async () => {
   played.length = 0
   let err = null

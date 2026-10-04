@@ -7,6 +7,10 @@
     <meta name="description" content="Offline-first Marathi learning app: chat tutor, stories, drills, grammar, vocab." />
     <meta name="theme-color" content="#58cc02" />
     <meta name="color-scheme" content="light dark" />
+    <!-- Cloud TTS (translate.google.com) 404s requests carrying a non-Google
+         Referer, which browsers attach to <audio> loads by default. Strip it
+         page-wide so read-aloud chunks return audio instead of an error page. -->
+    <meta name="referrer" content="no-referrer" />
     <link rel="manifest" href="/manifest.webmanifest" />
     <title>Marathi Tutor</title>
     <script>

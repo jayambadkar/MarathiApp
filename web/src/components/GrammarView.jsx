@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import grammarData from '../data/grammar.json'
 import { speak } from '../lib/store.js'
-import { awardAnswer, shuffle } from '../lib/practice.js'
+import { awardAnswer, shuffle, shuffleOptions } from '../lib/practice.js'
 import Feedback from './Feedback.jsx'
 
 const TOPICS = grammarData.topics
@@ -19,6 +19,11 @@ export default function GrammarView({ settings, progress, setProgress }) {
 
   const topic = TOPICS.find((t) => t.id === topicId)
   const q = quizOn && topic ? topic.quiz[order[idx]] : null
+  // Memoized per question so options don't reshuffle mid-answer on re-render.
+  // (Keyed on a primitive: q derives from quiz-order state, which useMemo deps dislike.)
+  const qKey = quizOn && topic ? `${topic.id}:${order[idx]}` : 'none'
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const sq = useMemo(() => (q ? shuffleOptions(q.options, q.answer) : null), [qKey])
 
   function openTopic(id) {
     setTopicId(id)
@@ -40,13 +45,13 @@ export default function GrammarView({ settings, progress, setProgress }) {
   }
 
   function grade(i) {
-    if (fb || !q) return
-    const ok = i === q.answer
+    if (fb || !q || !sq) return
+    const ok = i === sq.answer
     awardAnswer(setProgress, 'grammar', ok)
     setStreak((s) => (ok ? s + 1 : 0))
     if (ok) setScore((s) => s + 1)
     setPicked(i)
-    setFb({ ok, answer: ok ? '' : q.options[q.answer], explain: q.explain })
+    setFb({ ok, answer: ok ? '' : sq.options[sq.answer], explain: q.explain })
   }
 
   function next() {
@@ -141,12 +146,12 @@ export default function GrammarView({ settings, progress, setProgress }) {
               <h3 data-testid="grammar-q">{q.q}</h3>
               {q.q_en ? <p className="muted">{q.q_en}</p> : null}
               <div className="opts">
-                {q.options.map((o, i) => (
+                {sq.options.map((o, i) => (
                   <button
                     key={i}
-                    className={`opt ${fb ? (i === q.answer ? 'correct' : i === picked ? 'wrong' : '') : ''}`}
+                    className={`opt ${fb ? (i === sq.answer ? 'correct' : i === picked ? 'wrong' : '') : ''}`}
                     disabled={!!fb}
-                    data-testid={`grammar-opt-${i === q.answer ? 'answer' : 'other'}`}
+                    data-testid={`grammar-opt-${i === sq.answer ? 'answer' : 'other'}`}
                     onClick={() => grade(i)}
                   >
                     {o}

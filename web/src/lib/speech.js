@@ -164,6 +164,14 @@ function playNext(i, attempt = 0) {
   const ch = queue[i]
   const a = new Audio()
   audio = a
+  // translate.google.com 404s TTS requests that carry a non-Google Referer
+  // (browsers attach the page origin to <audio> loads by default). Suppress
+  // it per-element too; index.html also sets a page-wide no-referrer policy.
+  try {
+    a.referrerPolicy = 'no-referrer'
+  } catch {
+    /* older engines ignore it */
+  }
   a.preload = 'auto'
   a.playbackRate = cbs.rate || 1
   a.onended = () => {

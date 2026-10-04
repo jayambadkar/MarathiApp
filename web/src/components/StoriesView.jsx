@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import stories from '../data/stories.json'
-import { awardAnswer } from '../lib/practice.js'
+import { awardAnswer, shuffleOptions } from '../lib/practice.js'
 import { chunkText, speakMarathi, stopSpeak } from '../lib/speech.js'
 import Feedback from './Feedback.jsx'
 import StoryScene from './StoryScene.jsx'
@@ -146,15 +146,17 @@ function Reader({ story, settings, setProgress, onBack }) {
   }
 
   const q = (story.questions || [])[qi]
+  // Memoized per question (stable JSON reference) so options don't reshuffle mid-answer.
+  const sq = useMemo(() => (q ? shuffleOptions(q.options, q.answer) : null), [q])
 
   function answer(idx) {
-    if (fb || !q) return
-    const ok = idx === q.answer
+    if (fb || !q || !sq) return
+    const ok = idx === sq.answer
     setPicked(idx)
     if (ok) setEarned((e) => e + XP_STORY_DONE)
     awardAnswer(setProgress, 'stories', ok, XP_STORY_DONE)
     setStreak((s) => (ok ? s + 1 : 0))
-    setFb({ ok, answer: ok ? '' : q.options[q.answer] })
+    setFb({ ok, answer: ok ? '' : sq.options[sq.answer] })
   }
 
   function nextQ() {
@@ -225,10 +227,10 @@ function Reader({ story, settings, setProgress, onBack }) {
             </b>
           </p>
           <div className="chips-row" style={{ flexDirection: 'column', alignItems: 'stretch' }}>
-            {q.options.map((op, idx) => (
+            {sq.options.map((op, idx) => (
               <button
                 key={idx}
-                className={`opt${picked === idx ? (idx === q.answer ? ' correct' : ' wrong') : ''}`}
+                className={`opt${picked === idx ? (idx === sq.answer ? ' correct' : ' wrong') : ''}`}
                 data-testid={`story-opt-${idx}`}
                 disabled={Boolean(fb)}
                 onClick={() => answer(idx)}

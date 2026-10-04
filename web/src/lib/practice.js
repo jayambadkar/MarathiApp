@@ -16,6 +16,17 @@ export function sample(arr, n) {
   return shuffle(arr).slice(0, n)
 }
 
+/**
+ * Shuffle stored MCQ options, remapping the answer index to the new order.
+ * Stored content skews hard (stories/grammar pile the answer at index 0),
+ * so every stored-order quiz must render through this. Index-based remap
+ * stays correct even with duplicate option labels.
+ */
+export function shuffleOptions(options, answer) {
+  const order = shuffle(options.map((_, i) => i))
+  return { options: order.map((i) => options[i]), answer: order.indexOf(answer) }
+}
+
 /** Record one graded answer: +XP on correct, answers/correct tallies, streak touch. */
 export function awardAnswer(setProgress, mode, ok, xp = XP_CORRECT) {
   setProgress((p) => {

@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import sprintsData from '../data/sprints.json'
 import { speak } from '../lib/store.js'
-import { XP_CORRECT, awardAnswer } from '../lib/practice.js'
+import { XP_CORRECT, awardAnswer, shuffleOptions } from '../lib/practice.js'
 import Feedback from './Feedback.jsx'
 
 const BONUS_XP = 5
@@ -23,6 +23,8 @@ export default function SprintsView({ settings, progress, setProgress }) {
   const list = sprintsData.filter((s) => level === 'all' || s.level === Number(level))
   const sprint = sprintsData.find((s) => s.id === selId)
   const q = sprint && wpm !== null ? sprint.questions[qi] : null
+  // Memoized per question (stable JSON reference) so options don't reshuffle mid-answer.
+  const sq = useMemo(() => (q ? shuffleOptions(q.options, q.answer) : null), [q])
 
   useEffect(
     () => () => clearInterval(timerRef.current),
@@ -83,12 +85,12 @@ export default function SprintsView({ settings, progress, setProgress }) {
   }
 
   function grade(i) {
-    if (fb || !q) return
-    const ok = i === q.answer
+    if (fb || !q || !sq) return
+    const ok = i === sq.answer
     awardAnswer(setProgress, 'sprint', ok)
     setStreak((s) => (ok ? s + 1 : 0))
     setPicked(i)
-    setFb({ ok, answer: ok ? '' : q.options[q.answer], explain: '' })
+    setFb({ ok, answer: ok ? '' : sq.options[sq.answer], explain: '' })
   }
 
   function nextQ() {
@@ -186,12 +188,12 @@ export default function SprintsView({ settings, progress, setProgress }) {
               {q.q_mr ? <p className="story-text">{q.q_mr}</p> : null}
               <h3 data-testid="sprint-q">{q.q_en}</h3>
               <div className="opts">
-                {q.options.map((o, i) => (
+                {sq.options.map((o, i) => (
                   <button
                     key={i}
-                    className={`opt ${fb ? (i === q.answer ? 'correct' : i === picked ? 'wrong' : '') : ''}`}
+                    className={`opt ${fb ? (i === sq.answer ? 'correct' : i === picked ? 'wrong' : '') : ''}`}
                     disabled={!!fb}
-                    data-testid={`sprint-opt-${i === q.answer ? 'answer' : 'other'}`}
+                    data-testid={`sprint-opt-${i === sq.answer ? 'answer' : 'other'}`}
                     onClick={() => grade(i)}
                   >
                     {o}
