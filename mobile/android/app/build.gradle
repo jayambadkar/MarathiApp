@@ -117,3 +117,24 @@ dependencies {
         implementation jscFlavor
     }
 }
+
+// Workaround for a known reanimated prefab wiring gap (see
+// software-mansion/react-native-reanimated#7317): on clean builds,
+// :app:configureCMake* can run before reanimated/worklets have generated
+// their prefab packages, failing with "prefab ... is not readable".
+// Force the producers to build first.
+gradle.projectsEvaluated {
+    tasks.matching { it.name.startsWith("configureCMake") }.configureEach { configureTask ->
+        def isRelease = configureTask.name.contains("RelWithDebInfo") ||
+            configureTask.name.toLowerCase().contains("release")
+        def producerTask = isRelease ? "assembleRelease" : "assembleDebug"
+        for (String dep : [":react-native-reanimated", ":react-native-worklets"]) {
+            def proj = rootProject.findProject(dep)
+            if (proj != null) {
+                configureTask.dependsOn(proj.tasks.named(producerTask))
+            } else {
+                logger.warn("[app] prefab workaround: project ${dep} not found, skipping")
+            }
+        }
+    }
+}
