@@ -87,3 +87,10 @@ cd ~/Desktop/Marathi-App/web && npm run build
 PORT=8091 ~/Desktop/marathi-tutor.sh &  # serves web/dist
 curl -s -o /dev/null -w "%{http_code}\n" http://localhost:8091/
 ```
+
+Full QA sweep (all 10 modes + story-art stage, zero console errors) with
+Playwright — needs `pip install playwright` and a built `web/dist/`:
+
+```sh
+python3 web/qa/smoke.py
+```

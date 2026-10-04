@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { MODES } from '../data/modes.js'
 import { ModeIcon } from '../data/modes.jsx'
-import { getAnim } from '../lib/anim.js'
+import StoryScene from './StoryScene.jsx'
 
 const CARDS = {
   chat: 'Free Marathi conversation with corrections. Talk about anything and get fixed in real time.',
@@ -15,22 +15,18 @@ const CARDS = {
   help: 'Full how-to guide for every part of the app.',
 }
 
-export default function ModesGallery({ onNav }) {
-  const [scene, setScene] = useState('cat')
-  const [stats, setStats] = useState(null)
-  const sceneRef = useRef(null)
+// Story ids hand-picked so each generative motif shows once:
+// house, tree+cat, rain cloud, open book.
+const SCENES = [
+  { id: 'art-2', mr: 'घर', en: 'House' },
+  { id: 'art-3', mr: 'झाड', en: 'Tree' },
+  { id: 'art-0', mr: 'पाऊस', en: 'Rain' },
+  { id: 'art-1', mr: 'पुस्तक', en: 'Book' },
+]
 
-  useEffect(() => {
-    const anim = getAnim()
-    if (anim && sceneRef.current) anim.render(sceneRef.current, scene)
-    return () => {
-      try {
-        getAnim()?.stop?.()
-      } catch {
-        /* no anim */
-      }
-    }
-  }, [scene])
+export default function ModesGallery({ onNav }) {
+  const [scene, setScene] = useState(SCENES[0])
+  const [stats, setStats] = useState(null)
 
   // Counts load lazily so the gallery chunk doesn't bundle all JSON data.
   useEffect(() => {
@@ -84,16 +80,26 @@ export default function ModesGallery({ onNav }) {
         ))}
       </div>
       <div className="card">
-        <h3>Animated scenes (offline)</h3>
-        <div ref={sceneRef} data-testid="anim-scene" />
+        <h3>
+          गोष्टींची चित्रं <span className="muted small">Story art</span>
+        </h3>
+        <p className="muted small">
+          प्रत्येक गोष्टीला तिचं स्वतःचं offline चित्र मिळतं — live preview:
+        </p>
+        <figure className="art-stage" data-testid="anim-scene">
+          <StoryScene id={scene.id} title={`${scene.mr} · ${scene.en}`} />
+          <figcaption className="art-caption">
+            {scene.mr} <span className="muted small">· {scene.en}</span>
+          </figcaption>
+        </figure>
         <div className="row">
-          {['cat', 'mango', 'school', 'diwali'].map((s) => (
+          {SCENES.map((s) => (
             <button
-              key={s}
-              className={s === scene ? 'btn small' : 'btn small secondary'}
+              key={s.id}
+              className={s.id === scene.id ? 'btn small' : 'btn small secondary'}
               onClick={() => setScene(s)}
             >
-              {s}
+              {s.mr} <span className="muted small">{s.en}</span>
             </button>
           ))}
         </div>

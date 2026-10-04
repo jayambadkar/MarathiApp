@@ -25,18 +25,18 @@ export default function StoryScene({ id, title }) {
       data-testid="story-scene"
     >
       <rect width="320" height="140" fill={pal.sky} rx="12" />
-      <circle cx={262 - (h % 40)} cy={30} r={18} fill={pal.sun} />
+      <circle className="sc-sun" cx={262 - (h % 40)} cy={30} r={18} fill={pal.sun} />
       <ellipse cx="90" cy="105" rx="130" ry="55" fill={pal.hill} />
       <ellipse cx="260" cy="112" rx="110" ry="50" fill={pal.hill} opacity="0.75" />
       {motif === 0 && (
-        <g>
+        <g className="sc-motif">
           <rect x="120" y="62" width="60" height="44" fill="#fff" stroke="#8a5a2b" strokeWidth="3" />
           <polygon points="112,64 150,36 188,64" fill="#e2574c" />
           <rect x="143" y="82" width="16" height="24" fill="#8a5a2b" />
         </g>
       )}
       {motif === 1 && (
-        <g>
+        <g className="sc-motif">
           <rect x="140" y="70" width="14" height="40" fill="#8a5a2b" />
           <circle cx="147" cy="55" r="28" fill="#2f9e44" />
           <ellipse cx="205" cy="100" rx="20" ry="12" fill="#333" />
@@ -46,7 +46,7 @@ export default function StoryScene({ id, title }) {
         </g>
       )}
       {motif === 2 && (
-        <g>
+        <g className="sc-motif">
           <ellipse cx="150" cy="50" rx="46" ry="20" fill="#fff" />
           <ellipse cx="120" cy="56" rx="26" ry="14" fill="#eef4ff" />
           {[110, 130, 150, 170, 190].map((x) => (
@@ -55,7 +55,7 @@ export default function StoryScene({ id, title }) {
         </g>
       )}
       {motif === 3 && (
-        <g>
+        <g className="sc-motif">
           <rect x="118" y="60" width="84" height="46" rx="4" fill="#fff" stroke="#3b5bdb" strokeWidth="3" />
           <line x1="160" y1="60" x2="160" y2="106" stroke="#3b5bdb" strokeWidth="3" />
           {[70, 80, 90].map((y) => (

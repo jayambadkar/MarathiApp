@@ -367,6 +367,15 @@ details.discuss p { margin: 0.3rem 0 0.6rem; padding-left: 0.4rem; }
 .story-card { text-align: left; cursor: pointer; font-family: inherit; color: var(--ink); }
 .story-card:hover { border-color: var(--green); }
 .story-scene { width: 100%; height: auto; border-radius: 12px; margin-bottom: 0.4rem; }
+/* Gentle life for generative scenes (disabled under prefers-reduced-motion). */
+@keyframes sc-drift { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@keyframes sc-sway { 0%, 100% { transform: rotate(-1.2deg); } 50% { transform: rotate(1.2deg); } }
+.story-scene .sc-sun { animation: sc-drift 7s ease-in-out infinite; }
+.story-scene .sc-motif { animation: sc-sway 9s ease-in-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
+/* Gallery story-art preview stage. */
+.art-stage { margin: 0.2rem 0 0.6rem; }
+.art-stage .story-scene { margin-bottom: 0; border: 2px solid var(--line); }
+.art-caption { text-align: center; font-weight: 800; padding-top: 0.3rem; }
 .karaoke-on {
   background: var(--green-bg);
   border-radius: 6px;
