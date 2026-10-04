@@ -189,7 +189,8 @@ export default function SprintsScreen({ navigation, route }: any): React.JSX.Ele
         <ScrollView
           testID="sprint-reader"
           style={styles.flex}
-          contentContainerStyle={{paddingBottom: 24}}>
+          contentContainerStyle={{paddingBottom: 24}}
+          showsVerticalScrollIndicator={false}>
           <Animated.View entering={FadeInDown.duration(300)}>
             <Card>
               <Text style={[styles.h3, { color: pal.text }]}>

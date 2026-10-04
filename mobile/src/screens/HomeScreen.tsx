@@ -66,6 +66,7 @@ export default function HomeScreen({ navigation }: any): React.JSX.Element {
         data={modes}
         keyExtractor={(m) => m.id}
         numColumns={2}
+        showsVerticalScrollIndicator={false}
         style={styles.list}
         contentContainerStyle={styles.content}
         columnWrapperStyle={styles.row}

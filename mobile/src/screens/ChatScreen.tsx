@@ -285,6 +285,7 @@ export default function ChatScreen({ navigation, route }: any): React.JSX.Elemen
         keyboardShouldPersistTaps="handled"
         inverted
         testID="chat-log"
+        showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.log}
         renderItem={({ item, index }) => {
           const i = msgs.length - 1 - index;

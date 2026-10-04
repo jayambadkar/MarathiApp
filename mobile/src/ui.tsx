@@ -32,7 +32,8 @@ export function Screen({
     <ScrollView
       style={styles.flex}
       contentContainerStyle={[styles.screen, style]}
-      keyboardShouldPersistTaps="handled">
+      keyboardShouldPersistTaps="handled"
+      showsVerticalScrollIndicator={false}>
       {children}
     </ScrollView>
   ) : (

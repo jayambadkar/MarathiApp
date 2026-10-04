@@ -166,7 +166,8 @@ function Reader({ story, onBack }: { story: Story; onBack: () => void }): React.
     <ScrollView
         testID="story-reader"
         style={styles.flex}
-        contentContainerStyle={{paddingBottom: 24}}>
+        contentContainerStyle={{paddingBottom: 24}}
+        showsVerticalScrollIndicator={false}>
       <View style={styles.row}>
         <Btn title="← सर्व गोष्टी" kind="secondary" small onPress={onBack} />
         <View style={[styles.chip, { backgroundColor: pal.chipBg }]}>
@@ -359,6 +360,7 @@ export default function StoriesScreen({ navigation, route }: any): React.JSX.Ele
             data={list}
             keyExtractor={(s) => s.id}
             testID="story-grid"
+            showsVerticalScrollIndicator={false}
             renderItem={({ item, index }) => (
               <Animated.View entering={FadeInDown.delay(Math.min(index, 8) * 40).duration(300)}>
                 <Pressable onPress={() => setOpenId(item.id)} testID={`story-${item.id}`}>

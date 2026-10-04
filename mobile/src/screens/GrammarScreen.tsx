@@ -167,6 +167,7 @@ export default function GrammarScreen({ navigation, route }: any) {
             data={TOPICS}
             keyExtractor={(t) => t.id}
             scrollEnabled={false}
+            showsVerticalScrollIndicator={false}
             renderItem={({ item }) => (
               <View style={styles.topicItem}>
                 <Opt
