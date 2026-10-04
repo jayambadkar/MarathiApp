@@ -76,11 +76,6 @@ Static assets (favicon, icons, `Baloo 2` font, web manifest) live in
 
 - `mt.settings.v1`, `mt.progress.v1`, `mt.srs.v1`, `mt.chat.v1`
 
-## Legacy vanilla app
-
-The original no-build static app is archived untouched in
-`legacy-vanilla/` (see its README) for reference. It is not served.
-
 ## Smoke check
 
 ```sh

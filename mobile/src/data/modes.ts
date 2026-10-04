@@ -1,0 +1,80 @@
+export type Mode = {
+  id: string;
+  mr: string;
+  en: string;
+  desc: string;
+  best: string;
+};
+
+export const MODES: Mode[] = [
+  {
+    id: 'modes',
+    mr: 'मोड',
+    en: 'Game Modes',
+    desc: 'Browse every mode + what it does',
+    best: 'Best for: finding your practice.',
+  },
+  {
+    id: 'chat',
+    mr: 'गप्पा',
+    en: 'Chat Tutor',
+    desc: 'Free Marathi conversation + corrections',
+    best: 'Best for: thinking in Marathi, everyday phrases.',
+  },
+  {
+    id: 'sprint',
+    mr: 'वाचन स्प्रिंट',
+    en: 'Reading Sprint',
+    desc: 'Timed reading races with WPM scores',
+    best: 'Best for: reading speed.',
+  },
+  {
+    id: 'stories',
+    mr: 'गोष्टी',
+    en: 'Stories',
+    desc: 'Leveled tales with audio + quizzes',
+    best: 'Best for: comprehension + words in context.',
+  },
+  {
+    id: 'drills',
+    mr: 'सराव',
+    en: 'Drills',
+    desc: 'Adaptive Duolingo-style workouts',
+    best: 'Best for: daily all-round practice.',
+  },
+  {
+    id: 'grammar',
+    mr: 'व्याकरण',
+    en: 'Grammar',
+    desc: 'Gender, plurals, verbs — rules + quizzes',
+    best: 'Best for: accuracy, writing correctly.',
+  },
+  {
+    id: 'vocab',
+    mr: 'शब्दसंग्रह',
+    en: 'Vocab Quiz',
+    desc: 'Two-way flashcards that remember misses',
+    best: 'Best for: word memory.',
+  },
+  {
+    id: 'progress',
+    mr: 'प्रगती',
+    en: 'Progress',
+    desc: 'XP, streaks and accuracy',
+    best: 'Best for: staying motivated.',
+  },
+  {
+    id: 'settings',
+    mr: 'सेटिंग्ज',
+    en: 'Settings',
+    desc: 'Model, read-aloud, level and data',
+    best: 'Best for: setup.',
+  },
+  {
+    id: 'help',
+    mr: 'मदत',
+    en: 'Help',
+    desc: 'How to use every part',
+    best: 'Best for: learning the ropes.',
+  },
+];
