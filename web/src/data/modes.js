@@ -59,7 +59,7 @@ export const MODES = [
     id: 'settings',
     mr: 'सेटिंग्ज',
     en: 'Settings',
-    desc: 'Model, voice, level and data',
+    desc: 'Model, read-aloud, level and data',
     best: 'Best for: setup.',
   },
   {

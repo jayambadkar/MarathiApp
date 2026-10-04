@@ -1,29 +1,9 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { DEFAULT_SETTINGS, speak, wipeAll } from '../lib/store.js'
 
 export default function SettingsView({ settings, setSettings }) {
   const [draft, setDraft] = useState(settings)
-  const [voices, setVoices] = useState([])
   const [msg, setMsg] = useState('')
-
-  useEffect(() => {
-    function load() {
-      try {
-        setVoices(typeof speechSynthesis !== 'undefined' ? speechSynthesis.getVoices() || [] : [])
-      } catch {
-        setVoices([])
-      }
-    }
-    load()
-    try {
-      if (typeof speechSynthesis !== 'undefined' && speechSynthesis.addEventListener) {
-        speechSynthesis.addEventListener('voiceschanged', load)
-        return () => speechSynthesis.removeEventListener('voiceschanged', load)
-      }
-    } catch {
-      /* no TTS */
-    }
-  }, [])
 
   function set(k, v) {
     setDraft((d) => ({ ...d, [k]: v }))
@@ -105,19 +85,8 @@ export default function SettingsView({ settings, setSettings }) {
       </div>
       <div className="row">
         <label className="field">
-          Voice
-          <select
-            id="sVoice"
-            value={draft.voice}
-            onChange={(e) => set('voice', e.target.value)}
-          >
-            <option value="">default</option>
-            {voices.map((v) => (
-              <option key={v.name} value={v.name}>
-                {v.name} ({v.lang})
-              </option>
-            ))}
-          </select>
+          Read-aloud voice
+          <input id="sVoice" value="Cloud (मराठी + English) — automatic" disabled />
         </label>
         <label className="field">
           Speed

@@ -51,11 +51,12 @@ Oxlint check.) Requires Node 18+ on `PATH`.
 7. **शब्दसंग्रह / Vocab Quiz** — 503 words EN↔MR both directions + SRS.
 8. **प्रगती / Progress** — XP, streak, accuracy, per-mode stats.
 9. **सेटिंग्ज / Settings** — model (default `muse-spark-1.3-contributor`),
-   API base/key, API style (chat/responses), voice, speed, theme, level, reset.
+   API base/key, API style (chat/responses), read-aloud speed, theme, level, reset.
 10. **मदत / Help** — in-app instructions for every part above.
 
 Global extras: floating "🔊 वाचा" reads any selected text aloud
-(`SelectionSpeak`); XP/streak persist across sessions.
+(`SelectionSpeak`, cloud voice — needs internet, Esc stops it);
+XP/streak persist across sessions.
 
 ## Data
 

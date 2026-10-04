@@ -127,7 +127,7 @@ export default function ChatView({ settings, progress, setProgress }) {
                 aria-label="Speak reply"
                 onClick={() => {
                   stopSpeak()
-                  speakMarathi(m.text, { voice: settings.voice, rate: settings.speed })
+                  speakMarathi(m.text, { rate: settings.speed })
                 }}
               >
                 🔊

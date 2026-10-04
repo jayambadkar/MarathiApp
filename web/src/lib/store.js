@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { pickMarathiVoice } from './speech.js'
+import { speakMarathi } from './speech.js'
 
 export const SKEY = 'mt.settings.v1'
 export const PKEY = 'mt.progress.v1'
@@ -11,7 +11,6 @@ export const DEFAULT_SETTINGS = {
   apiBase: '',
   apiKey: '',
   apiStyle: 'chat',
-  voice: '',
   speed: 1,
   translit: false,
   theme: 'light',
@@ -68,19 +67,7 @@ export function useLocalStorage(key, defaults) {
 }
 
 export function speak(text, settings) {
-  try {
-    if (!('speechSynthesis' in window)) return false
-    speechSynthesis.cancel()
-    const u = new SpeechSynthesisUtterance(text)
-    u.lang = 'mr-IN'
-    u.rate = settings.speed || 1
-    const voice = pickMarathiVoice(settings.voice)
-    if (voice) u.voice = voice
-    speechSynthesis.speak(u)
-    return true
-  } catch {
-    return false
-  }
+  return speakMarathi(text, { rate: settings.speed })
 }
 
 export function wipeAll() {

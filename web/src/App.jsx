@@ -11,6 +11,7 @@ import {
 import Topbar from './components/Topbar.jsx'
 import Sidebar from './components/Sidebar.jsx'
 import SelectionSpeak from './components/SelectionSpeak.jsx'
+import { stopSpeak } from './lib/speech.js'
 
 // Code-split: each mode view (+ its JSON data) loads on demand so the
 // initial bundle stays small. Topbar/Sidebar stay in the main chunk.
@@ -49,6 +50,17 @@ function App() {
       settings.theme === 'dark' ? 'dark' : 'light',
     )
   }, [settings.theme])
+
+  useEffect(() => {
+    function onKey(e) {
+      if (e.key === 'Escape') {
+        stopSpeak()
+        window.dispatchEvent(new Event('mt-speak-stop'))
+      }
+    }
+    document.addEventListener('keydown', onKey)
+    return () => document.removeEventListener('keydown', onKey)
+  }, [])
 
   function nav(next) {
     setMode(MODE_IDS.includes(next) ? next : 'modes')

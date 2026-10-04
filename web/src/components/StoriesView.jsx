@@ -63,10 +63,19 @@ function Reader({ story, settings, setProgress, onBack }) {
 
   useEffect(() => {
     mounted.current = true
+    function onStop() {
+      playSeq.current++
+      clearKara()
+      setPlaying(false)
+      setKara(false)
+      setActive(-1)
+    }
+    window.addEventListener('mt-speak-stop', onStop)
     return () => {
       mounted.current = false
       clearInterval(karaTimer.current)
       karaTimer.current = null
+      window.removeEventListener('mt-speak-stop', onStop)
       stopSpeak()
     }
   }, [story.id])
@@ -81,14 +90,14 @@ function Reader({ story, settings, setProgress, onBack }) {
       setActive(-1)
       return
     }
-    // Generation guard: stopping TTS fires utterance onerror, which must not
-    // restart fallback karaoke after the user pressed stop.
+    // Generation guard: late audio callbacks must not restart karaoke
+    // after the user pressed stop or moved to another story.
     const my = ++playSeq.current
     const live = () => mounted.current && playSeq.current === my
     setPlaying(true)
     const ok = speakMarathi(story.text_mr, {
-      voice: settings.voice,
       rate: settings.speed,
+      chunkMax: 400,
       onChunk: (i) => live() && setActive(i),
       onDone: () => {
         if (!live()) return

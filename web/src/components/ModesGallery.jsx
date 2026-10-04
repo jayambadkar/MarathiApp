@@ -11,7 +11,7 @@ const CARDS = {
   grammar: 'Gender, plurals, postpositions and verbs — rules, tables, examples and quiz items.',
   vocab: 'Two-way EN↔MR flashcards with spaced repetition.',
   progress: 'XP, daily streaks, accuracy and per-mode stats.',
-  settings: 'Model, API key + style, level, voice, speed, theme and data controls.',
+  settings: 'Model, API key + style, level, read-aloud speed, theme and data controls.',
   help: 'Full how-to guide for every part of the app.',
 }
 
