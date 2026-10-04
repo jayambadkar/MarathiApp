@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
 import Animated, { FadeIn, FlipInYLeft } from 'react-native-reanimated';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage from '../storage';
 import { useStore } from '../store';
 import { FONT } from '../theme';
 import type { Theme } from '../theme';

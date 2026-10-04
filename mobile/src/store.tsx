@@ -1,6 +1,6 @@
 import {createContext, useCallback, useContext, useEffect, useMemo, useState} from 'react';
 import type {ReactNode} from 'react';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage from './storage';
 import {dark as darkTheme, light as lightTheme} from './theme';
 import type {Theme} from './theme';
 import {XP_CORRECT} from './lib';
