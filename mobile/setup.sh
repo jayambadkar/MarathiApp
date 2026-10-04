@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# MarathiTutor Android — one-time setup + debug APK build.
+# MarathiTutor Android — one-time setup + self-contained release APK build.
+# (Release bundles the JS inside the APK; debug builds need Metro.)
 # Run in YOUR OWN terminal (needs network):  cd mobile && ./setup.sh
 set -e
 cd "$(dirname "$0")"
@@ -23,9 +24,9 @@ npm install
 npx -y react-native-asset   # link Baloo2 font into the Android app
 
 cd android
-./gradlew assembleDebug
+./gradlew assembleRelease
 
-APK="app/build/outputs/apk/debug/app-debug.apk"
+APK="app/build/outputs/apk/release/app-release.apk"
 echo ""
 echo "APK ready: mobile/android/$APK"
 echo "Install: connect your phone (USB debugging on) and run:"
