@@ -1,0 +1,2899 @@
+{
+ "exercises": [
+  {
+   "id": "d-001",
+   "level": 1,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'Hello! How are you?'",
+   "prompt_mr": "",
+   "choices": [
+    "आपण उद्या पुन्हा भेटू.",
+    "माझं नाव प्रिया आहे.",
+    "तू थोडा लवकर आला असतास तर आपण जास्त बोललो असतो.",
+    "नमस्कार! तू कसा आहेस?"
+   ],
+   "answer": "नमस्कार! तू कसा आहेस?",
+   "hint_en": "तू = informal you; कसा (m) / कशी (f) agrees with the person asked",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-002",
+   "level": 1,
+   "type": "fill-blank",
+   "prompt_en": "Hello! How are you?",
+   "prompt_mr": "नमस्कार! तू ___ आहेस?",
+   "choices": [
+    "तर",
+    "झाला.",
+    "कसा",
+    "नाव"
+   ],
+   "answer": "कसा",
+   "hint_en": "तू = informal you; कसा (m) / कशी (f) agrees with the person asked",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-003",
+   "level": 1,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Good morning!'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "शुभ सकाळ!",
+   "hint_en": "शुभ = auspicious; सकाळ (f) = morning",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-004",
+   "level": 1,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Good morning!'",
+   "prompt_mr": "सकाळ! / शुभ",
+   "choices": [
+    "सकाळ!",
+    "शुभ"
+   ],
+   "answer": "शुभ सकाळ!",
+   "hint_en": "शुभ = auspicious; सकाळ (f) = morning",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-005",
+   "level": 2,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'माझं नाव प्रिया आहे.'",
+   "choices": [],
+   "answer": "My name is Priya.",
+   "hint_en": "माझं (neuter) agrees with नाव, not with the speaker",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-006",
+   "level": 2,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "माझं नाव प्रिया आहे.",
+   "choices": [
+    "We will meet again tomorrow.",
+    "Where are you from?",
+    "I was very happy to see you.",
+    "My name is Priya."
+   ],
+   "answer": "My name is Priya.",
+   "hint_en": "माझं (neuter) agrees with नाव, not with the speaker",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-007",
+   "level": 2,
+   "type": "fill-blank",
+   "prompt_en": "Where are you from?",
+   "prompt_mr": "तू ___ आहेस?",
+   "choices": [
+    "कसा",
+    "जास्त",
+    "कुठून",
+    "दिवाळीच्या"
+   ],
+   "answer": "कुठून",
+   "hint_en": "कुठून = from where; -ऊन marks origin",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-008",
+   "level": 2,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'Where are you from?'",
+   "prompt_mr": "",
+   "choices": [
+    "माझं नाव प्रिया आहे.",
+    "तुला पाहून मला खूप आनंद झाला.",
+    "तुला भेटून आनंद झाला.",
+    "तू कुठून आहेस?"
+   ],
+   "answer": "तू कुठून आहेस?",
+   "hint_en": "कुठून = from where; -ऊन marks origin",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-009",
+   "level": 2,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Nice to meet you.'",
+   "prompt_mr": "आनंद / तुला / झाला. / भेटून",
+   "choices": [
+    "आनंद",
+    "तुला",
+    "झाला.",
+    "भेटून"
+   ],
+   "answer": "तुला भेटून आनंद झाला.",
+   "hint_en": "भेटून = on meeting (absolutive); झाला agrees with आनंद (m)",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-010",
+   "level": 2,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Nice to meet you.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "तुला भेटून आनंद झाला.",
+   "hint_en": "भेटून = on meeting (absolutive); झाला agrees with आनंद (m)",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-011",
+   "level": 3,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "कृपया आत या.",
+   "choices": [
+    "Where are you from?",
+    "Please come inside.",
+    "I was very happy to see you.",
+    "We will meet again tomorrow."
+   ],
+   "answer": "Please come inside.",
+   "hint_en": "या is the polite plural imperative of येणे (to come)",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-012",
+   "level": 3,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'कृपया आत या.'",
+   "choices": [],
+   "answer": "Please come inside.",
+   "hint_en": "या is the polite plural imperative of येणे (to come)",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-013",
+   "level": 3,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'I was very happy to see you.'",
+   "prompt_mr": "",
+   "choices": [
+    "तू थोडा लवकर आला असतास तर आपण जास्त बोललो असतो.",
+    "नमस्कार! तू कसा आहेस?",
+    "माझं नाव प्रिया आहे.",
+    "तुला पाहून मला खूप आनंद झाला."
+   ],
+   "answer": "तुला पाहून मला खूप आनंद झाला.",
+   "hint_en": "पाहून = having seen; dative subject मला with झाला",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-014",
+   "level": 3,
+   "type": "fill-blank",
+   "prompt_en": "I was very happy to see you.",
+   "prompt_mr": "तुला पाहून मला ___ आनंद झाला.",
+   "choices": [
+    "नाव",
+    "पुन्हा",
+    "खूप",
+    "आपण"
+   ],
+   "answer": "खूप",
+   "hint_en": "पाहून = having seen; dative subject मला with झाला",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-015",
+   "level": 3,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'We will meet again tomorrow.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "आपण उद्या पुन्हा भेटू.",
+   "hint_en": "आपण takes the plural verb भेटू (we will meet)",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-016",
+   "level": 3,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'We will meet again tomorrow.'",
+   "prompt_mr": "उद्या / पुन्हा / आपण / भेटू.",
+   "choices": [
+    "उद्या",
+    "पुन्हा",
+    "आपण",
+    "भेटू."
+   ],
+   "answer": "आपण उद्या पुन्हा भेटू.",
+   "hint_en": "आपण takes the plural verb भेटू (we will meet)",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-017",
+   "level": 4,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'तू थोडा लवकर आला असतास तर आपण जास्त बोललो असतो.'",
+   "choices": [],
+   "answer": "Had you come a little earlier, we would have talked more.",
+   "hint_en": "Conditional past: असतास/असतो with तर = if/would have",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-018",
+   "level": 4,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "तू थोडा लवकर आला असतास तर आपण जास्त बोललो असतो.",
+   "choices": [
+    "Had you come a little earlier, we would have talked more.",
+    "Greetings! May your day shine like Diwali lamps.",
+    "My name is Priya.",
+    "Please come inside."
+   ],
+   "answer": "Had you come a little earlier, we would have talked more.",
+   "hint_en": "Conditional past: असतास/असतो with तर = if/would have",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-019",
+   "level": 4,
+   "type": "fill-blank",
+   "prompt_en": "Greetings! May your day shine like Diwali lamps.",
+   "prompt_mr": "नमस्कार! तुमचा दिवस ___ दिव्यांसारखा उजळो.",
+   "choices": [
+    "शुभ",
+    "असतास",
+    "दिवाळीच्या",
+    "बोललो"
+   ],
+   "answer": "दिवाळीच्या",
+   "hint_en": "Optative उजळो = may it shine; -सारखा = like",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-020",
+   "level": 4,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'Greetings! May your day shine like Diwali lamps.'",
+   "prompt_mr": "",
+   "choices": [
+    "नमस्कार! तुमचा दिवस दिवाळीच्या दिव्यांसारखा उजळो.",
+    "नमस्कार! तू कसा आहेस?",
+    "कृपया आत या.",
+    "माझं नाव प्रिया आहे."
+   ],
+   "answer": "नमस्कार! तुमचा दिवस दिवाळीच्या दिव्यांसारखा उजळो.",
+   "hint_en": "Optative उजळो = may it shine; -सारखा = like",
+   "skill": "greetings"
+  },
+  {
+   "id": "d-021",
+   "level": 1,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'I eat rice.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "मी भात खातो.",
+   "hint_en": "खातो (m) / खाते (f): present habitual agrees with the subject",
+   "skill": "food"
+  },
+  {
+   "id": "d-022",
+   "level": 1,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'I eat rice.'",
+   "prompt_mr": "खातो. / भात / मी",
+   "choices": [
+    "खातो.",
+    "भात",
+    "मी"
+   ],
+   "answer": "मी भात खातो.",
+   "hint_en": "खातो (m) / खाते (f): present habitual agrees with the subject",
+   "skill": "food"
+  },
+  {
+   "id": "d-023",
+   "level": 1,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'डाळ चविष्ट आहे.'",
+   "choices": [],
+   "answer": "The dal is tasty.",
+   "hint_en": "डाळ (f) = lentils; चविष्ट = tasty",
+   "skill": "food"
+  },
+  {
+   "id": "d-024",
+   "level": 1,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "डाळ चविष्ट आहे.",
+   "choices": [
+    "The dal is tasty.",
+    "If you had added less salt, the curry would have tasted better.",
+    "Mother made poli and bhaji.",
+    "Give me some water."
+   ],
+   "answer": "The dal is tasty.",
+   "hint_en": "डाळ (f) = lentils; चविष्ट = tasty",
+   "skill": "food"
+  },
+  {
+   "id": "d-025",
+   "level": 2,
+   "type": "fill-blank",
+   "prompt_en": "Give me some water.",
+   "prompt_mr": "मला थोडं ___ दे.",
+   "choices": [
+    "आमटी",
+    "पाणी",
+    "केली.",
+    "चुलीवरचं"
+   ],
+   "answer": "पाणी",
+   "hint_en": "मला = to me (dative); थोडं (n) agrees with पाणी",
+   "skill": "food"
+  },
+  {
+   "id": "d-026",
+   "level": 2,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'Give me some water.'",
+   "prompt_mr": "",
+   "choices": [
+    "तुला तिखट जेवण आवडतं का?",
+    "मला थोडं पाणी दे.",
+    "डाळ चविष्ट आहे.",
+    "गरम वडा पाव मुंबईत प्रसिद्ध आहे."
+   ],
+   "answer": "मला थोडं पाणी दे.",
+   "hint_en": "मला = to me (dative); थोडं (n) agrees with पाणी",
+   "skill": "food"
+  },
+  {
+   "id": "d-027",
+   "level": 2,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Do you like spicy food?'",
+   "prompt_mr": "तुला / जेवण / आवडतं / का? / तिखट",
+   "choices": [
+    "तुला",
+    "जेवण",
+    "आवडतं",
+    "का?",
+    "तिखट"
+   ],
+   "answer": "तुला तिखट जेवण आवडतं का?",
+   "hint_en": "आवडतं (n) agrees with जेवण; का makes it a question",
+   "skill": "food"
+  },
+  {
+   "id": "d-028",
+   "level": 2,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Do you like spicy food?'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "तुला तिखट जेवण आवडतं का?",
+   "hint_en": "आवडतं (n) agrees with जेवण; का makes it a question",
+   "skill": "food"
+  },
+  {
+   "id": "d-029",
+   "level": 2,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "आईने पोळी आणि भाजी केली.",
+   "choices": [
+    "If you had added less salt, the curry would have tasted better.",
+    "Mother made poli and bhaji.",
+    "How many chapatis will you eat?",
+    "We ate mango pickle with lunch."
+   ],
+   "answer": "Mother made poli and bhaji.",
+   "hint_en": "Ergative आईने in the past; केली agrees with the object (f)",
+   "skill": "food"
+  },
+  {
+   "id": "d-030",
+   "level": 2,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'आईने पोळी आणि भाजी केली.'",
+   "choices": [],
+   "answer": "Mother made poli and bhaji.",
+   "hint_en": "Ergative आईने in the past; केली agrees with the object (f)",
+   "skill": "food"
+  },
+  {
+   "id": "d-031",
+   "level": 3,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'We ate mango pickle with lunch.'",
+   "prompt_mr": "",
+   "choices": [
+    "तू किती पोळ्या खाशील?",
+    "आम्ही जेवणात आंब्याचं लोणचं खाल्लं.",
+    "आईने पोळी आणि भाजी केली.",
+    "आजी म्हणते, चुलीवरचं ताजं जेवण अमृतासारखं लागतं."
+   ],
+   "answer": "आम्ही जेवणात आंब्याचं लोणचं खाल्लं.",
+   "hint_en": "खाल्लं (n) agrees with लोणचं; -चं is neuter genitive",
+   "skill": "food"
+  },
+  {
+   "id": "d-032",
+   "level": 3,
+   "type": "fill-blank",
+   "prompt_en": "We ate mango pickle with lunch.",
+   "prompt_mr": "आम्ही जेवणात ___ लोणचं खाल्लं.",
+   "choices": [
+    "आहे.",
+    "मला",
+    "आंब्याचं",
+    "ताजं"
+   ],
+   "answer": "आंब्याचं",
+   "hint_en": "खाल्लं (n) agrees with लोणचं; -चं is neuter genitive",
+   "skill": "food"
+  },
+  {
+   "id": "d-033",
+   "level": 3,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'How many chapatis will you eat?'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "तू किती पोळ्या खाशील?",
+   "hint_en": "पोळ्या = plural of पोळी; खाशील = you will eat",
+   "skill": "food"
+  },
+  {
+   "id": "d-034",
+   "level": 3,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'How many chapatis will you eat?'",
+   "prompt_mr": "तू / खाशील? / किती / पोळ्या",
+   "choices": [
+    "तू",
+    "खाशील?",
+    "किती",
+    "पोळ्या"
+   ],
+   "answer": "तू किती पोळ्या खाशील?",
+   "hint_en": "पोळ्या = plural of पोळी; खाशील = you will eat",
+   "skill": "food"
+  },
+  {
+   "id": "d-035",
+   "level": 3,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'गरम वडा पाव मुंबईत प्रसिद्ध आहे.'",
+   "choices": [],
+   "answer": "The hot vada pav is famous in Mumbai.",
+   "hint_en": "मुंबईत = in Mumbai (-त locative); वडा पाव (m)",
+   "skill": "food"
+  },
+  {
+   "id": "d-036",
+   "level": 3,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "गरम वडा पाव मुंबईत प्रसिद्ध आहे.",
+   "choices": [
+    "Mother made poli and bhaji.",
+    "The hot vada pav is famous in Mumbai.",
+    "We ate mango pickle with lunch.",
+    "I eat rice."
+   ],
+   "answer": "The hot vada pav is famous in Mumbai.",
+   "hint_en": "मुंबईत = in Mumbai (-त locative); वडा पाव (m)",
+   "skill": "food"
+  },
+  {
+   "id": "d-037",
+   "level": 4,
+   "type": "fill-blank",
+   "prompt_en": "If you had added less salt, the curry would have tasted better.",
+   "prompt_mr": "तू मीठ कमी घातलं असतंस ___ आमटी जास्त चविष्ट लागली असती.",
+   "choices": [
+    "दे.",
+    "तर",
+    "तिखट",
+    "आणि"
+   ],
+   "answer": "तर",
+   "hint_en": "Counterfactual with असतंस/असती; आमटी (f)",
+   "skill": "food"
+  },
+  {
+   "id": "d-038",
+   "level": 4,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'If you had added less salt, the curry would have tasted better.'",
+   "prompt_mr": "",
+   "choices": [
+    "तू मीठ कमी घातलं असतंस तर आमटी जास्त चविष्ट लागली असती.",
+    "आईने पोळी आणि भाजी केली.",
+    "तू किती पोळ्या खाशील?",
+    "गरम वडा पाव मुंबईत प्रसिद्ध आहे."
+   ],
+   "answer": "तू मीठ कमी घातलं असतंस तर आमटी जास्त चविष्ट लागली असती.",
+   "hint_en": "Counterfactual with असतंस/असती; आमटी (f)",
+   "skill": "food"
+  },
+  {
+   "id": "d-039",
+   "level": 4,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Grandmother says food cooked on a wood fire tastes like nectar.'",
+   "prompt_mr": "लागतं. / आजी / म्हणते, / अमृतासारखं / ताजं / चुलीवरचं / जेवण",
+   "choices": [
+    "लागतं.",
+    "आजी",
+    "म्हणते,",
+    "अमृतासारखं",
+    "ताजं",
+    "चुलीवरचं",
+    "जेवण"
+   ],
+   "answer": "आजी म्हणते, चुलीवरचं ताजं जेवण अमृतासारखं लागतं.",
+   "hint_en": "चुलीवरचं = that which is on the stove (adjectival -चं)",
+   "skill": "food"
+  },
+  {
+   "id": "d-040",
+   "level": 4,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Grandmother says food cooked on a wood fire tastes like nectar.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "आजी म्हणते, चुलीवरचं ताजं जेवण अमृतासारखं लागतं.",
+   "hint_en": "चुलीवरचं = that which is on the stove (adjectival -चं)",
+   "skill": "food"
+  },
+  {
+   "id": "d-041",
+   "level": 1,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'हे कितीला?'",
+   "choices": [],
+   "answer": "How much is this?",
+   "hint_en": "कितीला = for how much (dative of price)",
+   "skill": "market"
+  },
+  {
+   "id": "d-042",
+   "level": 1,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "हे कितीला?",
+   "choices": [
+    "How much is this?",
+    "Had I known the rates, I would not have paid so much.",
+    "Bargain a little; the price will come down.",
+    "Give me one kilo of tomatoes."
+   ],
+   "answer": "How much is this?",
+   "hint_en": "कितीला = for how much (dative of price)",
+   "skill": "market"
+  },
+  {
+   "id": "d-043",
+   "level": 1,
+   "type": "fill-blank",
+   "prompt_en": "This is too expensive.",
+   "prompt_mr": "हे खूप ___ आहे.",
+   "choices": [
+    "दुकानदाराने",
+    "गजबजलेल्या",
+    "महाग",
+    "मी"
+   ],
+   "answer": "महाग",
+   "hint_en": "महाग = expensive; स्वस्त = cheap",
+   "skill": "market"
+  },
+  {
+   "id": "d-044",
+   "level": 1,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'This is too expensive.'",
+   "prompt_mr": "",
+   "choices": [
+    "हे खूप महाग आहे.",
+    "आम्ही दर आठवड्याला बुधवारच्या बाजारात जातो.",
+    "मी बाजारातून भाजी आणली.",
+    "जुन्या बाजाराच्या गजबजलेल्या गल्ल्यांत मसाल्यांचा आणि पावसाचा वास येतो."
+   ],
+   "answer": "हे खूप महाग आहे.",
+   "hint_en": "महाग = expensive; स्वस्त = cheap",
+   "skill": "market"
+  },
+  {
+   "id": "d-045",
+   "level": 2,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Give me one kilo of tomatoes.'",
+   "prompt_mr": "टोमॅटो / मला / किलो / द्या. / एक",
+   "choices": [
+    "टोमॅटो",
+    "मला",
+    "किलो",
+    "द्या.",
+    "एक"
+   ],
+   "answer": "मला एक किलो टोमॅटो द्या.",
+   "hint_en": "द्या = polite give; किलो is invariable",
+   "skill": "market"
+  },
+  {
+   "id": "d-046",
+   "level": 2,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Give me one kilo of tomatoes.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "मला एक किलो टोमॅटो द्या.",
+   "hint_en": "द्या = polite give; किलो is invariable",
+   "skill": "market"
+  },
+  {
+   "id": "d-047",
+   "level": 2,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "तुमच्याकडे ताजी कोथिंबीर आहे का?",
+   "choices": [
+    "I bought vegetables from the market.",
+    "Do you have fresh coriander?",
+    "Had I known the rates, I would not have paid so much.",
+    "Bargain a little; the price will come down."
+   ],
+   "answer": "Do you have fresh coriander?",
+   "hint_en": "तुमच्याकडे = with you (possession); कोथिंबीर (f)",
+   "skill": "market"
+  },
+  {
+   "id": "d-048",
+   "level": 2,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'तुमच्याकडे ताजी कोथिंबीर आहे का?'",
+   "choices": [],
+   "answer": "Do you have fresh coriander?",
+   "hint_en": "तुमच्याकडे = with you (possession); कोथिंबीर (f)",
+   "skill": "market"
+  },
+  {
+   "id": "d-049",
+   "level": 2,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'I bought vegetables from the market.'",
+   "prompt_mr": "",
+   "choices": [
+    "थोडी घासाघीस कर; भाव कमी होईल.",
+    "मला भाव माहित असते तर मी इतके पैसे दिले नसते.",
+    "आम्ही दर आठवड्याला बुधवारच्या बाजारात जातो.",
+    "मी बाजारातून भाजी आणली."
+   ],
+   "answer": "मी बाजारातून भाजी आणली.",
+   "hint_en": "बाजारातून = from the market (-तून ablative)",
+   "skill": "market"
+  },
+  {
+   "id": "d-050",
+   "level": 2,
+   "type": "fill-blank",
+   "prompt_en": "I bought vegetables from the market.",
+   "prompt_mr": "मी बाजारातून ___ आणली.",
+   "choices": [
+    "बाजारात",
+    "भाजी",
+    "जातो.",
+    "खूप"
+   ],
+   "answer": "भाजी",
+   "hint_en": "बाजारातून = from the market (-तून ablative)",
+   "skill": "market"
+  },
+  {
+   "id": "d-051",
+   "level": 3,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'The shopkeeper gave a good discount.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "दुकानदाराने चांगली सूट दिली.",
+   "hint_en": "दिली (f) agrees with सूट; -ने is ergative past",
+   "skill": "market"
+  },
+  {
+   "id": "d-052",
+   "level": 3,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'The shopkeeper gave a good discount.'",
+   "prompt_mr": "सूट / दिली. / दुकानदाराने / चांगली",
+   "choices": [
+    "सूट",
+    "दिली.",
+    "दुकानदाराने",
+    "चांगली"
+   ],
+   "answer": "दुकानदाराने चांगली सूट दिली.",
+   "hint_en": "दिली (f) agrees with सूट; -ने is ergative past",
+   "skill": "market"
+  },
+  {
+   "id": "d-053",
+   "level": 3,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'थोडी घासाघीस कर; भाव कमी होईल.'",
+   "choices": [],
+   "answer": "Bargain a little; the price will come down.",
+   "hint_en": "घासाघीस (f) = bargaining; होईल = will become",
+   "skill": "market"
+  },
+  {
+   "id": "d-054",
+   "level": 3,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "थोडी घासाघीस कर; भाव कमी होईल.",
+   "choices": [
+    "I bought vegetables from the market.",
+    "Do you have fresh coriander?",
+    "Bargain a little; the price will come down.",
+    "This is too expensive."
+   ],
+   "answer": "Bargain a little; the price will come down.",
+   "hint_en": "घासाघीस (f) = bargaining; होईल = will become",
+   "skill": "market"
+  },
+  {
+   "id": "d-055",
+   "level": 3,
+   "type": "fill-blank",
+   "prompt_en": "We go to the Wednesday bazaar every week.",
+   "prompt_mr": "आम्ही दर आठवड्याला ___ बाजारात जातो.",
+   "choices": [
+    "वास",
+    "माहित",
+    "बुधवारच्या",
+    "जातो."
+   ],
+   "answer": "बुधवारच्या",
+   "hint_en": "दर आठवड्याला = every week; -च्या genitive",
+   "skill": "market"
+  },
+  {
+   "id": "d-056",
+   "level": 3,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'We go to the Wednesday bazaar every week.'",
+   "prompt_mr": "",
+   "choices": [
+    "हे खूप महाग आहे.",
+    "आम्ही दर आठवड्याला बुधवारच्या बाजारात जातो.",
+    "मला भाव माहित असते तर मी इतके पैसे दिले नसते.",
+    "दुकानदाराने चांगली सूट दिली."
+   ],
+   "answer": "आम्ही दर आठवड्याला बुधवारच्या बाजारात जातो.",
+   "hint_en": "दर आठवड्याला = every week; -च्या genitive",
+   "skill": "market"
+  },
+  {
+   "id": "d-057",
+   "level": 4,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Had I known the rates, I would not have paid so much.'",
+   "prompt_mr": "असते / मी / भाव / इतके / तर / माहित / नसते. / मला / दिले / पैसे",
+   "choices": [
+    "असते",
+    "मी",
+    "भाव",
+    "इतके",
+    "तर",
+    "माहित",
+    "नसते.",
+    "मला",
+    "दिले",
+    "पैसे"
+   ],
+   "answer": "मला भाव माहित असते तर मी इतके पैसे दिले नसते.",
+   "hint_en": "माहित असते = had known; नसते = would not have",
+   "skill": "market"
+  },
+  {
+   "id": "d-058",
+   "level": 4,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Had I known the rates, I would not have paid so much.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "मला भाव माहित असते तर मी इतके पैसे दिले नसते.",
+   "hint_en": "माहित असते = had known; नसते = would not have",
+   "skill": "market"
+  },
+  {
+   "id": "d-059",
+   "level": 4,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "जुन्या बाजाराच्या गजबजलेल्या गल्ल्यांत मसाल्यांचा आणि पावसाचा वास येतो.",
+   "choices": [
+    "The old market lanes smell of spices and rain.",
+    "Had I known the rates, I would not have paid so much.",
+    "The shopkeeper gave a good discount.",
+    "We go to the Wednesday bazaar every week."
+   ],
+   "answer": "The old market lanes smell of spices and rain.",
+   "hint_en": "गल्ल्यांत = in the lanes (locative plural); वास येतो = smell comes",
+   "skill": "market"
+  },
+  {
+   "id": "d-060",
+   "level": 4,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'जुन्या बाजाराच्या गजबजलेल्या गल्ल्यांत मसाल्यांचा आणि पावसाचा वास येतो.'",
+   "choices": [],
+   "answer": "The old market lanes smell of spices and rain.",
+   "hint_en": "गल्ल्यांत = in the lanes (locative plural); वास येतो = smell comes",
+   "skill": "market"
+  },
+  {
+   "id": "d-061",
+   "level": 1,
+   "type": "fill-blank",
+   "prompt_en": "Where is the station?",
+   "prompt_mr": "स्टेशन ___ आहे?",
+   "choices": [
+    "मला",
+    "कुठे",
+    "पुण्याचं",
+    "आली"
+   ],
+   "answer": "कुठे",
+   "hint_en": "कुठे = where; -त locative often answers it",
+   "skill": "travel"
+  },
+  {
+   "id": "d-062",
+   "level": 1,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'Where is the station?'",
+   "prompt_mr": "",
+   "choices": [
+    "गाडी उशिरा आहे.",
+    "आम्ही रात्री घरी पोहोचलो.",
+    "स्टेशन कुठे आहे?",
+    "मला पुण्याचं तिकीट हवं."
+   ],
+   "answer": "स्टेशन कुठे आहे?",
+   "hint_en": "कुठे = where; -त locative often answers it",
+   "skill": "travel"
+  },
+  {
+   "id": "d-063",
+   "level": 1,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'The train is late.'",
+   "prompt_mr": "आहे. / उशिरा / गाडी",
+   "choices": [
+    "आहे.",
+    "उशिरा",
+    "गाडी"
+   ],
+   "answer": "गाडी उशिरा आहे.",
+   "hint_en": "गाडी (f) = train/vehicle; उशिरा = late",
+   "skill": "travel"
+  },
+  {
+   "id": "d-064",
+   "level": 1,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'The train is late.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "गाडी उशिरा आहे.",
+   "hint_en": "गाडी (f) = train/vehicle; उशिरा = late",
+   "skill": "travel"
+  },
+  {
+   "id": "d-065",
+   "level": 2,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "मला पुण्याचं तिकीट हवं.",
+   "choices": [
+    "Travelling through the Sahyadri ghats in the monsoon is unforgettable.",
+    "Where is the station?",
+    "If the taxi had come on time, we would have caught the flight.",
+    "I want a ticket to Pune."
+   ],
+   "answer": "I want a ticket to Pune.",
+   "hint_en": "हवं (n) agrees with तिकीट; पुण्याचं = of/for Pune",
+   "skill": "travel"
+  },
+  {
+   "id": "d-066",
+   "level": 2,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'मला पुण्याचं तिकीट हवं.'",
+   "choices": [],
+   "answer": "I want a ticket to Pune.",
+   "hint_en": "हवं (n) agrees with तिकीट; पुण्याचं = of/for Pune",
+   "skill": "travel"
+  },
+  {
+   "id": "d-067",
+   "level": 2,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'Which platform does it leave from?'",
+   "prompt_mr": "",
+   "choices": [
+    "बस नदीजवळ थांबली.",
+    "ती कोणत्या फलाटावरून सुटते?",
+    "आम्ही रात्री घरी पोहोचलो.",
+    "मला पुण्याचं तिकीट हवं."
+   ],
+   "answer": "ती कोणत्या फलाटावरून सुटते?",
+   "hint_en": "फलाटावरून = from the platform; सुटते = departs",
+   "skill": "travel"
+  },
+  {
+   "id": "d-068",
+   "level": 2,
+   "type": "fill-blank",
+   "prompt_en": "Which platform does it leave from?",
+   "prompt_mr": "ती कोणत्या ___ सुटते?",
+   "choices": [
+    "करणं",
+    "फलाटावरून",
+    "पुण्याचं",
+    "असती."
+   ],
+   "answer": "फलाटावरून",
+   "hint_en": "फलाटावरून = from the platform; सुटते = departs",
+   "skill": "travel"
+  },
+  {
+   "id": "d-069",
+   "level": 2,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'We reached home at night.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "आम्ही रात्री घरी पोहोचलो.",
+   "hint_en": "रात्री = at night; पोहोचलो (m pl) past of पोहोचणे",
+   "skill": "travel"
+  },
+  {
+   "id": "d-070",
+   "level": 2,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'We reached home at night.'",
+   "prompt_mr": "आम्ही / घरी / पोहोचलो. / रात्री",
+   "choices": [
+    "आम्ही",
+    "घरी",
+    "पोहोचलो.",
+    "रात्री"
+   ],
+   "answer": "आम्ही रात्री घरी पोहोचलो.",
+   "hint_en": "रात्री = at night; पोहोचलो (m pl) past of पोहोचणे",
+   "skill": "travel"
+  },
+  {
+   "id": "d-071",
+   "level": 3,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'बस नदीजवळ थांबली.'",
+   "choices": [],
+   "answer": "The bus stopped near the river.",
+   "hint_en": "थांबली (f) agrees with बस; -जवळ = near",
+   "skill": "travel"
+  },
+  {
+   "id": "d-072",
+   "level": 3,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "बस नदीजवळ थांबली.",
+   "choices": [
+    "The bus stopped near the river.",
+    "Travelling through the Sahyadri ghats in the monsoon is unforgettable.",
+    "I want a ticket to Pune.",
+    "If the taxi had come on time, we would have caught the flight."
+   ],
+   "answer": "The bus stopped near the river.",
+   "hint_en": "थांबली (f) agrees with बस; -जवळ = near",
+   "skill": "travel"
+  },
+  {
+   "id": "d-073",
+   "level": 3,
+   "type": "fill-blank",
+   "prompt_en": "Have you ever travelled by plane?",
+   "prompt_mr": "तू कधी विमानाने ___ केला आहेस का?",
+   "choices": [
+    "तर",
+    "असती",
+    "असती.",
+    "प्रवास"
+   ],
+   "answer": "प्रवास",
+   "hint_en": "विमानाने = by plane (instrumental -ने); केला आहेस = have done",
+   "skill": "travel"
+  },
+  {
+   "id": "d-074",
+   "level": 3,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'Have you ever travelled by plane?'",
+   "prompt_mr": "",
+   "choices": [
+    "बस नदीजवळ थांबली.",
+    "तू कधी विमानाने प्रवास केला आहेस का?",
+    "गडावर जाणारा रस्ता खूप चढाचा आहे.",
+    "पावसाळ्यात सह्याद्रीच्या घाटांतून प्रवास करणं अविस्मरणीय असतं."
+   ],
+   "answer": "तू कधी विमानाने प्रवास केला आहेस का?",
+   "hint_en": "विमानाने = by plane (instrumental -ने); केला आहेस = have done",
+   "skill": "travel"
+  },
+  {
+   "id": "d-075",
+   "level": 3,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'The road to the fort is very steep.'",
+   "prompt_mr": "रस्ता / आहे. / खूप / जाणारा / गडावर / चढाचा",
+   "choices": [
+    "रस्ता",
+    "आहे.",
+    "खूप",
+    "जाणारा",
+    "गडावर",
+    "चढाचा"
+   ],
+   "answer": "गडावर जाणारा रस्ता खूप चढाचा आहे.",
+   "hint_en": "जाणारा = going (relative participle); गडावर = to the fort",
+   "skill": "travel"
+  },
+  {
+   "id": "d-076",
+   "level": 3,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'The road to the fort is very steep.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "गडावर जाणारा रस्ता खूप चढाचा आहे.",
+   "hint_en": "जाणारा = going (relative participle); गडावर = to the fort",
+   "skill": "travel"
+  },
+  {
+   "id": "d-077",
+   "level": 4,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "टॅक्सी वेळेत आली असती तर आमची फ्लाइट पकडली असती.",
+   "choices": [
+    "Where is the station?",
+    "If the taxi had come on time, we would have caught the flight.",
+    "Travelling through the Sahyadri ghats in the monsoon is unforgettable.",
+    "I want a ticket to Pune."
+   ],
+   "answer": "If the taxi had come on time, we would have caught the flight.",
+   "hint_en": "Past conditional: आली असती / पकडली असती (f agreement)",
+   "skill": "travel"
+  },
+  {
+   "id": "d-078",
+   "level": 4,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'टॅक्सी वेळेत आली असती तर आमची फ्लाइट पकडली असती.'",
+   "choices": [],
+   "answer": "If the taxi had come on time, we would have caught the flight.",
+   "hint_en": "Past conditional: आली असती / पकडली असती (f agreement)",
+   "skill": "travel"
+  },
+  {
+   "id": "d-079",
+   "level": 4,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'Travelling through the Sahyadri ghats in the monsoon is unforgettable.'",
+   "prompt_mr": "",
+   "choices": [
+    "टॅक्सी वेळेत आली असती तर आमची फ्लाइट पकडली असती.",
+    "गाडी उशिरा आहे.",
+    "तू कधी विमानाने प्रवास केला आहेस का?",
+    "पावसाळ्यात सह्याद्रीच्या घाटांतून प्रवास करणं अविस्मरणीय असतं."
+   ],
+   "answer": "पावसाळ्यात सह्याद्रीच्या घाटांतून प्रवास करणं अविस्मरणीय असतं.",
+   "hint_en": "घाटांतून = through the ghats; करणं = doing (verbal noun, n)",
+   "skill": "travel"
+  },
+  {
+   "id": "d-080",
+   "level": 4,
+   "type": "fill-blank",
+   "prompt_en": "Travelling through the Sahyadri ghats in the monsoon is unforgettable.",
+   "prompt_mr": "पावसाळ्यात सह्याद्रीच्या घाटांतून ___ करणं अविस्मरणीय असतं.",
+   "choices": [
+    "खूप",
+    "जाणारा",
+    "प्रवास",
+    "ती"
+   ],
+   "answer": "प्रवास",
+   "hint_en": "घाटांतून = through the ghats; करणं = doing (verbal noun, n)",
+   "skill": "travel"
+  },
+  {
+   "id": "d-081",
+   "level": 1,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'This is my house.'",
+   "prompt_mr": "हे / आहे. / माझं / घर",
+   "choices": [
+    "हे",
+    "आहे.",
+    "माझं",
+    "घर"
+   ],
+   "answer": "हे माझं घर आहे.",
+   "hint_en": "घर (n), so हे and माझं are neuter",
+   "skill": "home"
+  },
+  {
+   "id": "d-082",
+   "level": 1,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'This is my house.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "हे माझं घर आहे.",
+   "hint_en": "घर (n), so हे and माझं are neuter",
+   "skill": "home"
+  },
+  {
+   "id": "d-083",
+   "level": 1,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "दार उघडं आहे.",
+   "choices": [
+    "My room is small.",
+    "We had just sat down to eat when the power went out.",
+    "Father is reading the newspaper.",
+    "The door is open."
+   ],
+   "answer": "The door is open.",
+   "hint_en": "दार (n) = door; उघडं (n) = open",
+   "skill": "home"
+  },
+  {
+   "id": "d-084",
+   "level": 1,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'दार उघडं आहे.'",
+   "choices": [],
+   "answer": "The door is open.",
+   "hint_en": "दार (n) = door; उघडं (n) = open",
+   "skill": "home"
+  },
+  {
+   "id": "d-085",
+   "level": 2,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'My room is small.'",
+   "prompt_mr": "",
+   "choices": [
+    "आम्ही जेवायला बसलोच होतो तेवढ्यात लाईट गेली.",
+    "मुलं बाहेर खेळत आहेत.",
+    "माझी खोली लहान आहे.",
+    "हे माझं घर आहे."
+   ],
+   "answer": "माझी खोली लहान आहे.",
+   "hint_en": "खोली (f), so माझी; लहान is invariable",
+   "skill": "home"
+  },
+  {
+   "id": "d-086",
+   "level": 2,
+   "type": "fill-blank",
+   "prompt_en": "My room is small.",
+   "prompt_mr": "माझी खोली ___ आहे.",
+   "choices": [
+    "लहान",
+    "होतो",
+    "आवरलं.",
+    "आमच्या"
+   ],
+   "answer": "लहान",
+   "hint_en": "खोली (f), so माझी; लहान is invariable",
+   "skill": "home"
+  },
+  {
+   "id": "d-087",
+   "level": 2,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Turn off the light.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "दिवा बंद कर.",
+   "hint_en": "दिवा (m) = lamp/light; बंद कर = turn off",
+   "skill": "home"
+  },
+  {
+   "id": "d-088",
+   "level": 2,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Turn off the light.'",
+   "prompt_mr": "बंद / कर. / दिवा",
+   "choices": [
+    "बंद",
+    "कर.",
+    "दिवा"
+   ],
+   "answer": "दिवा बंद कर.",
+   "hint_en": "दिवा (m) = lamp/light; बंद कर = turn off",
+   "skill": "home"
+  },
+  {
+   "id": "d-089",
+   "level": 2,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'बाबा वर्तमानपत्र वाचत आहेत.'",
+   "choices": [],
+   "answer": "Father is reading the newspaper.",
+   "hint_en": "Respectful plural आहेत is used for elders",
+   "skill": "home"
+  },
+  {
+   "id": "d-090",
+   "level": 2,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "बाबा वर्तमानपत्र वाचत आहेत.",
+   "choices": [
+    "The children are playing outside.",
+    "The door is open.",
+    "This is my house.",
+    "Father is reading the newspaper."
+   ],
+   "answer": "Father is reading the newspaper.",
+   "hint_en": "Respectful plural आहेत is used for elders",
+   "skill": "home"
+  },
+  {
+   "id": "d-091",
+   "level": 3,
+   "type": "fill-blank",
+   "prompt_en": "The children are playing outside.",
+   "prompt_mr": "मुलं बाहेर ___ आहेत.",
+   "choices": [
+    "घाल.",
+    "मी",
+    "खेळत",
+    "गेली."
+   ],
+   "answer": "खेळत",
+   "hint_en": "मुलं (n pl) = children; बाहेर = outside",
+   "skill": "home"
+  },
+  {
+   "id": "d-092",
+   "level": 3,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'The children are playing outside.'",
+   "prompt_mr": "",
+   "choices": [
+    "मुलं बाहेर खेळत आहेत.",
+    "मी काल सगळं घर आवरलं.",
+    "हे माझं घर आहे.",
+    "आम्ही जेवायला बसलोच होतो तेवढ्यात लाईट गेली."
+   ],
+   "answer": "मुलं बाहेर खेळत आहेत.",
+   "hint_en": "मुलं (n pl) = children; बाहेर = outside",
+   "skill": "home"
+  },
+  {
+   "id": "d-093",
+   "level": 3,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'I cleaned the whole house yesterday.'",
+   "prompt_mr": "सगळं / घर / मी / आवरलं. / काल",
+   "choices": [
+    "सगळं",
+    "घर",
+    "मी",
+    "आवरलं.",
+    "काल"
+   ],
+   "answer": "मी काल सगळं घर आवरलं.",
+   "hint_en": "आवरलं (n) agrees with घर; काल = yesterday",
+   "skill": "home"
+  },
+  {
+   "id": "d-094",
+   "level": 3,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'I cleaned the whole house yesterday.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "मी काल सगळं घर आवरलं.",
+   "hint_en": "आवरलं (n) agrees with घर; काल = yesterday",
+   "skill": "home"
+  },
+  {
+   "id": "d-095",
+   "level": 3,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "कपडे गच्चीवर वाळत घाल.",
+   "choices": [
+    "We had just sat down to eat when the power went out.",
+    "Hang the clothes on the terrace to dry.",
+    "This is my house.",
+    "The children are playing outside."
+   ],
+   "answer": "Hang the clothes on the terrace to dry.",
+   "hint_en": "वाळत घाल = put to dry; गच्चीवर = on the terrace",
+   "skill": "home"
+  },
+  {
+   "id": "d-096",
+   "level": 3,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'कपडे गच्चीवर वाळत घाल.'",
+   "choices": [],
+   "answer": "Hang the clothes on the terrace to dry.",
+   "hint_en": "वाळत घाल = put to dry; गच्चीवर = on the terrace",
+   "skill": "home"
+  },
+  {
+   "id": "d-097",
+   "level": 4,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'We had just sat down to eat when the power went out.'",
+   "prompt_mr": "",
+   "choices": [
+    "हे माझं घर आहे.",
+    "माझी खोली लहान आहे.",
+    "आम्ही जेवायला बसलोच होतो तेवढ्यात लाईट गेली.",
+    "मी काल सगळं घर आवरलं."
+   ],
+   "answer": "आम्ही जेवायला बसलोच होतो तेवढ्यात लाईट गेली.",
+   "hint_en": "बसलोच होतो = had just sat; तेवढ्यात = just then",
+   "skill": "home"
+  },
+  {
+   "id": "d-098",
+   "level": 4,
+   "type": "fill-blank",
+   "prompt_en": "We had just sat down to eat when the power went out.",
+   "prompt_mr": "आम्ही जेवायला बसलोच ___ तेवढ्यात लाईट गेली.",
+   "choices": [
+    "घाल.",
+    "होतो",
+    "आवरलं.",
+    "माझं"
+   ],
+   "answer": "होतो",
+   "hint_en": "बसलोच होतो = had just sat; तेवढ्यात = just then",
+   "skill": "home"
+  },
+  {
+   "id": "d-099",
+   "level": 4,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'The old wada with wooden pillars still stands in our village.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "लाकडी खांबांचा जुना वाडा आमच्या गावात अजून उभा आहे.",
+   "hint_en": "खांबांचा = of pillars (m pl genitive); अजून = still",
+   "skill": "home"
+  },
+  {
+   "id": "d-100",
+   "level": 4,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'The old wada with wooden pillars still stands in our village.'",
+   "prompt_mr": "लाकडी / जुना / खांबांचा / आमच्या / गावात / वाडा / उभा / अजून / आहे.",
+   "choices": [
+    "लाकडी",
+    "जुना",
+    "खांबांचा",
+    "आमच्या",
+    "गावात",
+    "वाडा",
+    "उभा",
+    "अजून",
+    "आहे."
+   ],
+   "answer": "लाकडी खांबांचा जुना वाडा आमच्या गावात अजून उभा आहे.",
+   "hint_en": "खांबांचा = of pillars (m pl genitive); अजून = still",
+   "skill": "home"
+  },
+  {
+   "id": "d-101",
+   "level": 1,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "किती वाजले?",
+   "choices": [
+    "What time is it?",
+    "By the time I woke up, everyone had left.",
+    "It is five o clock.",
+    "We waited for two hours."
+   ],
+   "answer": "What time is it?",
+   "hint_en": "वाजले = have struck (hours are plural)",
+   "skill": "time"
+  },
+  {
+   "id": "d-102",
+   "level": 1,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'किती वाजले?'",
+   "choices": [],
+   "answer": "What time is it?",
+   "hint_en": "वाजले = have struck (hours are plural)",
+   "skill": "time"
+  },
+  {
+   "id": "d-103",
+   "level": 1,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'It is five o clock.'",
+   "prompt_mr": "",
+   "choices": [
+    "माझा वाढदिवस डिसेंबरमध्ये आहे.",
+    "आम्ही दोन तास वाट पाहिली.",
+    "आज सोमवार आहे.",
+    "पाच वाजले."
+   ],
+   "answer": "पाच वाजले.",
+   "hint_en": "Numbers + वाजले for telling o'clock time",
+   "skill": "time"
+  },
+  {
+   "id": "d-104",
+   "level": 1,
+   "type": "fill-blank",
+   "prompt_en": "It is five o clock.",
+   "prompt_mr": "पाच ___",
+   "choices": [
+    "ये.",
+    "तास",
+    "वाजले.",
+    "सगळे"
+   ],
+   "answer": "वाजले.",
+   "hint_en": "Numbers + वाजले for telling o'clock time",
+   "skill": "time"
+  },
+  {
+   "id": "d-105",
+   "level": 2,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Come at seven in the morning.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "सकाळी सात वाजता ये.",
+   "hint_en": "वाजता = at (o'clock); सकाळी = in the morning",
+   "skill": "time"
+  },
+  {
+   "id": "d-106",
+   "level": 2,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Come at seven in the morning.'",
+   "prompt_mr": "वाजता / सकाळी / सात / ये.",
+   "choices": [
+    "वाजता",
+    "सकाळी",
+    "सात",
+    "ये."
+   ],
+   "answer": "सकाळी सात वाजता ये.",
+   "hint_en": "वाजता = at (o'clock); सकाळी = in the morning",
+   "skill": "time"
+  },
+  {
+   "id": "d-107",
+   "level": 2,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'आज सोमवार आहे.'",
+   "choices": [],
+   "answer": "Today is Monday.",
+   "hint_en": "आज = today; उद्या = tomorrow; काल = yesterday",
+   "skill": "time"
+  },
+  {
+   "id": "d-108",
+   "level": 2,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "आज सोमवार आहे.",
+   "choices": [
+    "By the time I woke up, everyone had left.",
+    "Today is Monday.",
+    "We waited for two hours.",
+    "What time is it?"
+   ],
+   "answer": "Today is Monday.",
+   "hint_en": "आज = today; उद्या = tomorrow; काल = yesterday",
+   "skill": "time"
+  },
+  {
+   "id": "d-109",
+   "level": 2,
+   "type": "fill-blank",
+   "prompt_en": "My birthday is in December.",
+   "prompt_mr": "माझा वाढदिवस ___ आहे.",
+   "choices": [
+    "डिसेंबरमध्ये",
+    "होतात.",
+    "आहे.",
+    "ये."
+   ],
+   "answer": "डिसेंबरमध्ये",
+   "hint_en": "वाढदिवस (m), so माझा; -मध्ये = in",
+   "skill": "time"
+  },
+  {
+   "id": "d-110",
+   "level": 2,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'My birthday is in December.'",
+   "prompt_mr": "",
+   "choices": [
+    "ती रोज लवकर उठते.",
+    "आम्ही दोन तास वाट पाहिली.",
+    "मी उठेपर्यंत सगळे गेले होते.",
+    "माझा वाढदिवस डिसेंबरमध्ये आहे."
+   ],
+   "answer": "माझा वाढदिवस डिसेंबरमध्ये आहे.",
+   "hint_en": "वाढदिवस (m), so माझा; -मध्ये = in",
+   "skill": "time"
+  },
+  {
+   "id": "d-111",
+   "level": 3,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'She wakes up early every day.'",
+   "prompt_mr": "रोज / ती / लवकर / उठते.",
+   "choices": [
+    "रोज",
+    "ती",
+    "लवकर",
+    "उठते."
+   ],
+   "answer": "ती रोज लवकर उठते.",
+   "hint_en": "रोज = daily; उठते (f) = wakes up",
+   "skill": "time"
+  },
+  {
+   "id": "d-112",
+   "level": 3,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'She wakes up early every day.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "ती रोज लवकर उठते.",
+   "hint_en": "रोज = daily; उठते (f) = wakes up",
+   "skill": "time"
+  },
+  {
+   "id": "d-113",
+   "level": 3,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "आम्ही दोन तास वाट पाहिली.",
+   "choices": [
+    "She wakes up early every day.",
+    "We waited for two hours.",
+    "It is five o clock.",
+    "Today is Monday."
+   ],
+   "answer": "We waited for two hours.",
+   "hint_en": "वाट पाहिली = waited (f object वाट)",
+   "skill": "time"
+  },
+  {
+   "id": "d-114",
+   "level": 3,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'आम्ही दोन तास वाट पाहिली.'",
+   "choices": [],
+   "answer": "We waited for two hours.",
+   "hint_en": "वाट पाहिली = waited (f object वाट)",
+   "skill": "time"
+  },
+  {
+   "id": "d-115",
+   "level": 3,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'The holidays start next week.'",
+   "prompt_mr": "",
+   "choices": [
+    "आम्ही दोन तास वाट पाहिली.",
+    "सुट्ट्या पुढच्या आठवड्यात सुरू होतात.",
+    "आज सोमवार आहे.",
+    "किती वाजले?"
+   ],
+   "answer": "सुट्ट्या पुढच्या आठवड्यात सुरू होतात.",
+   "hint_en": "सुट्ट्या (f pl); पुढच्या = next (genitive)",
+   "skill": "time"
+  },
+  {
+   "id": "d-116",
+   "level": 3,
+   "type": "fill-blank",
+   "prompt_en": "The holidays start next week.",
+   "prompt_mr": "सुट्ट्या पुढच्या ___ सुरू होतात.",
+   "choices": [
+    "वाजले.",
+    "सुरू",
+    "आठवड्यात",
+    "आहे."
+   ],
+   "answer": "आठवड्यात",
+   "hint_en": "सुट्ट्या (f pl); पुढच्या = next (genitive)",
+   "skill": "time"
+  },
+  {
+   "id": "d-117",
+   "level": 4,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'By the time I woke up, everyone had left.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "मी उठेपर्यंत सगळे गेले होते.",
+   "hint_en": "उठेपर्यंत = until I woke; गेले होते = had gone (pluperfect)",
+   "skill": "time"
+  },
+  {
+   "id": "d-118",
+   "level": 4,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'By the time I woke up, everyone had left.'",
+   "prompt_mr": "होते. / गेले / मी / सगळे / उठेपर्यंत",
+   "choices": [
+    "होते.",
+    "गेले",
+    "मी",
+    "सगळे",
+    "उठेपर्यंत"
+   ],
+   "answer": "मी उठेपर्यंत सगळे गेले होते.",
+   "hint_en": "उठेपर्यंत = until I woke; गेले होते = had gone (pluperfect)",
+   "skill": "time"
+  },
+  {
+   "id": "d-119",
+   "level": 4,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'वेळ इतक्या लवकर जातो की बालपण कालच्यासारखं वाटतं.'",
+   "choices": [],
+   "answer": "Time passes so quickly that childhood feels like yesterday.",
+   "hint_en": "इतक्या...की = so...that; वाटतं = feels (impersonal n)",
+   "skill": "time"
+  },
+  {
+   "id": "d-120",
+   "level": 4,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "वेळ इतक्या लवकर जातो की बालपण कालच्यासारखं वाटतं.",
+   "choices": [
+    "Today is Monday.",
+    "The holidays start next week.",
+    "By the time I woke up, everyone had left.",
+    "Time passes so quickly that childhood feels like yesterday."
+   ],
+   "answer": "Time passes so quickly that childhood feels like yesterday.",
+   "hint_en": "इतक्या...की = so...that; वाटतं = feels (impersonal n)",
+   "skill": "time"
+  },
+  {
+   "id": "d-121",
+   "level": 1,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'I am happy.'",
+   "prompt_mr": "",
+   "choices": [
+    "तिचे डोळे आनंदाश्रूंनी भरून आले.",
+    "मी खुश आहे.",
+    "रात्र कितीही काळी असली तरी सकाळ नवी उमेद घेऊन येते.",
+    "ती दुःखी आहे."
+   ],
+   "answer": "मी खुश आहे.",
+   "hint_en": "खुश is invariable; आनंदी is also common",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-122",
+   "level": 1,
+   "type": "fill-blank",
+   "prompt_en": "I am happy.",
+   "prompt_mr": "मी ___ आहे.",
+   "choices": [
+    "डोळे",
+    "तरी",
+    "खुश",
+    "रडावंसं"
+   ],
+   "answer": "खुश",
+   "hint_en": "खुश is invariable; आनंदी is also common",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-123",
+   "level": 1,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'She is sad.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "ती दुःखी आहे.",
+   "hint_en": "दुःखी = sad; दुःख (n) = sorrow",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-124",
+   "level": 1,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'She is sad.'",
+   "prompt_mr": "आहे. / ती / दुःखी",
+   "choices": [
+    "आहे.",
+    "ती",
+    "दुःखी"
+   ],
+   "answer": "ती दुःखी आहे.",
+   "hint_en": "दुःखी = sad; दुःख (n) = sorrow",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-125",
+   "level": 2,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'मी खूप दमलो आहे.'",
+   "choices": [],
+   "answer": "I am very tired.",
+   "hint_en": "दमलो (m) / दमली (f): perfect of दमणे",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-126",
+   "level": 2,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "मी खूप दमलो आहे.",
+   "choices": [
+    "I am very tired.",
+    "I am happy.",
+    "I feel like laughing and crying at once.",
+    "Had I known you were upset, I would have called sooner."
+   ],
+   "answer": "I am very tired.",
+   "hint_en": "दमलो (m) / दमली (f): perfect of दमणे",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-127",
+   "level": 2,
+   "type": "fill-blank",
+   "prompt_en": "Do not be afraid.",
+   "prompt_mr": "घाबरू ___",
+   "choices": [
+    "नवी",
+    "आहे.",
+    "ऐकून",
+    "नकोस."
+   ],
+   "answer": "नकोस.",
+   "hint_en": "नकोस = don't (informal); घाबरू = to fear",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-128",
+   "level": 2,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'Do not be afraid.'",
+   "prompt_mr": "",
+   "choices": [
+    "घाबरू नकोस.",
+    "ती दुःखी आहे.",
+    "बातमी ऐकून आम्हाला आश्चर्य वाटलं.",
+    "मला एकाच वेळी हसावंसं आणि रडावंसं वाटतं."
+   ],
+   "answer": "घाबरू नकोस.",
+   "hint_en": "नकोस = don't (informal); घाबरू = to fear",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-129",
+   "level": 2,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'He got angry with me.'",
+   "prompt_mr": "रागावला. / माझ्यावर / तो",
+   "choices": [
+    "रागावला.",
+    "माझ्यावर",
+    "तो"
+   ],
+   "answer": "तो माझ्यावर रागावला.",
+   "hint_en": "रागावला (m) = got angry; -वर = on/at",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-130",
+   "level": 2,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'He got angry with me.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "तो माझ्यावर रागावला.",
+   "hint_en": "रागावला (m) = got angry; -वर = on/at",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-131",
+   "level": 3,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "बातमी ऐकून आम्हाला आश्चर्य वाटलं.",
+   "choices": [
+    "We were surprised to hear the news.",
+    "I am happy.",
+    "No matter how dark the night, morning brings new hope.",
+    "I feel like laughing and crying at once."
+   ],
+   "answer": "We were surprised to hear the news.",
+   "hint_en": "आम्हाला...वाटलं = we felt (dative experiencer)",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-132",
+   "level": 3,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'बातमी ऐकून आम्हाला आश्चर्य वाटलं.'",
+   "choices": [],
+   "answer": "We were surprised to hear the news.",
+   "hint_en": "आम्हाला...वाटलं = we felt (dative experiencer)",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-133",
+   "level": 3,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'I feel like laughing and crying at once.'",
+   "prompt_mr": "",
+   "choices": [
+    "घाबरू नकोस.",
+    "तिचे डोळे आनंदाश्रूंनी भरून आले.",
+    "मी खूप दमलो आहे.",
+    "मला एकाच वेळी हसावंसं आणि रडावंसं वाटतं."
+   ],
+   "answer": "मला एकाच वेळी हसावंसं आणि रडावंसं वाटतं.",
+   "hint_en": "-वंसं = feel like doing; वाटतं is impersonal",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-134",
+   "level": 3,
+   "type": "fill-blank",
+   "prompt_en": "I feel like laughing and crying at once.",
+   "prompt_mr": "मला एकाच वेळी ___ आणि रडावंसं वाटतं.",
+   "choices": [
+    "हसावंसं",
+    "केला",
+    "आहे.",
+    "हे"
+   ],
+   "answer": "हसावंसं",
+   "hint_en": "-वंसं = feel like doing; वाटतं is impersonal",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-135",
+   "level": 3,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Her eyes filled with tears of joy.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "तिचे डोळे आनंदाश्रूंनी भरून आले.",
+   "hint_en": "-नी is instrumental plural; भरून आले = welled up",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-136",
+   "level": 3,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Her eyes filled with tears of joy.'",
+   "prompt_mr": "आनंदाश्रूंनी / तिचे / आले. / डोळे / भरून",
+   "choices": [
+    "आनंदाश्रूंनी",
+    "तिचे",
+    "आले.",
+    "डोळे",
+    "भरून"
+   ],
+   "answer": "तिचे डोळे आनंदाश्रूंनी भरून आले.",
+   "hint_en": "-नी is instrumental plural; भरून आले = welled up",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-137",
+   "level": 4,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'तू नाराज आहेस हे मला कळलं असतं तर मी लवकर फोन केला असता.'",
+   "choices": [],
+   "answer": "Had I known you were upset, I would have called sooner.",
+   "hint_en": "कळलं असतं = had known; केला असता = would have done (m)",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-138",
+   "level": 4,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "तू नाराज आहेस हे मला कळलं असतं तर मी लवकर फोन केला असता.",
+   "choices": [
+    "No matter how dark the night, morning brings new hope.",
+    "He got angry with me.",
+    "Had I known you were upset, I would have called sooner.",
+    "Do not be afraid."
+   ],
+   "answer": "Had I known you were upset, I would have called sooner.",
+   "hint_en": "कळलं असतं = had known; केला असता = would have done (m)",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-139",
+   "level": 4,
+   "type": "fill-blank",
+   "prompt_en": "No matter how dark the night, morning brings new hope.",
+   "prompt_mr": "रात्र कितीही काळी असली तरी ___ नवी उमेद घेऊन येते.",
+   "choices": [
+    "दमलो",
+    "आनंदाश्रूंनी",
+    "वाटतं.",
+    "सकाळ"
+   ],
+   "answer": "सकाळ",
+   "hint_en": "कितीही...तरी = however...still; घेऊन = bringing",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-140",
+   "level": 4,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'No matter how dark the night, morning brings new hope.'",
+   "prompt_mr": "",
+   "choices": [
+    "मी खूप दमलो आहे.",
+    "तिचे डोळे आनंदाश्रूंनी भरून आले.",
+    "रात्र कितीही काळी असली तरी सकाळ नवी उमेद घेऊन येते.",
+    "ती दुःखी आहे."
+   ],
+   "answer": "रात्र कितीही काळी असली तरी सकाळ नवी उमेद घेऊन येते.",
+   "hint_en": "कितीही...तरी = however...still; घेऊन = bringing",
+   "skill": "feelings"
+  },
+  {
+   "id": "d-141",
+   "level": 1,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'I work in an office.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "मी कार्यालयात काम करतो.",
+   "hint_en": "करतो (m) / करते (f); -त = in",
+   "skill": "work"
+  },
+  {
+   "id": "d-142",
+   "level": 1,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'I work in an office.'",
+   "prompt_mr": "करतो. / मी / काम / कार्यालयात",
+   "choices": [
+    "करतो.",
+    "मी",
+    "काम",
+    "कार्यालयात"
+   ],
+   "answer": "मी कार्यालयात काम करतो.",
+   "hint_en": "करतो (m) / करते (f); -त = in",
+   "skill": "work"
+  },
+  {
+   "id": "d-143",
+   "level": 1,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'ती शिक्षिका आहे.'",
+   "choices": [],
+   "answer": "She is a teacher.",
+   "hint_en": "शिक्षिका (f) / शिक्षक (m) = teacher",
+   "skill": "work"
+  },
+  {
+   "id": "d-144",
+   "level": 1,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "ती शिक्षिका आहे.",
+   "choices": [
+    "She got a promotion last month.",
+    "I sent the email yesterday.",
+    "The meeting is at ten.",
+    "She is a teacher."
+   ],
+   "answer": "She is a teacher.",
+   "hint_en": "शिक्षिका (f) / शिक्षक (m) = teacher",
+   "skill": "work"
+  },
+  {
+   "id": "d-145",
+   "level": 2,
+   "type": "fill-blank",
+   "prompt_en": "What do you do?",
+   "prompt_mr": "तू ___ करतोस?",
+   "choices": [
+    "मी",
+    "काय",
+    "बढती",
+    "तर"
+   ],
+   "answer": "काय",
+   "hint_en": "करतोस = you do (informal masculine)",
+   "skill": "work"
+  },
+  {
+   "id": "d-146",
+   "level": 2,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'What do you do?'",
+   "prompt_mr": "",
+   "choices": [
+    "तिला गेल्या महिन्यात बढती मिळाली.",
+    "मेहनत आणि प्रामाणिकपणा यांचं फळ नेहमी शेवटी मिळतं.",
+    "तू काय करतोस?",
+    "माझं काम लवकर संपलं तर मी सहा वाजता निघेन."
+   ],
+   "answer": "तू काय करतोस?",
+   "hint_en": "करतोस = you do (informal masculine)",
+   "skill": "work"
+  },
+  {
+   "id": "d-147",
+   "level": 2,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'The meeting is at ten.'",
+   "prompt_mr": "दहा / वाजता / आहे. / सभा",
+   "choices": [
+    "दहा",
+    "वाजता",
+    "आहे.",
+    "सभा"
+   ],
+   "answer": "सभा दहा वाजता आहे.",
+   "hint_en": "सभा (f) = meeting; वाजता = at",
+   "skill": "work"
+  },
+  {
+   "id": "d-148",
+   "level": 2,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'The meeting is at ten.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "सभा दहा वाजता आहे.",
+   "hint_en": "सभा (f) = meeting; वाजता = at",
+   "skill": "work"
+  },
+  {
+   "id": "d-149",
+   "level": 2,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "मी काल ईमेल पाठवला.",
+   "choices": [
+    "Hard work and honesty always pay off in the end.",
+    "She is a teacher.",
+    "I sent the email yesterday.",
+    "I work in an office."
+   ],
+   "answer": "I sent the email yesterday.",
+   "hint_en": "पाठवला (m) agrees with ईमेल",
+   "skill": "work"
+  },
+  {
+   "id": "d-150",
+   "level": 2,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'मी काल ईमेल पाठवला.'",
+   "choices": [],
+   "answer": "I sent the email yesterday.",
+   "hint_en": "पाठवला (m) agrees with ईमेल",
+   "skill": "work"
+  },
+  {
+   "id": "d-151",
+   "level": 3,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'The boss praised everyone.'",
+   "prompt_mr": "",
+   "choices": [
+    "तू काय करतोस?",
+    "साहेबांनी सगळ्यांचं कौतुक केलं.",
+    "मेहनत आणि प्रामाणिकपणा यांचं फळ नेहमी शेवटी मिळतं.",
+    "माझं काम लवकर संपलं तर मी सहा वाजता निघेन."
+   ],
+   "answer": "साहेबांनी सगळ्यांचं कौतुक केलं.",
+   "hint_en": "साहेबांनी (honorific plural ergative); केलं (n) agrees with कौतुक",
+   "skill": "work"
+  },
+  {
+   "id": "d-152",
+   "level": 3,
+   "type": "fill-blank",
+   "prompt_en": "The boss praised everyone.",
+   "prompt_mr": "साहेबांनी सगळ्यांचं ___ केलं.",
+   "choices": [
+    "ती",
+    "साहेबांनी",
+    "गेल्या",
+    "कौतुक"
+   ],
+   "answer": "कौतुक",
+   "hint_en": "साहेबांनी (honorific plural ergative); केलं (n) agrees with कौतुक",
+   "skill": "work"
+  },
+  {
+   "id": "d-153",
+   "level": 3,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'I have a lot of work today.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "मला आज खूप काम आहे.",
+   "hint_en": "Dative subject: मला...आहे = I have",
+   "skill": "work"
+  },
+  {
+   "id": "d-154",
+   "level": 3,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'I have a lot of work today.'",
+   "prompt_mr": "खूप / मला / काम / आहे. / आज",
+   "choices": [
+    "खूप",
+    "मला",
+    "काम",
+    "आहे.",
+    "आज"
+   ],
+   "answer": "मला आज खूप काम आहे.",
+   "hint_en": "Dative subject: मला...आहे = I have",
+   "skill": "work"
+  },
+  {
+   "id": "d-155",
+   "level": 3,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'तिला गेल्या महिन्यात बढती मिळाली.'",
+   "choices": [],
+   "answer": "She got a promotion last month.",
+   "hint_en": "मिळाली (f) agrees with बढती; गेल्या = last",
+   "skill": "work"
+  },
+  {
+   "id": "d-156",
+   "level": 3,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "तिला गेल्या महिन्यात बढती मिळाली.",
+   "choices": [
+    "She got a promotion last month.",
+    "I sent the email yesterday.",
+    "I have a lot of work today.",
+    "She is a teacher."
+   ],
+   "answer": "She got a promotion last month.",
+   "hint_en": "मिळाली (f) agrees with बढती; गेल्या = last",
+   "skill": "work"
+  },
+  {
+   "id": "d-157",
+   "level": 4,
+   "type": "fill-blank",
+   "prompt_en": "If I finish early, I will leave by six.",
+   "prompt_mr": "माझं काम लवकर संपलं ___ मी सहा वाजता निघेन.",
+   "choices": [
+    "तर",
+    "संपलं",
+    "सगळ्यांचं",
+    "पाठवला."
+   ],
+   "answer": "तर",
+   "hint_en": "तर = then; निघेन = I will leave (1st person future)",
+   "skill": "work"
+  },
+  {
+   "id": "d-158",
+   "level": 4,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'If I finish early, I will leave by six.'",
+   "prompt_mr": "",
+   "choices": [
+    "माझं काम लवकर संपलं तर मी सहा वाजता निघेन.",
+    "तिला गेल्या महिन्यात बढती मिळाली.",
+    "सभा दहा वाजता आहे.",
+    "तू काय करतोस?"
+   ],
+   "answer": "माझं काम लवकर संपलं तर मी सहा वाजता निघेन.",
+   "hint_en": "तर = then; निघेन = I will leave (1st person future)",
+   "skill": "work"
+  },
+  {
+   "id": "d-159",
+   "level": 4,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Hard work and honesty always pay off in the end.'",
+   "prompt_mr": "प्रामाणिकपणा / नेहमी / मिळतं. / फळ / मेहनत / आणि / यांचं / शेवटी",
+   "choices": [
+    "प्रामाणिकपणा",
+    "नेहमी",
+    "मिळतं.",
+    "फळ",
+    "मेहनत",
+    "आणि",
+    "यांचं",
+    "शेवटी"
+   ],
+   "answer": "मेहनत आणि प्रामाणिकपणा यांचं फळ नेहमी शेवटी मिळतं.",
+   "hint_en": "यांचं = their (n); मिळतं is habitual",
+   "skill": "work"
+  },
+  {
+   "id": "d-160",
+   "level": 4,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Hard work and honesty always pay off in the end.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "मेहनत आणि प्रामाणिकपणा यांचं फळ नेहमी शेवटी मिळतं.",
+   "hint_en": "यांचं = their (n); मिळतं is habitual",
+   "skill": "work"
+  },
+  {
+   "id": "d-161",
+   "level": 1,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'दिवाळी हा माझा आवडता सण आहे.'",
+   "choices": [],
+   "answer": "Diwali is my favourite festival.",
+   "hint_en": "सण (m) = festival; दिवाळी (f)",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-162",
+   "level": 1,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "दिवाळी हा माझा आवडता सण आहे.",
+   "choices": [
+    "Diwali is my favourite festival.",
+    "Ganpati comes home in September.",
+    "We light diyas at night.",
+    "Everyone wears new clothes on Gudi Padwa."
+   ],
+   "answer": "Diwali is my favourite festival.",
+   "hint_en": "सण (m) = festival; दिवाळी (f)",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-163",
+   "level": 1,
+   "type": "fill-blank",
+   "prompt_en": "We light diyas at night.",
+   "prompt_mr": "आम्ही रात्री ___ लावतो.",
+   "choices": [
+    "मोदक",
+    "दिवे",
+    "मोठ्या",
+    "सगळं"
+   ],
+   "answer": "दिवे",
+   "hint_en": "दिवे (m pl) = lamps; लावतो = we light",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-164",
+   "level": 1,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'We light diyas at night.'",
+   "prompt_mr": "",
+   "choices": [
+    "आम्ही रात्री दिवे लावतो.",
+    "गुढी पाडव्याला सगळे नवे कपडे घालतात.",
+    "गणपती सप्टेंबरमध्ये घरी येतात.",
+    "आई प्रसादासाठी मोदक करते."
+   ],
+   "answer": "आम्ही रात्री दिवे लावतो.",
+   "hint_en": "दिवे (m pl) = lamps; लावतो = we light",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-165",
+   "level": 2,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Ganpati comes home in September.'",
+   "prompt_mr": "सप्टेंबरमध्ये / घरी / येतात. / गणपती",
+   "choices": [
+    "सप्टेंबरमध्ये",
+    "घरी",
+    "येतात.",
+    "गणपती"
+   ],
+   "answer": "गणपती सप्टेंबरमध्ये घरी येतात.",
+   "hint_en": "Honorific plural येतात is used for deities",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-166",
+   "level": 2,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Ganpati comes home in September.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "गणपती सप्टेंबरमध्ये घरी येतात.",
+   "hint_en": "Honorific plural येतात is used for deities",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-167",
+   "level": 2,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "आई प्रसादासाठी मोदक करते.",
+   "choices": [
+    "Diwali is my favourite festival.",
+    "Mother makes modaks for prasad.",
+    "Ganpati comes home in September.",
+    "Everyone wears new clothes on Gudi Padwa."
+   ],
+   "answer": "Mother makes modaks for prasad.",
+   "hint_en": "-साठी = for; मोदक (m pl)",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-168",
+   "level": 2,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'आई प्रसादासाठी मोदक करते.'",
+   "choices": [],
+   "answer": "Mother makes modaks for prasad.",
+   "hint_en": "-साठी = for; मोदक (m pl)",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-169",
+   "level": 2,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'Everyone wears new clothes on Gudi Padwa.'",
+   "prompt_mr": "",
+   "choices": [
+    "आम्ही रात्री दिवे लावतो.",
+    "गुढी पाडव्याला सगळे नवे कपडे घालतात.",
+    "मुलं मोठ्या आनंदाने फटाके फोडतात.",
+    "दिवाळी हा माझा आवडता सण आहे."
+   ],
+   "answer": "गुढी पाडव्याला सगळे नवे कपडे घालतात.",
+   "hint_en": "-ला = on (time); घालतात = wear",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-170",
+   "level": 2,
+   "type": "fill-blank",
+   "prompt_en": "Everyone wears new clothes on Gudi Padwa.",
+   "prompt_mr": "गुढी पाडव्याला सगळे ___ कपडे घालतात.",
+   "choices": [
+    "असता",
+    "आनंदाने",
+    "ढोल-ताशांचा",
+    "नवे"
+   ],
+   "answer": "नवे",
+   "hint_en": "-ला = on (time); घालतात = wear",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-171",
+   "level": 3,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'The dhol-tasha drums echoed through the streets.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "ढोल-ताशांचा गजर रस्त्यांतून घुमला.",
+   "hint_en": "गजर (m) = resonance; -तून = through",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-172",
+   "level": 3,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'The dhol-tasha drums echoed through the streets.'",
+   "prompt_mr": "घुमला. / गजर / रस्त्यांतून / ढोल-ताशांचा",
+   "choices": [
+    "घुमला.",
+    "गजर",
+    "रस्त्यांतून",
+    "ढोल-ताशांचा"
+   ],
+   "answer": "ढोल-ताशांचा गजर रस्त्यांतून घुमला.",
+   "hint_en": "गजर (m) = resonance; -तून = through",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-173",
+   "level": 3,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'सुट्टीत आम्ही नातेवाईकांकडे जातो.'",
+   "choices": [],
+   "answer": "We visit our relatives during the holidays.",
+   "hint_en": "-कडे = to someone's place; सुट्टीत = in the holidays",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-174",
+   "level": 3,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "सुट्टीत आम्ही नातेवाईकांकडे जातो.",
+   "choices": [
+    "Had the rains stopped, the immersion procession would have been grander.",
+    "We visit our relatives during the holidays.",
+    "Children burst crackers with great joy.",
+    "Mother makes modaks for prasad."
+   ],
+   "answer": "We visit our relatives during the holidays.",
+   "hint_en": "-कडे = to someone's place; सुट्टीत = in the holidays",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-175",
+   "level": 3,
+   "type": "fill-blank",
+   "prompt_en": "Children burst crackers with great joy.",
+   "prompt_mr": "मुलं मोठ्या ___ फटाके फोडतात.",
+   "choices": [
+    "दणक्यात",
+    "आनंदाने",
+    "तर",
+    "फोडतात."
+   ],
+   "answer": "आनंदाने",
+   "hint_en": "-ने is instrumental; फटाके (m pl)",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-176",
+   "level": 3,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'Children burst crackers with great joy.'",
+   "prompt_mr": "",
+   "choices": [
+    "दिवाळी हा माझा आवडता सण आहे.",
+    "देवीच्या पालखी सोहळ्यासाठी सगळं गाव जमतं.",
+    "मुलं मोठ्या आनंदाने फटाके फोडतात.",
+    "गणपती सप्टेंबरमध्ये घरी येतात."
+   ],
+   "answer": "मुलं मोठ्या आनंदाने फटाके फोडतात.",
+   "hint_en": "-ने is instrumental; फटाके (m pl)",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-177",
+   "level": 4,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'Had the rains stopped, the immersion procession would have been grander.'",
+   "prompt_mr": "झाली / मिरवणूक / तर / असती. / पाऊस / विसर्जन / असता / थांबला / आणखी / दणक्यात",
+   "choices": [
+    "झाली",
+    "मिरवणूक",
+    "तर",
+    "असती.",
+    "पाऊस",
+    "विसर्जन",
+    "असता",
+    "थांबला",
+    "आणखी",
+    "दणक्यात"
+   ],
+   "answer": "पाऊस थांबला असता तर विसर्जन मिरवणूक आणखी दणक्यात झाली असती.",
+   "hint_en": "थांबला असता (m) / झाली असती (f): conditional agreement",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-178",
+   "level": 4,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'Had the rains stopped, the immersion procession would have been grander.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "पाऊस थांबला असता तर विसर्जन मिरवणूक आणखी दणक्यात झाली असती.",
+   "hint_en": "थांबला असता (m) / झाली असती (f): conditional agreement",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-179",
+   "level": 4,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "देवीच्या पालखी सोहळ्यासाठी सगळं गाव जमतं.",
+   "choices": [
+    "Everyone wears new clothes on Gudi Padwa.",
+    "We light diyas at night.",
+    "The whole village gathers for the palanquin procession of the goddess.",
+    "Ganpati comes home in September."
+   ],
+   "answer": "The whole village gathers for the palanquin procession of the goddess.",
+   "hint_en": "पालखी (f) = palanquin; जमतं (n) agrees with गाव",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-180",
+   "level": 4,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'देवीच्या पालखी सोहळ्यासाठी सगळं गाव जमतं.'",
+   "choices": [],
+   "answer": "The whole village gathers for the palanquin procession of the goddess.",
+   "hint_en": "पालखी (f) = palanquin; जमतं (n) agrees with गाव",
+   "skill": "festivals"
+  },
+  {
+   "id": "d-181",
+   "level": 1,
+   "type": "fill-blank",
+   "prompt_en": "I like cricket.",
+   "prompt_mr": "मला ___ आवडतं.",
+   "choices": [
+    "तर",
+    "क्रिकेट",
+    "शेवटच्या",
+    "असता."
+   ],
+   "answer": "क्रिकेट",
+   "hint_en": "आवडतं (n) agrees with क्रिकेट",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-182",
+   "level": 1,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'I like cricket.'",
+   "prompt_mr": "",
+   "choices": [
+    "मला क्रिकेट आवडतं.",
+    "शेवटच्या षटकात पराभवाच्या जबड्यातून विजय खेचून आणला.",
+    "आम्ही सामना टीव्हीवर पाहिला.",
+    "कर्णधाराने शतक झळकावलं."
+   ],
+   "answer": "मला क्रिकेट आवडतं.",
+   "hint_en": "आवडतं (n) agrees with क्रिकेट",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-183",
+   "level": 1,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'India won the match.'",
+   "prompt_mr": "सामना / भारत / जिंकला.",
+   "choices": [
+    "सामना",
+    "भारत",
+    "जिंकला."
+   ],
+   "answer": "भारत सामना जिंकला.",
+   "hint_en": "जिंकला (m) agrees with सामना",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-184",
+   "level": 1,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'India won the match.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "भारत सामना जिंकला.",
+   "hint_en": "जिंकला (m) agrees with सामना",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-185",
+   "level": 2,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "त्याने षटकार मारला!",
+   "choices": [
+    "He hit a six!",
+    "The crowd cheered loudly at the stadium.",
+    "In the last over, victory was snatched from the jaws of defeat.",
+    "I like cricket."
+   ],
+   "answer": "He hit a six!",
+   "hint_en": "षटकार (m) = six; मारला is past masculine",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-186",
+   "level": 2,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'त्याने षटकार मारला!'",
+   "choices": [],
+   "answer": "He hit a six!",
+   "hint_en": "षटकार (m) = six; मारला is past masculine",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-187",
+   "level": 2,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'The bowler took three wickets.'",
+   "prompt_mr": "",
+   "choices": [
+    "स्टेडियमवर प्रेक्षकांनी जोरदार आरोळ्या ठोकल्या.",
+    "गोलंदाजाने तीन विकेट घेतल्या.",
+    "आम्ही सामना टीव्हीवर पाहिला.",
+    "शेवटच्या षटकात पराभवाच्या जबड्यातून विजय खेचून आणला."
+   ],
+   "answer": "गोलंदाजाने तीन विकेट घेतल्या.",
+   "hint_en": "घेतल्या (f pl) agrees with विकेट",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-188",
+   "level": 2,
+   "type": "fill-blank",
+   "prompt_en": "The bowler took three wickets.",
+   "prompt_mr": "गोलंदाजाने तीन ___ घेतल्या.",
+   "choices": [
+    "जोरदार",
+    "म्हणून",
+    "झळकावलं.",
+    "विकेट"
+   ],
+   "answer": "विकेट",
+   "hint_en": "घेतल्या (f pl) agrees with विकेट",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-189",
+   "level": 2,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'We watched the match on TV.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "आम्ही सामना टीव्हीवर पाहिला.",
+   "hint_en": "पाहिला (m) agrees with सामना; -वर = on",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-190",
+   "level": 2,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'We watched the match on TV.'",
+   "prompt_mr": "पाहिला. / आम्ही / टीव्हीवर / सामना",
+   "choices": [
+    "पाहिला.",
+    "आम्ही",
+    "टीव्हीवर",
+    "सामना"
+   ],
+   "answer": "आम्ही सामना टीव्हीवर पाहिला.",
+   "hint_en": "पाहिला (m) agrees with सामना; -वर = on",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-191",
+   "level": 3,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'कर्णधाराने शतक झळकावलं.'",
+   "choices": [],
+   "answer": "The captain scored a century.",
+   "hint_en": "झळकावलं (n) agrees with शतक",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-192",
+   "level": 3,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "कर्णधाराने शतक झळकावलं.",
+   "choices": [
+    "I like cricket.",
+    "The bowler took three wickets.",
+    "We watched the match on TV.",
+    "The captain scored a century."
+   ],
+   "answer": "The captain scored a century.",
+   "hint_en": "झळकावलं (n) agrees with शतक",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-193",
+   "level": 3,
+   "type": "fill-blank",
+   "prompt_en": "It is raining, so the game stopped.",
+   "prompt_mr": "पाऊस पडतोय ___ खेळ थांबला.",
+   "choices": [
+    "विजय",
+    "वेगळा",
+    "झळकावलं.",
+    "म्हणून"
+   ],
+   "answer": "म्हणून",
+   "hint_en": "पडतोय = is falling (colloquial); म्हणून = so",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-194",
+   "level": 3,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'It is raining, so the game stopped.'",
+   "prompt_mr": "",
+   "choices": [
+    "स्टेडियमवर प्रेक्षकांनी जोरदार आरोळ्या ठोकल्या.",
+    "मला क्रिकेट आवडतं.",
+    "पाऊस पडतोय म्हणून खेळ थांबला.",
+    "शेवटच्या षटकात पराभवाच्या जबड्यातून विजय खेचून आणला."
+   ],
+   "answer": "पाऊस पडतोय म्हणून खेळ थांबला.",
+   "hint_en": "पडतोय = is falling (colloquial); म्हणून = so",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-195",
+   "level": 3,
+   "type": "reorder",
+   "prompt_en": "Put the words in order: 'The crowd cheered loudly at the stadium.'",
+   "prompt_mr": "ठोकल्या. / जोरदार / आरोळ्या / स्टेडियमवर / प्रेक्षकांनी",
+   "choices": [
+    "ठोकल्या.",
+    "जोरदार",
+    "आरोळ्या",
+    "स्टेडियमवर",
+    "प्रेक्षकांनी"
+   ],
+   "answer": "स्टेडियमवर प्रेक्षकांनी जोरदार आरोळ्या ठोकल्या.",
+   "hint_en": "ठोकल्या (f pl) agrees with आरोळ्या",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-196",
+   "level": 3,
+   "type": "translate-en-mr",
+   "prompt_en": "Translate to Marathi: 'The crowd cheered loudly at the stadium.'",
+   "prompt_mr": "",
+   "choices": [],
+   "answer": "स्टेडियमवर प्रेक्षकांनी जोरदार आरोळ्या ठोकल्या.",
+   "hint_en": "ठोकल्या (f pl) agrees with आरोळ्या",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-197",
+   "level": 4,
+   "type": "match",
+   "prompt_en": "Match the Marathi sentence to its English meaning.",
+   "prompt_mr": "झेल पकडला असता तर निकाल वेगळा लागला असता.",
+   "choices": [
+    "India won the match.",
+    "The crowd cheered loudly at the stadium.",
+    "Had the catch been taken, the result would have been different.",
+    "The captain scored a century."
+   ],
+   "answer": "Had the catch been taken, the result would have been different.",
+   "hint_en": "झेल (m) = catch; पकडला असता is conditional",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-198",
+   "level": 4,
+   "type": "translate-mr-en",
+   "prompt_en": "",
+   "prompt_mr": "Translate to English: 'झेल पकडला असता तर निकाल वेगळा लागला असता.'",
+   "choices": [],
+   "answer": "Had the catch been taken, the result would have been different.",
+   "hint_en": "झेल (m) = catch; पकडला असता is conditional",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-199",
+   "level": 4,
+   "type": "mcq",
+   "prompt_en": "Choose the correct Marathi for: 'In the last over, victory was snatched from the jaws of defeat.'",
+   "prompt_mr": "",
+   "choices": [
+    "त्याने षटकार मारला!",
+    "आम्ही सामना टीव्हीवर पाहिला.",
+    "भारत सामना जिंकला.",
+    "शेवटच्या षटकात पराभवाच्या जबड्यातून विजय खेचून आणला."
+   ],
+   "answer": "शेवटच्या षटकात पराभवाच्या जबड्यातून विजय खेचून आणला.",
+   "hint_en": "जबड्यातून = from the jaws; खेचून आणला = snatched (compound verb)",
+   "skill": "cricket"
+  },
+  {
+   "id": "d-200",
+   "level": 4,
+   "type": "fill-blank",
+   "prompt_en": "In the last over, victory was snatched from the jaws of defeat.",
+   "prompt_mr": "शेवटच्या षटकात पराभवाच्या ___ विजय खेचून आणला.",
+   "choices": [
+    "प्रेक्षकांनी",
+    "शेवटच्या",
+    "जबड्यातून",
+    "निकाल"
+   ],
+   "answer": "जबड्यातून",
+   "hint_en": "जबड्यातून = from the jaws; खेचून आणला = snatched (compound verb)",
+   "skill": "cricket"
+  }
+ ]
+}

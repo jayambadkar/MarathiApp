@@ -1,0 +1,2843 @@
+[
+ {
+  "id": "l1-01",
+  "level": 1,
+  "title_mr": "माझं नाव",
+  "title_en": "My Name",
+  "text_mr": "माझं नाव मीना आहे. मी पुण्यात राहते. मला आंबा आवडतो. माझा भाऊ खेळतो.",
+  "text_en": "My name is Meena. I live in Pune. I like mango. My brother plays.",
+  "gloss": [
+   {
+    "mr": "नाव",
+    "en": "name"
+   },
+   {
+    "mr": "राहते",
+    "en": "live (f.)"
+   },
+   {
+    "mr": "आवडतो",
+    "en": "like"
+   },
+   {
+    "mr": "भाऊ",
+    "en": "brother"
+   },
+   {
+    "mr": "खेळतो",
+    "en": "plays"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "मीनाला काय आवडतं?",
+    "q_en": "What does Meena like?",
+    "options": [
+     "आंबा",
+     "सफरचंद",
+     "केळं"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l1-02",
+  "level": 1,
+  "title_mr": "शाळा",
+  "title_en": "School",
+  "text_mr": "मी शाळेत जाते. माझी शिक्षिका चांगली आहे. आम्ही मराठी शिकतो. मला वाचन आवडतं.",
+  "text_en": "I go to school. My teacher is good. We learn Marathi. I like reading.",
+  "gloss": [
+   {
+    "mr": "शाळा",
+    "en": "school"
+   },
+   {
+    "mr": "शिक्षिका",
+    "en": "teacher (f.)"
+   },
+   {
+    "mr": "शिकतो",
+    "en": "learn"
+   },
+   {
+    "mr": "वाचन",
+    "en": "reading"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "आम्ही काय शिकतो?",
+    "q_en": "What do we learn?",
+    "options": [
+     "मराठी",
+     "इंग्रजी",
+     "गणित"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l1-03",
+  "level": 1,
+  "title_mr": "मांजर",
+  "title_en": "The Cat",
+  "text_mr": "हे मांजर आहे. मांजर काळं आहे. ते दूध पितं. मांजर झाडावर बसतं.",
+  "text_en": "This is a cat. The cat is black. It drinks milk. The cat sits on the tree.",
+  "gloss": [
+   {
+    "mr": "मांजर",
+    "en": "cat"
+   },
+   {
+    "mr": "काळं",
+    "en": "black"
+   },
+   {
+    "mr": "दूध",
+    "en": "milk"
+   },
+   {
+    "mr": "झाड",
+    "en": "tree"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "मांजर काय पितं?",
+    "q_en": "What does the cat drink?",
+    "options": [
+     "दूध",
+     "पाणी",
+     "चहा"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l1-04",
+  "level": 1,
+  "title_mr": "पाऊस",
+  "title_en": "Rain",
+  "text_mr": "आज पाऊस पडतो. मी छत्री घेते. बेडूक उड्या मारतो. मुले आनंदी आहेत.",
+  "text_en": "Today it rains. I take an umbrella. The frog jumps. The children are happy.",
+  "gloss": [
+   {
+    "mr": "पाऊस",
+    "en": "rain"
+   },
+   {
+    "mr": "छत्री",
+    "en": "umbrella"
+   },
+   {
+    "mr": "बेडूक",
+    "en": "frog"
+   },
+   {
+    "mr": "आनंदी",
+    "en": "happy"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "मी काय घेते?",
+    "q_en": "What do I take?",
+    "options": [
+     "छत्री",
+     "टोपी",
+     "पिशवी"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l1-05",
+  "level": 1,
+  "title_mr": "जेवण",
+  "title_en": "Food",
+  "text_mr": "आई भात करते. बाबा भाजी आणतात. मी पोळी खाते. जेवण चविष्ट आहे.",
+  "text_en": "Mother cooks rice. Father brings vegetables. I eat roti. The food is tasty.",
+  "gloss": [
+   {
+    "mr": "भात",
+    "en": "rice"
+   },
+   {
+    "mr": "भाजी",
+    "en": "vegetable"
+   },
+   {
+    "mr": "पोळी",
+    "en": "roti"
+   },
+   {
+    "mr": "चविष्ट",
+    "en": "tasty"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "आई काय करते?",
+    "q_en": "What does mother cook?",
+    "options": [
+     "भात",
+     "पोळी",
+     "भाजी"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l1-06",
+  "level": 1,
+  "title_mr": "मित्र",
+  "title_en": "Friend",
+  "text_mr": "राम माझा मित्र आहे. आम्ही बागेत खेळतो. आम्हाला चेंडू आवडतो. संध्याकाळी घरी जातो.",
+  "text_en": "Ram is my friend. We play in the garden. We like the ball. In the evening we go home.",
+  "gloss": [
+   {
+    "mr": "मित्र",
+    "en": "friend"
+   },
+   {
+    "mr": "बाग",
+    "en": "garden"
+   },
+   {
+    "mr": "चेंडू",
+    "en": "ball"
+   },
+   {
+    "mr": "संध्याकाळ",
+    "en": "evening"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "आम्ही कुठे खेळतो?",
+    "q_en": "Where do we play?",
+    "options": [
+     "बागेत",
+     "शाळेत",
+     "घरी"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l2-01",
+  "level": 2,
+  "title_mr": "बाजारात एक दिवस",
+  "title_en": "A Day at the Market",
+  "text_mr": "शनिवारी मी आईबरोबर बाजारात गेले. तिथे ताजी भाजी आणि फळं होती. मी टोमॅटो, बटाटे आणि कांदे घेतले. दुकानदार खूप दयाळू होता. त्याने आम्हाला आंबे मोफत दिले. घरी येऊन आईने चविष्ट आमटी केली.",
+  "text_en": "On Saturday I went to the market with mother. There were fresh vegetables and fruits. I bought tomatoes, potatoes and onions. The shopkeeper was very kind. He gave us mangoes for free. Coming home, mother made tasty amti.",
+  "gloss": [
+   {
+    "mr": "बाजार",
+    "en": "market"
+   },
+   {
+    "mr": "ताजी",
+    "en": "fresh"
+   },
+   {
+    "mr": "दुकानदार",
+    "en": "shopkeeper"
+   },
+   {
+    "mr": "दयाळू",
+    "en": "kind"
+   },
+   {
+    "mr": "मोफत",
+    "en": "free"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "दुकानदाराने काय मोफत दिलं?",
+    "q_en": "What did the shopkeeper give free?",
+    "options": [
+     "आंबे",
+     "केळी",
+     "द्राक्षं"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "कोणाबरोबर बाजारात गेले?",
+    "q_en": "With whom did I go?",
+    "options": [
+     "आई",
+     "बाबा",
+     "मित्र"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l2-02",
+  "level": 2,
+  "title_mr": "रेल्वे प्रवास",
+  "title_en": "Train Journey",
+  "text_mr": "आम्ही पुण्याहून मुंबईला रेल्वेने गेलो. खिडकीतून हिरवी शेतं दिसत होती. एका आजीने आम्हाला लाडू दिले. मुलं पत्ते खेळत होती. तीन तासांत आम्ही दादरला पोहोचलो.",
+  "text_en": "We went from Pune to Mumbai by train. Green fields were visible from the window. A grandmother gave us laddus. The children were playing cards. In three hours we reached Dadar.",
+  "gloss": [
+   {
+    "mr": "रेल्वे",
+    "en": "train"
+   },
+   {
+    "mr": "खिडकी",
+    "en": "window"
+   },
+   {
+    "mr": "शेत",
+    "en": "farm"
+   },
+   {
+    "mr": "पोहोचलो",
+    "en": "reached"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "प्रवास कशाने केला?",
+    "q_en": "How did we travel?",
+    "options": [
+     "रेल्वे",
+     "बस",
+     "विमान"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "आजीने काय दिलं?",
+    "q_en": "What did grandma give?",
+    "options": [
+     "लाडू",
+     "भजी",
+     "चहा"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l2-03",
+  "level": 2,
+  "title_mr": "गणपती उत्सव",
+  "title_en": "Ganpati Festival",
+  "text_mr": "गणपती उत्सवात आमचं घर सजवलं होतं. आईने मोदक केले. बाबांनी आरतीची तयारी केली. शेजारी दर्शनाला आले. आम्ही 'गणपती बाप्पा मोरया' असा जयघोष केला.",
+  "text_en": "During Ganpati festival our house was decorated. Mother made modaks. Father prepared for the aarti. Neighbours came for darshan. We chanted 'Ganpati Bappa Morya'.",
+  "gloss": [
+   {
+    "mr": "उत्सव",
+    "en": "festival"
+   },
+   {
+    "mr": "मोदक",
+    "en": "modak"
+   },
+   {
+    "mr": "आरती",
+    "en": "aarti"
+   },
+   {
+    "mr": "शेजारी",
+    "en": "neighbour"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "आईने काय केलं?",
+    "q_en": "What did mother make?",
+    "options": [
+     "मोदक",
+     "लाडू",
+     "पुरणपोळी"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l2-04",
+  "level": 2,
+  "title_mr": "पुस्तकालय",
+  "title_en": "Library",
+  "text_mr": "माझ्या शाळेत मोठं पुस्तकालय आहे. तिथे मराठी, इंग्रजी आणि हिंदी पुस्तकं आहेत. मी दर शुक्रवारी एक गोष्टपुस्तक घेते. ग्रंथपाल मला नवीन पुस्तकं सुचवतात.",
+  "text_en": "My school has a big library. There are Marathi, English and Hindi books. Every Friday I borrow a storybook. The librarian suggests new books to me.",
+  "gloss": [
+   {
+    "mr": "पुस्तकालय",
+    "en": "library"
+   },
+   {
+    "mr": "गोष्ट",
+    "en": "story"
+   },
+   {
+    "mr": "ग्रंथपाल",
+    "en": "librarian"
+   },
+   {
+    "mr": "सुचवतात",
+    "en": "suggest"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "मी कधी पुस्तक घेते?",
+    "q_en": "When do I borrow a book?",
+    "options": [
+     "शुक्रवारी",
+     "सोमवारी",
+     "रविवारी"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l2-05",
+  "level": 2,
+  "title_mr": "आजीचा बगीचा",
+  "title_en": "Grandma's Garden",
+  "text_mr": "आजीच्या बगीच्यात झेंडू आणि गुलाब फुलले आहेत. सकाळी ती झाडांना पाणी घालते. चिमण्या दाणे टिपतात. संध्याकाळी आम्ही तिथे गप्पा मारतो.",
+  "text_en": "Marigolds and roses bloom in grandma's garden. In the morning she waters the plants. Sparrows pick up grains. In the evening we chat there.",
+  "gloss": [
+   {
+    "mr": "बगीचा",
+    "en": "garden"
+   },
+   {
+    "mr": "झेंडू",
+    "en": "marigold"
+   },
+   {
+    "mr": "चिमणी",
+    "en": "sparrow"
+   },
+   {
+    "mr": "गप्पा",
+    "en": "chat"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "बगीच्यात कोणती फुलं आहेत?",
+    "q_en": "Which flowers are in the garden?",
+    "options": [
+     "झेंडू आणि गुलाब",
+     "कमळ आणि जाई",
+     "मोगरा आणि शेवंती"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l2-06",
+  "level": 2,
+  "title_mr": "क्रिकेट सामना",
+  "title_en": "Cricket Match",
+  "text_mr": "रविवारी आमच्या गल्लीत क्रिकेट सामना झाला. मी फलंदाजी केली आणि दोन षटकार मारले. माझ्या मित्राने उत्कृष्ट गोलंदाजी केली. आमचा संघ पाच धावांनी जिंकला.",
+  "text_en": "On Sunday there was a cricket match in our lane. I batted and hit two sixes. My friend bowled excellently. Our team won by five runs.",
+  "gloss": [
+   {
+    "mr": "सामना",
+    "en": "match"
+   },
+   {
+    "mr": "फलंदाजी",
+    "en": "batting"
+   },
+   {
+    "mr": "गोलंदाजी",
+    "en": "bowling"
+   },
+   {
+    "mr": "संघ",
+    "en": "team"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "आमचा संघ किती धावांनी जिंकला?",
+    "q_en": "By how many runs did we win?",
+    "options": [
+     "पाच",
+     "दहा",
+     "दोन"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l3-01",
+  "level": 3,
+  "title_mr": "सिंहगडाची सहल",
+  "title_en": "Trip to Sinhagad",
+  "text_mr": "गेल्या महिन्यात आम्ही सिंहगडावर ट्रेकला गेलो. पहाटे पाच वाजता निघालो. वाटेत धुकं होतं आणि पक्ष्यांचे आवाज येत होते. गडावर पोहोचल्यावर आम्ही कांदा-भजी खाल्ली. तानाजी मालुसऱ्यांच्या समाधीचं दर्शन घेतलं. संध्याकाळी परतताना सूर्यास्त खूप सुंदर दिसत होता.",
+  "text_en": "Last month we went trekking to Sinhagad. We left at five in the morning. There was fog on the way and birds could be heard. On reaching the fort we ate onion fritters. We visited Tanaji Malusare's memorial. While returning in the evening the sunset looked beautiful.",
+  "gloss": [
+   {
+    "mr": "गड",
+    "en": "fort"
+   },
+   {
+    "mr": "धुकं",
+    "en": "fog"
+   },
+   {
+    "mr": "समाधी",
+    "en": "memorial"
+   },
+   {
+    "mr": "सूर्यास्त",
+    "en": "sunset"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "किती वाजता निघालो?",
+    "q_en": "What time did we leave?",
+    "options": [
+     "पहाटे पाच",
+     "सकाळी आठ",
+     "दुपारी दोन"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "गडावर काय खाल्लं?",
+    "q_en": "What did we eat on the fort?",
+    "options": [
+     "कांदा-भजी",
+     "वडापाव",
+     "मिसळ"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l3-02",
+  "level": 3,
+  "title_mr": "पुस्तकांची दुनिया",
+  "title_en": "World of Books",
+  "text_mr": "वाचन ही एक सवय नाही तर प्रवास आहे. पु. ल. देशपांड्यांचं 'व्यक्ती आणि वल्ली' वाचताना मी खूप हसले. पुस्तकं आपल्याला वेगवेगळ्या जगात नेतात. रोज अर्धा तास वाचल्यास शब्दसंग्रह वाढतो. माझं स्वप्न आहे एक दिवस स्वतःचं पुस्तक लिहिणं.",
+  "text_en": "Reading is not a habit but a journey. I laughed a lot reading P. L. Deshpande's 'Vyakti aani Valli'. Books take us to different worlds. Reading half an hour daily grows vocabulary. My dream is to write my own book one day.",
+  "gloss": [
+   {
+    "mr": "वाचन",
+    "en": "reading"
+   },
+   {
+    "mr": "शब्दसंग्रह",
+    "en": "vocabulary"
+   },
+   {
+    "mr": "स्वप्न",
+    "en": "dream"
+   },
+   {
+    "mr": "प्रवास",
+    "en": "journey"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "कोणतं पुस्तक वाचलं?",
+    "q_en": "Which book was read?",
+    "options": [
+     "व्यक्ती आणि वल्ली",
+     "श्यामची आई",
+     "मृत्युंजय"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l3-03",
+  "level": 3,
+  "title_mr": "शेतकऱ्याचं जीवन",
+  "title_en": "A Farmer's Life",
+  "text_mr": "माझे काका सोलापूरजवळ शेती करतात. पावसाळ्यात ते ज्वारी आणि बाजरी पेरतात. सकाळी लवकर उठून ते बैलांना चारा घालतात. दुष्काळाच्या वर्षी पीक कमी येतं. तरीही ते आशावादी असतात. त्यांच्या मते माती हीच खरी संपत्ती आहे.",
+  "text_en": "My uncle farms near Solapur. In monsoon he sows jowar and bajra. Waking early he feeds the oxen. In drought years the crop is poor. Yet he stays optimistic. In his view soil is the true wealth.",
+  "gloss": [
+   {
+    "mr": "शेती",
+    "en": "farming"
+   },
+   {
+    "mr": "दुष्काळ",
+    "en": "drought"
+   },
+   {
+    "mr": "पीक",
+    "en": "crop"
+   },
+   {
+    "mr": "संपत्ती",
+    "en": "wealth"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "काका काय पेरतात?",
+    "q_en": "What does uncle sow?",
+    "options": [
+     "ज्वारी आणि बाजरी",
+     "गहू आणि तांदूळ",
+     "कापूस आणि ऊस"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l3-04",
+  "level": 3,
+  "title_mr": "मुंबईची लोकल",
+  "title_en": "Mumbai Local",
+  "text_mr": "मुंबईची लोकल ही शहराची जीवनवाहिनी आहे. सकाळी गर्दीच्या वेळी डबे खचाखच भरलेले असतात. फेरीवाले वेगवेगळ्या वस्तू विकतात. प्रवासी गप्पा मारतात, पत्ते खेळतात. वेळेवर पोहोचण्यासाठी लोकलशिवाय पर्याय नाही.",
+  "text_en": "Mumbai's local train is the city's lifeline. In morning rush the compartments are packed. Vendors sell various goods. Passengers chat, play cards. To reach on time there is no alternative to the local.",
+  "gloss": [
+   {
+    "mr": "जीवनवाहिनी",
+    "en": "lifeline"
+   },
+   {
+    "mr": "गर्दी",
+    "en": "crowd"
+   },
+   {
+    "mr": "फेरीवाला",
+    "en": "vendor"
+   },
+   {
+    "mr": "प्रवासी",
+    "en": "passenger"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "लोकल कशाची जीवनवाहिनी आहे?",
+    "q_en": "Lifeline of what?",
+    "options": [
+     "शहराची",
+     "गावाची",
+     "राज्याची"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l3-05",
+  "level": 3,
+  "title_mr": "विज्ञान प्रदर्शन",
+  "title_en": "Science Exhibition",
+  "text_mr": "आमच्या शाळेत विज्ञान प्रदर्शन भरलं होतं. मी पाण्याच्या शुद्धीकरणाचा प्रकल्प केला. परीक्षकांनी अनेक प्रश्न विचारले. माझ्या प्रकल्पाला दुसरं बक्षीस मिळालं. मुख्याध्यापकांनी सर्वांचं कौतुक केलं.",
+  "text_en": "Our school held a science exhibition. I made a water-purification project. The judges asked many questions. My project won second prize. The principal praised everyone.",
+  "gloss": [
+   {
+    "mr": "प्रदर्शन",
+    "en": "exhibition"
+   },
+   {
+    "mr": "प्रकल्प",
+    "en": "project"
+   },
+   {
+    "mr": "बक्षीस",
+    "en": "prize"
+   },
+   {
+    "mr": "कौतुक",
+    "en": "praise"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "कोणतं बक्षीस मिळालं?",
+    "q_en": "Which prize?",
+    "options": [
+     "दुसरं",
+     "पहिलं",
+     "तिसरं"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l4-01",
+  "level": 4,
+  "title_mr": "शिवाजी महाराज",
+  "title_en": "Shivaji Maharaj",
+  "text_mr": "छत्रपती शिवाजी महाराजांचा जन्म शिवनेरी किल्ल्यावर झाला. जिजाबाईंच्या संस्कारांतून स्वराज्याची प्रेरणा मिळाली. त्यांनी रायगडाला राजधानी केली. गनिमी काव्याने मोगलांशी लढा दिला. त्यांचं प्रशासन न्यायी आणि शिस्तबद्ध होतं. आजही त्यांचे विचार प्रेरणादायी आहेत.",
+  "text_en": "Chhatrapati Shivaji Maharaj was born on Shivneri fort. From Jijabai's values came the inspiration of Swarajya. He made Raigad the capital. He fought the Mughals with guerrilla tactics. His administration was just and disciplined. Even today his thoughts inspire.",
+  "gloss": [
+   {
+    "mr": "स्वराज्य",
+    "en": "self-rule"
+   },
+   {
+    "mr": "राजधानी",
+    "en": "capital"
+   },
+   {
+    "mr": "प्रशासन",
+    "en": "administration"
+   },
+   {
+    "mr": "प्रेरणादायी",
+    "en": "inspiring"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "जन्म कुठे झाला?",
+    "q_en": "Where was he born?",
+    "options": [
+     "शिवनेरी",
+     "रायगड",
+     "प्रतापगड"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "राजधानी कोणती?",
+    "q_en": "Which capital?",
+    "options": [
+     "रायगड",
+     "पुणे",
+     "सातारा"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l4-02",
+  "level": 4,
+  "title_mr": "पर्यावरण संवर्धन",
+  "title_en": "Environment Conservation",
+  "text_mr": "पर्यावरण संवर्धन ही काळाची गरज आहे. वृक्षतोड, प्रदूषण आणि प्लास्टिकमुळे निसर्ग धोक्यात आहे. प्रत्येकाने झाडं लावली पाहिजेत. पाण्याचा अपव्यय टाळला पाहिजे. शाळांमध्ये पर्यावरण शिक्षण सक्तीचं केलं आहे. छोट्या कृतींतून मोठा बदल घडतो.",
+  "text_en": "Conservation is the need of the hour. Nature is endangered by deforestation, pollution and plastic. Everyone must plant trees. Water waste must be avoided. Environmental education is compulsory in schools. Small actions bring big change.",
+  "gloss": [
+   {
+    "mr": "संवर्धन",
+    "en": "conservation"
+   },
+   {
+    "mr": "प्रदूषण",
+    "en": "pollution"
+   },
+   {
+    "mr": "अपव्यय",
+    "en": "waste"
+   },
+   {
+    "mr": "सक्तीचं",
+    "en": "compulsory"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "निसर्ग कशामुळे धोक्यात आहे?",
+    "q_en": "Why is nature endangered?",
+    "options": [
+     "वृक्षतोड, प्रदूषण, प्लास्टिक",
+     "फक्त पाऊस",
+     "फक्त वारा"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l4-03",
+  "level": 4,
+  "title_mr": "मराठी साहित्य",
+  "title_en": "Marathi Literature",
+  "text_mr": "मराठी साहित्याला दीर्घ परंपरा आहे. संत ज्ञानेश्वरांच्या ज्ञानेश्वरीपासून आधुनिक कादंबऱ्यांपर्यंत प्रवास मोठा आहे. वि. स. खांडेकरांना ज्ञानपीठ पुरस्कार मिळाला. दलित साहित्याने नवे आयाम दिले. डिजिटल युगात ई-पुस्तकं लोकप्रिय होत आहेत.",
+  "text_en": "Marathi literature has a long tradition. From Sant Dnyaneshwar's Dnyaneshwari to modern novels the journey is vast. V. S. Khandekar won the Jnanpith award. Dalit literature gave new dimensions. In the digital age e-books are becoming popular.",
+  "gloss": [
+   {
+    "mr": "साहित्य",
+    "en": "literature"
+   },
+   {
+    "mr": "परंपरा",
+    "en": "tradition"
+   },
+   {
+    "mr": "पुरस्कार",
+    "en": "award"
+   },
+   {
+    "mr": "आयाम",
+    "en": "dimension"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "ज्ञानपीठ पुरस्कार कोणाला?",
+    "q_en": "Who won Jnanpith?",
+    "options": [
+     "वि. स. खांडेकर",
+     "पु. ल. देशपांडे",
+     "कुसुमाग्रज"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l4-04",
+  "level": 4,
+  "title_mr": "अर्थव्यवस्था आणि शेती",
+  "title_en": "Economy and Farming",
+  "text_mr": "महाराष्ट्राच्या अर्थव्यवस्थेत शेतीचं महत्त्व अनन्यसाधारण आहे. ऊस, कापूस आणि सोयाबीन ही प्रमुख पिकं आहेत. सहकारी चळवळीने ग्रामीण भागात समृद्धी आणली. मात्र हवामान बदलामुळे आव्हानं वाढली आहेत. आधुनिक तंत्रज्ञान आणि ठिबक सिंचनाने उत्पादकता वाढते.",
+  "text_en": "Farming holds unique importance in Maharashtra's economy. Sugarcane, cotton and soybean are major crops. The cooperative movement brought prosperity to rural areas. But climate change has increased challenges. Modern technology and drip irrigation raise productivity.",
+  "gloss": [
+   {
+    "mr": "अर्थव्यवस्था",
+    "en": "economy"
+   },
+   {
+    "mr": "सहकारी",
+    "en": "cooperative"
+   },
+   {
+    "mr": "हवामान",
+    "en": "climate"
+   },
+   {
+    "mr": "उत्पादकता",
+    "en": "productivity"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "प्रमुख पिकं कोणती?",
+    "q_en": "Major crops?",
+    "options": [
+     "ऊस, कापूस, सोयाबीन",
+     "गहू, तांदूळ, मका",
+     "चहा, कॉफी, रबर"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "l4-05",
+  "level": 4,
+  "title_mr": "अंतराळ संशोधन",
+  "title_en": "Space Research",
+  "text_mr": "भारतीय अंतराळ संशोधन संस्था इस्रोने चांद्रयान मोहिमेत यश मिळवलं. शास्त्रज्ञांनी कमी खर्चात मोठं यश संपादन केलं. मंगळयानाने जगाचं लक्ष वेधलं. आता गगनयान मोहिमेची तयारी सुरू आहे. तरुणांनी विज्ञानाकडे वळावं असं आवाहन केलं जातं.",
+  "text_en": "ISRO succeeded in the Chandrayaan mission. Scientists achieved great success at low cost. Mangalyaan drew world attention. Now Gaganyaan preparations are underway. Youth are urged to turn toward science.",
+  "gloss": [
+   {
+    "mr": "संशोधन",
+    "en": "research"
+   },
+   {
+    "mr": "मोहीम",
+    "en": "mission"
+   },
+   {
+    "mr": "शास्त्रज्ञ",
+    "en": "scientist"
+   },
+   {
+    "mr": "यश",
+    "en": "success"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "कोणत्या संस्थेने यश मिळवलं?",
+    "q_en": "Which organisation succeeded?",
+    "options": [
+     "इस्रो",
+     "नासा",
+     "युरोपीय संस्था"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c1-01",
+  "level": 1,
+  "title_mr": "मांजर",
+  "title_en": "The Cat",
+  "text_mr": "हे मांजर आहे. मांजर लहान आहे. मांजर पांढरे आहे. मांजर दूध पिते. मांजर खेळते.",
+  "text_en": "This is a cat. The cat is small. The cat is white. The cat drinks milk. The cat plays.",
+  "text_tr": "He manjar ahe. Manjar lahan ahe. Manjar pandhare ahe. Manjar dudh pite. Manjar khelte.",
+  "gloss": [
+   {
+    "mr": "मांजर",
+    "en": "cat"
+   },
+   {
+    "mr": "लहान",
+    "en": "small"
+   },
+   {
+    "mr": "दूध",
+    "en": "milk"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "मांजर",
+     "पुस्तकांची दुनिया",
+     "मंडईतील सकाळ"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c1-02",
+  "level": 1,
+  "title_mr": "कुत्रा मोती",
+  "title_en": "Dog Moti",
+  "text_mr": "हा कुत्रा आहे. त्याचे नाव मोती आहे. मोती मोठा आहे. मोती भाकरी खातो. मोती अंगणात खेळतो. मोती माझा मित्र आहे.",
+  "text_en": "This is a dog. His name is Moti. Moti is big. Moti eats bhakri. Moti plays in the yard. Moti is my friend.",
+  "text_tr": "Ha kutra ahe. Tyache nav Moti ahe. Moti motha ahe. Moti bhakri khato. Moti anganat khelto. Moti majha mitra ahe.",
+  "gloss": [
+   {
+    "mr": "कुत्रा",
+    "en": "dog"
+   },
+   {
+    "mr": "मोठा",
+    "en": "big"
+   },
+   {
+    "mr": "भाकरी",
+    "en": "millet bread"
+   },
+   {
+    "mr": "मित्र",
+    "en": "friend"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "मोठे झाड",
+     "माझी आई",
+     "कुत्रा मोती"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "c1-03",
+  "level": 1,
+  "title_mr": "ससा",
+  "title_en": "The Rabbit",
+  "text_mr": "हा ससा आहे. ससा लहान आहे. ससाचे कान लांब आहेत. ससा गाजर खातो. ससा पळतो. ससा खेळतो.",
+  "text_en": "This is a rabbit. The rabbit is small. The rabbit's ears are long. The rabbit eats carrot. The rabbit runs. The rabbit plays.",
+  "text_tr": "Ha sasa ahe. Sasa lahan ahe. Sasache kan lamb ahet. Sasa gajar khato. Sasa palto. Sasa khelto.",
+  "gloss": [
+   {
+    "mr": "लहान",
+    "en": "small"
+   },
+   {
+    "mr": "लांब",
+    "en": "long"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "मांजर",
+     "ससा",
+     "अंतराळ संशोधन"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "c1-04",
+  "level": 1,
+  "title_mr": "माझे कुटुंब",
+  "title_en": "My Family",
+  "text_mr": "हे माझे कुटुंब आहे. हे माझे बाबा आहेत. ही माझी आई आहे. हा माझा भाऊ आहे. आम्ही एकत्र राहतो. आम्ही एकत्र जेवतो.",
+  "text_en": "This is my family. This is my father. This is my mother. This is my brother. We live together. We eat together.",
+  "text_tr": "He majhe kutumb ahe. He majhe baba ahet. Hi majhi aai ahe. Ha majha bhau ahe. Amhi ekatra rahato. Amhi ekatra jevto.",
+  "gloss": [
+   {
+    "mr": "कुटुंब",
+    "en": "family"
+   },
+   {
+    "mr": "बाबा",
+    "en": "father"
+   },
+   {
+    "mr": "आई",
+    "en": "mother"
+   },
+   {
+    "mr": "भाऊ",
+    "en": "brother"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "वरण भात",
+     "माझे कुटुंब",
+     "अर्थव्यवस्था आणि शेती"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "c1-05",
+  "level": 1,
+  "title_mr": "माझी आई",
+  "title_en": "My Mother",
+  "text_mr": "ही माझी आई आहे. आई प्रेमळ आहे. आई स्वयंपाक करते. आई गोष्ट सांगते. मी आईला मदत करतो. मला आई आवडते.",
+  "text_en": "This is my mother. Mother is loving. Mother cooks. Mother tells a story. I help mother. I like mother.",
+  "text_tr": "Hi majhi aai ahe. Aai premal ahe. Aai svayampak karte. Aai goshta sangte. Mi aaila madat karto. Mala aai aavadte.",
+  "gloss": [
+   {
+    "mr": "आई",
+    "en": "mother"
+   },
+   {
+    "mr": "गोष्ट",
+    "en": "story"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "मराठी चित्रपटांचे सुवर्णवर्ष आणि ऑस्कर वाटचाल",
+     "गोड आंबा",
+     "माझी आई"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "c1-06",
+  "level": 1,
+  "title_mr": "वरण भात",
+  "title_en": "Dal and Rice",
+  "text_mr": "मला वरण भात आवडतो. आई वरण करते. भात गरम आहे. मी हात धुतो. मी जेवतो. पोट भरते.",
+  "text_en": "I like varan-bhaat. Mother makes varan. The rice is hot. I wash my hands. I eat. My stomach is full.",
+  "text_tr": "Mala varan bhat aavadto. Aai varan karte. Bhat garam ahe. Mi hat dhuto. Mi jevto. Pot bharte.",
+  "gloss": [
+   {
+    "mr": "वरण",
+    "en": "plain dal"
+   },
+   {
+    "mr": "भात",
+    "en": "rice"
+   },
+   {
+    "mr": "आई",
+    "en": "mother"
+   },
+   {
+    "mr": "गरम",
+    "en": "hot"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "वरण भात",
+     "मित्र",
+     "पुण्यातील पावसाळा"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c1-07",
+  "level": 1,
+  "title_mr": "गोड आंबा",
+  "title_en": "The Sweet Mango",
+  "text_mr": "हा आंबा आहे. आंबा गोड आहे. आंबा पिवळा आहे. मी आंबा खातो. बाबा आंबा आणतात. आम्ही आनंदी आहोत.",
+  "text_en": "This is a mango. The mango is sweet. The mango is yellow. I eat the mango. Father brings mangoes. We are happy.",
+  "text_tr": "Ha amba ahe. Amba god ahe. Amba pivla ahe. Mi amba khato. Baba amba aantat. Amhi anandi ahot.",
+  "gloss": [
+   {
+    "mr": "आंबा",
+    "en": "mango"
+   },
+   {
+    "mr": "गोड",
+    "en": "sweet"
+   },
+   {
+    "mr": "बाबा",
+    "en": "father"
+   },
+   {
+    "mr": "आनंदी",
+    "en": "happy"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "गोड आंबा",
+     "माझं नाव",
+     "क्रिकेट सामना"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c1-08",
+  "level": 1,
+  "title_mr": "माझी शाळा",
+  "title_en": "My School",
+  "text_mr": "ही माझी शाळा आहे. शाळा मोठी आहे. शाळेत बाग आहे. मी शाळेत जातो. मी अभ्यास करतो. मला शाळा आवडते.",
+  "text_en": "This is my school. The school is big. The school has a garden. I go to school. I study. I like school.",
+  "text_tr": "Hi majhi shala ahe. Shala mothi ahe. Shalet bag ahe. Mi shalet jato. Mi abhyas karto. Mala shala aavadte.",
+  "gloss": [
+   {
+    "mr": "शाळा",
+    "en": "school"
+   },
+   {
+    "mr": "बाग",
+    "en": "garden"
+   },
+   {
+    "mr": "अभ्यास",
+    "en": "study"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "गावच्या शाळेतील दिवस",
+     "पाऊस",
+     "माझी शाळा"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "c1-09",
+  "level": 1,
+  "title_mr": "माझा वर्ग",
+  "title_en": "My Classroom",
+  "text_mr": "हा माझा वर्ग आहे. वर्गात बाक आहे. वर्गात फळा आहे. शिक्षक शिकवतात. मुले ऐकतात. आम्ही लिहितो.",
+  "text_en": "This is my classroom. The class has a bench. The class has a board. The teacher teaches. The children listen. We write.",
+  "text_tr": "Ha majha varga ahe. Vargat bak ahe. Vargat fala ahe. Shikshak shikavtat. Mule aiktat. Amhi lihito.",
+  "gloss": [
+   {
+    "mr": "वर्ग",
+    "en": "class / classroom"
+   },
+   {
+    "mr": "फळा",
+    "en": "blackboard"
+   },
+   {
+    "mr": "शिक्षक",
+    "en": "teacher (m)"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "कोल्हा आणि ढोल",
+     "माझा मित्र",
+     "माझा वर्ग"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "c1-10",
+  "level": 1,
+  "title_mr": "माझा मित्र",
+  "title_en": "My Friend",
+  "text_mr": "हा माझा मित्र आहे. त्याचे नाव राजू आहे. राजू चांगला आहे. आम्ही एकत्र खेळतो. आम्ही एकत्र वाचतो. आम्ही हसतो.",
+  "text_en": "This is my friend. His name is Raju. Raju is good. We play together. We read together. We laugh.",
+  "text_tr": "Ha majha mitra ahe. Tyache nav Raju ahe. Raju changla ahe. Amhi ekatra khelto. Amhi ekatra vachto. Amhi hasto.",
+  "gloss": [
+   {
+    "mr": "मित्र",
+    "en": "friend"
+   },
+   {
+    "mr": "चांगला",
+    "en": "good"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "माझा मित्र",
+     "टी ट्वेंटी मुंबई साखळीचा क्रिकेट उत्सव",
+     "पुस्तकांची दुनिया"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c1-11",
+  "level": 1,
+  "title_mr": "दिवाळी",
+  "title_en": "Diwali",
+  "text_mr": "आज दिवाळी आहे. घर स्वच्छ आहे. दारात दिवे आहेत. आई फराळ करते. मुले फटाके पाहतात. सर्व आनंदी आहेत.",
+  "text_en": "Today is Diwali. The house is clean. There are lamps at the door. Mother makes faral. Children watch fireworks. Everyone is happy.",
+  "text_tr": "Aaj Divali ahe. Ghar svachchha ahe. Darat dive ahet. Aai faral karte. Mule fatake pahatat. Sarva anandi ahet.",
+  "gloss": [
+   {
+    "mr": "आज",
+    "en": "today"
+   },
+   {
+    "mr": "घर",
+    "en": "house"
+   },
+   {
+    "mr": "स्वच्छ",
+    "en": "clean"
+   },
+   {
+    "mr": "आई",
+    "en": "mother"
+   },
+   {
+    "mr": "आनंदी",
+    "en": "happy"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "क्रिकेट सामना",
+     "पाऊस",
+     "दिवाळी"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "c1-12",
+  "level": 1,
+  "title_mr": "गणपती बाप्पा",
+  "title_en": "Ganpati Bappa",
+  "text_mr": "आज गणपती आहे. घरात मूर्ती आहे. गणपतीला फुले आहेत. आई मोदक करते. आम्ही आरती करतो. गणपती बाप्पा मोरया.",
+  "text_en": "Today is Ganpati. There is an idol at home. Ganpati has flowers. Mother makes modak. We do aarti. Ganpati Bappa Morya.",
+  "text_tr": "Aaj Ganpati ahe. Gharat murti ahe. Ganpatila fule ahet. Aai modak karte. Amhi aarti karto. Ganpati Bappa Morya.",
+  "gloss": [
+   {
+    "mr": "आज",
+    "en": "today"
+   },
+   {
+    "mr": "आई",
+    "en": "mother"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "क्रिकेट सामना",
+     "गणपती बाप्पा",
+     "अर्थव्यवस्था आणि शेती"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "c1-13",
+  "level": 1,
+  "title_mr": "पोपट",
+  "title_en": "The Parrot",
+  "text_mr": "हा पोपट आहे. पोपट हिरवा आहे. पोपटाची चोच लाल आहे. पोपट पेरू खातो. पोपट उडतो. पोपट बोलतो.",
+  "text_en": "This is a parrot. The parrot is green. The parrot's beak is red. The parrot eats guava. The parrot flies. The parrot talks.",
+  "text_tr": "Ha popat ahe. Popat hirava ahe. Popatachi choch lal ahe. Popat peru khato. Popat udto. Popat bolto.",
+  "gloss": [],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "वरण भात",
+     "पोपट",
+     "माझा वर्ग"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "c1-14",
+  "level": 1,
+  "title_mr": "पाऊस",
+  "title_en": "The Rain",
+  "text_mr": "आज पाऊस पडतो. आकाश काळे आहे. ढग गरजतात. मी छत्री घेतो. बेडूक उड्या मारतात. झाडे आनंदी आहेत.",
+  "text_en": "Today it rains. The sky is black. The clouds thunder. I take an umbrella. Frogs jump. The trees are happy.",
+  "text_tr": "Aaj paus padto. Aakash kale ahe. Dhag garajtat. Mi chhatri gheto. Beduk udya martat. Jhade anandi ahet.",
+  "gloss": [
+   {
+    "mr": "आज",
+    "en": "today"
+   },
+   {
+    "mr": "पाऊस",
+    "en": "rain"
+   },
+   {
+    "mr": "ढग",
+    "en": "cloud"
+   },
+   {
+    "mr": "छत्री",
+    "en": "umbrella"
+   },
+   {
+    "mr": "बेडूक",
+    "en": "frog"
+   },
+   {
+    "mr": "आनंदी",
+    "en": "happy"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "सिंहगडाची सहल",
+     "पाऊस",
+     "मित्र"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "c1-15",
+  "level": 1,
+  "title_mr": "मोठे झाड",
+  "title_en": "The Big Tree",
+  "text_mr": "हे मोठे झाड आहे. झाड हिरवे आहे. झाडाला पाने आहेत. झाडावर पक्षी आहेत. पक्षी गातात. मी झाडाखाली बसतो.",
+  "text_en": "This is a big tree. The tree is green. The tree has leaves. There are birds on the tree. The birds sing. I sit under the tree.",
+  "text_tr": "He mothe jhad ahe. Jhad hirave ahe. Jhadala pane ahet. Jhadavar pakshi ahet. Pakshi gatat. Mi jhadakhali basto.",
+  "gloss": [
+   {
+    "mr": "झाड",
+    "en": "tree"
+   },
+   {
+    "mr": "पक्षी",
+    "en": "bird"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "मराठी साहित्य",
+     "कोल्हा आणि ढोल",
+     "मोठे झाड"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "c2-01",
+  "level": 2,
+  "title_mr": "माकड आणि मगर",
+  "title_en": "The Monkey and the Crocodile",
+  "text_mr": "एका जंगलात एक हुशार माकड राहत होते. नदीकाठी एक मोठे जांभळाचे झाड होते. माकड रोज गोड जांभळे खात असे. एक दिवस एक मगर नदीतून बाहेर आली. माकडाने तिला काही जांभळे दिली. मगरीने ती फळे घरी नेली. तिची बायको म्हणाली उद्या माकडाचे काळीज आण. दुसऱ्या दिवशी मगर माकडाला पाठीवर बसवून निघाली. हुशार माकड म्हणाले माझे काळीज झाडावर आहे आणि आपण परत जाऊ. मगर परत आली आणि माकड झाडावर चढले व वाचले.",
+  "text_en": "A clever monkey shares jamun fruit with a crocodile. The crocodile's wife demands the monkey's heart. The monkey tricks the crocodile into returning to the tree and escapes.",
+  "text_tr": "Eka janglat ek hushar makad rahat hote. Nadikathi ek mothe jambhalache zhad hote. Makad roj god jambhale khat ase. Ek divas ek magar naditun baher ali. Makadane tila kahi jambhale dili. Magarine ti fale ghari neli. Tichi bayko mhanali udya makadache kalij aan. Dusarya divashi magar makadala pathivar basavun nighali. Hushar makad mhanale maze kalij zhadavar ahe ani apan parat jau. Magar parat ali ani makad zhadavar chadhle va vachle.",
+  "gloss": [
+   {
+    "mr": "एक",
+    "en": "one"
+   },
+   {
+    "mr": "हुशार",
+    "en": "smart"
+   },
+   {
+    "mr": "झाड",
+    "en": "tree"
+   },
+   {
+    "mr": "गोड",
+    "en": "sweet"
+   },
+   {
+    "mr": "दिवस",
+    "en": "day"
+   },
+   {
+    "mr": "बाहेर",
+    "en": "outside"
+   },
+   {
+    "mr": "बायको",
+    "en": "wife"
+   },
+   {
+    "mr": "उद्या",
+    "en": "tomorrow"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "माकड आणि मगर",
+     "पर्यावरण संवर्धन",
+     "मित्र"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c2-02",
+  "level": 2,
+  "title_mr": "लोभी चिमणी",
+  "title_en": "The Greedy Sparrow",
+  "text_mr": "एका गावात एक लहान चिमणी राहत होती. तिला एक दिवस रस्त्यावर धान्याचे दाणे सापडले. तिने पोटभर दाणे खाल्ले आणि उरलेले उद्या खाईन म्हणाली. दुसऱ्या दिवशी ती परत आली पण दाणे कोणीतरी नेले होते. चिमणी रडली आणि म्हणाली मी सर्व वाटून खाल्ले असते. तिची मैत्रीण म्हणाली लोभ करू नकोस. मग दोन्ही मैत्रिणी शेतात गेलेल्या कणसांचे दाणे गोळा करू लागल्या. त्या नंतर त्या दररोज मिळून खाऊ लागल्या.",
+  "text_en": "A sparrow finds grains on the road and hoards them greedily instead of sharing. The grains disappear overnight. She learns to gather and share food with her friend every day.",
+  "text_tr": "Eka gavat ek lahan chimani rahat hoti. Tila ek divas rastyavar dhanyache dane sapadle. Tine potbhar dane khalle ani urlele udya khain mhanali. Dusarya divashi ti parat ali pan dane konitari nele hote. Chimani radli ani mhanali mi sarva vatun khallen. Tichi maitrin mhanali lobh karu nakos. Mag donhi maitrini shetat gelelya kanasanche dane gola karu laglya. Tya nantar tya darroj milun khau laglya.",
+  "gloss": [
+   {
+    "mr": "एक",
+    "en": "one"
+   },
+   {
+    "mr": "लहान",
+    "en": "small"
+   },
+   {
+    "mr": "चिमणी",
+    "en": "sparrow"
+   },
+   {
+    "mr": "दिवस",
+    "en": "day"
+   },
+   {
+    "mr": "उद्या",
+    "en": "tomorrow"
+   },
+   {
+    "mr": "मैत्रीण",
+    "en": "friend (female)"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "माकड आणि मगर",
+     "पुण्याचे तंत्रज्ञान पुनरुत्थान",
+     "लोभी चिमणी"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "c2-03",
+  "level": 2,
+  "title_mr": "कोल्हा आणि ढोल",
+  "title_en": "The Jackal and the Drum",
+  "text_mr": "एक भुकेला कोल्हा जंगलात अन्न शोधत होता. त्याला युद्धभूमीवरून मोठा आवाज ऐकला. तो घाबरला आणि म्हणाला हा राक्षस असेल का. हळू हळू तो जाऊन पाहील तर तिथे एक मोठा ढोल होता. वाऱ्याने फांदीला लागून ढोल वाजत होता. कोल्ह्याने ढोल फोडला तर आत काहीच नव्हते. तो हसला आणि म्हणाला फक्त आवाज मोठा होता. त्या दिवसापासून तो घाबरण्याआधी सत्य तपासेल.",
+  "text_en": "A hungry jackal hears a loud sound from a battlefield and fears a monster. He investigates and finds only a drum sounded by a branch in the wind. He learns to check facts before fearing.",
+  "text_tr": "Ek bhukela kolha janglat ann shodhat hota. Tyala yuddhbhumivarun motha avaj aikala. To ghabarla ani mhanala ha rakshas asel ka. Halu halu to javun pahil tar tithe ek motha dhol hota. Varyane fandila lagun dhol vajat hota. Kolhyane dhol phodla tar at kahich navhte. To hasla ani mhanala fakta avaj motha hota. Tya divasapasun to ghabarnya adhi satya tapasel.",
+  "gloss": [
+   {
+    "mr": "एक",
+    "en": "one"
+   },
+   {
+    "mr": "मोठा",
+    "en": "big"
+   },
+   {
+    "mr": "हळू",
+    "en": "slowly"
+   },
+   {
+    "mr": "आत",
+    "en": "inside"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "कोल्हा आणि ढोल",
+     "मोठे झाड",
+     "पुस्तकालय"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c2-04",
+  "level": 2,
+  "title_mr": "सिंह आणि उंदीर",
+  "title_en": "The Lion and the Mouse",
+  "text_mr": "एका जंगलात एक मोठा सिंह राहत होता. एक दिवस एक लहान उंदीर त्याच्या अंगावरून धावला. सिंहाने त्याला पकडले पण उंदीर म्हणाला मला सोड, मी एक दिवस तुमची मदत करेन. सिंह हसला पण त्याने उंदराला सोडले. काही दिवसांनी सिंह शिकाऱ्याच्या जाळ्यात अडकला. त्याने जोरात ओरडले. उंदीर धावत आला आणि जाळे कुरतडून त्याला सोडवले. सिंह म्हणाला लहान मैत्रीही खूप मोठी असते.",
+  "text_en": "A lion spares a little mouse who promises future help. Later the lion is caught in a hunter's net. The mouse gnaws through the net and frees him.",
+  "text_tr": "Eka janglat ek motha sinha rahat hota. Ek divas ek lahan undir tyachya angavarun davala. Sinhane tyala pakadle pan undir mhanala mala sod, mi ek divas tumchi madat karen. Sinha hasla pan tyane undirla sodle. Kahi divasanni sinha shikaryachya jalayat adakala. Tyane jorat oradle. Undir dhavaat ala ani jaale kuratadun tyala sodavle. Sinha mhanala lahan maitrihi khup mothi asate.",
+  "gloss": [
+   {
+    "mr": "एक",
+    "en": "one"
+   },
+   {
+    "mr": "मोठा",
+    "en": "big"
+   },
+   {
+    "mr": "सिंह",
+    "en": "lion"
+   },
+   {
+    "mr": "दिवस",
+    "en": "day"
+   },
+   {
+    "mr": "लहान",
+    "en": "small"
+   },
+   {
+    "mr": "खूप",
+    "en": "very / much"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "सिंह आणि उंदीर",
+     "महाराष्ट्र प्रीमियर साखळी आणि तळागाळातील प्रतिभा",
+     "टी ट्वेंटी मुंबई साखळीचा क्रिकेट उत्सव"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c2-05",
+  "level": 2,
+  "title_mr": "कासव आणि ससा",
+  "title_en": "The Tortoise and the Hare",
+  "text_mr": "एका तळ्याजवळ ससा आणि कासव राहत होते. ससा वेगवान होता आणि कासवाची चेष्टा करत असे. एक दिवस त्यांनी शर्यत लावायचे ठरवले. शर्यत सुरू झाल्यावर ससा वेगात पुढे गेला. तो म्हणाला कासव येईपर्यंत मी झोप घेतो. ससा झाडाखाली गाढ झोपला. कासव हळू हळू पण न थांबता चालत राहिले. कासव आधी रेषेपर्यंत पोहोचले आणि जिंकले. ससा उठला तेवढ्यात उशीर झाला होता.",
+  "text_en": "A speedy hare mocks a slow tortoise and they agree to race. The hare naps mid-race while the tortoise walks steadily on. The tortoise wins the race.",
+  "text_tr": "Eka talyajaval sasa ani kasav rahat hote. Sasa vegwan hota ani kasavachi cheshta karat ase. Ek divas tyanni sharyat lavayche tharavle. Sharyat suru zhalyavar sasa vegat pudhe gela. To mhanala kasav yeiparyant mi zop gheto. Sasa zhadakhali gadh zopala. Kasav halu halu pan na thambata chalat rahile. Kasav adhi reshepar pohochle ani jinkle. Sasa uthala tevhda ushir zala hota.",
+  "gloss": [
+   {
+    "mr": "एक",
+    "en": "one"
+   },
+   {
+    "mr": "दिवस",
+    "en": "day"
+   },
+   {
+    "mr": "हळू",
+    "en": "slowly"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "पुस्तकांची दुनिया",
+     "मराठी नाटक आणि लोककलांचा नवा उत्साह",
+     "कासव आणि ससा"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "c2-06",
+  "level": 2,
+  "title_mr": "गावच्या शाळेतील दिवस",
+  "title_en": "A Day at the Village School",
+  "text_mr": "आमच्या गावात एक छोटी पण सुंदर शाळा आहे. सकाळी मुले दप्तरे घेऊन शाळेत येतात. शिक्षक सर्वांना हसून नमस्कार करतात. आम्ही मराठी कविता म्हणतो आणि गणित शिकतो. मधल्या सुट्टीत आम्ही वाटून खातो. दुपारी आम्ही मैदानात कबड्डी खेळतो. संध्याकाळी आम्ही घरी जाऊन अभ्यास करू. उद्या आम्ही सहलीला जाऊ आहे.",
+  "text_en": "Children describe their small beautiful village school. They study poems and maths, share lunch, and play kabaddi. Tomorrow they will go on a school trip.",
+  "text_tr": "Amchya gavat ek chhoti pan sunder shala ahe. Sakali mule daptare gheun shalet yetat. Shikshak sarvanna hasun namaskar kartat. Amhi Marathi kavita mhanato ani ganit shikto. Madlya sutit amhi vatun khauto. Dupari amhi maidanat kabaddi khelto. Sandhyakali amhi ghari jaun abhyas karu. Udya amhi sahalila jau ahe.",
+  "gloss": [
+   {
+    "mr": "एक",
+    "en": "one"
+   },
+   {
+    "mr": "सुंदर",
+    "en": "beautiful"
+   },
+   {
+    "mr": "शाळा",
+    "en": "school"
+   },
+   {
+    "mr": "शिक्षक",
+    "en": "teacher (m)"
+   },
+   {
+    "mr": "नमस्कार",
+    "en": "hello"
+   },
+   {
+    "mr": "अभ्यास",
+    "en": "study"
+   },
+   {
+    "mr": "उद्या",
+    "en": "tomorrow"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "गावच्या शाळेतील दिवस",
+     "पुण्यातील पावसाळा",
+     "वरण भात"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c2-07",
+  "level": 2,
+  "title_mr": "शेतातील एक दिवस",
+  "title_en": "A Day on the Farm",
+  "text_mr": "बाबा सकाळी लवकर शेतात गेले. आई त्यांच्यासाठी भाकरी आणि ठेचा घेऊन गेली. मी आणि दादा बैलांना चारा घातला. दुपारी आम्ही विहिरीचे पाणी मोटारीने काढले. शेताला हरभरा चांगला आला होता. बाबा म्हणाले या वर्षी पीक चांगले येईल. संध्याकाळी आम्ही बैलगाडीत बसून घरी आलो. उद्या आम्ही नवीन बियाणे पेरू.",
+  "text_en": "A family works together on their farm from morning to evening. They feed the bullocks, pump well water, and admire the gram crop. Tomorrow they will sow new seeds.",
+  "text_tr": "Baba sakali lavkar shetat gele. Aai tyanchyasathi bhakri ani thecha gheun geli. Mi ani dada bailanna chara ghatala. Dupari amhi vihiriche pani motarine kadhle. Shetala harbhara changla ala hota. Baba mhanale ya varshi peak changle yeil. Sandhyakali amhi bailgadi basun ghari alo. Udya amhi navin biyane peren.",
+  "gloss": [
+   {
+    "mr": "बाबा",
+    "en": "father"
+   },
+   {
+    "mr": "लवकर",
+    "en": "early / quick"
+   },
+   {
+    "mr": "आई",
+    "en": "mother"
+   },
+   {
+    "mr": "भाकरी",
+    "en": "millet bread"
+   },
+   {
+    "mr": "पाणी",
+    "en": "water"
+   },
+   {
+    "mr": "चांगला",
+    "en": "good"
+   },
+   {
+    "mr": "उद्या",
+    "en": "tomorrow"
+   },
+   {
+    "mr": "नवीन",
+    "en": "new"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "पुस्तकांची दुनिया",
+     "शेतातील एक दिवस",
+     "लोभी चिमणी"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "c2-08",
+  "level": 2,
+  "title_mr": "आजीची भाजी",
+  "title_en": "Grandmother's Vegetables",
+  "text_mr": "आमची आजी दर शनिवारी बाजाराला जाते. ती ताजी भाजी घेण्यासाठी सकाळी लवकर उठत असे. परवा ती मेथी, वांगी आणि गाजर घेऊन आली. घरात तिने सर्वांना गरम भाकरी वाढली. मी म्हणाले आजी, तुझ्या हातचे जेवण खूप गोड लागते. आजी हसली आणि म्हणाली प्रेमाने केलेली भाजी गोडच लागते. पुढच्या आठवड्यात आपण सर्व मिळून रस्सा करू. मी आईला मदत करेन आणि भाज्या धुईन.",
+  "text_en": "A grandmother buys fresh vegetables every Saturday and cooks with love. Her grandchild praises her cooking. Next week they will cook a curry together.",
+  "text_tr": "Amchi aji dar shanivari bajarala jate. Ti taji bhaji ghenyasathi sakali lavkar uthat ase. Parva ti methi, vangi ani gajar gheun ali. Gharat tine sarvanna garam bhakri vadhli. Mi mhanale aji, tujhya hatche jevan khup god lagte. Aji hasli ani mhanali premane keleli bhaji godach lagte. Pudchya athavdyat apan sarva milun rassa karu. Mi aaila madat karen ani bhajya dhuin.",
+  "gloss": [
+   {
+    "mr": "आजी",
+    "en": "grandmother"
+   },
+   {
+    "mr": "दर",
+    "en": "rate"
+   },
+   {
+    "mr": "भाजी",
+    "en": "vegetable"
+   },
+   {
+    "mr": "लवकर",
+    "en": "early / quick"
+   },
+   {
+    "mr": "गरम",
+    "en": "hot"
+   },
+   {
+    "mr": "भाकरी",
+    "en": "millet bread"
+   },
+   {
+    "mr": "जेवण",
+    "en": "meal"
+   },
+   {
+    "mr": "खूप",
+    "en": "very / much"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "शेतकऱ्याचं जीवन",
+     "कासव आणि ससा",
+     "आजीची भाजी"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "c3-01",
+  "level": 3,
+  "title_mr": "पुण्यातील पावसाळा",
+  "title_en": "Monsoon in Pune",
+  "text_mr": "जून महिन्यात पुण्यात पहिला पाऊस पडला. सर्व रस्त्यावर मातीचा सुगंध पसरला. मी छत्री घेऊन फर्ग्युसन रस्त्यावर फिरलो. लोक गरम भजी आणि कांदा भजी खात होते. पर्वती टेकडीवर ढग जमले होते. आम्ही मित्रांनी ठरवले की पुढच्या रविवारी सिंहगडाला जाऊ. पावसात भिजणे खूप मजा येईल पण काळजी घ्यावी लागेल. संध्याकाळी घरात आई गरम चाय करील. आम्ही सर्व खिडकीत बसून पाऊस पाहू.",
+  "text_en": "The first monsoon rain arrives in Pune with the smell of wet earth. The narrator walks on FC Road as people eat hot bhaji. Friends plan a Sinhagad trip next Sunday and will watch the rain with hot tea.",
+  "text_tr": "Jun mahinyat Punyat pahila paus padala. Sarva rastyavar mati cha sugandh pasarla. Mi chhatri gheun Fergusson rastyavar phiralo. Lok garam bhaji ani kanda bhaji khaat hote. Parvati tekadivar dhag jamale hote. Amhi mitranni tharavle ki pudhchya ravivari Sinhagadala jau. Pausat bhijane khup maja yeil pan kalji ghyavi lagel. Sandhyakali gharat aai garam chay karil. Amhi sarva khidkit basun paus pahu.",
+  "gloss": [
+   {
+    "mr": "पाऊस",
+    "en": "rain"
+   },
+   {
+    "mr": "छत्री",
+    "en": "umbrella"
+   },
+   {
+    "mr": "गरम",
+    "en": "hot"
+   },
+   {
+    "mr": "कांदा",
+    "en": "onion"
+   },
+   {
+    "mr": "ढग",
+    "en": "cloud"
+   },
+   {
+    "mr": "खूप",
+    "en": "very / much"
+   },
+   {
+    "mr": "काळजी",
+    "en": "worry / care"
+   },
+   {
+    "mr": "आई",
+    "en": "mother"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "पुण्यातील पावसाळा",
+     "बाजारात एक दिवस",
+     "पोपट"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c3-02",
+  "level": 3,
+  "title_mr": "मुंबई लोकलचा प्रवास",
+  "title_en": "The Mumbai Local Journey",
+  "text_mr": "मी पहिल्यांदा मुंबई लोकलने प्रवास केला. दादर स्थानकावर खूप गर्दी होती. गाडी आल्यावर लोक शिस्तीने डबे चढले. खिडकीजवळ बसून मी समुद्र पाहिला. एका काकू म्हणाल्या वांद्र्याला उतरा आणि चर्चगेटला जा. मी स्टेशनवर वडा पाव खाल्ला, खूप टेस्टी होता. उद्या मी ऑफिससाठी लवकर निघेल. लोकलने प्रवास करणे वेगळे आहे पण सोयीचे आहे. मुंबईची लाईफ लोकलशिवाय अडखेल.",
+  "text_en": "A first-time rider takes the Mumbai local from Dadar amid crowds. A fellow passenger guides him toward Bandra and Churchgate. He eats vada pav and plans an earlier commute tomorrow.",
+  "text_tr": "Mi pahilyanda Mumbai localne pravas kela. Dadar sthankavar khup gardi hoti. Gadi alyavar lok shistine dabe chadhle. Khidkijaval basun mi samudra pahila. Eka kaku mhanalya Bandryala utra ani Churchgatela ja. Mi stationvar vada pav khalla, khup tasty hota. Udya mi office sathi lavkar nighel. Localne pravas karane vegle ahe pan soyiche ahe. Mumbai chi life localshivay adkhel.",
+  "gloss": [
+   {
+    "mr": "प्रवास",
+    "en": "journey"
+   },
+   {
+    "mr": "खूप",
+    "en": "very / much"
+   },
+   {
+    "mr": "गर्दी",
+    "en": "crowd"
+   },
+   {
+    "mr": "गाडी",
+    "en": "vehicle / car"
+   },
+   {
+    "mr": "काकू",
+    "en": "aunt (uncle's wife)"
+   },
+   {
+    "mr": "उद्या",
+    "en": "tomorrow"
+   },
+   {
+    "mr": "लवकर",
+    "en": "early / quick"
+   },
+   {
+    "mr": "करणे",
+    "en": "to do"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "मुंबई लोकलचा प्रवास",
+     "गोड आंबा",
+     "विज्ञान प्रदर्शन"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c3-03",
+  "level": 3,
+  "title_mr": "मंडईतील सकाळ",
+  "title_en": "Morning at Mandai Market",
+  "text_mr": "रविवारी सकाळी आम्ही मंडईला गेलो. बाजार फुल भरला होता आणि गर्दी खूप होती. एक व्यापारी म्हणाला ताई, ताजी कोथिंबीर घ्या. आईने वांगी, बटाटे आणि लिंबू घेतले. मी फुलवाल्याकडून मोगऱ्याचा गजरा घेतला. आम्ही भाव करून थोडे पैसे वाचवले. घरी येऊन आई म्हणाली उद्या पुरणपोळी करू. बाजाराची मजा घरी जेवणात दिसेल.",
+  "text_en": "On Sunday morning the family visits Pune's Mandai market. They bargain for brinjals, potatoes, lemons and a jasmine gajra. Tomorrow the mother will cook puranpoli with the fresh produce.",
+  "text_tr": "Ravivari sakali amhi Mandaila gelo. Bajar full bharla hota ani gardi khup hoti. Ek vyapari mhanala tai, taji kothimbir ghya. Aaine vangi, batate ani limbu ghetale. Mi phoolwalyakadun mogryacha gajra ghetala. Amhi bhav karun thode paise vachavle. Gharat yeun aai mhanali udya puranpoli karu. Bajarachi maja ghari jevanat disel.",
+  "gloss": [
+   {
+    "mr": "बाजार",
+    "en": "market"
+   },
+   {
+    "mr": "गर्दी",
+    "en": "crowd"
+   },
+   {
+    "mr": "खूप",
+    "en": "very / much"
+   },
+   {
+    "mr": "एक",
+    "en": "one"
+   },
+   {
+    "mr": "थोडे",
+    "en": "a little"
+   },
+   {
+    "mr": "पैसे",
+    "en": "money"
+   },
+   {
+    "mr": "आई",
+    "en": "mother"
+   },
+   {
+    "mr": "उद्या",
+    "en": "tomorrow"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "कासव आणि ससा",
+     "मंडईतील सकाळ",
+     "क्रिकेट सामना"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "c3-04",
+  "level": 3,
+  "title_mr": "क्रिकेट सामना",
+  "title_en": "The Cricket Match",
+  "text_mr": "आमच्या गल्लीत रविवारी क्रिकेट सामना झाला. आमची टीम आधी बॅटिंग करत होती. रोहितने तीन षटकार मारले आणि सर्वांनी टाळ्या वाजवल्या. दुसऱ्या टीमला जिंकायला शेवटच्या षटकात दहा धावा हव्या होत्या. आमचा गोलंदाज सागर खूप शांत होता. त्याने दोन विकेट घेतले आणि आम्ही सामना जिंकला. सर्व मित्रांनी त्याला खांद्यावर उचलले. पुढच्या महिन्यात आम्ही मोठ्या मैदानावर खेळू.",
+  "text_en": "A neighbourhood cricket match is played on Sunday. Rohit hits three sixes, then Sagar defends ten runs in the last over with two wickets. Next month the team will play on a bigger ground.",
+  "text_tr": "Amchya gallit ravivari cricket samna zala. Amchi team adhi batting karat hoti. Rohitne teen Shatkar marle ani sarvanni tallya vajavlya. Dusarya teamla jinkayla shevatchya shatakat daha dhava havya hotya. Amcha golandaj Sagar khup shant hota. Tyane done wicket ghetale ani amhi samna jinkla. Sarva mitranni tyala khandyavar uchalale. Pudhchya mahinyat amhi mothya maidanavar khelen.",
+  "gloss": [
+   {
+    "mr": "सामना",
+    "en": "match"
+   },
+   {
+    "mr": "तीन",
+    "en": "three"
+   },
+   {
+    "mr": "दहा",
+    "en": "ten"
+   },
+   {
+    "mr": "खूप",
+    "en": "very / much"
+   },
+   {
+    "mr": "शांत",
+    "en": "calm / quiet"
+   },
+   {
+    "mr": "दोन",
+    "en": "two"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "क्रिकेट सामना",
+     "दिवाळीतील मिठाई दुकान",
+     "बाजारात एक दिवस"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c3-05",
+  "level": 3,
+  "title_mr": "सिंहगडची सफर",
+  "title_en": "Trip to Sinhagad",
+  "text_mr": "आम्ही सकाळी सहाला सिंहगडाला जायला निघालो. घाटात हिरवीगार दिसत होती आणि ढग खाली आले होते. वाटेत आम्ही भुट्टा आणि ताक प्यायलो. गडावर पोहोचल्यावर आम्ही तानाजी मालुसरेंची समाधी पाहिली. गाईड काका म्हणाले गडाचा इतिहास खूप शूर आहे. आम्ही पिठलं भाकरी खाल्ली आणि फोटो काढले. परत येताना पाऊस सुरू झाला पण सर्व खुश होते. पुढच्या वर्षी आम्ही रायगडाला जाऊ.",
+  "text_en": "Friends leave at six in the morning for Sinhagad fort. They enjoy corn and buttermilk on the green ghat road. At the fort they see Tanaji Malusare's memorial, eat pithla-bhakri, and plan Raigad next year.",
+  "text_tr": "Amhi sakali sahala Sinhagadala jayla nighalo. Ghatat hirvigar disat hoti ani dhag khali ale hote. Varte amhi bhutta ani ताक pyle. Gadavar pohochlyavar amhi Tanaji Malusarenchi samadhi pahili. Guide kaka mhanale gadhacha itihas khup shoor ahe. Amhi pithal bhakri khalli ani photo kadhle. Parat yetana paus suru zala pan sarva khush hote. Pudhchya varshi amhi Raigadala jau.",
+  "gloss": [
+   {
+    "mr": "ढग",
+    "en": "cloud"
+   },
+   {
+    "mr": "खाली",
+    "en": "under / below"
+   },
+   {
+    "mr": "काका",
+    "en": "uncle"
+   },
+   {
+    "mr": "खूप",
+    "en": "very / much"
+   },
+   {
+    "mr": "भाकरी",
+    "en": "millet bread"
+   },
+   {
+    "mr": "पाऊस",
+    "en": "rain"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "शेतकऱ्याचं जीवन",
+     "सिंहगडची सफर",
+     "गावच्या शाळेतील दिवस"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "c3-06",
+  "level": 3,
+  "title_mr": "दिवाळीतील मिठाई दुकान",
+  "title_en": "The Sweet Shop at Diwali",
+  "text_mr": "दिवाळीत लक्ष्मी रोडवर खूप गर्दी होती. आम्ही चितळे दुकानातून भाकरवडी आणि पेढे घेतले. दुकानदार म्हणाला या वर्षी उकडीचे मोदक स्पेशल आहेत. आजी म्हणाली घरी करंज्या करू आणि शेजाऱ्यांना देऊ. संध्याकाळी आम्ही दिवे लावले आणि आकाशदिवा बांधला. मुले फटाके फोडू लागली पण आम्ही प्रदूषण टाळले. उद्या भाऊबीजेला भाऊ येईल आणि आम्ही फराळ खाऊ. दिवाळी सर्वांना आनंद देईल.",
+  "text_en": "At Diwali the family shops on Laxmi Road for bhakarwadi and pedhe. At home they light diyas, hang a lantern, and avoid polluting firecrackers. Tomorrow on Bhaubij they will share faral together.",
+  "text_tr": "Diwalit Laxmi Roadvar khup gardi hoti. Amhi Chitale dukanatun bhakarwadi ani pedhe ghetale. Dukandar mhanala ya varshi ukdiche modak special ahet. Aaji mhanali ghari karanjya karu ani shejaryanna deu. Sandhyakali amhi diwe lavle ani aakashdiva bandhla. Mule phatake phodu lagli pan amhi pradushan talale. Udya Bhaubijela bhau yeil ani amhi faral khau. Diwali sarvanna anand deil.",
+  "gloss": [
+   {
+    "mr": "खूप",
+    "en": "very / much"
+   },
+   {
+    "mr": "गर्दी",
+    "en": "crowd"
+   },
+   {
+    "mr": "दुकानदार",
+    "en": "shopkeeper"
+   },
+   {
+    "mr": "आजी",
+    "en": "grandmother"
+   },
+   {
+    "mr": "प्रदूषण",
+    "en": "pollution"
+   },
+   {
+    "mr": "उद्या",
+    "en": "tomorrow"
+   },
+   {
+    "mr": "भाऊ",
+    "en": "brother"
+   },
+   {
+    "mr": "आनंद",
+    "en": "joy"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "गणपती बाप्पा",
+     "ससा",
+     "दिवाळीतील मिठाई दुकान"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "c3-07",
+  "level": 3,
+  "title_mr": "पावसातील नदी",
+  "title_en": "The River in the Rains",
+  "text_mr": "श्रावणात आमच्या गावाजवळची नदी दुप्पट वाहत होती. बाबा म्हणाले पूर येईल, सावध राहा. आम्ही पुलावरून पाणी पाहिले, खूप वेगवान होते. गावकऱ्यांनी मिळून वाळूचे बंधारे बांधले. दोन दिवसांनंतर पाऊस थांबला आणि पाणी ओसरले. शेताला नवीन गाळ जमला होता, पीक चांगले येईल. सरपंच म्हणाले पुढच्या वर्षी झाडे लावू. नदी आपली आई आहे, तिला जपू.",
+  "text_en": "In Shravan the village river swells and flood threatens. Villagers build sandbag barriers together from the bridge. After the rain stops, fresh silt promises a good crop, and the sarpanch pledges trees next year.",
+  "text_tr": "Shravanat amchya gavajavalchi nadi duppat vahat hoti. Baba mhanale pur yeil, savadh raha. Amhi pulavarun pani pahile, khup vegwan hote. Gavkaryanni milun valuche bandhare bandhle. Don divasannantar paus thambla ani pani osarle. Shetala navin gal jamla hota, peak changle yeil. Sarpanch mhanale pudhchya varshi zhad lavu. Nadi apli aai ahe, tila japu.",
+  "gloss": [
+   {
+    "mr": "नदी",
+    "en": "river"
+   },
+   {
+    "mr": "बाबा",
+    "en": "father"
+   },
+   {
+    "mr": "पाणी",
+    "en": "water"
+   },
+   {
+    "mr": "खूप",
+    "en": "very / much"
+   },
+   {
+    "mr": "दोन",
+    "en": "two"
+   },
+   {
+    "mr": "पाऊस",
+    "en": "rain"
+   },
+   {
+    "mr": "नवीन",
+    "en": "new"
+   },
+   {
+    "mr": "आई",
+    "en": "mother"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "पावसातील नदी",
+     "क्रिकेट सामना",
+     "शाळा"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "c4-01",
+  "level": 4,
+  "title_mr": "महाराष्ट्राचे कृत्रिम बुद्धिमत्ता धोरण आणि नावीन्य शहर",
+  "title_en": "Maharashtra's AI Policy and the Innovation City",
+  "text_mr": "महाराष्ट्र शासनाने सन दोन हजार सव्वीस मध्ये जाहीर केलेले कृत्रिम बुद्धिमत्ता धोरण राज्याच्या तंत्रज्ञान इतिहासातील एक निर्णायक टप्पा मानले जात आहे. या धोरणानुसार पुढील पाच वर्षांत दहा हजार कोटी रुपयांची गुंतवणूक आकर्षित करण्याचे आणि सुमारे दीड लाख रोजगाराच्या संधी निर्माण करण्याचे उद्दिष्ट निश्चित करण्यात आले आहे. या महत्त्वाकांक्षी योजनेचे केंद्र नवी मुंबई येथे तीनशे एकर विस्तीर्ण जागेवर उभारण्यात येणारे नावीन्य शहर असणार आहे. या शहरात कृत्रिम बुद्धिमत्ता, यंत्रशिक्षण, संगणकीय दृष्टी, भाषिक प्रतिमान आणि स्वयंचलित वाहने अशा अत्याधुनिक तंत्रज्ञान क्षेत्रांत संशोधन आणि विकासाला चालना मिळणार आहे. राज्य शासनाच्या योजनेनुसार दोन लाख युवक आणि व्यावसायिकांना कृत्रिम बुद्धिमत्तेचे प्रशिक्षण देण्यात येणार असून विविध शहरांत कृत्रिम बुद्धिमत्ता केंद्रे स्थापन केली जाणार आहेत. मुंबई आणि पुणे या शहरांना वित्त, अभियांत्रिकी, माध्यमे आणि प्रगत सेवा क्षेत्रांतील उच्च मूल्याची केंद्रे म्हणून विकसित करण्याचा मानस आहे. पुणे आणि मुंबई यांच्या दरम्यान असलेला पट्टा जागतिक दर्जाच्या उत्पादन उद्यानांसाठी, तंत्रज्ञान संस्थांसाठी आणि आंतरराष्ट्रीय विद्यापीठ परिसरांसाठी राखीव ठेवण्यात आला आहे. या केंद्रस्थानी आणि उपकेंद्रे अशा प्रतिमानातून मुंबई पुण्यातील नावीन्य प्रयोगशाळांचा लाभ राज्याच्या ग्रामीण भागांपर्यंत पोहोचवण्याची अपेक्षा आहे. शेती, आरोग्य, शिक्षण आणि प्रशासन अशा क्षेत्रांत कृत्रिम बुद्धिमत्तेचा नैतिक आणि सर्वसमावेशक वापर करणे हे या धोरणाचे मुख्य सूत्र आहे. तसेच सॅसून डॉक येथे फिनलंडमधील कंपन्यांच्या सहकार्याने मत्स्यव्यवसाय पुरवठा साखळीचे डिजिटलीकरण करण्यात येत असून इंटरनेट गोष्टी, स्मार्ट दिवे आणि स्वयंचलन यांचा वापर होत आहे. शिक्षण क्षेत्रात कृत्रिम बुद्धिमत्ता आधारित अध्ययन साहित्य मराठी भाषेत उपलब्ध करून देण्याची योजनाही आखण्यात आली आहे.",
+  "text_en": "Maharashtra's AI Policy 2026 targets Rs 10,000 crore investment and 1.5 lakh jobs, anchored by a 300-acre Innovation City in Navi Mumbai, AI training for 2 lakh youth, and a hub-and-spoke model linking Mumbai-Pune innovation to rural applications in farming, health, education and governance.",
+  "text_tr": "",
+  "gloss": [
+   {
+    "mr": "दोन",
+    "en": "two"
+   },
+   {
+    "mr": "हजार",
+    "en": "thousand"
+   },
+   {
+    "mr": "एक",
+    "en": "one"
+   },
+   {
+    "mr": "पाच",
+    "en": "five"
+   },
+   {
+    "mr": "दहा",
+    "en": "ten"
+   },
+   {
+    "mr": "शहर",
+    "en": "city"
+   },
+   {
+    "mr": "संशोधन",
+    "en": "research"
+   },
+   {
+    "mr": "प्रशासन",
+    "en": "administration"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "पाऊस",
+     "महाराष्ट्राचे कृत्रिम बुद्धिमत्ता धोरण आणि नावीन्य शहर",
+     "सिंह आणि उंदीर"
+    ],
+    "answer": 1
+   }
+  ],
+  "discuss": [
+   {
+    "q_mr": "कृत्रिम बुद्धिमत्ता धोरणानुसार किती गुंतवणूक आणि रोजगाराचे उद्दिष्ट आहे?",
+    "q_en": "What investment and employment targets does the AI policy set?",
+    "answer_mr": "दहा हजार कोटी रुपयांची गुंतवणूक आणि सुमारे दीड लाख रोजगाराच्या संधी निर्माण करण्याचे उद्दिष्ट आहे."
+   },
+   {
+    "q_mr": "नावीन्य शहर कोठे आणि किती जागेवर उभारण्यात येणार आहे?",
+    "q_en": "Where and on how much land will the Innovation City be built?",
+    "answer_mr": "नवी मुंबई येथे तीनशे एकर विस्तीर्ण जागेवर नावीन्य शहर उभारण्यात येणार आहे."
+   },
+   {
+    "q_mr": "कोणत्या क्षेत्रांत कृत्रिम बुद्धिमत्तेचा वापर करण्याचे सूत्र धोरणात आहे?",
+    "q_en": "In which sectors will AI be applied according to the policy?",
+    "answer_mr": "शेती, आरोग्य, शिक्षण आणि प्रशासन या क्षेत्रांत नैतिक आणि सर्वसमावेशक वापर करण्याचे सूत्र आहे."
+   }
+  ]
+ },
+ {
+  "id": "c4-02",
+  "level": 4,
+  "title_mr": "पुण्याचे तंत्रज्ञान पुनरुत्थान",
+  "title_en": "Pune's Technology Renaissance",
+  "text_mr": "पुणे शहर पारंपरिकपणे शिक्षण आणि उत्पादन उद्योगांचे केंद्र म्हणून ओळखले जात होते, परंतु अलीकडच्या काही वर्षांत ते खोल तंत्रज्ञान आणि जागतिक क्षमता केंद्रांचे प्राधान्यस्थान बनले आहे. सॉफ्टवेअर सेवा कंपन्यांपलीकडे जाऊन आता अनेक मध्यम आकाराचे आंतरराष्ट्रीय उद्योग आपली संशोधन आणि अभियांत्रिकी केंद्रे पुण्यात स्थापन करत आहेत. शहराचा औद्योगिक वारसा, प्रतिष्ठित शैक्षणिक संस्था आणि कुशल मनुष्यबळ यांचा मेळ या वाढीमागील प्रमुख कारण मानला जातो. राज्य शासन कृत्रिम बुद्धिमत्ता, परिमाण संगणन, ड्रोन तंत्रज्ञान आणि स्वयंचलित वाहने अशा सीमावर्ती तंत्रज्ञानांसाठी धोरणात्मक प्रोत्साहन देत आहे. पुण्यातील नवउद्यमी परिसंस्था वेगाने विस्तारत असून नवे उबवणी केंद्रे आणि गुंतवणूक निधी तरुण संस्थापकांना पाठबळ देत आहेत. हिंजवडी, बालेवाडी आणि खराडी या भागांत आधुनिक कार्यालयीन संकुले उभी राहिली असून हजारो अभियंते आणि संशोधक तेथे कार्यरत आहेत. मुंबईची जागतिक जोडणी आणि आर्थिक पायाभूत सुविधा यांच्याशी पुण्याची शैक्षणिक ताकद जोडली गेल्यामुळे या दोन शहरांमधील पट्टा देशातील सर्वांत गतिमान तंत्रज्ञान मार्गिका बनत आहे. स्थानिक विद्यापीठे अभ्यासक्रमांत कृत्रिम बुद्धिमत्ता आणि आकडेविज्ञान यांचा समावेश करत आहेत. तज्ज्ञांच्या मते पुढील दशकात पुणे केवळ सेवा केंद्र न राहता उत्पादन आणि संशोधनाचे जागतिक केंद्र बनेल. शहरातील मोठ्या तंत्रज्ञान परिषदा आणि हॅकथॉनमध्ये देशभरातून हजारो उत्साही तरुण सहभागी होतात. विद्यापीठे आणि उद्योग यांच्यातील संशोधन सहकार्यामुळे पेटंट नोंदणीतही वाढ दरवर्षी सातत्याने झाली आहे आणि पुण्याची ओळख संशोधन शहर म्हणून दृढ होत आहे.",
+  "text_en": "Pune is evolving from an education and manufacturing hub into a deep-tech and Global Capability Centre destination, driven by its industrial legacy, universities, startup incubators, state frontier-tech policies, and the fast-growing Mumbai-Pune technology corridor.",
+  "text_tr": "",
+  "gloss": [
+   {
+    "mr": "शहर",
+    "en": "city"
+   },
+   {
+    "mr": "संशोधन",
+    "en": "research"
+   },
+   {
+    "mr": "तरुण",
+    "en": "young man"
+   },
+   {
+    "mr": "दोन",
+    "en": "two"
+   },
+   {
+    "mr": "ओळख",
+    "en": "acquaintance"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "पुण्याचे तंत्रज्ञान पुनरुत्थान",
+     "मोठे झाड",
+     "सह्याद्रीतील पावसाळी पर्यटन आणि गडकिल्ले भ्रमंती"
+    ],
+    "answer": 0
+   }
+  ],
+  "discuss": [
+   {
+    "q_mr": "पुणे कोणत्या नव्या भूमिकेत उदयास येत आहे?",
+    "q_en": "What new role is Pune emerging into?",
+    "answer_mr": "पुणे खोल तंत्रज्ञान आणि जागतिक क्षमता केंद्रांचे प्राधान्यस्थान म्हणून उदयास येत आहे."
+   },
+   {
+    "q_mr": "पुण्याच्या वाढीमागील प्रमुख कारणे कोणती?",
+    "q_en": "What are the main reasons behind Pune's growth?",
+    "answer_mr": "औद्योगिक वारसा, प्रतिष्ठित शैक्षणिक संस्था आणि कुशल मनुष्यबळ यांचा मेळ हे प्रमुख कारण आहे."
+   },
+   {
+    "q_mr": "कोणती सीमावर्ती तंत्रज्ञाने शासन प्रोत्साहन देत आहे?",
+    "q_en": "Which frontier technologies is the government promoting?",
+    "answer_mr": "कृत्रिम बुद्धिमत्ता, परिमाण संगणन, ड्रोन तंत्रज्ञान आणि स्वयंचलित वाहने यांना प्रोत्साहन दिले जात आहे."
+   }
+  ]
+ },
+ {
+  "id": "c4-03",
+  "level": 4,
+  "title_mr": "टी ट्वेंटी मुंबई साखळीचा क्रिकेट उत्सव",
+  "title_en": "The T20 Mumbai League Cricket Carnival",
+  "text_mr": "वानखेडे मैदानावर दरवर्षी भरणारा टी ट्वेंटी मुंबई साखळीचा उत्सव आता शहराच्या क्रीडा संस्कृतीचा अविभाज्य भाग बनला आहे. सन दोन हजार सव्वीसच्या हंगामात गतविजेत्या मराठा रॉयल्स संघाने उत्तर मुंबई पँथर्स संघावर रोमहर्षक विजय मिळवून अंतिम फेरीत प्रवेश केला. वेगवान गोलंदाज तुषार देशपांडे आणि फलंदाज चिन्मय सुतार यांच्या चमकदार कामगिरीमुळे संघाने कठीण परिस्थितीतून सामना फिरवला. या स्पर्धेत अजिंक्य रहाणे आणि श्रेयस अय्यर यांसारखे अनुभवी आंतरराष्ट्रीय खेळाडू विविध संघांचे नेतृत्व करताना दिसले, ज्यामुळे तरुण खेळाडूंना मोलाचे मार्गदर्शन मिळाले. विशेष म्हणजे याच हंगामात पहिल्या महिला टी ट्वेंटी मुंबई साखळीचेही आयोजन करण्यात आले, ज्यात सायली सतघरे यांच्यासारख्या कर्णधारांनी संघांचे नेतृत्व केले. दोन आठवडे चाललेल्या या क्रिकेट महोत्सवात प्रेक्षकांनी मैदान खचाखच भरले होते. ही साखळी केवळ मनोरंजनाचे साधन नसून मुंबईतील गल्ली क्रिकेटमधून उदयास येणाऱ्या तरुण प्रतिभांसाठी व्यासपीठ आहे. अनेक खेळाडूंना या स्पर्धेतील कामगिरीच्या बळावर राज्य आणि राष्ट्रीय संघांत स्थान मिळाले आहे. क्रीडा तज्ज्ञांच्या मते अशा शहरस्तरीय साखळींमुळे भारतीय क्रिकेटचा पाया अधिक बळकट होतो आहे आणि भविष्यातील तारे घडत आहेत. अंतिम सामन्याची तिकीटे काही तासांत विकली गेली आणि दूरचित्रवाणी प्रेक्षकसंख्येने नवे विक्रम प्रस्थापित केले. मैदानाबाहेर चाहत्यांसाठी मनोरंजन क्षेत्रे, खाद्यपदार्थांची दुकाने आणि खेळाडूंच्या भेटीगाठी यांचे आयोजन करण्यात आले होते. आयोजकांच्या मते पुढील हंगामात अधिक संघ आणि नव्या शहरांचा समावेश करण्याची योजना आहे. या यशामुळे मुंबईची ओळख क्रिकेटची राजधानी म्हणून अधिक दृढ झाली आहे.",
+  "text_en": "The T20 Mumbai League 2026 saw defending champions Maratha Royals reach the final on the back of Tushar Deshpande and Chinmay Sutar, with stars like Rahane and Iyer mentoring youth, plus the inaugural women's league — a vital platform for grassroots Mumbai talent.",
+  "text_tr": "",
+  "gloss": [
+   {
+    "mr": "उत्सव",
+    "en": "festival"
+   },
+   {
+    "mr": "दोन",
+    "en": "two"
+   },
+   {
+    "mr": "हजार",
+    "en": "thousand"
+   },
+   {
+    "mr": "उत्तर",
+    "en": "answer"
+   },
+   {
+    "mr": "कठीण",
+    "en": "difficult"
+   },
+   {
+    "mr": "सामना",
+    "en": "match"
+   },
+   {
+    "mr": "तरुण",
+    "en": "young man"
+   },
+   {
+    "mr": "संघ",
+    "en": "team"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "शाळा",
+     "मोठे झाड",
+     "टी ट्वेंटी मुंबई साखळीचा क्रिकेट उत्सव"
+    ],
+    "answer": 2
+   }
+  ],
+  "discuss": [
+   {
+    "q_mr": "मराठा रॉयल्स संघाने अंतिम फेरीत कसा प्रवेश केला?",
+    "q_en": "How did Maratha Royals reach the final?",
+    "answer_mr": "उत्तर मुंबई पँथर्स संघावर रोमहर्षक विजय मिळवून मराठा रॉयल्सने अंतिम फेरीत प्रवेश केला."
+   },
+   {
+    "q_mr": "या हंगामातील महिला साखळीचे वैशिष्ट्य काय होते?",
+    "q_en": "What was special about the women's league this season?",
+    "answer_mr": "पहिल्या महिला टी ट्वेंटी मुंबई साखळीचे आयोजन झाले आणि सायली सतघरे यांच्यासारख्या कर्णधारांनी नेतृत्व केले."
+   },
+   {
+    "q_mr": "शहरस्तरीय साखळींचे भारतीय क्रिकेटसाठी महत्त्व काय?",
+    "q_en": "Why are city-level leagues important for Indian cricket?",
+    "answer_mr": "तरुण प्रतिभांना व्यासपीठ मिळते, पाया बळकट होतो आणि भविष्यातील तारे घडतात."
+   }
+  ]
+ },
+ {
+  "id": "c4-04",
+  "level": 4,
+  "title_mr": "महाराष्ट्र प्रीमियर साखळी आणि तळागाळातील प्रतिभा",
+  "title_en": "Maharashtra Premier League and Grassroots Talent",
+  "text_mr": "महाराष्ट्र प्रीमियर साखळी आणि नव्याने सुरू झालेली महाराष्ट्र टॅलेंट क्रिकेट साखळी या स्पर्धा राज्यातील तळागाळातील क्रिकेट प्रतिभांसाठी नवे दालन उघडत आहेत. या साखळ्यांचे विशेष लक्ष तेवीस वर्षांखालील खेळाडूंवर असून ग्रामीण आणि निमशहरी भागांतील युवकांना व्यावसायिक व्यासपीठ मिळवून देणे हा त्यांचा मुख्य उद्देश आहे. पुणे, नाशिक, नागपूर, कोल्हापूर आणि छत्रपती संभाजीनगर येथील मैदानांवर होणारे सामने स्थानिक प्रेक्षकांत प्रचंड उत्साह निर्माण करतात. अनेकदा शेतकरी कुटुंबांतील किंवा कामगार वस्तींतील मुले या स्पर्धांतून चमकतात आणि त्यांच्या यशोगाथा गावागावांत प्रेरणा बनतात. प्रशिक्षकांच्या मते अशा साखळींमुळे निवड प्रक्रिया अधिक पारदर्शक आणि गुणवत्तेवर आधारित झाली आहे. पूर्वी केवळ मोठ्या शहरांतील क्रिकेट अकादमींमधील मुलांनाच संधी मिळत असे, परंतु आता तालुका पातळीवरील स्पर्धांमधून थेट राज्यस्तरीय साखळींत प्रवेश मिळतो. या स्पर्धांचे सामने दूरचित्रवाणी आणि भ्रमणध्वनीवरून थेट प्रक्षेपित होत असल्यामुळे खेळाडूंना प्रसिद्धी आणि प्रायोजकांची साथ मिळते. क्रीडा व्यवस्थापन तज्ज्ञ सांगतात की या साखळ्या केवळ खेळाडूच घडवत नाहीत तर समालोचक, पंच, मैदान व्यवस्थापक आणि क्रीडा पत्रकार अशा अनेकांना रोजगार देतात. महाराष्ट्राच्या क्रिकेट भविष्याचा पाया या तळागाळातील चळवळीतच रचला जात आहे. निवड शिबिरांत आधुनिक तंत्रज्ञानाचा वापर करून गोलंदाजीचा वेग, फलंदाजीची सवय आणि क्षेत्ररक्षण कौशल्य यांचे शास्त्रीय मोजमाप केले जाते. पालकांसाठी कार्यशाळा आयोजित करून मुलांच्या क्रीडा कारकिर्दीबद्दल मार्गदर्शन दिले जाते. ग्रामीण भागांतील क्रीडा पायाभूत सुविधांतही वाढ होत आहे. या सर्व प्रयत्नांमुळे महाराष्ट्रातील क्रिकेटचे भवितव्य उज्ज्वल दिसत आहे.",
+  "text_en": "The Maharashtra Premier League and the new Maharashtra Talent Cricket League focus on Under-23 players from rural and semi-urban areas, making selection merit-based and transparent while creating jobs for coaches, umpires, commentators and grounds staff.",
+  "text_tr": "",
+  "gloss": [
+   {
+    "mr": "देणे",
+    "en": "to give"
+   },
+   {
+    "mr": "उत्साह",
+    "en": "enthusiasm"
+   },
+   {
+    "mr": "शेतकरी",
+    "en": "farmer"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "महाराष्ट्र प्रीमियर साखळी आणि तळागाळातील प्रतिभा",
+     "ससा",
+     "बाजारात एक दिवस"
+    ],
+    "answer": 0
+   }
+  ],
+  "discuss": [
+   {
+    "q_mr": "या साखळ्यांचे विशेष लक्ष कोणावर आहे?",
+    "q_en": "Who are these leagues especially focused on?",
+    "answer_mr": "तेवीस वर्षांखालील खेळाडूंवर आणि ग्रामीण निमशहरी भागांतील युवकांवर विशेष लक्ष आहे."
+   },
+   {
+    "q_mr": "निवड प्रक्रियेत कोणता बदल झाला आहे?",
+    "q_en": "What change has come in the selection process?",
+    "answer_mr": "निवड प्रक्रिया अधिक पारदर्शक आणि गुणवत्तेवर आधारित झाली असून तालुका पातळीवरून थेट राज्यस्तरीय प्रवेश मिळतो."
+   },
+   {
+    "q_mr": "या साखळ्या खेळाडूंव्यतिरिक्त कोणाला रोजगार देतात?",
+    "q_en": "Whom do these leagues employ besides players?",
+    "answer_mr": "समालोचक, पंच, मैदान व्यवस्थापक आणि क्रीडा पत्रकार अशा अनेकांना रोजगार मिळतो."
+   }
+  ]
+ },
+ {
+  "id": "c4-05",
+  "level": 4,
+  "title_mr": "मराठी चित्रपटांचे सुवर्णवर्ष आणि ऑस्कर वाटचाल",
+  "title_en": "Marathi Cinema's Golden Year and the Oscar Journey",
+  "text_mr": "सन दोन हजार सव्वीस हे वर्ष मराठी चित्रपटसृष्टीच्या इतिहासात सुवर्णाक्षरांत लिहिले जाईल. या वर्षी अनेक मराठी चित्रपटांनी तिकीट खिडकीवर विक्रमी कमाई केली आणि राष्ट्रीय पातळीवर मराठी कथांची दखल घेतली गेली. लोककथांवर आधारित गोंधळ या रहस्यमय चित्रपटाची भारतातर्फे ऑस्कर पुरस्कारांसाठी अधिकृत प्रवेशिका म्हणून निवड झाली, ही मराठी सिनेमासाठी अभिमानाची बाब ठरली. आंतरराष्ट्रीय चित्रपट महोत्सवात रौप्य मोर पुरस्कार मिळवलेल्या दिग्दर्शकाने या चित्रपटात ग्रामीण महाराष्ट्रातील लोककला आणि आधुनिक रहस्य यांचा सुरेख संगम साधला आहे. या वर्षी प्रदर्शित झालेल्या मोठ्या ऐतिहासिक चित्रपटाने नव्वद कोटी रुपयांहून अधिक कमाई करत मराठी सिनेमाच्या व्यावसायिक क्षमतेचे नवे दालन उघडले. समीक्षकांच्या मते सैराट पासून सुरू झालेली ग्रामीण कथांची लाट आता अधिक परिपक्व आणि प्रयोगशील झाली आहे. तरुण दिग्दर्शक घर, मैत्री, स्थलांतर आणि ओळख यांसारख्या समकालीन विषयांवर धाडसी चित्रपट बनवत आहेत. प्रवाही माध्यमांमुळे मराठी चित्रपट जगभरातील प्रेक्षकांपर्यंत पोहोचत आहेत आणि परदेशांतही त्यांना चाहते मिळत आहेत. राज्य शासनाच्या चित्रपट धोरणामुळे चित्रीकरण सुविधा आणि अनुदान यांत वाढ झाली आहे. या सर्व घडामोडींमुळे मराठी चित्रपट आता प्रादेशिक मर्यादा ओलांडून राष्ट्रीय आणि जागतिक व्यासपीठावर ठामपणे उभे राहत आहेत. चित्रपट महोत्सवांत मराठी लघुपट आणि माहितीपटांनाही आंतरराष्ट्रीय पारितोषिके मिळत आहेत. ज्येष्ठ अभिनेते नव्या पिढीतील कलाकारांना मार्गदर्शन करत असून कार्यशाळांमधून अभिनय प्रशिक्षण दिले जात आहे. प्रेक्षकांच्या वाढत्या पाठिंब्यामुळे निर्माते मोठ्या बजेटचे चित्रपट बनवण्यास आता धाडसाने पुढे येत आहेत.",
+  "text_en": "2026 was a landmark year for Marathi cinema with record box-office collections, the folk-thriller Gondhal selected as India's Oscar entry, a historic epic crossing Rs 90 crore, bold young directors, streaming-led global reach, and supportive state film policy.",
+  "text_tr": "",
+  "gloss": [
+   {
+    "mr": "दोन",
+    "en": "two"
+   },
+   {
+    "mr": "हजार",
+    "en": "thousand"
+   },
+   {
+    "mr": "वर्ष",
+    "en": "year"
+   },
+   {
+    "mr": "तिकीट",
+    "en": "ticket"
+   },
+   {
+    "mr": "मोर",
+    "en": "peacock"
+   },
+   {
+    "mr": "पुरस्कार",
+    "en": "award"
+   },
+   {
+    "mr": "तरुण",
+    "en": "young man"
+   },
+   {
+    "mr": "घर",
+    "en": "house"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "मराठी चित्रपटांचे सुवर्णवर्ष आणि ऑस्कर वाटचाल",
+     "मित्र",
+     "गावच्या शाळेतील दिवस"
+    ],
+    "answer": 0
+   }
+  ],
+  "discuss": [
+   {
+    "q_mr": "गोंधळ चित्रपटाची कोणती विशेष कामगिरी ठरली?",
+    "q_en": "What special achievement did the film Gondhal earn?",
+    "answer_mr": "भारतातर्फे ऑस्कर पुरस्कारांसाठी अधिकृत प्रवेशिका म्हणून गोंधळ चित्रपटाची निवड झाली."
+   },
+   {
+    "q_mr": "तरुण दिग्दर्शक कोणत्या विषयांवर चित्रपट बनवत आहेत?",
+    "q_en": "What subjects are young directors making films on?",
+    "answer_mr": "घर, मैत्री, स्थलांतर आणि ओळख यांसारख्या समकालीन विषयांवर धाडसी चित्रपट बनवत आहेत."
+   },
+   {
+    "q_mr": "मराठी चित्रपट जागतिक प्रेक्षकांपर्यंत कसे पोहोचत आहेत?",
+    "q_en": "How are Marathi films reaching global audiences?",
+    "answer_mr": "प्रवाही माध्यमांमुळे मराठी चित्रपट जगभरातील प्रेक्षकांपर्यंत पोहोचत आहेत."
+   }
+  ]
+ },
+ {
+  "id": "c4-06",
+  "level": 4,
+  "title_mr": "मुंबईची बदलती वाहतूक: मेट्रो आणि सागरी मार्ग",
+  "title_en": "Mumbai's Changing Transport: Metro and Coastal Road",
+  "text_mr": "मुंबई शहराची वाहतूक व्यवस्था गेल्या काही वर्षांत आमूलाग्र बदलत आहे. मेट्रो मार्गिका दोन अ, सात आणि भूमिगत मार्गिका तीन यांच्या कार्यान्वयनामुळे उपनगरांपासून दक्षिण मुंबईपर्यंतचा प्रवास अधिक वेगवान आणि सुखकर झाला आहे. सागरी किनारा मार्ग प्रकल्पाच्या पहिल्या टप्प्यामुळे वरळी ते मरीन लाइन्स हा प्रवास काही मिनिटांत पूर्ण होतो, ज्यामुळे लाखो प्रवाशांचा वेळ वाचतो. शासनाच्या घोषणेनुसार सप्टेंबर दोन हजार सव्वीस पर्यंत शिवडी ते सागरी मार्ग हा संपूर्ण पट्टा संकेतविरहित होणार आहे. वांद्रे ते वर्सोवा सागरी मार्गाचे काम सन दोन हजार अठ्ठावीस पर्यंत पूर्ण करण्याचे लक्ष्य ठेवण्यात आले आहे. अटल सेतू या सागरी पुलामुळे मुंबई आणि नवी मुंबई यांच्यातील अंतर लक्षणीयरीत्या कमी झाले असून नवी मुंबई आंतरराष्ट्रीय विमानतळाशी जोडणी अधिक सुलभ होत आहे. मेट्रो स्थानकांजवळ पादचारी भूमिगत मार्गिका आणि आधुनिक बस स्थानके उभारण्यात येत आहेत. डिसेंबर दोन हजार सव्वीस पासून मुंबई जल मेट्रोची चाचणी सुरू होणार असून किनारी भागांतील प्रवासाला नवा पर्याय मिळणार आहे. वाहतूक तज्ज्ञांच्या मते रस्ते, रेल्वे, मेट्रो आणि जलवाहतूक यांच्या एकात्मिक जाळ्यामुळे मुंबई जगातील सर्वांत गर्दीच्या शहरांच्या यादीतून बाहेर पडू शकेल. या पायाभूत सुविधा प्रकल्पांमुळे रोजगार, व्यापार आणि पर्यटन या तिन्ही क्षेत्रांना चालना मिळत आहे. प्रवाशांच्या सोयीसाठी एकच तिकीट प्रणाली सर्व वाहतूक माध्यमांसाठी लागू करण्यात येत आहे. स्थानकांवर स्वच्छतागृहे, पिण्याचे पाणी आणि ज्येष्ठ नागरिकांसाठी विशेष सुविधा उपलब्ध करून देण्यात आल्या आहेत.",
+  "text_en": "Mumbai's transport is transforming with operational Metro lines 2A, 7 and underground Line 3, the Coastal Road cutting Worli-Marine Lines travel to minutes, a signal-free Sewri corridor, the Atal Setu link to Navi Mumbai airport, and a Water Metro trial from December 2026.",
+  "text_tr": "",
+  "gloss": [
+   {
+    "mr": "दोन",
+    "en": "two"
+   },
+   {
+    "mr": "तीन",
+    "en": "three"
+   },
+   {
+    "mr": "प्रवास",
+    "en": "journey"
+   },
+   {
+    "mr": "वेळ",
+    "en": "time"
+   },
+   {
+    "mr": "हजार",
+    "en": "thousand"
+   },
+   {
+    "mr": "काम",
+    "en": "work"
+   },
+   {
+    "mr": "बस",
+    "en": "bus"
+   },
+   {
+    "mr": "नवा",
+    "en": "new"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "कोल्हा आणि ढोल",
+     "माझा वर्ग",
+     "मुंबईची बदलती वाहतूक: मेट्रो आणि सागरी मार्ग"
+    ],
+    "answer": 2
+   }
+  ],
+  "discuss": [
+   {
+    "q_mr": "कोणत्या मेट्रो मार्गिका कार्यान्वित झाल्या आहेत?",
+    "q_en": "Which metro lines are operational?",
+    "answer_mr": "मेट्रो मार्गिका दोन अ, सात आणि भूमिगत मार्गिका तीन कार्यान्वित झाल्या आहेत."
+   },
+   {
+    "q_mr": "अटल सेतूचा कोणता लाभ झाला आहे?",
+    "q_en": "What benefit has Atal Setu brought?",
+    "answer_mr": "मुंबई आणि नवी मुंबई यांच्यातील अंतर कमी झाले असून विमानतळाशी जोडणी सुलभ झाली आहे."
+   },
+   {
+    "q_mr": "जल मेट्रोची चाचणी केव्हा सुरू होणार आहे?",
+    "q_en": "When will the Water Metro trial begin?",
+    "answer_mr": "डिसेंबर दोन हजार सव्वीस पासून मुंबई जल मेट्रोची चाचणी सुरू होणार आहे."
+   }
+  ]
+ },
+ {
+  "id": "c4-07",
+  "level": 4,
+  "title_mr": "रायगड: स्वराज्याची राजधानी आणि शिवराज्याभिषेक",
+  "title_en": "Raigad: Capital of Swarajya and the Coronation",
+  "text_mr": "सह्याद्रीच्या कुशीत वसलेला रायगड किल्ला हा केवळ दगडमातीची वास्तू नसून मराठी अस्मितेचे प्रतीक आहे. मूळचे रायरी नावाचे हे ठाणे छत्रपती शिवाजी महाराजांनी सन सोळाशे छप्पन मध्ये जिंकून घेतले आणि हिरोजी इंदुलकर यांच्यावर त्याच्या पुनर्बांधणीची जबाबदारी सोपवली. सहा जून सोळाशे चौऱ्याहत्तर रोजी याच गडावर शिवाजी महाराजांचा राज्याभिषेक सोहळा मोठ्या थाटामाटात पार पडला आणि ते छत्रपती झाले. या सोहळ्याने हिंदवी स्वराज्याच्या संकल्पनेला राजकीय अधिष्ठान प्राप्त करून दिले. रायगडची निवड राजधानी म्हणून करताना त्याच्या अभेद्य भौगोलिक स्थानाचा विचार करण्यात आला होता. गडावरील दरबार, मनोरे, बाजारपेठ आणि पाण्याची टाकी या वास्तू तत्कालीन प्रशासन आणि नियोजन कौशल्याची साक्ष देतात. गडावर असलेली शिवाजी महाराजांची समाधी लाखो भाविकांसाठी श्रद्धास्थान आहे. अलीकडच्या काळात रायगडसह बारा मराठी लष्करी भूदृश्य किल्ल्यांची युनेस्को जागतिक वारसा यादीसाठी शिफारस करण्यात आली आहे. दरवर्षी सहा जून रोजी गडावर शिवराज्याभिषेक सोहळा मोठ्या उत्साहात साजरा होतो, ज्यात राज्यभरातून शिवभक्त येतात. रोपवे सुविधेमुळे ज्येष्ठ नागरिक आणि लहान मुलेही आता गडावर सहज पोहोचू शकतात. रायगडचा इतिहास हा पराक्रम, दूरदृष्टी आणि स्वाभिमान यांचा जिवंत धडा आहे. गडाच्या पायथ्याशी असलेल्या संग्रहालयात शिवकालीन शस्त्रे, नाणी आणि कागदपत्रे जतन करून ठेवण्यात आली आहेत. शाळकरी विद्यार्थ्यांसाठी शैक्षणिक सहलींचे आयोजन केले जाते, ज्यातून त्यांना इतिहासाची प्रत्यक्ष ओळख होते. शिवप्रेमी संघटना गडसंवर्धनासाठी श्रमदान शिबिरे आयोजित करतात आणि परिसराची स्वच्छता राखतात. या प्रयत्नांमुळे गडाचा वारसा पुढील पिढ्यांसाठी जपला जात आहे.",
+  "text_en": "Raigad fort, captured by Shivaji Maharaj in 1656 and rebuilt by Hiroji Indulkar, became the Maratha capital where the coronation took place on 6 June 1674; now nominated with 11 forts for UNESCO heritage status, it hosts the annual coronation anniversary.",
+  "text_tr": "",
+  "gloss": [
+   {
+    "mr": "राजधानी",
+    "en": "capital"
+   },
+   {
+    "mr": "प्रशासन",
+    "en": "administration"
+   },
+   {
+    "mr": "लहान",
+    "en": "small"
+   },
+   {
+    "mr": "धडा",
+    "en": "lesson"
+   },
+   {
+    "mr": "ओळख",
+    "en": "acquaintance"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "रायगड: स्वराज्याची राजधानी आणि शिवराज्याभिषेक",
+     "अर्थव्यवस्था आणि शेती",
+     "गणपती बाप्पा"
+    ],
+    "answer": 0
+   }
+  ],
+  "discuss": [
+   {
+    "q_mr": "शिवाजी महाराजांनी रायरी किल्ला केव्हा जिंकला?",
+    "q_en": "When did Shivaji Maharaj capture Rairi fort?",
+    "answer_mr": "शिवाजी महाराजांनी सन सोळाशे छप्पन मध्ये रायरी किल्ला जिंकून घेतला."
+   },
+   {
+    "q_mr": "शिवराज्याभिषेक केव्हा आणि कोठे झाला?",
+    "q_en": "When and where did the coronation take place?",
+    "answer_mr": "सहा जून सोळाशे चौऱ्याहत्तर रोजी रायगड किल्ल्यावर शिवराज्याभिषेक झाला."
+   },
+   {
+    "q_mr": "किल्ल्यांची युनेस्को यादीसाठी कोणती शिफारस झाली आहे?",
+    "q_en": "What UNESCO recommendation covers these forts?",
+    "answer_mr": "रायगडसह बारा मराठी लष्करी भूदृश्य किल्ल्यांची जागतिक वारसा यादीसाठी शिफारस झाली आहे."
+   }
+  ]
+ },
+ {
+  "id": "c4-08",
+  "level": 4,
+  "title_mr": "सह्याद्रीतील पावसाळी पर्यटन आणि गडकिल्ले भ्रमंती",
+  "title_en": "Monsoon Tourism and Fort Treks in the Sahyadris",
+  "text_mr": "पावसाळा सुरू होताच सह्याद्रीच्या रांगा हिरव्या शालूने नटतात आणि महाराष्ट्रातील गडकिल्ल्यांकडे पर्यटकांची रीघ लागते. लोहगड, विसापूर, सिंहगड, कोरीगड आणि रायगड यांसारखे किल्ले पावसाळी भ्रमंतीसाठी सर्वांत लोकप्रिय ठिकाणे आहेत. नाणेमाची आणि कुंभे यांसारखे धबधबे पावसाळ्यात पूर्ण प्रवाहाने वाहतात आणि छायाचित्रकारांसाठी पर्वणी ठरतात. महाराष्ट्र पर्यटन विभाग पावसाळी हंगामाला निसर्ग सौंदर्याचा सर्वोत्तम काळ मानतो आणि सुरक्षित भ्रमंतीसाठी मार्गदर्शक तत्त्वे प्रसिद्ध करतो. नवशिक्या गिर्यारोहकांसाठी पाऊस सुरू झाल्यानंतरचे पहिले तीन आठवडे सर्वांत सुरक्षित मानले जातात, कारण या काळात वाटा निसरड्या होण्याआधी गिर्यारोहण पूर्ण होते. स्थानिक गावकऱ्यांसाठी पावसाळी पर्यटन हा उत्पन्नाचा महत्त्वाचा स्रोत बनला आहे. गडपायथ्याशी उपाहारगृहे, मार्गदर्शक सेवा, तंबू निवास आणि हस्तकला विक्री यांतून अनेक कुटुंबांचा उदरनिर्वाह चालतो. मात्र वाढत्या गर्दीमुळे कचरा आणि निसर्गहानी या समस्या गंभीर बनत आहेत. पर्यावरणप्रेमी संघटना स्वच्छता मोहिमा राबवतात आणि पर्यटकांना प्लास्टिकमुक्त भ्रमंतीचे आवाहन करतात. तज्ज्ञांच्या मते नियोजनबद्ध पर्यटन, स्थानिक सहभाग आणि निसर्ग संवर्धन यांचा समतोल साधला तर सह्याद्रीतील पावसाळी पर्यटन महाराष्ट्राची जागतिक ओळख बनू शकते. हवामान अंदाज पाहूनच भ्रमंतीला जाण्याचा सल्ला प्रशासन देते. प्रशिक्षित मार्गदर्शक सोबत घेतल्यास अपघात टाळता येतात आणि गडांचा इतिहास समजून घेता येतो. काही गावांनी पर्यटक निवासासाठी घरगुती भोजन आणि राहण्याची सोय सुरू केली असून त्यातून महिलांना रोजगार मिळत आहे. पावसाळी भ्रमंती ही केवळ साहस नसून निसर्गाशी नाते जोडण्याची संधी आहे. जबाबदार पर्यटनाचा मंत्र जपल्यास हा आनंद चिरकाल टिकेल.",
+  "text_en": "Monsoon transforms the Sahyadris into a trekking paradise around forts like Lohagad, Sinhagad and Raigad plus waterfalls like Nanemachi; tourism boosts village incomes through food, guides and camping, but needs planned, plastic-free practices to protect nature.",
+  "text_tr": "",
+  "gloss": [
+   {
+    "mr": "पावसाळा",
+    "en": "monsoon"
+   },
+   {
+    "mr": "पाऊस",
+    "en": "rain"
+   },
+   {
+    "mr": "तीन",
+    "en": "three"
+   },
+   {
+    "mr": "संवर्धन",
+    "en": "conservation"
+   },
+   {
+    "mr": "ओळख",
+    "en": "acquaintance"
+   },
+   {
+    "mr": "हवामान",
+    "en": "climate"
+   },
+   {
+    "mr": "प्रशासन",
+    "en": "administration"
+   },
+   {
+    "mr": "आनंद",
+    "en": "joy"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "सह्याद्रीतील पावसाळी पर्यटन आणि गडकिल्ले भ्रमंती",
+     "माझा वर्ग",
+     "पाऊस"
+    ],
+    "answer": 0
+   }
+  ],
+  "discuss": [
+   {
+    "q_mr": "पावसाळी भ्रमंतीसाठी कोणते किल्ले लोकप्रिय आहेत?",
+    "q_en": "Which forts are popular for monsoon treks?",
+    "answer_mr": "लोहगड, विसापूर, सिंहगड, कोरीगड आणि रायगड हे किल्ले पावसाळी भ्रमंतीसाठी लोकप्रिय आहेत."
+   },
+   {
+    "q_mr": "नवशिक्यांसाठी कोणता काळ सुरक्षित मानला जातो?",
+    "q_en": "Which period is safest for beginners?",
+    "answer_mr": "पाऊस सुरू झाल्यानंतरचे पहिले तीन आठवडे नवशिक्या गिर्यारोहकांसाठी सुरक्षित मानले जातात."
+   },
+   {
+    "q_mr": "स्थानिक गावकऱ्यांना पर्यटनाचा कोणता लाभ होतो?",
+    "q_en": "How do local villagers benefit from tourism?",
+    "answer_mr": "उपाहारगृहे, मार्गदर्शक सेवा, तंबू निवास आणि हस्तकला विक्री यांतून कुटुंबांचा उदरनिर्वाह चालतो."
+   }
+  ]
+ },
+ {
+  "id": "c4-09",
+  "level": 4,
+  "title_mr": "मान्सूनचे दुहेरी रूप: अतिवृष्टी आणि दुष्काळ",
+  "title_en": "The Monsoon's Double Face: Floods and Drought",
+  "text_mr": "सन दोन हजार सव्वीसचा मान्सून महाराष्ट्रासाठी दुहेरी आव्हान घेऊन आला. एकीकडे कोकण किनारपट्टी आणि पश्चिम घाट परिसरात अतिवृष्टीमुळे पूर आणि दरडी कोसळण्याच्या घटना घडल्या, तर दुसरीकडे मराठवाडा आणि विदर्भातील अनेक तालुके पावसाच्या प्रतीक्षेत राहिले. जुलै महिन्यात कर्जत ते लोणावळा घाट विभागात दरड कोसळल्यामुळे मुंबई पुणे रेल्वे वाहतूक विस्कळीत झाली. मुंबई, पालघर आणि रायगड जिल्ह्यांत अतिवृष्टीमुळे अनेकांचे बळी गेले आणि हजारो लोकांना सुरक्षित स्थळी हलवावे लागले. शास्त्रज्ञांच्या मते अल निनो प्रभाव आणि अरबी समुद्राचे वाढते तापमान यामुळे अतिवृष्टीच्या घटना गेल्या काही दशकांत तिप्पट झाल्या आहेत. दुसरीकडे राज्यातील तीनशे अठ्ठावनपैकी दोनशे पासष्ट तालुक्यांत पावसाची तूट असल्यामुळे दुष्काळी परिस्थिती जाहीर करण्यात आली. खरीप हंगामातील पेरण्या खोळंबल्या आणि शेतकरी, शेतमजूर व ग्रामीण समुदायांसाठी शासनाला मदत संच जाहीर करावा लागला. हवामान तज्ज्ञ सांगतात की एकाच राज्यात एकीकडे पूर आणि दुसरीकडे दुष्काळ ही स्थिती हवामान बदलाचे स्पष्ट लक्षण आहे. पाणलोट विकास, ठिबक सिंचन आणि हवामान अंदाजावर आधारित शेती या उपायांतून या दुहेरी संकटाचा सामना करण्याची गरज आहे. शासनाने नुकसानग्रस्त शेतकऱ्यांना हेक्टरी मदत आणि पीक विमा दावे जलद निकाली काढण्याचे आदेश दिले आहेत. शाळा आणि आरोग्य केंद्रांमधून स्थलांतरित कुटुंबांना तात्पुरता आसरा आणि अन्नधान्य पुरवण्यात आले. दीर्घकालीन उपाय म्हणून नदीजोड प्रकल्प आणि गावतळी पुनरुज्जीवनावर भर देण्यात येत आहे. हवामान बदलाशी जुळवून घेणारी शेती हीच भविष्यातील खरी शाश्वत वाटचाल ठरेल.",
+  "text_en": "The 2026 monsoon brought both extremes: deadly floods and a landslide disrupting Mumbai-Pune rail in Konkan and the Ghats, and drought declared in 265 of 358 talukas hurting Kharif sowing — a clear climate-change signal needing watershed work, drip irrigation and forecast-based farming.",
+  "text_tr": "",
+  "gloss": [
+   {
+    "mr": "दोन",
+    "en": "two"
+   },
+   {
+    "mr": "हजार",
+    "en": "thousand"
+   },
+   {
+    "mr": "रेल्वे",
+    "en": "train"
+   },
+   {
+    "mr": "शेतकरी",
+    "en": "farmer"
+   },
+   {
+    "mr": "हवामान",
+    "en": "climate"
+   },
+   {
+    "mr": "सामना",
+    "en": "match"
+   },
+   {
+    "mr": "जलद",
+    "en": "fast"
+   },
+   {
+    "mr": "शाळा",
+    "en": "school"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "ससा",
+     "मान्सूनचे दुहेरी रूप: अतिवृष्टी आणि दुष्काळ",
+     "कोल्हा आणि ढोल"
+    ],
+    "answer": 1
+   }
+  ],
+  "discuss": [
+   {
+    "q_mr": "अतिवृष्टीमुळे कोणत्या भागांत हानी झाली?",
+    "q_en": "Which areas suffered from excess rain?",
+    "answer_mr": "कोकण किनारपट्टी, पश्चिम घाट, मुंबई, पालघर आणि रायगड जिल्ह्यांत पूर आणि दरडींची हानी झाली."
+   },
+   {
+    "q_mr": "किती तालुक्यांत दुष्काळी परिस्थिती जाहीर झाली?",
+    "q_en": "In how many talukas was drought declared?",
+    "answer_mr": "तीनशे अठ्ठावनपैकी दोनशे पासष्ट तालुक्यांत दुष्काळी परिस्थिती जाहीर करण्यात आली."
+   },
+   {
+    "q_mr": "या दुहेरी संकटावर कोणते उपाय सुचवले आहेत?",
+    "q_en": "What solutions are suggested for this dual crisis?",
+    "answer_mr": "पाणलोट विकास, ठिबक सिंचन आणि हवामान अंदाजावर आधारित शेती हे उपाय सुचवले आहेत."
+   }
+  ]
+ },
+ {
+  "id": "c4-10",
+  "level": 4,
+  "title_mr": "मराठी नाटक आणि लोककलांचा नवा उत्साह",
+  "title_en": "Marathi Theatre and Folk Arts Revived",
+  "text_mr": "मराठी रंगभूमीला दोनशे वर्षांहून अधिक काळाचा वैभवशाली इतिहास आहे आणि आज ती नवनव्या प्रयोगांसह पुनरुज्जीवित होत आहे. मुंबई, पुणे आणि नागपूर येथील नाट्यगृहे आठवड्याच्या शेवटी प्रेक्षकांनी भरलेली असतात. तरुण नाटककार शहरातील स्थलांतर, नोकरीतील स्पर्धा, नातेसंबंध आणि पर्यावरण यांसारख्या जिव्हाळ्याच्या विषयांवर नाटके लिहित आहेत. प्रायोगिक रंगभूमीबरोबरच व्यावसायिक नाटकांनीही तिकीट खिडकीवर चांगली कामगिरी केली आहे. लावणी, तमाशा, भारूड आणि पोवाडा यांसारख्या लोककलांनाही नवे व्यासपीठ मिळत आहे. शासनाच्या सांस्कृतिक धोरणामुळे ग्रामीण भागांतील कलावंतांना मानधन, प्रशिक्षण आणि सादरीकरणाच्या संधी उपलब्ध झाल्या आहेत. महाविद्यालयीन युवक महोत्सवांतून अनेक नवे अभिनेते, दिग्दर्शक आणि लेखक रंगभूमीकडे येत आहेत. डिजिटल माध्यमांमुळे नाटकांचे ध्वनिमुद्रण आणि थेट प्रक्षेपण ग्रामीण प्रेक्षकांपर्यंत पोहोचत आहे. ज्येष्ठ रंगकर्मी सांगतात की चित्रपट आणि मालिकांच्या स्पर्धेतही रंगभूमीचे जिवंतपण हेच तिचे सर्वांत मोठे बलस्थान आहे. प्रेक्षक आणि कलाकार यांच्यातील थेट संवादामुळे प्रत्येक प्रयोग एक अनोखा अनुभव ठरतो. या नव्या उत्साहामुळे मराठी रंगभूमी आणि लोककला पुढील पिढीपर्यंत दिमाखात पोहोचतील अशी आशा व्यक्त होत आहे. राज्य नाट्य स्पर्धा आणि व्यावसायिक नाट्य महोत्सव यांतून नव्या कलाकृतींना प्रोत्साहन मिळते. ज्येष्ठ दिग्दर्शकांच्या मार्गदर्शनाखाली उन्हाळी शिबिरांतून मुलांना अभिनयाचे धडे दिले जातात. लोककलावंतांच्या कल्याणासाठी निवृत्तीवेतन आणि आरोग्य विमा योजना लागू करण्यात आल्या आहेत. रंगभूमीचा हा वारसा जपण्यासाठी प्रेक्षकांनी नाट्यगृहांत येऊन नाटके पाहणे आवश्यक आहे. तिकीट खिडकीवरील गर्दी हाच आजही कलाकारांसाठी नेहमीच खरा मोठा पुरस्कार खरोखर असतो.",
+  "text_en": "Marathi theatre, over 200 years old, is reviving with young playwrights tackling migration, jobs and environment; folk arts like Lavani, Tamasha and Powada gain state support, college festivals feed new talent, and digital streaming carries plays to rural audiences.",
+  "text_tr": "",
+  "gloss": [
+   {
+    "mr": "आज",
+    "en": "today"
+   },
+   {
+    "mr": "तरुण",
+    "en": "young man"
+   },
+   {
+    "mr": "तिकीट",
+    "en": "ticket"
+   },
+   {
+    "mr": "एक",
+    "en": "one"
+   },
+   {
+    "mr": "आशा",
+    "en": "hope"
+   },
+   {
+    "mr": "पाहणे",
+    "en": "to see"
+   },
+   {
+    "mr": "गर्दी",
+    "en": "crowd"
+   },
+   {
+    "mr": "खरा",
+    "en": "true"
+   }
+  ],
+  "questions": [
+   {
+    "q_mr": "या गोष्टीचं नाव काय?",
+    "q_en": "What is this story called?",
+    "options": [
+     "मराठी नाटक आणि लोककलांचा नवा उत्साह",
+     "गणपती बाप्पा",
+     "बाजारात एक दिवस"
+    ],
+    "answer": 0
+   }
+  ],
+  "discuss": [
+   {
+    "q_mr": "तरुण नाटककार कोणत्या विषयांवर लिहित आहेत?",
+    "q_en": "What subjects are young playwrights writing on?",
+    "answer_mr": "स्थलांतर, नोकरीतील स्पर्धा, नातेसंबंध आणि पर्यावरण यांसारख्या विषयांवर नाटके लिहित आहेत."
+   },
+   {
+    "q_mr": "कोणत्या लोककलांना नवे व्यासपीठ मिळत आहे?",
+    "q_en": "Which folk arts are getting new platforms?",
+    "answer_mr": "लावणी, तमाशा, भारूड आणि पोवाडा या लोककलांना नवे व्यासपीठ मिळत आहे."
+   },
+   {
+    "q_mr": "रंगभूमीचे सर्वांत मोठे बलस्थान कोणते?",
+    "q_en": "What is theatre's greatest strength?",
+    "answer_mr": "रंगभूमीचे जिवंतपण आणि प्रेक्षक कलाकारांतील थेट संवाद हे तिचे सर्वांत मोठे बलस्थान आहे."
+   }
+  ]
+ }
+]

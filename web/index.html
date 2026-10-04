@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="mr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Offline-first Marathi learning app: chat tutor, stories, drills, grammar, vocab." />
+    <meta name="theme-color" content="#58cc02" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <title>Marathi Tutor</title>
+    <script>
+      // Apply saved theme before first paint (avoids a light-flash for dark users).
+      try {
+        var s = JSON.parse(localStorage.getItem('mt.settings.v1') || '{}')
+        document.documentElement.setAttribute('data-theme', s.theme === 'dark' ? 'dark' : 'light')
+      } catch (e) { /* stateless first run */ }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

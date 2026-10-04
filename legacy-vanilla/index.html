@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>मराठी शिका — Marathi Tutor</title>
+<meta name="description" content="Offline-first Marathi learning app: chat tutor, stories, drills, grammar, vocab.">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="anim.css">
+</head>
+<body>
+<header class="topbar">
+  <button id="menuBtn" class="icon-btn only-mobile" aria-label="Menu">☰</button>
+  <div class="brand"><span class="brand-mr">मराठी शिका</span><span class="brand-en">Marathi Tutor</span></div>
+  <div class="chips">
+    <span id="levelChip" class="chip">L1</span>
+    <span id="xpChip" class="chip chip-xp">0 XP</span>
+    <span id="streakChip" class="chip">🔥 0</span>
+    <span id="netChip" class="chip chip-net" title="API key present?">offline</span>
+  </div>
+</header>
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <nav>
+      <button data-mode="modes" class="nav-btn"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span class="nav-text"><span class="nav-mr">मोड</span><span class="nav-en">Game Modes</span><span class="nav-desc">Browse every mode + what it does</span></span></button>
+      <button data-mode="chat" class="nav-btn active"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg><span class="nav-text"><span class="nav-mr">गप्पा</span><span class="nav-en">Chat Tutor</span><span class="nav-desc">Free Marathi conversation + corrections</span></span></button>
+      <button data-mode="sprint" class="nav-btn"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="13" r="7"/><path d="M12 9.5V13l2.5 2.5"/><path d="M9 2h6"/></svg><span class="nav-text"><span class="nav-mr">वाचन स्प्रिंट</span><span class="nav-en">Reading Sprint</span><span class="nav-desc">Timed reading races with WPM scores</span></span></button>
+      <button data-mode="stories" class="nav-btn"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 4h6a4 4 0 0 1 4 4v12a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v12a3 3 0 0 1 3-3h7z"/></svg><span class="nav-text"><span class="nav-mr">गोष्टी</span><span class="nav-en">Stories</span><span class="nav-desc">Leveled tales with audio + quizzes</span></span></button>
+      <button data-mode="drills" class="nav-btn"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1" fill="currentColor"/></svg><span class="nav-text"><span class="nav-mr">सराव</span><span class="nav-en">Drills</span><span class="nav-desc">Adaptive Duolingo-style workouts</span></span></button>
+      <button data-mode="grammar" class="nav-btn"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7V5h16v2"/><path d="M12 5v14"/><path d="M9 19h6"/></svg><span class="nav-text"><span class="nav-mr">व्याकरण</span><span class="nav-en">Grammar</span><span class="nav-desc">Gender, plurals, verbs — rules + quizzes</span></span></button>
+      <button data-mode="vocab" class="nav-btn"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg><span class="nav-text"><span class="nav-mr">शब्दसंग्रह</span><span class="nav-en">Vocab Quiz</span><span class="nav-desc">Two-way flashcards that remember misses</span></span></button>
+      <button data-mode="progress" class="nav-btn"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-4"/></svg><span class="nav-text"><span class="nav-mr">प्रगती</span><span class="nav-en">Progress</span><span class="nav-desc">XP, streaks and accuracy</span></span></button>
+      <button data-mode="settings" class="nav-btn"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21v-7"/><path d="M4 10V3"/><path d="M12 21v-9"/><path d="M12 8V3"/><path d="M20 21v-5"/><path d="M20 12V3"/><path d="M1 14h6"/><path d="M9 8h6"/><path d="M17 16h6"/></svg><span class="nav-text"><span class="nav-mr">सेटिंग्ज</span><span class="nav-en">Settings</span><span class="nav-desc">Model, voice, level and data</span></span></button>
+      <button data-mode="help" class="nav-btn"><svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg><span class="nav-text"><span class="nav-mr">मदत</span><span class="nav-en">Help</span><span class="nav-desc">How to use every part</span></span></button>
+    </nav>
+  </aside>
+  <main id="view" class="view" tabindex="-1"></main>
+</div>
+<script src="anim.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/*
+
+# Logs
+*.log
+logs/
+
+# Deps & build output (rebuilt via `npm run build`)
+node_modules/
+dist/
+
+# Local env / secrets — never commit
+.env
+.env.*
+!.env.example

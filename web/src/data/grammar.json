@@ -1,0 +1,1787 @@
+{
+ "topics": [
+  {
+   "id": "gender",
+   "title_mr": "लिंग (Gender)",
+   "title_en": "Gender",
+   "explanation_en": "Marathi nouns have three genders: masculine (पुल्लिंग), feminine (स्त्रीलिंग), neuter (नपुंसकलिंग). Adjectives and verbs agree with gender.",
+   "explanation_mr": "मराठीत तीन लिंगं आहेत: पुल्लिंग, स्त्रीलिंग, नपुंसकलिंग. विशेषणं आणि क्रियापदं लिंगानुसार बदलतात.",
+   "table": {
+    "headers": [
+     "Gender",
+     "Ending hint",
+     "Example"
+    ],
+    "rows": [
+     [
+      "Masculine (पु.)",
+      "-ा",
+      "मुलगा, घोडा"
+     ],
+     [
+      "Feminine (स्त्री.)",
+      "-ी",
+      "मुलगी, खिडकी"
+     ],
+     [
+      "Neuter (न.)",
+      "-ं / -ं",
+      "मांजर, घर"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "mr": "मोठा मुलगा",
+     "en": "big boy"
+    },
+    {
+     "mr": "मोठी मुलगी",
+     "en": "big girl"
+    },
+    {
+     "mr": "मोठं घर",
+     "en": "big house"
+    },
+    {
+     "mr": "मुलगा खेळतो.",
+     "en": "The boy plays. (m)",
+     "tr": "mulga khelto."
+    },
+    {
+     "mr": "मुलगी खेळते.",
+     "en": "The girl plays. (f)",
+     "tr": "mulgi khelte."
+    },
+    {
+     "mr": "मूल खेळते.",
+     "en": "The child plays. (n)",
+     "tr": "mul khelte."
+    },
+    {
+     "mr": "घोडा धावतो.",
+     "en": "The horse runs. (m)",
+     "tr": "ghoda dhavto."
+    },
+    {
+     "mr": "नदी वाहते.",
+     "en": "The river flows. (f)",
+     "tr": "nadi vahate."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "मुलगी — gender?",
+     "options": [
+      "feminine",
+      "masculine",
+      "neuter"
+     ],
+     "answer": 0,
+     "explain": "मुलगी ends in -ी, feminine."
+    },
+    {
+     "q": "घर — gender?",
+     "options": [
+      "neuter",
+      "masculine",
+      "feminine"
+     ],
+     "answer": 0,
+     "explain": "घर is neuter."
+    },
+    {
+     "q": "Pick feminine:",
+     "options": [
+      "खिडकी",
+      "घोडा",
+      "पुस्तक"
+     ],
+     "answer": 0,
+     "explain": "खिडकी is feminine."
+    },
+    {
+     "q": "'मोठा' agrees with…",
+     "options": [
+      "masculine noun",
+      "feminine noun",
+      "plural only"
+     ],
+     "answer": 0,
+     "explain": "-ा marks masculine."
+    },
+    {
+     "q": "मुलगा — लिंग ओळखा",
+     "q_en": "Identify gender of 'mulga' (boy)",
+     "options": [
+      "पुल्लिंग",
+      "स्त्रीलिंग",
+      "नपुंसकलिंग"
+     ],
+     "answer": 0,
+     "explain": "'Mulga' is masculine: ends in -a, takes -to verb."
+    },
+    {
+     "q": "मुलगी — लिंग ओळखा",
+     "q_en": "Identify gender of 'mulgi' (girl)",
+     "options": [
+      "पुल्लिंग",
+      "स्त्रीलिंग",
+      "नपुंसकलिंग"
+     ],
+     "answer": 1,
+     "explain": "'Mulgi' is feminine: -i ending, takes -te verb."
+    },
+    {
+     "q": "घर — लिंग ओळखा",
+     "q_en": "Identify gender of 'ghar' (house)",
+     "options": [
+      "पुल्लिंग",
+      "स्त्रीलिंग",
+      "नपुंसकलिंग"
+     ],
+     "answer": 2,
+     "explain": "'Ghar' is neuter."
+    },
+    {
+     "q": "नदी — लिंग ओळखा",
+     "q_en": "Identify gender of 'nadi' (river)",
+     "options": [
+      "पुल्लिंग",
+      "स्त्रीलिंग",
+      "नपुंसकलिंग"
+     ],
+     "answer": 1,
+     "explain": "'Nadi' is feminine."
+    },
+    {
+     "q": "घोडा — लिंग ओळखा",
+     "q_en": "Identify gender of 'ghoda' (horse)",
+     "options": [
+      "पुल्लिंग",
+      "स्त्रीलिंग",
+      "नपुंसकलिंग"
+     ],
+     "answer": 0,
+     "explain": "'Ghoda' is masculine."
+    },
+    {
+     "q": "पाणी — लिंग ओळखा",
+     "q_en": "Identify gender of 'pani' (water)",
+     "options": [
+      "पुल्लिंग",
+      "स्त्रीलिंग",
+      "नपुंसकलिंग"
+     ],
+     "answer": 2,
+     "explain": "'Pani' is neuter."
+    },
+    {
+     "q": "पुस्तक — लिंग ओळखा",
+     "q_en": "Identify gender of 'pustak' (book)",
+     "options": [
+      "पुल्लिंग",
+      "स्त्रीलिंग",
+      "नपुंसकलिंग"
+     ],
+     "answer": 2,
+     "explain": "'Pustak' is neuter."
+    },
+    {
+     "q": "बाई — लिंग ओळखा",
+     "q_en": "Identify gender of 'bai' (woman)",
+     "options": [
+      "पुल्लिंग",
+      "स्त्रीलिंग",
+      "नपुंसकलिंग"
+     ],
+     "answer": 1,
+     "explain": "'Bai' is feminine."
+    },
+    {
+     "q": "माणूस — लिंग ओळखा",
+     "q_en": "Identify gender of 'manus' (man/person)",
+     "options": [
+      "पुल्लिंग",
+      "स्त्रीलिंग",
+      "नपुंसकलिंग"
+     ],
+     "answer": 0,
+     "explain": "'Manus' is masculine."
+    },
+    {
+     "q": "___ मुलगी शाळेत जाते. (योग्य सर्वनाम)",
+     "q_en": "___ mulgi shalet jate. (correct pronoun)",
+     "options": [
+      "तो",
+      "ती",
+      "ते"
+     ],
+     "answer": 1,
+     "explain": "Feminine singular pronoun is 'ti'."
+    },
+    {
+     "q": "___ मुलगा शाळेत जातो.",
+     "q_en": "___ mulga shalet jato.",
+     "options": [
+      "तो",
+      "ती",
+      "ते"
+     ],
+     "answer": 0,
+     "explain": "Masculine singular pronoun is 'to'."
+    },
+    {
+     "q": "___ घर मोठे आहे.",
+     "q_en": "___ ghar mothe ahe.",
+     "options": [
+      "तो",
+      "ती",
+      "ते"
+     ],
+     "answer": 2,
+     "explain": "Neuter singular pronoun is 'te'."
+    },
+    {
+     "q": "ती ___ (खेळतो/खेळते)",
+     "q_en": "She ___ (plays). Fill correct verb.",
+     "options": [
+      "खेळतो",
+      "खेळते"
+     ],
+     "answer": 1,
+     "explain": "Feminine singular present takes -te."
+    },
+    {
+     "q": "तो ___ (खेळतो/खेळते)",
+     "q_en": "He ___ (plays). Fill correct verb.",
+     "options": [
+      "खेळतो",
+      "खेळते"
+     ],
+     "answer": 0,
+     "explain": "Masculine singular present takes -to."
+    },
+    {
+     "q": "कोणते नपुंसकलिंगी आहे?",
+     "q_en": "Which is neuter?",
+     "options": [
+      "मुलगा",
+      "फूल",
+      "बाई"
+     ],
+     "answer": 1,
+     "explain": "'Phul' (flower) is neuter."
+    }
+   ]
+  },
+  {
+   "id": "plural",
+   "title_mr": "वचन (Number)",
+   "title_en": "Plural",
+   "explanation_en": "Singular → plural: masculine -ा → -े, feminine -ी → -्या, neuter -ं → -ं (context).",
+   "explanation_mr": "एकवचन → अनेकवचन: पुल्लिंग -ा → -े, स्त्रीलिंग -ी → -्या.",
+   "table": {
+    "headers": [
+     "Gender",
+     "Singular",
+     "Plural"
+    ],
+    "rows": [
+     [
+      "m",
+      "मुलगा",
+      "मुले"
+     ],
+     [
+      "f",
+      "मुलगी",
+      "मुली"
+     ],
+     [
+      "n",
+      "घर",
+      "घरं"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "mr": "दोन मुले",
+     "en": "two boys"
+    },
+    {
+     "mr": "तीन मुली",
+     "en": "three girls"
+    },
+    {
+     "mr": "चार घरं",
+     "en": "four houses"
+    },
+    {
+     "mr": "मुलगा → मुलगे",
+     "en": "boy -> boys",
+     "tr": "mulga -> mulge"
+    },
+    {
+     "mr": "मुलगी → मुली",
+     "en": "girl -> girls",
+     "tr": "mulgi -> muli"
+    },
+    {
+     "mr": "नदी → नद्या",
+     "en": "river -> rivers",
+     "tr": "nadi -> nadya"
+    },
+    {
+     "mr": "घर → घरे",
+     "en": "house -> houses",
+     "tr": "ghar -> ghare"
+    },
+    {
+     "mr": "फूल → फुले",
+     "en": "flower -> flowers",
+     "tr": "phul -> phule"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "Plural of मुलगा?",
+     "options": [
+      "मुले",
+      "मुलगी",
+      "मुलगा"
+     ],
+     "answer": 0,
+     "explain": "-ा → -े."
+    },
+    {
+     "q": "Plural of मुलगी?",
+     "options": [
+      "मुली",
+      "मुलगा",
+      "मुलं"
+     ],
+     "answer": 0,
+     "explain": "-ी → -ी plural मुली."
+    },
+    {
+     "q": "चार ___ (house, plural)",
+     "options": [
+      "घरं",
+      "घर",
+      "घरा"
+     ],
+     "answer": 0,
+     "explain": "Neuter plural घरं."
+    },
+    {
+     "q": "मुलगा → अनेकवचन?",
+     "q_en": "Plural of 'mulga'?",
+     "options": [
+      "मुलगे",
+      "मुलगी",
+      "मुलगा"
+     ],
+     "answer": 0,
+     "explain": "Masc -a -> -e."
+    },
+    {
+     "q": "नदी → अनेकवचन?",
+     "q_en": "Plural of 'nadi'?",
+     "options": [
+      "नदी",
+      "नद्या",
+      "नदे"
+     ],
+     "answer": 1,
+     "explain": "Fem -i -> -ya."
+    },
+    {
+     "q": "घर → अनेकवचन?",
+     "q_en": "Plural of 'ghar'?",
+     "options": [
+      "घरे",
+      "घरा",
+      "घरी"
+     ],
+     "answer": 0,
+     "explain": "Neuter ghar -> ghare."
+    },
+    {
+     "q": "फूल → अनेकवचन?",
+     "q_en": "Plural of 'phul'?",
+     "options": [
+      "फुला",
+      "फुले",
+      "फुली"
+     ],
+     "answer": 1,
+     "explain": "Neuter phul -> phule."
+    },
+    {
+     "q": "घोडा → अनेकवचन?",
+     "q_en": "Plural of 'ghoda'?",
+     "options": [
+      "घोडे",
+      "घोडी",
+      "घोड्या"
+     ],
+     "answer": 0,
+     "explain": "Masc -a -> -e: ghode."
+    },
+    {
+     "q": "बाई → अनेकवचन?",
+     "q_en": "Plural of 'bai' (woman)?",
+     "options": [
+      "बाया",
+      "बायका",
+      "बाई"
+     ],
+     "answer": 1,
+     "explain": "Irregular: bai -> bayka."
+    },
+    {
+     "q": "माणूस → अनेकवचन?",
+     "q_en": "Plural of 'manus'?",
+     "options": [
+      "माणसे",
+      "माणूसा",
+      "माणूस"
+     ],
+     "answer": 0,
+     "explain": "manus -> manse."
+    },
+    {
+     "q": "पुस्तक → अनेकवचन?",
+     "q_en": "Plural of 'pustak'?",
+     "options": [
+      "पुस्तके",
+      "पुस्तका",
+      "पुस्तकी"
+     ],
+     "answer": 0,
+     "explain": "Neuter pustak -> pustake."
+    },
+    {
+     "q": "दोन ___ (मुलगा/मुलगे) खेळतात.",
+     "q_en": "Two ___ play.",
+     "options": [
+      "मुलगा",
+      "मुलगे"
+     ],
+     "answer": 1,
+     "explain": "Plural noun with plural verb."
+    },
+    {
+     "q": "तीन ___ (नदी/नद्या) वाहतात.",
+     "q_en": "Three ___ flow.",
+     "options": [
+      "नदी",
+      "नद्या"
+     ],
+     "answer": 1,
+     "explain": "Plural of nadi."
+    },
+    {
+     "q": "मुलगी → अनेकवचन (साधे)?",
+     "q_en": "Plural of 'mulgi'?",
+     "options": [
+      "मुली",
+      "मुलगे",
+      "मुलगा"
+     ],
+     "answer": 0,
+     "explain": "mulgi -> muli."
+    },
+    {
+     "q": "वही → अनेकवचन?",
+     "q_en": "Plural of 'vahi' (notebook)?",
+     "options": [
+      "वह्या",
+      "वहे",
+      "वही"
+     ],
+     "answer": 0,
+     "explain": "Fem -i -> -ya: vahya."
+    },
+    {
+     "q": "झाड → अनेकवचन?",
+     "q_en": "Plural of 'jhad' (tree, n)?",
+     "options": [
+      "झाडे",
+      "झाडा",
+      "झाडी"
+     ],
+     "answer": 0,
+     "explain": "Neuter jhad -> jhade."
+    },
+    {
+     "q": "माझी ___ (पुस्तक/पुस्तके) नवी आहेत.",
+     "q_en": "My ___ are new.",
+     "options": [
+      "पुस्तक",
+      "पुस्तके"
+     ],
+     "answer": 1,
+     "explain": "Plural subject with plural verb ahet."
+    },
+    {
+     "q": "कोणते अनेकवचनी रूप बरोबर?",
+     "q_en": "Which plural is correct?",
+     "options": [
+      "मुलगा-मुलगे",
+      "नदी-नदी",
+      "घर-घरा"
+     ],
+     "answer": 0,
+     "explain": "Only mulga-mulge is correct."
+    }
+   ]
+  },
+  {
+   "id": "postposition",
+   "title_mr": "शब्दयोगी अव्यय (Postpositions)",
+   "title_en": "Postpositions",
+   "explanation_en": "Marathi uses postpositions after nouns: -त (in), -ला (to), -पासून (from), -बरोबर (with), -साठी (for).",
+   "explanation_mr": "मराठीत नामानंतर शब्दयोगी अव्यय येतात: -त, -ला, -पासून, -बरोबर, -साठी.",
+   "table": {
+    "headers": [
+     "Postposition",
+     "Meaning",
+     "Example"
+    ],
+    "rows": [
+     [
+      "-त / -मध्ये",
+      "in",
+      "घरात, शाळेत"
+     ],
+     [
+      "-ला",
+      "to",
+      "मुलाला"
+     ],
+     [
+      "-पासून",
+      "from",
+      "पुण्यापासून"
+     ],
+     [
+      "-बरोबर",
+      "with",
+      "आईबरोबर"
+     ],
+     [
+      "-साठी",
+      "for",
+      "माझ्यासाठी"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "mr": "मी शाळेत जाते",
+     "en": "I go to school"
+    },
+    {
+     "mr": "आईबरोबर बाजारात",
+     "en": "to market with mother"
+    },
+    {
+     "mr": "मुलाला आंबा दे.",
+     "en": "Give the mango to the boy.",
+     "tr": "mulala amba de."
+    },
+    {
+     "mr": "रामने आंबा खाल्ला.",
+     "en": "Ram ate the mango. (ergative -ne)",
+     "tr": "ramne amba khalla."
+    },
+    {
+     "mr": "घरात पाणी आहे.",
+     "en": "There is water in the house.",
+     "tr": "gharat pani ahe."
+    },
+    {
+     "mr": "माझा भाऊ / माझी बहीण / माझे घर",
+     "en": "my brother / my sister / my house",
+     "tr": "majha bhau / majhi bahin / majhe ghar"
+    },
+    {
+     "mr": "शाळेत मुले आहेत.",
+     "en": "There are children in the school.",
+     "tr": "shalet mule ahet."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "'शाळेत' means…",
+     "options": [
+      "in/at school",
+      "from school",
+      "without school"
+     ],
+     "answer": 0,
+     "explain": "-त = in/at."
+    },
+    {
+     "q": "'मुलाला' means…",
+     "options": [
+      "to the boy",
+      "from the boy",
+      "with the boy"
+     ],
+     "answer": 0,
+     "explain": "-ला = to."
+    },
+    {
+     "q": "'आईबरोबर' means…",
+     "options": [
+      "with mother",
+      "for mother",
+      "from mother"
+     ],
+     "answer": 0,
+     "explain": "-बरोबर = with."
+    },
+    {
+     "q": "मुला___ आंबा दे. (योग्य प्रत्यय)",
+     "q_en": "Give mango to the boy. (suffix)",
+     "options": [
+      "ला",
+      "ने",
+      "त"
+     ],
+     "answer": 0,
+     "explain": "Dative recipient takes -la."
+    },
+    {
+     "q": "राम___ आंबा खाल्ला.",
+     "q_en": "Ram ate the mango.",
+     "options": [
+      "ला",
+      "ने",
+      "त"
+     ],
+     "answer": 1,
+     "explain": "Past transitive subject takes -ne (ergative)."
+    },
+    {
+     "q": "घरा___ पाणी आहे.",
+     "q_en": "Water is in the house.",
+     "options": [
+      "ला",
+      "ने",
+      "त"
+     ],
+     "answer": 2,
+     "explain": "Location takes -t: gharat."
+    },
+    {
+     "q": "माझ___ भाऊ आला. (पुल्लिंगी)",
+     "q_en": "My brother came. (possessive)",
+     "options": [
+      "चा",
+      "ची",
+      "चे"
+     ],
+     "answer": 0,
+     "explain": "Genitive agrees with possessed noun: bhau is m -> majha (maza+cha)."
+    },
+    {
+     "q": "माझ___ बहीण आली.",
+     "q_en": "My sister came.",
+     "options": [
+      "चा",
+      "ची",
+      "चे"
+     ],
+     "answer": 1,
+     "explain": "Bahin is f -> majhi."
+    },
+    {
+     "q": "माझ___ घर मोठे आहे.",
+     "q_en": "My house is big.",
+     "options": [
+      "चा",
+      "ची",
+      "चे"
+     ],
+     "answer": 2,
+     "explain": "Ghar is n -> majhe."
+    },
+    {
+     "q": "आई___ बाजारात गेली. (आईने/आईला)",
+     "q_en": "Mother went to market. (past intransitive)",
+     "options": [
+      "आईने",
+      "आईला",
+      "आई"
+     ],
+     "answer": 2,
+     "explain": "Intransitive past (geli) has no -ne; plain subject."
+    },
+    {
+     "q": "आई___ भाजी आणली.",
+     "q_en": "Mother brought vegetables.",
+     "options": [
+      "आईने",
+      "आईला",
+      "आईत"
+     ],
+     "answer": 0,
+     "explain": "Past transitive subject takes -ne."
+    },
+    {
+     "q": "शाळे___ मुले आहेत.",
+     "q_en": "Children are in school.",
+     "options": [
+      "त",
+      "ला",
+      "ने"
+     ],
+     "answer": 0,
+     "explain": "Locative -t: shalet."
+    },
+    {
+     "q": "त्याला पुस्तक ___. (दे/देतो संदर्भ)",
+     "q_en": "'Tyala pustak de' means?",
+     "options": [
+      "Give him the book",
+      "He gives a book",
+      "Book of him"
+     ],
+     "answer": 0,
+     "explain": "-la marks recipient."
+    },
+    {
+     "q": "मुलां___ खाऊ द्या. (ला/ना)",
+     "q_en": "Give snacks to the kids.",
+     "options": [
+      "ला",
+      "ना"
+     ],
+     "answer": 1,
+     "explain": "Plural dative: mulaN-na."
+    },
+    {
+     "q": "रामचा/रामची/रामचे — 'राम___ घर'?",
+     "q_en": "Ram's house?",
+     "options": [
+      "रामचा",
+      "रामची",
+      "रामचे"
+     ],
+     "answer": 2,
+     "explain": "Ghar neuter -> Ramche."
+    },
+    {
+     "q": "'राम___ गाडी' (गाडी f)?",
+     "q_en": "Ram's car (gadi f)?",
+     "options": [
+      "रामचा",
+      "रामची",
+      "रामचे"
+     ],
+     "answer": 1,
+     "explain": "Gadi feminine -> Ramchi."
+    },
+    {
+     "q": "मी शाळे___ जातो. (त/ला)",
+     "q_en": "I go to school.",
+     "options": [
+      "त",
+      "ला"
+     ],
+     "answer": 1,
+     "explain": "Motion toward takes -la: shalela."
+    },
+    {
+     "q": "कोणते वाक्य बरोबर?",
+     "q_en": "Which is correct?",
+     "options": [
+      "त्याने काम केले",
+      "त्याला काम केले",
+      "त्यात काम केले"
+     ],
+     "answer": 0,
+     "explain": "Past transitive: subject -ne + kele."
+    }
+   ]
+  },
+  {
+   "id": "verbs-present",
+   "title_mr": "वर्तमानकाळ (Present tense)",
+   "title_en": "Present tense",
+   "explanation_en": "Present: stem + -तो/ते/तात. मी खेळतो (m), मी खेळते (f), आम्ही खेळतो.",
+   "explanation_mr": "वर्तमानकाळ: धातू + -तो/ते/तात. लिंगानुसार रूप बदलतं.",
+   "table": {
+    "headers": [
+     "Subject",
+     "Masculine",
+     "Feminine"
+    ],
+    "rows": [
+     [
+      "मी (I)",
+      "खेळतो",
+      "खेळते"
+     ],
+     [
+      "तू (you)",
+      "खेळतोस",
+      "खेळतेस"
+     ],
+     [
+      "तो/ती",
+      "खेळतो/खेळते",
+      "—"
+     ],
+     [
+      "आम्ही",
+      "खेळतो",
+      "खेळतो"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "mr": "मी वाचतो",
+     "en": "I read (m)"
+    },
+    {
+     "mr": "ती खेळते",
+     "en": "She plays"
+    },
+    {
+     "mr": "मी खेळतो / मी खेळते.",
+     "en": "I play. (m / f speaker)",
+     "tr": "mi khelto / mi khelte."
+    },
+    {
+     "mr": "तू शाळेत जातोस.",
+     "en": "You go to school. (casual m)",
+     "tr": "tu shalet jatos."
+    },
+    {
+     "mr": "ती गाते.",
+     "en": "She sings.",
+     "tr": "ti gate."
+    },
+    {
+     "mr": "ते खेळतात.",
+     "en": "They play.",
+     "tr": "te kheltat."
+    },
+    {
+     "mr": "तुम्ही काय करता?",
+     "en": "What do you do? (polite/pl)",
+     "tr": "tumhi kay karta?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "'मी खेळते' speaker is…",
+     "options": [
+      "feminine",
+      "masculine",
+      "plural"
+     ],
+     "answer": 0,
+     "explain": "-ते marks feminine I."
+    },
+    {
+     "q": "'तो खेळतो' means…",
+     "options": [
+      "he plays",
+      "she plays",
+      "they play"
+     ],
+     "answer": 0,
+     "explain": "तो + -तो."
+    },
+    {
+     "q": "Fill: मी वाच__ (m)",
+     "options": [
+      "तो",
+      "ते",
+      "तात"
+     ],
+     "answer": 0,
+     "explain": "Masculine I → -तो."
+    },
+    {
+     "q": "तो खेळ___.",
+     "q_en": "He plays.",
+     "options": [
+      "तो",
+      "ते",
+      "तात"
+     ],
+     "answer": 0,
+     "explain": "3rd masc sg present -to."
+    },
+    {
+     "q": "ती खेळ___.",
+     "q_en": "She plays.",
+     "options": [
+      "तो",
+      "ते",
+      "तात"
+     ],
+     "answer": 1,
+     "explain": "3rd fem sg present -te."
+    },
+    {
+     "q": "ते खेळ___.",
+     "q_en": "They play.",
+     "options": [
+      "तो",
+      "ते",
+      "तात"
+     ],
+     "answer": 2,
+     "explain": "3rd plural -tat."
+    },
+    {
+     "q": "मी (मुलगा) जात___.",
+     "q_en": "I go. (male speaker)",
+     "options": [
+      "तो",
+      "ते",
+      "तात"
+     ],
+     "answer": 0,
+     "explain": "1st masc sg -to."
+    },
+    {
+     "q": "मी (मुलगी) जात___.",
+     "q_en": "I go. (female speaker)",
+     "options": [
+      "तो",
+      "ते",
+      "तात"
+     ],
+     "answer": 1,
+     "explain": "1st fem sg -te."
+    },
+    {
+     "q": "तू काय कर___? (तोस/तेस — मुलाला)",
+     "q_en": "What do you do? (to a boy)",
+     "options": [
+      "तोस",
+      "तेस"
+     ],
+     "answer": 0,
+     "explain": "2nd casual masc -tos."
+    },
+    {
+     "q": "तू काय कर___? (मुलीला)",
+     "q_en": "What do you do? (to a girl)",
+     "options": [
+      "तोस",
+      "तेस"
+     ],
+     "answer": 1,
+     "explain": "2nd casual fem -tes."
+    },
+    {
+     "q": "तुम्ही काय कर___.?",
+     "q_en": "What do you do? (polite)",
+     "options": [
+      "तो",
+      "ता",
+      "ते"
+     ],
+     "answer": 1,
+     "explain": "tumhi + -ta: karta."
+    },
+    {
+     "q": "आम्ही खेळ___.",
+     "q_en": "We play.",
+     "options": [
+      "तो",
+      "ते",
+      "तात"
+     ],
+     "answer": 0,
+     "explain": "amhi takes -to (1st pl = -to)."
+    },
+    {
+     "q": "तो रोज शाळेत ___. (जातो/जाते)",
+     "q_en": "He goes to school daily.",
+     "options": [
+      "जातो",
+      "जाते"
+     ],
+     "answer": 0,
+     "explain": "Masc sg -to."
+    },
+    {
+     "q": "ती रोज गाणे ___. (गातो/गाते)",
+     "q_en": "She sings daily.",
+     "options": [
+      "गातो",
+      "गाते"
+     ],
+     "answer": 1,
+     "explain": "Fem sg -te."
+    },
+    {
+     "q": "मुले क्रिकेट खेळ___.",
+     "q_en": "The boys play cricket.",
+     "options": [
+      "तो",
+      "ते",
+      "तात"
+     ],
+     "answer": 2,
+     "explain": "Plural subject -tat."
+    },
+    {
+     "q": "'तुम्ही कुठे राहता?' — अर्थ?",
+     "q_en": "Meaning?",
+     "options": [
+      "Where do you live?",
+      "Where did you live?",
+      "Where will you live?"
+     ],
+     "answer": 0,
+     "explain": "rahta = present polite."
+    },
+    {
+     "q": "पाऊस ___ आहे. (पडत/पडते)",
+     "q_en": "It is raining. (paus m)",
+     "options": [
+      "पडत",
+      "पडते"
+     ],
+     "answer": 0,
+     "explain": "Masc progressive: padat ahe."
+    },
+    {
+     "q": "कोणते बरोबर?",
+     "q_en": "Which is correct?",
+     "options": [
+      "ती जातो",
+      "ती जाते",
+      "ती जातात"
+     ],
+     "answer": 1,
+     "explain": "Fem sg needs -te."
+    }
+   ]
+  },
+  {
+   "id": "verbs-past",
+   "title_mr": "भूतकाळ (Past tense)",
+   "title_en": "Past tense",
+   "explanation_en": "Past: गेलो/गेले/गेला/गेली. मी गेलो (m I went), मी गेले (f I went).",
+   "explanation_mr": "भूतकाळ: गेलो/गेले/गेला/गेली. लिंग-वचनानुसार बदल.",
+   "table": {
+    "headers": [
+     "Subject",
+     "Masculine",
+     "Feminine"
+    ],
+    "rows": [
+     [
+      "मी",
+      "गेलो",
+      "गेले"
+     ],
+     [
+      "तू",
+      "गेलास",
+      "गेलीस"
+     ],
+     [
+      "तो/ती",
+      "गेला",
+      "गेली"
+     ],
+     [
+      "आम्ही",
+      "गेलो",
+      "गेलो"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "mr": "मी बाजारात गेले",
+     "en": "I went to market (f)"
+    },
+    {
+     "mr": "तो घरी गेला",
+     "en": "He went home"
+    },
+    {
+     "mr": "तो शाळेत गेला.",
+     "en": "He went to school.",
+     "tr": "to shalet gela."
+    },
+    {
+     "mr": "ती बाजारात गेली.",
+     "en": "She went to market.",
+     "tr": "ti bajarat geli."
+    },
+    {
+     "mr": "रामने आंबा खाल्ला.",
+     "en": "Ram ate the mango.",
+     "tr": "ramne amba khalla."
+    },
+    {
+     "mr": "आईने भाजी आणली.",
+     "en": "Mother brought vegetables.",
+     "tr": "aine bhaji anali."
+    },
+    {
+     "mr": "मुले घरी गेली.",
+     "en": "The children went home.",
+     "tr": "mule ghari geli."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "'मी गेले' speaker is…",
+     "options": [
+      "feminine",
+      "masculine",
+      "neutral"
+     ],
+     "answer": 0,
+     "explain": "गेले = f I."
+    },
+    {
+     "q": "'ती घरी गेली' means…",
+     "options": [
+      "she went home",
+      "he went home",
+      "I went home"
+     ],
+     "answer": 0,
+     "explain": "ती + गेली."
+    },
+    {
+     "q": "He went → तो ___",
+     "options": [
+      "गेला",
+      "गेली",
+      "गेलो"
+     ],
+     "answer": 0,
+     "explain": "Masculine he → गेला."
+    },
+    {
+     "q": "तो शाळेत गे___.",
+     "q_en": "He went to school.",
+     "options": [
+      "ला",
+      "ली",
+      "ले"
+     ],
+     "answer": 0,
+     "explain": "Masc sg past -la: gela."
+    },
+    {
+     "q": "ती बाजारात गे___.",
+     "q_en": "She went to market.",
+     "options": [
+      "ला",
+      "ली",
+      "ले"
+     ],
+     "answer": 1,
+     "explain": "Fem sg past -li: geli."
+    },
+    {
+     "q": "ते घरी गे___. (अनेकवचन)",
+     "q_en": "They went home.",
+     "options": [
+      "ला",
+      "ली",
+      "ले"
+     ],
+     "answer": 2,
+     "explain": "Plural past -le: gele."
+    },
+    {
+     "q": "राम___ आंबा खाल्ला. (/-ने)",
+     "q_en": "Ram ate the mango.",
+     "options": [
+      "राम",
+      "रामने"
+     ],
+     "answer": 1,
+     "explain": "Transitive past subject takes -ne."
+    },
+    {
+     "q": "तो शाळेत ___. (गेला/गेले)",
+     "q_en": "He went to school.",
+     "options": [
+      "गेला",
+      "गेले"
+     ],
+     "answer": 0,
+     "explain": "Masc sg gela."
+    },
+    {
+     "q": "ती शाळेत ___. (गेला/गेली)",
+     "q_en": "She went to school.",
+     "options": [
+      "गेला",
+      "गेली"
+     ],
+     "answer": 1,
+     "explain": "Fem sg geli."
+    },
+    {
+     "q": "आईने भाजी आण___. (भाजी f)",
+     "q_en": "Mother brought vegetables.",
+     "options": [
+      "ला",
+      "ली",
+      "ले"
+     ],
+     "answer": 1,
+     "explain": "Verb agrees with object bhaji (f): anali."
+    },
+    {
+     "q": "त्याने काम के___. (काम n)",
+     "q_en": "He did the work.",
+     "options": [
+      "ला",
+      "ली",
+      "ले"
+     ],
+     "answer": 2,
+     "explain": "Kam is neuter: kele."
+    },
+    {
+     "q": "तिने पत्र लिहि___. (पत्र n)",
+     "q_en": "She wrote a letter.",
+     "options": [
+      "ला",
+      "ली",
+      "ले"
+     ],
+     "answer": 2,
+     "explain": "Patra neuter: lihile."
+    },
+    {
+     "q": "त्याने गोष्ट सांगित___. (गोष्ट f)",
+     "q_en": "He told a story.",
+     "options": [
+      "ला",
+      "ली",
+      "ले"
+     ],
+     "answer": 1,
+     "explain": "Goshta feminine: sangitli."
+    },
+    {
+     "q": "मी काल मुंबईला ___. (गेलो/जातो)",
+     "q_en": "I went to Mumbai yesterday. (m)",
+     "options": [
+      "गेलो",
+      "जातो"
+     ],
+     "answer": 0,
+     "explain": "1st masc past: gelo."
+    },
+    {
+     "q": "मी काल मुंबईला ___. (गेले/जाते — स्त्री)",
+     "q_en": "I went to Mumbai. (f speaker)",
+     "options": [
+      "गेले",
+      "जाते"
+     ],
+     "answer": 0,
+     "explain": "1st fem past: gele (mi gele)."
+    },
+    {
+     "q": "'तो आला' — अर्थ?",
+     "q_en": "Meaning?",
+     "options": [
+      "He comes",
+      "He came",
+      "He will come"
+     ],
+     "answer": 1,
+     "explain": "ala = came (past)."
+    },
+    {
+     "q": "कोणते बरोबर? (अकर्मक)",
+     "q_en": "Which is correct? (intransitive)",
+     "options": [
+      "त्याने गेला",
+      "तो गेला",
+      "त्याला गेला"
+     ],
+     "answer": 1,
+     "explain": "Intransitive past: no -ne."
+    },
+    {
+     "q": "मुले खेळ___. (भूतकाळ, अ.व.)",
+     "q_en": "The children played.",
+     "options": [
+      "ले",
+      "ला",
+      "ली"
+     ],
+     "answer": 0,
+     "explain": "Plural past -le: khelle."
+    }
+   ]
+  },
+  {
+   "id": "verbs-future",
+   "title_mr": "भविष्यकाळ (Future)",
+   "title_en": "Future tense",
+   "explanation_en": "Future: जाईन/जाशील/जाईल/जाऊ. मी जाईन (I will go).",
+   "explanation_mr": "भविष्यकाळ: जाईन/जाशील/जाईल/जाऊ.",
+   "table": {
+    "headers": [
+     "Subject",
+     "Form",
+     "Example"
+    ],
+    "rows": [
+     [
+      "मी",
+      "जाईन",
+      "मी शाळेत जाईन"
+     ],
+     [
+      "तू",
+      "जाशील",
+      "तू येशील"
+     ],
+     [
+      "तो/ती",
+      "जाईल",
+      "ती खेळेल"
+     ],
+     [
+      "आम्ही",
+      "जाऊ",
+      "आम्ही वाचू"
+     ]
+    ]
+   },
+   "examples": [
+    {
+     "mr": "मी उद्या येईन",
+     "en": "I will come tomorrow"
+    },
+    {
+     "mr": "मी उद्या मुंबईला जाणार आहे.",
+     "en": "I will go to Mumbai tomorrow.",
+     "tr": "mi udya mumbaila janar ahe."
+    },
+    {
+     "mr": "तो उद्या येईल.",
+     "en": "He will come tomorrow.",
+     "tr": "to udya yeil."
+    },
+    {
+     "mr": "आम्ही खेळू.",
+     "en": "We will play.",
+     "tr": "amhi khelu."
+    },
+    {
+     "mr": "ते उद्या जातील.",
+     "en": "They will go tomorrow.",
+     "tr": "te udya jatil."
+    },
+    {
+     "mr": "तू काय करशील?",
+     "en": "What will you do?",
+     "tr": "tu kay karshil?"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "'मी जाईन' means…",
+     "options": [
+      "I will go",
+      "I went",
+      "I go"
+     ],
+     "answer": 0,
+     "explain": "-ईन future I."
+    },
+    {
+     "q": "She will play → ती ___",
+     "options": [
+      "खेळेल",
+      "खेळते",
+      "खेळली"
+     ],
+     "answer": 0,
+     "explain": "Future ती → -ेल."
+    },
+    {
+     "q": "तो उद्या ये___.",
+     "q_en": "He will come tomorrow.",
+     "options": [
+      "तो",
+      "ईल",
+      "ला"
+     ],
+     "answer": 1,
+     "explain": "3rd masc sg future -eel: yeil."
+    },
+    {
+     "q": "ते उद्या जा___.",
+     "q_en": "They will go tomorrow.",
+     "options": [
+      "तील",
+      "तो",
+      "ला"
+     ],
+     "answer": 0,
+     "explain": "3rd pl future -til: jatil."
+    },
+    {
+     "q": "मी उद्या ___ आहे. (जाणार/जातो)",
+     "q_en": "I am going (will go) tomorrow.",
+     "options": [
+      "जाणार",
+      "जातो"
+     ],
+     "answer": 0,
+     "explain": "janar ahe = future periphrastic."
+    },
+    {
+     "q": "आम्ही खेळ___. (भविष्य)",
+     "q_en": "We will play.",
+     "options": [
+      "ू",
+      "तो",
+      "ले"
+     ],
+     "answer": 0,
+     "explain": "1st pl future: khelu."
+    },
+    {
+     "q": "तू काय कर___.? (भविष्य)",
+     "q_en": "What will you do?",
+     "options": [
+      "शील",
+      "तो",
+      "ले"
+     ],
+     "answer": 0,
+     "explain": "2nd sg future -shil: karshil."
+    },
+    {
+     "q": "ती उद्या ___. (गाईल/गाते)",
+     "q_en": "She will sing tomorrow.",
+     "options": [
+      "गाईल",
+      "गाते"
+     ],
+     "answer": 0,
+     "explain": "3rd sg future -eel: gail."
+    },
+    {
+     "q": "'मी जाईन' — अर्थ?",
+     "q_en": "Meaning?",
+     "options": [
+      "I go",
+      "I went",
+      "I will go"
+     ],
+     "answer": 2,
+     "explain": "jain = 1st sg future."
+    },
+    {
+     "q": "तुम्ही उद्या या___.? (भविष्य/आज्ञा)",
+     "q_en": "Will you come tomorrow?",
+     "options": [
+      "ल",
+      "तो",
+      "ले"
+     ],
+     "answer": 0,
+     "explain": "tumhi + -al: yal."
+    },
+    {
+     "q": "पाऊस ___ (येईल/आला — उद्या)",
+     "q_en": "It will rain tomorrow.",
+     "options": [
+      "येईल",
+      "आला"
+     ],
+     "answer": 0,
+     "explain": "Future marker with udya."
+    },
+    {
+     "q": "कोणते भविष्यकाळी?",
+     "q_en": "Which is future?",
+     "options": [
+      "तो जातो",
+      "तो गेला",
+      "तो जाईल"
+     ],
+     "answer": 2,
+     "explain": "jail = will go."
+    },
+    {
+     "q": "उद्या आम्ही मुंबईला ___. (जाऊ/जातो)",
+     "q_en": "Tomorrow we will go to Mumbai.",
+     "options": [
+      "जाऊ",
+      "जातो"
+     ],
+     "answer": 0,
+     "explain": "1st pl future jau."
+    },
+    {
+     "q": "त्या उद्या गाणार ___.",
+     "q_en": "They (f) will sing tomorrow.",
+     "options": [
+      "आहेत",
+      "आहे",
+      "आहेस"
+     ],
+     "answer": 0,
+     "explain": "Plural auxiliary ahet."
+    },
+    {
+     "q": "तू उद्या येणार ___? (m)",
+     "q_en": "Will you come tomorrow?",
+     "options": [
+      "आहेस",
+      "आहे",
+      "आहेत"
+     ],
+     "answer": 0,
+     "explain": "2nd sg auxiliary ahes."
+    },
+    {
+     "q": "मी उद्या पुस्तक ___. (वाचेन/वाचतो)",
+     "q_en": "I will read a book tomorrow.",
+     "options": [
+      "वाचेन",
+      "वाचतो"
+     ],
+     "answer": 0,
+     "explain": "1st sg future -en: vachen."
+    },
+    {
+     "q": "'ते करतील' — काळ?",
+     "q_en": "Which tense?",
+     "options": [
+      "वर्तमान",
+      "भूत",
+      "भविष्य"
+     ],
+     "answer": 2,
+     "explain": "-til marks future."
+    }
+   ]
+  },
+  {
+   "id": "adjectives",
+   "title_mr": "विशेषण",
+   "title_en": "Adjective Agreement (विशेषण)",
+   "explanation_mr": "-आ संपणारी विशेषणे लिंग-वचनानुसार बदलतात: चांगला मुलगा / चांगली मुलगी / चांगले घर / चांगले मुलगे / चांगल्या मुली. इतर विशेषणे (सुंदर, मोठा अपवाद नाही—मोठा बदलते: मोठी/मोठे) बहुतेक अविकारी: सुंदर मुलगा/मुलगी/घर.",
+   "explanation_en": "Adjectives ending in -a inflect: changla mulga (m), changli mulgi (f), changle ghar (n), changle mulge (m pl), changlya muli (f pl oblique). Other adjectives (sundar, shahana) are invariable: sundar mulga/mulgi/ghar.",
+   "table": null,
+   "examples": [
+    {
+     "mr": "चांगला मुलगा / चांगली मुलगी / चांगले घर",
+     "en": "good boy / good girl / good house",
+     "tr": "changla mulga / changli mulgi / changle ghar"
+    },
+    {
+     "mr": "मोठा भाऊ / मोठी बहीण / मोठे झाड",
+     "en": "big brother / big sister / big tree",
+     "tr": "motha bhau / mothi bahin / mothe jhad"
+    },
+    {
+     "mr": "सुंदर फूल / सुंदर मुलगी",
+     "en": "beautiful flower / girl (invariable)",
+     "tr": "sundar phul / sundar mulgi"
+    },
+    {
+     "mr": "लहान मूल / लहान मुले",
+     "en": "small child / children",
+     "tr": "lahan mul / lahan mule"
+    },
+    {
+     "mr": "काळा घोडा / काळी गाय",
+     "en": "black horse / black cow",
+     "tr": "kala ghoda / kali gay"
+    }
+   ],
+   "quiz": [
+    {
+     "q": "चांग___ मुलगा",
+     "q_en": "good boy",
+     "options": [
+      "ला",
+      "ली",
+      "ले"
+     ],
+     "answer": 0,
+     "explain": "Masc sg -la."
+    },
+    {
+     "q": "चांग___ मुलगी",
+     "q_en": "good girl",
+     "options": [
+      "ला",
+      "ली",
+      "ले"
+     ],
+     "answer": 1,
+     "explain": "Fem sg -li."
+    },
+    {
+     "q": "चांग___ घर (n)",
+     "q_en": "good house",
+     "options": [
+      "ला",
+      "ली",
+      "ले"
+     ],
+     "answer": 2,
+     "explain": "Neuter -le."
+    },
+    {
+     "q": "मोठ___ बहीण",
+     "q_en": "big sister",
+     "options": [
+      "ा",
+      "ी",
+      "े"
+     ],
+     "answer": 1,
+     "explain": "Fem mothi."
+    },
+    {
+     "q": "मोठ___ भाऊ",
+     "q_en": "big brother",
+     "options": [
+      "ा",
+      "ी",
+      "े"
+     ],
+     "answer": 0,
+     "explain": "Masc motha."
+    },
+    {
+     "q": "सुंदर ___ (मुलगा/मुलगी दोन्ही?)",
+     "q_en": "'Sundar' with mulgi?",
+     "options": [
+      "सुंदर",
+      "सुंदरी"
+     ],
+     "answer": 0,
+     "explain": "Sundar is invariable."
+    },
+    {
+     "q": "काळ___ गाय (f)",
+     "q_en": "black cow",
+     "options": [
+      "ा",
+      "ी",
+      "े"
+     ],
+     "answer": 1,
+     "explain": "Fem kali."
+    },
+    {
+     "q": "चांग___ मुलगे (m pl)",
+     "q_en": "good boys",
+     "options": [
+      "ला",
+      "ली",
+      "ले"
+     ],
+     "answer": 2,
+     "explain": "Masc pl -le."
+    },
+    {
+     "q": "लहान ___ घर. (लहान/लहाने)",
+     "q_en": "small house",
+     "options": [
+      "लहान",
+      "लहाने"
+     ],
+     "answer": 0,
+     "explain": "Lahan invariable."
+    },
+    {
+     "q": "नव___ पुस्तक (n)",
+     "q_en": "new book",
+     "options": [
+      "ा",
+      "ी",
+      "े"
+     ],
+     "answer": 2,
+     "explain": "Neuter nave."
+    },
+    {
+     "q": "नव___ वही (f)",
+     "q_en": "new notebook",
+     "options": [
+      "ा",
+      "ी",
+      "े"
+     ],
+     "answer": 1,
+     "explain": "Fem navi."
+    },
+    {
+     "q": "तो ___ मुलगा आहे. (हुशार/हुशारा)",
+     "q_en": "He is a clever boy.",
+     "options": [
+      "हुशार",
+      "हुशारा"
+     ],
+     "answer": 0,
+     "explain": "Hushar invariable."
+    },
+    {
+     "q": "कोणते बरोबर?",
+     "q_en": "Which is correct?",
+     "options": [
+      "चांगली मुलगा",
+      "चांगला मुलगा",
+      "चांगले मुलगा"
+     ],
+     "answer": 1,
+     "explain": "Masc sg agreement."
+    },
+    {
+     "q": "पांढ___ फूल (n)",
+     "q_en": "white flower",
+     "options": [
+      "रा",
+      "री",
+      "रे"
+     ],
+     "answer": 2,
+     "explain": "Neuter pandhre."
+    },
+    {
+     "q": "माझी वही ___ आहे. (नवी/नवा)",
+     "q_en": "My notebook is new.",
+     "options": [
+      "नवी",
+      "नवा"
+     ],
+     "answer": 0,
+     "explain": "Vahi feminine: navi."
+    }
+   ]
+  }
+ ]
+}

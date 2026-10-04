@@ -1,0 +1,40 @@
+/* Marathi kids-story animation kit (offline, no assets) v1 */
+.ma-scene{max-width:230px;margin:.2rem auto .6rem}
+.ma-scene svg{width:100%;height:auto;display:block}
+/* --- SVG actor keyframes (CSS only) --- */
+@keyframes ma-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+@keyframes ma-wiggle{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+@keyframes ma-twinkle{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes ma-fall{0%{transform:translateY(-6px);opacity:0}20%{opacity:1}100%{transform:translateY(46px);opacity:0}}
+@keyframes ma-flicker{0%,100%{transform:scale(1);opacity:1}25%{transform:scale(1.12,.92)}50%{transform:scale(.94,1.1);opacity:.85}75%{transform:scale(1.06,1.02)}}
+@keyframes ma-sway{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@keyframes ma-cheer{0%,100%{transform:translateY(0) scale(1)}30%{transform:translateY(-14px) scale(1.05)}60%{transform:translateY(0) scale(.97)}}
+.a-float{animation:ma-float 2.6s ease-in-out infinite}
+.a-wiggle{animation:ma-wiggle 1.4s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+.a-twinkle{animation:ma-twinkle 1.6s ease-in-out infinite}
+.a-sway{animation:ma-sway 3s ease-in-out infinite;transform-origin:bottom center;transform-box:fill-box}
+.a-flicker{animation:ma-flicker .9s ease-in-out infinite;transform-origin:bottom center;transform-box:fill-box}
+.a-drop{animation:ma-fall 1.1s linear infinite}
+.a-drop.d2{animation-delay:.35s}.a-drop.d3{animation-delay:.7s}
+/* --- karaoke read-along --- */
+.ma-words{line-height:1.8}
+.ma-w{border-radius:.3em;padding:0 .15em;transition:background .15s,color .15s}
+.ma-w.on{background:#d7ffb8;color:#234d1b;box-shadow:0 0 0 2px #58cc02}
+/* --- page/section transitions --- */
+@keyframes ma-in{from{opacity:0;transform:translateX(36px)}to{opacity:1;transform:none}}
+@keyframes ma-out{from{opacity:1}to{opacity:0;transform:translateX(-36px)}}
+.ma-enter{animation:ma-in .35s ease both}
+.ma-exit{animation:ma-out .25s ease both}
+.ma-hidden{display:none!important}
+/* --- celebration --- */
+@keyframes ma-cfall{0%{transform:translateY(-10px) rotate(0);opacity:1}100%{transform:translateY(220px) rotate(540deg);opacity:0}}
+.ma-celebrate{position:relative;text-align:center;padding:8px 0}
+.ma-confetti{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.ma-confetti i{position:absolute;top:-8px;width:8px;height:12px;border-radius:2px;animation:ma-cfall 1.8s ease-in forwards}
+.ma-mascot{display:inline-block;font-size:44px;animation:ma-cheer .9s ease 3}
+.ma-cheer-txt{font-weight:700;color:#15803d}
+/* --- reduced motion: disable everything --- */
+@media (prefers-reduced-motion:reduce){
+*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+.ma-w.on{box-shadow:none;outline:2px solid #f59e0b}
+}

@@ -1,0 +1,2042 @@
+[
+ {
+  "id": "s-001",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-001",
+  "title_en": "71 words",
+  "text_mr": "शाळा मुंबई शहरात आहे. पाऊस आला की अनिता आनंदित होतो. आई अर्जुन साठी थालीपीठ बनवते. अनिता सकाळी लवकर उठतो. अनिता कडे एक सुंदर शेळी आहे. अनिता पुस्तक वाचतो आणि चित्र काढतो. स्मिता शाळेत आनंदाने जातो. अनिता संध्याकाळी अभ्यास करतो. आजी अनिता ला गाणे शिकवते. अनिता रोज पाणी पितो. अनिता रोज दूध पितो. मित्र अनिता सोबत जेवतो. अनिता रात्री लवकर झोपतो. अनिता शिक्षकांचे ऐकतो. सचिन केळी आवडीने खातो. अनिता मित्रांसोबत मैदानात खेळतो.",
+  "text_en": "Simple story about अनिता and daily life near मुंबई: home, school, food and play.",
+  "words": 71,
+  "target_wpm": 40,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "प्रिया",
+     "अनिता",
+     "सुरेश",
+     "राधा"
+    ],
+    "answer": 1
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is the passage mostly about?",
+    "options": [
+     "Daily life and family",
+     "Deep-sea diving",
+     "Stock market",
+     "Space travel"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-002",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-002",
+  "title_en": "62 words",
+  "text_mr": "पाऊस आला की अमित आनंदित होतो. बाबा अमित ला गोष्ट सांगतात. सुरेश शिक्षकांचे ऐकतो. अमित पुस्तक वाचतो आणि चित्र काढतो. अमित रोज दूध पितो. अमित मित्रांसोबत मैदानात खेळतो. प्रिया आईला घरकामात मदत करतो. आई अमित साठी पुरणपोळी बनवते. अमित सफरचंद आवडीने खातो. शाळा नागपूर शहरात आहे. अनिता रोज पाणी पितो. अमित स्वच्छ कपडे घालतो. अमित रात्री लवकर झोपतो. मित्र अमित सोबत जेवतो.",
+  "text_en": "Simple story about अमित and daily life near नागपूर: home, school, food and play.",
+  "words": 62,
+  "target_wpm": 41,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "नागपूर",
+     "सातारा",
+     "नाशिक",
+     "अमरावती"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "How does the main person feel?",
+    "options": [
+     "Bored of food",
+     "Angry all day",
+     "Happy and active",
+     "Afraid of books"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-003",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-003",
+  "title_en": "62 words",
+  "text_mr": "शाळा नागपूर शहरात आहे. अनिता रोज दूध पितो. बाबा विकास ला गोष्ट सांगतात. अनिता रोज पाणी पितो. अनिता रात्री लवकर झोपतो. मित्र अनिता सोबत जेवतो. स्मिता शिक्षकांचे ऐकतो. अनिता स्वच्छ कपडे घालतो. अनिता पुस्तक वाचतो आणि चित्र काढतो. अनिता संध्याकाळी अभ्यास करतो. स्नेहा कडे एक सुंदर गाय आहे. अनिता सकाळी लवकर उठतो. आजी अनिता ला गाणे शिकवते. अनिता आईला घरकामात मदत करतो.",
+  "text_en": "Simple story about अनिता and daily life near नागपूर: home, school, food and play.",
+  "words": 62,
+  "target_wpm": 43,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "ससा",
+     "मोर",
+     "वरणभात",
+     "पोहे"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is the passage mostly about?",
+    "options": [
+     "Stock market",
+     "Daily life and family",
+     "Space travel",
+     "Deep-sea diving"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-004",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-004",
+  "title_en": "67 words",
+  "text_mr": "शाळा सोलापूर शहरात आहे. राधा डाळिंब आवडीने खातो. अमित बागेत फुले पाहतो. पाऊस आला की राधा आनंदित होतो. राधा मित्रांसोबत मैदानात खेळतो. राधा कडे एक सुंदर बैल आहे. आई पूजा साठी पोहे बनवते. राधा रोज दूध पितो. राधा शिक्षकांचे ऐकतो. मित्र राधा सोबत जेवतो. निलेश पुस्तक वाचतो आणि चित्र काढतो. राधा रोज पाणी पितो. राधा शाळेत आनंदाने जातो. बाबा राधा ला गोष्ट सांगतात. राहुल संध्याकाळी अभ्यास करतो.",
+  "text_en": "Simple story about राधा and daily life near सोलापूर: home, school, food and play.",
+  "words": 67,
+  "target_wpm": 44,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "सचिन",
+     "सुरेश",
+     "राधा",
+     "स्मिता"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "How does the main person feel?",
+    "options": [
+     "Angry all day",
+     "Afraid of books",
+     "Happy and active",
+     "Bored of food"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-005",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-005",
+  "title_en": "64 words",
+  "text_mr": "बाबा अनिता ला गोष्ट सांगतात. अनिता शिक्षकांचे ऐकतो. पाऊस आला की सुरेश आनंदित होतो. अनिता संत्री आवडीने खातो. अनिता पुस्तक वाचतो आणि चित्र काढतो. मित्र अनिता सोबत जेवतो. अनिता कडे एक सुंदर पोपट आहे. अनिता रात्री लवकर झोपतो. शाळा मुंबई शहरात आहे. आजी अनिता ला गाणे शिकवते. सुरेश बागेत फुले पाहतो. अनिता आईला घरकामात मदत करतो. अनिता रोज दूध पितो. अनिता सकाळी लवकर उठतो.",
+  "text_en": "Simple story about अनिता and daily life near मुंबई: home, school, food and play.",
+  "words": 64,
+  "target_wpm": 46,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "मुंबई",
+     "सातारा",
+     "सोलापूर",
+     "पुणे"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is the passage mostly about?",
+    "options": [
+     "Deep-sea diving",
+     "Daily life and family",
+     "Space travel",
+     "Stock market"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-006",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-006",
+  "title_en": "63 words",
+  "text_mr": "राधा रोज पाणी पितो. राधा शाळेत आनंदाने जातो. निलेश आईला घरकामात मदत करतो. राधा बागेत फुले पाहतो. आई राधा साठी उपमा बनवते. राधा पुस्तक वाचतो आणि चित्र काढतो. विकास कडे एक सुंदर शेळी आहे. राधा मित्रांसोबत मैदानात खेळतो. राधा संध्याकाळी अभ्यास करतो. शाळा सातारा शहरात आहे. स्नेहा रात्री लवकर झोपतो. राधा सकाळी लवकर उठतो. राधा रोज दूध पितो. आजी राधा ला गाणे शिकवते.",
+  "text_en": "Simple story about राधा and daily life near सातारा: home, school, food and play.",
+  "words": 63,
+  "target_wpm": 47,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "बैल",
+     "उपमा",
+     "कुत्रा",
+     "पोपट"
+    ],
+    "answer": 1
+   },
+   {
+    "q_mr": "",
+    "q_en": "How does the main person feel?",
+    "options": [
+     "Angry all day",
+     "Bored of food",
+     "Afraid of books",
+     "Happy and active"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "s-007",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-007",
+  "title_en": "63 words",
+  "text_mr": "मीरा संध्याकाळी अभ्यास करतो. मीरा आंबा आवडीने खातो. स्नेहा बागेत फुले पाहतो. बाबा मीरा ला गोष्ट सांगतात. शाळा पुणे शहरात आहे. मीरा रोज दूध पितो. राहुल रोज पाणी पितो. पाऊस आला की मीरा आनंदित होतो. मीरा शाळेत आनंदाने जातो. आई मीरा साठी शिरा बनवते. अमित स्वच्छ कपडे घालतो. मीरा मित्रांसोबत मैदानात खेळतो. आजी मीरा ला गाणे शिकवते. मीरा पुस्तक वाचतो आणि चित्र काढतो.",
+  "text_en": "Simple story about मीरा and daily life near पुणे: home, school, food and play.",
+  "words": 63,
+  "target_wpm": 49,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "रोहन",
+     "विकास",
+     "निलेश",
+     "मीरा"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is the passage mostly about?",
+    "options": [
+     "Stock market",
+     "Daily life and family",
+     "Space travel",
+     "Deep-sea diving"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-008",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-008",
+  "title_en": "63 words",
+  "text_mr": "आजी अमित ला गाणे शिकवते. आई अमित साठी उपमा बनवते. प्रिया सफरचंद आवडीने खातो. अमित पुस्तक वाचतो आणि चित्र काढतो. बाबा अमित ला गोष्ट सांगतात. पाऊस आला की अमित आनंदित होतो. अनिता आईला घरकामात मदत करतो. मित्र अमित सोबत जेवतो. अमित शिक्षकांचे ऐकतो. अमित सकाळी लवकर उठतो. स्नेहा बागेत फुले पाहतो. अमित संध्याकाळी अभ्यास करतो. अमित मित्रांसोबत मैदानात खेळतो. शाळा अमरावती शहरात आहे.",
+  "text_en": "Simple story about अमित and daily life near अमरावती: home, school, food and play.",
+  "words": 63,
+  "target_wpm": 50,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "सातारा",
+     "छत्रपती संभाजीनगर",
+     "नागपूर",
+     "अमरावती"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "How does the main person feel?",
+    "options": [
+     "Happy and active",
+     "Afraid of books",
+     "Bored of food",
+     "Angry all day"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-009",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-009",
+  "title_en": "73 words",
+  "text_mr": "स्मिता रोज दूध पितो. स्मिता आईला घरकामात मदत करतो. सुरेश शिक्षकांचे ऐकतो. स्मिता बागेत फुले पाहतो. शाळा कोल्हापूर शहरात आहे. स्मिता कडे एक सुंदर कुत्रा आहे. सुरेश शाळेत आनंदाने जातो. पाऊस आला की स्मिता आनंदित होतो. आई स्मिता साठी आमटी बनवते. स्मिता रोज पाणी पितो. अर्जुन स्वच्छ कपडे घालतो. स्मिता रात्री लवकर झोपतो. बाबा स्मिता ला गोष्ट सांगतात. आजी स्मिता ला गाणे शिकवते. निलेश पुस्तक वाचतो आणि चित्र काढतो. स्मिता सकाळी लवकर उठतो.",
+  "text_en": "Simple story about स्मिता and daily life near कोल्हापूर: home, school, food and play.",
+  "words": 73,
+  "target_wpm": 51,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "मोर",
+     "आमटी",
+     "केळी",
+     "उपमा"
+    ],
+    "answer": 1
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is the passage mostly about?",
+    "options": [
+     "Stock market",
+     "Space travel",
+     "Daily life and family",
+     "Deep-sea diving"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-010",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-010",
+  "title_en": "70 words",
+  "text_mr": "रोहन संध्याकाळी अभ्यास करतो. मित्र रोहन सोबत जेवतो. अर्जुन शिक्षकांचे ऐकतो. पाऊस आला की रोहन आनंदित होतो. रोहन बागेत फुले पाहतो. रोहन रात्री लवकर झोपतो. मीरा मित्रांसोबत मैदानात खेळतो. आई रोहन साठी आमटी बनवते. रोहन स्वच्छ कपडे घालतो. रोहन आईला घरकामात मदत करतो. शाळा पुणे शहरात आहे. आजी रोहन ला गाणे शिकवते. रोहन डाळिंब आवडीने खातो. रोहन सकाळी लवकर उठतो. अर्जुन शाळेत आनंदाने जातो. रोहन पुस्तक वाचतो आणि चित्र काढतो.",
+  "text_en": "Simple story about रोहन and daily life near पुणे: home, school, food and play.",
+  "words": 70,
+  "target_wpm": 53,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "सचिन",
+     "निलेश",
+     "रोहन",
+     "कविता"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "How does the main person feel?",
+    "options": [
+     "Afraid of books",
+     "Bored of food",
+     "Happy and active",
+     "Angry all day"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-011",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-011",
+  "title_en": "62 words",
+  "text_mr": "निलेश सकाळी लवकर उठतो. आई निलेश साठी पुरणपोळी बनवते. पाऊस आला की विकास आनंदित होतो. निलेश पपई आवडीने खातो. निलेश आईला घरकामात मदत करतो. शाळा सोलापूर शहरात आहे. राहुल रोज पाणी पितो. निलेश स्वच्छ कपडे घालतो. मित्र निलेश सोबत जेवतो. आजी निलेश ला गाणे शिकवते. स्नेहा शिक्षकांचे ऐकतो. निलेश पुस्तक वाचतो आणि चित्र काढतो. निलेश संध्याकाळी अभ्यास करतो. निलेश रोज दूध पितो.",
+  "text_en": "Simple story about निलेश and daily life near सोलापूर: home, school, food and play.",
+  "words": 62,
+  "target_wpm": 54,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "अमरावती",
+     "लातूर",
+     "छत्रपती संभाजीनगर",
+     "सोलापूर"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is the passage mostly about?",
+    "options": [
+     "Daily life and family",
+     "Deep-sea diving",
+     "Space travel",
+     "Stock market"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-012",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-012",
+  "title_en": "72 words",
+  "text_mr": "मीरा संध्याकाळी अभ्यास करतो. मित्र मीरा सोबत जेवतो. शाळा छत्रपती संभाजीनगर शहरात आहे. मीरा स्वच्छ कपडे घालतो. मीरा सफरचंद आवडीने खातो. मीरा सकाळी लवकर उठतो. पाऊस आला की रोहन आनंदित होतो. बाबा मीरा ला गोष्ट सांगतात. मीरा बागेत फुले पाहतो. मीरा कडे एक सुंदर मांजर आहे. राहुल मित्रांसोबत मैदानात खेळतो. मीरा शिक्षकांचे ऐकतो. मीरा रोज पाणी पितो. मीरा शाळेत आनंदाने जातो. आई प्रिया साठी पुरणपोळी बनवते. मीरा पुस्तक वाचतो आणि चित्र काढतो.",
+  "text_en": "Simple story about मीरा and daily life near छत्रपती संभाजीनगर: home, school, food and play.",
+  "words": 72,
+  "target_wpm": 56,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "पुरणपोळी",
+     "सफरचंद",
+     "वरणभात",
+     "भाकरी"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "How does the main person feel?",
+    "options": [
+     "Bored of food",
+     "Angry all day",
+     "Happy and active",
+     "Afraid of books"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-013",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-013",
+  "title_en": "67 words",
+  "text_mr": "पूजा शाळेत आनंदाने जातो. पूजा मित्रांसोबत मैदानात खेळतो. कविता स्वच्छ कपडे घालतो. बाबा पूजा ला गोष्ट सांगतात. पाऊस आला की पूजा आनंदित होतो. पूजा आईला घरकामात मदत करतो. आजी राधा ला गाणे शिकवते. मित्र पूजा सोबत जेवतो. पूजा कडे एक सुंदर गाय आहे. पूजा रोज पाणी पितो. आई मीरा साठी पुरणपोळी बनवते. पूजा शिक्षकांचे ऐकतो. पूजा पेरू आवडीने खातो. शाळा नाशिक शहरात आहे. रोहन रोज दूध पितो.",
+  "text_en": "Simple story about पूजा and daily life near नाशिक: home, school, food and play.",
+  "words": 67,
+  "target_wpm": 57,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "विकास",
+     "राहुल",
+     "पूजा",
+     "स्मिता"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is the passage mostly about?",
+    "options": [
+     "Space travel",
+     "Daily life and family",
+     "Deep-sea diving",
+     "Stock market"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-014",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-014",
+  "title_en": "64 words",
+  "text_mr": "पाऊस आला की राधा आनंदित होतो. राधा संध्याकाळी अभ्यास करतो. सचिन मित्रांसोबत मैदानात खेळतो. राधा आईला घरकामात मदत करतो. राधा रोज दूध पितो. राधा कडे एक सुंदर गाय आहे. आई सुरेश साठी भाकरी बनवते. राधा पपई आवडीने खातो. मित्र राधा सोबत जेवतो. राधा बागेत फुले पाहतो. अर्जुन स्वच्छ कपडे घालतो. शाळा छत्रपती संभाजीनगर शहरात आहे. राधा रात्री लवकर झोपतो. बाबा राधा ला गोष्ट सांगतात.",
+  "text_en": "Simple story about राधा and daily life near छत्रपती संभाजीनगर: home, school, food and play.",
+  "words": 64,
+  "target_wpm": 59,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "लातूर",
+     "मुंबई",
+     "छत्रपती संभाजीनगर",
+     "सोलापूर"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "How does the main person feel?",
+    "options": [
+     "Happy and active",
+     "Angry all day",
+     "Afraid of books",
+     "Bored of food"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-015",
+  "level": 1,
+  "title_mr": "वाचन स्प्रिंट S-015",
+  "title_en": "61 words",
+  "text_mr": "राहुल पपई आवडीने खातो. आई राहुल साठी भाकरी बनवते. मीरा शिक्षकांचे ऐकतो. मित्र राहुल सोबत जेवतो. राहुल स्वच्छ कपडे घालतो. राहुल पुस्तक वाचतो आणि चित्र काढतो. पूजा रात्री लवकर झोपतो. राहुल सकाळी लवकर उठतो. राहुल शाळेत आनंदाने जातो. राहुल रोज पाणी पितो. शाळा नागपूर शहरात आहे. राहुल कडे एक सुंदर ससा आहे. राहुल संध्याकाळी अभ्यास करतो. आजी राहुल ला गाणे शिकवते.",
+  "text_en": "Simple story about राहुल and daily life near नागपूर: home, school, food and play.",
+  "words": 61,
+  "target_wpm": 60,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "डाळिंब",
+     "आंबा",
+     "कुत्रा",
+     "भाकरी"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is the passage mostly about?",
+    "options": [
+     "Daily life and family",
+     "Stock market",
+     "Deep-sea diving",
+     "Space travel"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-016",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-016",
+  "title_en": "79 words",
+  "text_mr": "बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. उन्हाळ्यात स्मिता आजोळी जातो आणि आंब्याच्या बागेत खेळतो. स्मिता ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. गेल्या रविवारी स्मिता कुटुंबासोबत पुणे च्या बाजारात गेला. वाचनालयात स्मिता ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. दिवाळीत सचिन च्या घराला दिव्यांनी सुंदर सजावट केली होती. शाळेत शिक्षकांनी स्मिता च्या चित्रकलेचे खूप कौतुक केले. बाबांनी स्मिता ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला.",
+  "text_en": "Everyday narrative: स्मिता visits the market in पुणे, helps family, plays and learns at school.",
+  "words": 79,
+  "target_wpm": 65,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "राधा",
+     "मीरा",
+     "स्मिता",
+     "स्नेहा"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the family do together?",
+    "options": [
+     "Cooked and talked together",
+     "Sailed a ship",
+     "Built an airplane",
+     "Climbed Everest"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-017",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-017",
+  "title_en": "82 words",
+  "text_mr": "उन्हाळ्यात राहुल आजोळी जातो आणि आंब्याच्या बागेत खेळतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. बाबांनी स्नेहा ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. राहुल चा मांजर खूप हुशार आहे आणि तो सर्वांचे ऐकतो. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. वाचनालयात राहुल ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. कविता रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. शाळेच्या सहलीत राहुल ने कोल्हापूर चा किल्ला पाहिला. पावसाळ्यात कोल्हापूर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते.",
+  "text_en": "Everyday narrative: राहुल visits the market in कोल्हापूर, helps family, plays and learns at school.",
+  "words": 82,
+  "target_wpm": 67,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "छत्रपती संभाजीनगर",
+     "कोल्हापूर",
+     "नाशिक",
+     "सोलापूर"
+    ],
+    "answer": 1
+   },
+   {
+    "q_mr": "",
+    "q_en": "What helps improve language?",
+    "options": [
+     "Skipping meals",
+     "Daily reading",
+     "Never opening books",
+     "Avoiding school"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-018",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-018",
+  "title_en": "83 words",
+  "text_mr": "घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. राहुल ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. पावसाळ्यात सोलापूर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. शाळेच्या सहलीत राहुल ने सोलापूर चा किल्ला पाहिला. शाळेत शिक्षकांनी राहुल च्या चित्रकलेचे खूप कौतुक केले. आईने आमटी साठी लागणारे सामान घेतले आणि राहुल ने द्राक्षे निवडले. उन्हाळ्यात रोहन आजोळी जातो आणि आंब्याच्या बागेत खेळतो. वाचनालयात राहुल ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. राहुल रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो.",
+  "text_en": "Everyday narrative: राहुल visits the market in सोलापूर, helps family, plays and learns at school.",
+  "words": 83,
+  "target_wpm": 69,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "पेरू",
+     "संत्री",
+     "बैल",
+     "मांजर"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the family do together?",
+    "options": [
+     "Built an airplane",
+     "Sailed a ship",
+     "Cooked and talked together",
+     "Climbed Everest"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-019",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-019",
+  "title_en": "84 words",
+  "text_mr": "पावसाळ्यात सोलापूर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. सुरेश ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. बाबांनी स्मिता ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. सुरेश रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. दिवाळीत सुरेश च्या घराला दिव्यांनी सुंदर सजावट केली होती. गेल्या रविवारी मीरा कुटुंबासोबत सोलापूर च्या बाजारात गेला. संध्याकाळी सुरेश मित्रांसोबत मैदानावर क्रिकेट खेळायला गेला. शाळेत शिक्षकांनी सुरेश च्या चित्रकलेचे खूप कौतुक केले.",
+  "text_en": "Everyday narrative: सुरेश visits the market in सोलापूर, helps family, plays and learns at school.",
+  "words": 84,
+  "target_wpm": 70,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "सुरेश",
+     "अर्जुन",
+     "कविता",
+     "स्मिता"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What helps improve language?",
+    "options": [
+     "Daily reading",
+     "Avoiding school",
+     "Never opening books",
+     "Skipping meals"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-020",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-020",
+  "title_en": "87 words",
+  "text_mr": "उन्हाळ्यात राहुल आजोळी जातो आणि आंब्याच्या बागेत खेळतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. दिवाळीत स्मिता च्या घराला दिव्यांनी सुंदर सजावट केली होती. वाचनालयात राहुल ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. सुरेश रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. शाळेत शिक्षकांनी राहुल च्या चित्रकलेचे खूप कौतुक केले. पावसाळ्यात अमरावती जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. गेल्या रविवारी राहुल कुटुंबासोबत अमरावती च्या बाजारात गेला.",
+  "text_en": "Everyday narrative: राहुल visits the market in अमरावती, helps family, plays and learns at school.",
+  "words": 87,
+  "target_wpm": 72,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "नाशिक",
+     "कोल्हापूर",
+     "अमरावती",
+     "मुंबई"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the family do together?",
+    "options": [
+     "Sailed a ship",
+     "Cooked and talked together",
+     "Built an airplane",
+     "Climbed Everest"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-021",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-021",
+  "title_en": "79 words",
+  "text_mr": "वाचनालयात स्मिता ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. संध्याकाळी निलेश मित्रांसोबत मैदानावर क्रिकेट खेळायला गेला. बाबांनी स्मिता ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. दिवाळीत स्मिता च्या घराला दिव्यांनी सुंदर सजावट केली होती. गेल्या रविवारी स्मिता कुटुंबासोबत पुणे च्या बाजारात गेला. आईने शिरा साठी लागणारे सामान घेतले आणि अमित ने पेरू निवडले. स्मिता चा कुत्रा खूप हुशार आहे आणि तो सर्वांचे ऐकतो. उन्हाळ्यात स्मिता आजोळी जातो आणि आंब्याच्या बागेत खेळतो.",
+  "text_en": "Everyday narrative: स्मिता visits the market in पुणे, helps family, plays and learns at school.",
+  "words": 79,
+  "target_wpm": 74,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "मांजर",
+     "भाकरी",
+     "कुत्रा",
+     "आमटी"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What helps improve language?",
+    "options": [
+     "Daily reading",
+     "Avoiding school",
+     "Never opening books",
+     "Skipping meals"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-022",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-022",
+  "title_en": "84 words",
+  "text_mr": "कविता चा मांजर खूप हुशार आहे आणि तो सर्वांचे ऐकतो. आईने थालीपीठ साठी लागणारे सामान घेतले आणि कविता ने केळी निवडले. दिवाळीत मीरा च्या घराला दिव्यांनी सुंदर सजावट केली होती. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. गेल्या रविवारी कविता कुटुंबासोबत मुंबई च्या बाजारात गेला. शाळेत शिक्षकांनी कविता च्या चित्रकलेचे खूप कौतुक केले. पावसाळ्यात मुंबई जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. कविता रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. उन्हाळ्यात कविता आजोळी जातो आणि आंब्याच्या बागेत खेळतो.",
+  "text_en": "Everyday narrative: कविता visits the market in मुंबई, helps family, plays and learns at school.",
+  "words": 84,
+  "target_wpm": 76,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "अर्जुन",
+     "निलेश",
+     "कविता",
+     "राहुल"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the family do together?",
+    "options": [
+     "Built an airplane",
+     "Climbed Everest",
+     "Cooked and talked together",
+     "Sailed a ship"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-023",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-023",
+  "title_en": "77 words",
+  "text_mr": "शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. राधा चा शेळी खूप हुशार आहे आणि तो सर्वांचे ऐकतो. सचिन रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. आईने थालीपीठ साठी लागणारे सामान घेतले आणि सचिन ने सफरचंद निवडले. दिवाळीत सचिन च्या घराला दिव्यांनी सुंदर सजावट केली होती. शाळेच्या सहलीत सचिन ने मुंबई चा किल्ला पाहिला. बाबांनी सचिन ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला.",
+  "text_en": "Everyday narrative: सचिन visits the market in मुंबई, helps family, plays and learns at school.",
+  "words": 77,
+  "target_wpm": 77,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "नागपूर",
+     "छत्रपती संभाजीनगर",
+     "नाशिक",
+     "मुंबई"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What helps improve language?",
+    "options": [
+     "Never opening books",
+     "Skipping meals",
+     "Daily reading",
+     "Avoiding school"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-024",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-024",
+  "title_en": "90 words",
+  "text_mr": "बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. गेल्या रविवारी अर्जुन कुटुंबासोबत सोलापूर च्या बाजारात गेला. दिवाळीत प्रिया च्या घराला दिव्यांनी सुंदर सजावट केली होती. वाचनालयात अर्जुन ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. संध्याकाळी अर्जुन मित्रांसोबत मैदानावर क्रिकेट खेळायला गेला. शाळेच्या सहलीत अर्जुन ने सोलापूर चा किल्ला पाहिला. अर्जुन रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. बाबांनी अर्जुन ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. अर्जुन ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या.",
+  "text_en": "Everyday narrative: अर्जुन visits the market in सोलापूर, helps family, plays and learns at school.",
+  "words": 90,
+  "target_wpm": 79,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "शिरा",
+     "पेरू",
+     "आमटी",
+     "मांजर"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the family do together?",
+    "options": [
+     "Cooked and talked together",
+     "Climbed Everest",
+     "Sailed a ship",
+     "Built an airplane"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-025",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-025",
+  "title_en": "82 words",
+  "text_mr": "पावसाळ्यात अमरावती जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. प्रिया ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. वाचनालयात राधा ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. गेल्या रविवारी प्रिया कुटुंबासोबत अमरावती च्या बाजारात गेला. प्रिया चा गाय खूप हुशार आहे आणि तो सर्वांचे ऐकतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. शाळेत शिक्षकांनी राधा च्या चित्रकलेचे खूप कौतुक केले. बाबांनी प्रिया ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या.",
+  "text_en": "Everyday narrative: प्रिया visits the market in अमरावती, helps family, plays and learns at school.",
+  "words": 82,
+  "target_wpm": 81,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "पूजा",
+     "मीरा",
+     "प्रिया",
+     "अनिता"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What helps improve language?",
+    "options": [
+     "Never opening books",
+     "Avoiding school",
+     "Daily reading",
+     "Skipping meals"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-026",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-026",
+  "title_en": "85 words",
+  "text_mr": "आईने पोहे साठी लागणारे सामान घेतले आणि अर्जुन ने डाळिंब निवडले. गेल्या रविवारी अर्जुन कुटुंबासोबत लातूर च्या बाजारात गेला. शाळेत शिक्षकांनी निलेश च्या चित्रकलेचे खूप कौतुक केले. अर्जुन ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. अर्जुन रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. दिवाळीत अमित च्या घराला दिव्यांनी सुंदर सजावट केली होती. पावसाळ्यात लातूर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते.",
+  "text_en": "Everyday narrative: अर्जुन visits the market in लातूर, helps family, plays and learns at school.",
+  "words": 85,
+  "target_wpm": 83,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "लातूर",
+     "कोल्हापूर",
+     "नाशिक",
+     "सोलापूर"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the family do together?",
+    "options": [
+     "Sailed a ship",
+     "Climbed Everest",
+     "Built an airplane",
+     "Cooked and talked together"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "s-027",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-027",
+  "title_en": "86 words",
+  "text_mr": "बाबांनी निलेश ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. कविता ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. दिवाळीत निलेश च्या घराला दिव्यांनी सुंदर सजावट केली होती. पावसाळ्यात छत्रपती संभाजीनगर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. उन्हाळ्यात निलेश आजोळी जातो आणि आंब्याच्या बागेत खेळतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. शाळेत शिक्षकांनी निलेश च्या चित्रकलेचे खूप कौतुक केले. आईने उपमा साठी लागणारे सामान घेतले आणि निलेश ने आंबा निवडले.",
+  "text_en": "Everyday narrative: निलेश visits the market in छत्रपती संभाजीनगर, helps family, plays and learns at school.",
+  "words": 86,
+  "target_wpm": 85,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "आमटी",
+     "पोहे",
+     "डाळिंब",
+     "उपमा"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What helps improve language?",
+    "options": [
+     "Skipping meals",
+     "Never opening books",
+     "Daily reading",
+     "Avoiding school"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-028",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-028",
+  "title_en": "83 words",
+  "text_mr": "सुरेश चा बैल खूप हुशार आहे आणि तो सर्वांचे ऐकतो. सुरेश रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. आईने पोहे साठी लागणारे सामान घेतले आणि सुरेश ने संत्री निवडले. पावसाळ्यात लातूर जवळची नदी भरून वाहते आणि शेत हिरवेगार दिसते. शाळेच्या सहलीत सुरेश ने लातूर चा किल्ला पाहिला. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. वाचनालयात सुरेश ला प्राण्यांवरचे सुंदर पुस्तक मिळाले. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते.",
+  "text_en": "Everyday narrative: सुरेश visits the market in लातूर, helps family, plays and learns at school.",
+  "words": 83,
+  "target_wpm": 86,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "सुरेश",
+     "स्नेहा",
+     "मीरा",
+     "अनिता"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the family do together?",
+    "options": [
+     "Built an airplane",
+     "Cooked and talked together",
+     "Climbed Everest",
+     "Sailed a ship"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-029",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-029",
+  "title_en": "75 words",
+  "text_mr": "अनिता रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. शिक्षक म्हणाले की रोज वाचन केल्याने भाषा सुधारते. शाळेत शिक्षकांनी अर्जुन च्या चित्रकलेचे खूप कौतुक केले. अनिता ने आजीला शेतात मदत केली आणि ताज्या भाज्या गोळा केल्या. उन्हाळ्यात अनिता आजोळी जातो आणि आंब्याच्या बागेत खेळतो. आईने थालीपीठ साठी लागणारे सामान घेतले आणि अनिता ने पपई निवडले. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते.",
+  "text_en": "Everyday narrative: अनिता visits the market in पुणे, helps family, plays and learns at school.",
+  "words": 75,
+  "target_wpm": 88,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "सातारा",
+     "नाशिक",
+     "पुणे",
+     "सोलापूर"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What helps improve language?",
+    "options": [
+     "Avoiding school",
+     "Daily reading",
+     "Never opening books",
+     "Skipping meals"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-030",
+  "level": 2,
+  "title_mr": "वाचन स्प्रिंट S-030",
+  "title_en": "84 words",
+  "text_mr": "आईने पोहे साठी लागणारे सामान घेतले आणि पूजा ने संत्री निवडले. बाबांनी पूजा ला सायकल चालवायला शिकवले आणि तो खूप खुश झाला. सचिन रोज संध्याकाळी एक तास अभ्यास करतो आणि नंतर गोष्ट वाचतो. घरी परतल्यावर सर्वांनी मिळून जेवण बनवले आणि गप्पा मारल्या. संध्याकाळी पूजा मित्रांसोबत मैदानावर क्रिकेट खेळायला गेला. पूजा चा शेळी खूप हुशार आहे आणि तो सर्वांचे ऐकतो. बाजारात ताजी भाजी फळे आणि सुंदर कपडे मिळत होते. शाळेत शिक्षकांनी पूजा च्या चित्रकलेचे खूप कौतुक केले. उन्हाळ्यात पूजा आजोळी जातो आणि आंब्याच्या बागेत खेळतो.",
+  "text_en": "Everyday narrative: पूजा visits the market in अमरावती, helps family, plays and learns at school.",
+  "words": 84,
+  "target_wpm": 90,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "संत्री",
+     "थालीपीठ",
+     "द्राक्षे",
+     "पुरणपोळी"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the family do together?",
+    "options": [
+     "Cooked and talked together",
+     "Built an airplane",
+     "Climbed Everest",
+     "Sailed a ship"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-031",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-031",
+  "title_en": "99 words",
+  "text_mr": "छत्रपती संभाजीनगर शहरातील वाचनालयात अर्जुन ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. गावच्या जत्रेत अर्जुन ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. आरोग्य शिबिरात डॉक्टरांनी संतुलित आहार व्यायाम आणि पुरेशी झोप यांचे महत्त्व समजावून सांगितले. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला. शाळेने पर्यावरण सप्ताह साजरा केला आणि अर्जुन ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. अर्जुन रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. पुस्तक वाचताना अनिता ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता.",
+  "text_en": "Intermediate passage: अर्जुन explores history, farming and environment around छत्रपती संभाजीनगर, with reading and community work.",
+  "words": 99,
+  "target_wpm": 95,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "पूजा",
+     "अमित",
+     "अर्जुन",
+     "अनिता"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is a key message?",
+    "options": [
+     "Community effort protects nature and culture",
+     "Avoid all books",
+     "Plastic is best",
+     "Never help others"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-032",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-032",
+  "title_en": "86 words",
+  "text_mr": "शाळेने पर्यावरण सप्ताह साजरा केला आणि स्नेहा ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. तंत्रज्ञानाच्या मदतीने स्नेहा ने थालीपीठ च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. लातूर शहरातील वाचनालयात राहुल ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. पुस्तक वाचताना स्नेहा ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. दुसऱ्या दिवशी स्नेहा ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. स्नेहा रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे.",
+  "text_en": "Intermediate passage: स्नेहा explores history, farming and environment around लातूर, with reading and community work.",
+  "words": 86,
+  "target_wpm": 96,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "मुंबई",
+     "लातूर",
+     "सोलापूर",
+     "नागपूर"
+    ],
+    "answer": 1
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the student do?",
+    "options": [
+     "Wasted water",
+     "Broke library rules",
+     "Ignored teachers",
+     "Led reading and green actions"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "s-033",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-033",
+  "title_en": "100 words",
+  "text_mr": "पावसाळा सुरू झाला की सातारा जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. सचिन च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि पपई चे उत्पादन घेतले जाते. शाळेने पर्यावरण सप्ताह साजरा केला आणि कविता ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला. गावच्या जत्रेत सचिन ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. दुसऱ्या दिवशी सचिन ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. पुस्तक वाचताना स्मिता ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता.",
+  "text_en": "Intermediate passage: सचिन explores history, farming and environment around सातारा, with reading and community work.",
+  "words": 100,
+  "target_wpm": 98,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "मांजर",
+     "गाय",
+     "पपई",
+     "ससा"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is a key message?",
+    "options": [
+     "Community effort protects nature and culture",
+     "Never help others",
+     "Plastic is best",
+     "Avoid all books"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-034",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-034",
+  "title_en": "111 words",
+  "text_mr": "शाळेने पर्यावरण सप्ताह साजरा केला आणि स्मिता ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. दुसऱ्या दिवशी स्मिता ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. स्मिता रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. पुस्तक वाचताना स्मिता ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. स्मिता च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि आंबा चे उत्पादन घेतले जाते. गावच्या जत्रेत अमित ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. पावसाळा सुरू झाला की नागपूर जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात.",
+  "text_en": "Intermediate passage: स्मिता explores history, farming and environment around नागपूर, with reading and community work.",
+  "words": 111,
+  "target_wpm": 99,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "अर्जुन",
+     "स्मिता",
+     "निलेश",
+     "रोहन"
+    ],
+    "answer": 1
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the student do?",
+    "options": [
+     "Led reading and green actions",
+     "Broke library rules",
+     "Wasted water",
+     "Ignored teachers"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-035",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-035",
+  "title_en": "98 words",
+  "text_mr": "शाळेने पर्यावरण सप्ताह साजरा केला आणि राधा ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. दुसऱ्या दिवशी पूजा ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. राधा च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि आंबा चे उत्पादन घेतले जाते. पावसाळा सुरू झाला की लातूर जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. गावच्या जत्रेत राधा ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. राहुल रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे.",
+  "text_en": "Intermediate passage: राधा explores history, farming and environment around लातूर, with reading and community work.",
+  "words": 98,
+  "target_wpm": 101,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "लातूर",
+     "सातारा",
+     "पुणे",
+     "कोल्हापूर"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is a key message?",
+    "options": [
+     "Community effort protects nature and culture",
+     "Never help others",
+     "Plastic is best",
+     "Avoid all books"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-036",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-036",
+  "title_en": "96 words",
+  "text_mr": "अमित च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि पेरू चे उत्पादन घेतले जाते. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. दुसऱ्या दिवशी अनिता ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. आरोग्य शिबिरात डॉक्टरांनी संतुलित आहार व्यायाम आणि पुरेशी झोप यांचे महत्त्व समजावून सांगितले. शाळेने पर्यावरण सप्ताह साजरा केला आणि अमित ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. तंत्रज्ञानाच्या मदतीने अमित ने शिरा च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. गावच्या जत्रेत स्मिता ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली.",
+  "text_en": "Intermediate passage: अमित explores history, farming and environment around सातारा, with reading and community work.",
+  "words": 96,
+  "target_wpm": 102,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "पेरू",
+     "आंबा",
+     "ससा",
+     "पुरणपोळी"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the student do?",
+    "options": [
+     "Ignored teachers",
+     "Broke library rules",
+     "Wasted water",
+     "Led reading and green actions"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "s-037",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-037",
+  "title_en": "98 words",
+  "text_mr": "पावसाळा सुरू झाला की अमरावती जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. पुस्तक वाचताना सुरेश ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. शाळेने पर्यावरण सप्ताह साजरा केला आणि कविता ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. सुरेश च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि पेरू चे उत्पादन घेतले जाते. गावच्या जत्रेत सुरेश ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. दुसऱ्या दिवशी सुरेश ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. अमरावती शहरातील वाचनालयात प्रिया ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या.",
+  "text_en": "Intermediate passage: सुरेश explores history, farming and environment around अमरावती, with reading and community work.",
+  "words": 98,
+  "target_wpm": 104,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "रोहन",
+     "अमित",
+     "सुरेश",
+     "राधा"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is a key message?",
+    "options": [
+     "Never help others",
+     "Avoid all books",
+     "Plastic is best",
+     "Community effort protects nature and culture"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "s-038",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-038",
+  "title_en": "98 words",
+  "text_mr": "आरोग्य शिबिरात डॉक्टरांनी संतुलित आहार व्यायाम आणि पुरेशी झोप यांचे महत्त्व समजावून सांगितले. गावच्या जत्रेत मीरा ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. मीरा रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. शाळेने पर्यावरण सप्ताह साजरा केला आणि मीरा ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. पावसाळा सुरू झाला की सातारा जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. दुसऱ्या दिवशी मीरा ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. सातारा शहरातील वाचनालयात स्मिता ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या.",
+  "text_en": "Intermediate passage: मीरा explores history, farming and environment around सातारा, with reading and community work.",
+  "words": 98,
+  "target_wpm": 105,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "सातारा",
+     "कोल्हापूर",
+     "छत्रपती संभाजीनगर",
+     "मुंबई"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the student do?",
+    "options": [
+     "Led reading and green actions",
+     "Ignored teachers",
+     "Wasted water",
+     "Broke library rules"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-039",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-039",
+  "title_en": "99 words",
+  "text_mr": "शाळेने पर्यावरण सप्ताह साजरा केला आणि प्रिया ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. पावसाळा सुरू झाला की लातूर जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. अनिता रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. प्रिया च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि पपई चे उत्पादन घेतले जाते. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. दुसऱ्या दिवशी प्रिया ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. लातूर शहरातील वाचनालयात सुरेश ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या.",
+  "text_en": "Intermediate passage: प्रिया explores history, farming and environment around लातूर, with reading and community work.",
+  "words": 99,
+  "target_wpm": 106,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "पेरू",
+     "वरणभात",
+     "डाळिंब",
+     "ससा"
+    ],
+    "answer": 1
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is a key message?",
+    "options": [
+     "Never help others",
+     "Plastic is best",
+     "Community effort protects nature and culture",
+     "Avoid all books"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-040",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-040",
+  "title_en": "100 words",
+  "text_mr": "पुस्तक वाचताना स्मिता ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. स्मिता रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. शाळेने पर्यावरण सप्ताह साजरा केला आणि सचिन ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. पावसाळा सुरू झाला की अमरावती जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला. तंत्रज्ञानाच्या मदतीने स्मिता ने आमटी च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. गावच्या जत्रेत अनिता ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली.",
+  "text_en": "Intermediate passage: स्मिता explores history, farming and environment around अमरावती, with reading and community work.",
+  "words": 100,
+  "target_wpm": 108,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "स्मिता",
+     "अर्जुन",
+     "राधा",
+     "रोहन"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the student do?",
+    "options": [
+     "Ignored teachers",
+     "Wasted water",
+     "Broke library rules",
+     "Led reading and green actions"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "s-041",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-041",
+  "title_en": "100 words",
+  "text_mr": "पावसाळा सुरू झाला की कोल्हापूर जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. प्रिया च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि पपई चे उत्पादन घेतले जाते. कोल्हापूर शहरातील वाचनालयात मीरा ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला. पुस्तक वाचताना मीरा ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. राधा रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे.",
+  "text_en": "Intermediate passage: मीरा explores history, farming and environment around कोल्हापूर, with reading and community work.",
+  "words": 100,
+  "target_wpm": 109,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "कोल्हापूर",
+     "अमरावती",
+     "लातूर",
+     "पुणे"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is a key message?",
+    "options": [
+     "Never help others",
+     "Plastic is best",
+     "Avoid all books",
+     "Community effort protects nature and culture"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "s-042",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-042",
+  "title_en": "98 words",
+  "text_mr": "पावसाळा सुरू झाला की अमरावती जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. गावच्या जत्रेत निलेश ने लोककलाकारांचे पोवाडे ऐकले आणि त्यातून इतिहासाची नवी दृष्टी मिळाली. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. तंत्रज्ञानाच्या मदतीने निलेश ने वरणभात च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. दुसऱ्या दिवशी निलेश ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. अमरावती शहरातील वाचनालयात निलेश ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला.",
+  "text_en": "Intermediate passage: निलेश explores history, farming and environment around अमरावती, with reading and community work.",
+  "words": 98,
+  "target_wpm": 111,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "वरणभात",
+     "संत्री",
+     "ससा",
+     "गाय"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the student do?",
+    "options": [
+     "Led reading and green actions",
+     "Ignored teachers",
+     "Wasted water",
+     "Broke library rules"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-043",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-043",
+  "title_en": "100 words",
+  "text_mr": "नागपूर शहरातील वाचनालयात प्रिया ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. प्रिया रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. शाळेने पर्यावरण सप्ताह साजरा केला आणि कविता ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. दुसऱ्या दिवशी प्रिया ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. तंत्रज्ञानाच्या मदतीने प्रिया ने पोहे च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला.",
+  "text_en": "Intermediate passage: प्रिया explores history, farming and environment around नागपूर, with reading and community work.",
+  "words": 100,
+  "target_wpm": 112,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "सुरेश",
+     "प्रिया",
+     "कविता",
+     "विकास"
+    ],
+    "answer": 1
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is a key message?",
+    "options": [
+     "Community effort protects nature and culture",
+     "Plastic is best",
+     "Avoid all books",
+     "Never help others"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-044",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-044",
+  "title_en": "97 words",
+  "text_mr": "पुस्तक वाचताना राधा ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. प्लास्टिक टाळण्यासाठी विद्यार्थ्यांनी कापडी पिशव्यांचे वाटप केले आणि दुकानदारांचे प्रबोधन केले. पुणे शहरातील वाचनालयात पूजा ला इतिहासावरचे दुर्मीळ पुस्तक सापडले ज्यात जुन्या किल्ल्यांच्या कथा होत्या. शाळेने पर्यावरण सप्ताह साजरा केला आणि राधा ने झाडे लावण्याच्या मोहिमेत पुढाकार घेतला. पावसाळा सुरू झाला की पुणे जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात. बाजारात योग्य भाव मिळावा म्हणून शेतकरी गटाने थेट विक्री केंद्र सुरू केले ज्यामुळे ग्राहकांनाही फायदा झाला. पूजा च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि सफरचंद चे उत्पादन घेतले जाते.",
+  "text_en": "Intermediate passage: राधा explores history, farming and environment around पुणे, with reading and community work.",
+  "words": 97,
+  "target_wpm": 114,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "सोलापूर",
+     "छत्रपती संभाजीनगर",
+     "लातूर",
+     "पुणे"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What did the student do?",
+    "options": [
+     "Ignored teachers",
+     "Wasted water",
+     "Led reading and green actions",
+     "Broke library rules"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-045",
+  "level": 3,
+  "title_mr": "वाचन स्प्रिंट S-045",
+  "title_en": "102 words",
+  "text_mr": "सुरेश रोज वीस मिनिटे वाचन आणि दहा मिनिटे लेखन करतो त्यामुळे त्याची भाषा दिवसेंदिवस सुधारत आहे. सुरेश च्या कुटुंबाने सेंद्रिय शेती सुरू केली असून त्यात भाजीपाला आणि संत्री चे उत्पादन घेतले जाते. आरोग्य शिबिरात डॉक्टरांनी संतुलित आहार व्यायाम आणि पुरेशी झोप यांचे महत्त्व समजावून सांगितले. तंत्रज्ञानाच्या मदतीने सुरेश ने आमटी च्या पाककृतींचा छोटा व्हिडिओ बनवला आणि आजीच्या आठवणी जतन केल्या. दुसऱ्या दिवशी सुरेश ने वर्गात शिवरायांच्या व्यवस्थापन कौशल्यावर सुंदर भाषण दिले आणि सर्वांनी टाळ्या वाजवल्या. पुस्तक वाचताना सुरेश ला समजले की स्वराज्यासाठी अनेक मावळ्यांनी धैर्याने लढा दिला होता. पावसाळा सुरू झाला की सोलापूर जवळच्या धरणात पाणी वाढते आणि शेतकरी पेरणीच्या तयारीला लागतात.",
+  "text_en": "Intermediate passage: सुरेश explores history, farming and environment around सोलापूर, with reading and community work.",
+  "words": 102,
+  "target_wpm": 115,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "पपई",
+     "मांजर",
+     "आमटी",
+     "संत्री"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What is a key message?",
+    "options": [
+     "Avoid all books",
+     "Community effort protects nature and culture",
+     "Never help others",
+     "Plastic is best"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-046",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-046",
+  "title_en": "111 words",
+  "text_mr": "शाळेच्या वादविवाद स्पर्धेत अनिता ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. अखेरीस अनिता ला जाणवले की छोटे सातत्यपूर्ण प्रयत्न एकत्र आले की गावाचे आणि सातारा सारख्या शहराचे भविष्य उज्ज्वल होते. शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. इतिहासाच्या संदर्भात बोलताना अनिता ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे. सातारा येथील संशोधन केंद्रात अनिता ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता.",
+  "text_en": "Advanced passage: अनिता presents ideas on water, farming, heritage and civic action in सातारा with arguments and data.",
+  "words": 111,
+  "target_wpm": 120,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "सचिन",
+     "स्नेहा",
+     "अनिता",
+     "विकास"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What argument is made?",
+    "options": [
+     "Small steady efforts plus data improve water, soil and heritage",
+     "Water needs no saving",
+     "Heritage has no value",
+     "Do nothing for future"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-047",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-047",
+  "title_en": "114 words",
+  "text_mr": "त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. स्थानिक ग्रंथालयाच्या उपक्रमात अनिता ने मुलांसाठी वाचन शिबिर घेतले आणि रोज ठराविक वेगाने वाचनाचा सराव घडवून आणला. नाशिक येथील संशोधन केंद्रात सुरेश ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता. ग्रामसभेत अनिता ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि डाळिंब सारख्या पिकांना चांगला भाव मिळतो. इतिहासाच्या संदर्भात बोलताना अनिता ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला.",
+  "text_en": "Advanced passage: अनिता presents ideas on water, farming, heritage and civic action in नाशिक with arguments and data.",
+  "words": 114,
+  "target_wpm": 121,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "सोलापूर",
+     "छत्रपती संभाजीनगर",
+     "नाशिक",
+     "लातूर"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What outcome is expected?",
+    "options": [
+     "Closed libraries",
+     "Better income and environment together",
+     "More waste and loss",
+     "Less reading forever"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-048",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-048",
+  "title_en": "112 words",
+  "text_mr": "शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. त्याने उदाहरण दिले की आजीची भाकरी ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. ग्रामसभेत अनिता ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि पेरू सारख्या पिकांना चांगला भाव मिळतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. इतिहासाच्या संदर्भात बोलताना अनिता ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे.",
+  "text_en": "Advanced passage: अनिता presents ideas on water, farming, heritage and civic action in लातूर with arguments and data.",
+  "words": 112,
+  "target_wpm": 123,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "केळी",
+     "थालीपीठ",
+     "मांजर",
+     "पेरू"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What argument is made?",
+    "options": [
+     "Do nothing for future",
+     "Heritage has no value",
+     "Small steady efforts plus data improve water, soil and heritage",
+     "Water needs no saving"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-049",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-049",
+  "title_en": "109 words",
+  "text_mr": "शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. ग्रामसभेत निलेश ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि केळी सारख्या पिकांना चांगला भाव मिळतो. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. त्याने उदाहरण दिले की आजीची भाकरी ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो.",
+  "text_en": "Advanced passage: निलेश presents ideas on water, farming, heritage and civic action in नागपूर with arguments and data.",
+  "words": 109,
+  "target_wpm": 124,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "निलेश",
+     "कविता",
+     "प्रिया",
+     "राधा"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What outcome is expected?",
+    "options": [
+     "More waste and loss",
+     "Closed libraries",
+     "Better income and environment together",
+     "Less reading forever"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-050",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-050",
+  "title_en": "113 words",
+  "text_mr": "शाळेच्या वादविवाद स्पर्धेत राधा ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. त्याने उदाहरण दिले की आजीची भाकरी ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. अखेरीस विकास ला जाणवले की छोटे सातत्यपूर्ण प्रयत्न एकत्र आले की गावाचे आणि कोल्हापूर सारख्या शहराचे भविष्य उज्ज्वल होते. ग्रामसभेत राधा ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि पपई सारख्या पिकांना चांगला भाव मिळतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. इतिहासाच्या संदर्भात बोलताना राधा ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे.",
+  "text_en": "Advanced passage: राधा presents ideas on water, farming, heritage and civic action in कोल्हापूर with arguments and data.",
+  "words": 113,
+  "target_wpm": 126,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "लातूर",
+     "कोल्हापूर",
+     "मुंबई",
+     "पुणे"
+    ],
+    "answer": 1
+   },
+   {
+    "q_mr": "",
+    "q_en": "What argument is made?",
+    "options": [
+     "Small steady efforts plus data improve water, soil and heritage",
+     "Do nothing for future",
+     "Water needs no saving",
+     "Heritage has no value"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-051",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-051",
+  "title_en": "104 words",
+  "text_mr": "शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. शाळेच्या वादविवाद स्पर्धेत निलेश ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. स्थानिक ग्रंथालयाच्या उपक्रमात निलेश ने मुलांसाठी वाचन शिबिर घेतले आणि रोज ठराविक वेगाने वाचनाचा सराव घडवून आणला. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो.",
+  "text_en": "Advanced passage: निलेश presents ideas on water, farming, heritage and civic action in अमरावती with arguments and data.",
+  "words": 104,
+  "target_wpm": 127,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "मोर",
+     "द्राक्षे",
+     "थालीपीठ",
+     "संत्री"
+    ],
+    "answer": 1
+   },
+   {
+    "q_mr": "",
+    "q_en": "What outcome is expected?",
+    "options": [
+     "Better income and environment together",
+     "More waste and loss",
+     "Closed libraries",
+     "Less reading forever"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-052",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-052",
+  "title_en": "112 words",
+  "text_mr": "कोल्हापूर येथील संशोधन केंद्रात निलेश ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. इतिहासाच्या संदर्भात बोलताना सुरेश ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे. शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. शाळेच्या वादविवाद स्पर्धेत निलेश ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले.",
+  "text_en": "Advanced passage: निलेश presents ideas on water, farming, heritage and civic action in कोल्हापूर with arguments and data.",
+  "words": 112,
+  "target_wpm": 129,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "निलेश",
+     "राहुल",
+     "पूजा",
+     "सुरेश"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What argument is made?",
+    "options": [
+     "Water needs no saving",
+     "Do nothing for future",
+     "Small steady efforts plus data improve water, soil and heritage",
+     "Heritage has no value"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "id": "s-053",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-053",
+  "title_en": "104 words",
+  "text_mr": "त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. शाळेच्या वादविवाद स्पर्धेत रोहन ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. त्याने उदाहरण दिले की आजीची वरणभात ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला.",
+  "text_en": "Advanced passage: रोहन presents ideas on water, farming, heritage and civic action in छत्रपती संभाजीनगर with arguments and data.",
+  "words": 104,
+  "target_wpm": 130,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "अमरावती",
+     "सातारा",
+     "नाशिक",
+     "छत्रपती संभाजीनगर"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What outcome is expected?",
+    "options": [
+     "Closed libraries",
+     "Less reading forever",
+     "More waste and loss",
+     "Better income and environment together"
+    ],
+    "answer": 3
+   }
+  ]
+ },
+ {
+  "id": "s-054",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-054",
+  "title_en": "113 words",
+  "text_mr": "त्याने उदाहरण दिले की आजीची आमटी ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. ग्रामसभेत सुरेश ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि आंबा सारख्या पिकांना चांगला भाव मिळतो. शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. शाळेच्या वादविवाद स्पर्धेत सुरेश ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. छत्रपती संभाजीनगर येथील संशोधन केंद्रात सुरेश ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता.",
+  "text_en": "Advanced passage: सुरेश presents ideas on water, farming, heritage and civic action in छत्रपती संभाजीनगर with arguments and data.",
+  "words": 113,
+  "target_wpm": 131,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "केळी",
+     "बैल",
+     "पपई",
+     "थालीपीठ"
+    ],
+    "answer": 1
+   },
+   {
+    "q_mr": "",
+    "q_en": "What argument is made?",
+    "options": [
+     "Heritage has no value",
+     "Small steady efforts plus data improve water, soil and heritage",
+     "Water needs no saving",
+     "Do nothing for future"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-055",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-055",
+  "title_en": "107 words",
+  "text_mr": "त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. इतिहासाच्या संदर्भात बोलताना सुरेश ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते.",
+  "text_en": "Advanced passage: स्मिता presents ideas on water, farming, heritage and civic action in पुणे with arguments and data.",
+  "words": 107,
+  "target_wpm": 133,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "सुरेश",
+     "मीरा",
+     "निलेश",
+     "स्मिता"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What outcome is expected?",
+    "options": [
+     "Better income and environment together",
+     "More waste and loss",
+     "Less reading forever",
+     "Closed libraries"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-056",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-056",
+  "title_en": "111 words",
+  "text_mr": "छत्रपती संभाजीनगर येथील संशोधन केंद्रात अर्जुन ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. त्याने उदाहरण दिले की आजीची भाकरी ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. इतिहासाच्या संदर्भात बोलताना अर्जुन ने नमूद केले की किल्ल्यांचे संवर्धन म्हणजे केवळ दगडांचे जतन नव्हे तर कर्तृत्वाची स्मृती जपणे आहे. शाळेच्या वादविवाद स्पर्धेत अर्जुन ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले.",
+  "text_en": "Advanced passage: अर्जुन presents ideas on water, farming, heritage and civic action in छत्रपती संभाजीनगर with arguments and data.",
+  "words": 111,
+  "target_wpm": 134,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "अमरावती",
+     "नागपूर",
+     "छत्रपती संभाजीनगर",
+     "नाशिक"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What argument is made?",
+    "options": [
+     "Heritage has no value",
+     "Small steady efforts plus data improve water, soil and heritage",
+     "Do nothing for future",
+     "Water needs no saving"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-057",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-057",
+  "title_en": "107 words",
+  "text_mr": "त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. अखेरीस अनिता ला जाणवले की छोटे सातत्यपूर्ण प्रयत्न एकत्र आले की गावाचे आणि सातारा सारख्या शहराचे भविष्य उज्ज्वल होते. सातारा येथील संशोधन केंद्रात अमित ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता. स्थानिक ग्रंथालयाच्या उपक्रमात अमित ने मुलांसाठी वाचन शिबिर घेतले आणि रोज ठराविक वेगाने वाचनाचा सराव घडवून आणला. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला.",
+  "text_en": "Advanced passage: अमित presents ideas on water, farming, heritage and civic action in सातारा with arguments and data.",
+  "words": 107,
+  "target_wpm": 136,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "बैल",
+     "पेरू",
+     "पोहे",
+     "डाळिंब"
+    ],
+    "answer": 2
+   },
+   {
+    "q_mr": "",
+    "q_en": "What outcome is expected?",
+    "options": [
+     "More waste and loss",
+     "Better income and environment together",
+     "Less reading forever",
+     "Closed libraries"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "id": "s-058",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-058",
+  "title_en": "103 words",
+  "text_mr": "त्याने उदाहरण दिले की आजीची पोहे ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. स्थानिक ग्रंथालयाच्या उपक्रमात रोहन ने मुलांसाठी वाचन शिबिर घेतले आणि रोज ठराविक वेगाने वाचनाचा सराव घडवून आणला. शेतकरी बचत गटाने ठिबक सिंचन आणि ठोस कचरा व्यवस्थापन स्वीकारले त्यामुळे उत्पादन वाढले आणि पर्यावरणावरील ताण कमी झाला. शाळेच्या वादविवाद स्पर्धेत रोहन ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले.",
+  "text_en": "Advanced passage: रोहन presents ideas on water, farming, heritage and civic action in अमरावती with arguments and data.",
+  "words": 103,
+  "target_wpm": 137,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Who is the main person in the passage?",
+    "options": [
+     "सचिन",
+     "राहुल",
+     "स्मिता",
+     "रोहन"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What argument is made?",
+    "options": [
+     "Small steady efforts plus data improve water, soil and heritage",
+     "Heritage has no value",
+     "Do nothing for future",
+     "Water needs no saving"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-059",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-059",
+  "title_en": "114 words",
+  "text_mr": "अखेरीस अमित ला जाणवले की छोटे सातत्यपूर्ण प्रयत्न एकत्र आले की गावाचे आणि कोल्हापूर सारख्या शहराचे भविष्य उज्ज्वल होते. त्याने सुचवले की वारसा स्थळांवर माहिती फलक मार्गदर्शक आणि स्वच्छता सुविधा सुधारल्या तर पर्यटन आणि रोजगार दोन्ही वाढतील. कोल्हापूर येथील संशोधन केंद्रात राधा ने पाणी व्यवस्थापनावर प्रकल्प सादर केला ज्यात पावसाच्या पाण्याची बचत आणि पुनर्वापर यावर भर होता. स्थानिक ग्रंथालयाच्या उपक्रमात अमित ने मुलांसाठी वाचन शिबिर घेतले आणि रोज ठराविक वेगाने वाचनाचा सराव घडवून आणला. शाळेच्या वादविवाद स्पर्धेत अमित ने तंत्रज्ञान आणि परंपरा यांचा समतोल साधताना मूल्यांचे जतन कसे करावे यावर विचार मांडले. ग्रामसभेत अमित ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि द्राक्षे सारख्या पिकांना चांगला भाव मिळतो.",
+  "text_en": "Advanced passage: अमित presents ideas on water, farming, heritage and civic action in कोल्हापूर with arguments and data.",
+  "words": 114,
+  "target_wpm": 139,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which place is mentioned in the passage?",
+    "options": [
+     "कोल्हापूर",
+     "नाशिक",
+     "मुंबई",
+     "सातारा"
+    ],
+    "answer": 0
+   },
+   {
+    "q_mr": "",
+    "q_en": "What outcome is expected?",
+    "options": [
+     "Better income and environment together",
+     "More waste and loss",
+     "Less reading forever",
+     "Closed libraries"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "id": "s-060",
+  "level": 4,
+  "title_mr": "वाचन स्प्रिंट S-060",
+  "title_en": "109 words",
+  "text_mr": "अखेरीस कविता ला जाणवले की छोटे सातत्यपूर्ण प्रयत्न एकत्र आले की गावाचे आणि अमरावती सारख्या शहराचे भविष्य उज्ज्वल होते. ग्रामसभेत कविता ने आकडेवारीसह मुद्दा मांडला की सेंद्रिय शेतीमुळे खर्च कमी होतो मातीचे आरोग्य सुधारते आणि पपई सारख्या पिकांना चांगला भाव मिळतो. त्याच्या पाहणीनुसार छतावरील पाणी संकलन केल्यास कुटुंबाची वर्षभराची पाण्याची गरज मोठ्या प्रमाणात भागू शकते आणि भूजल पातळीही सुधारते. त्याच्या मते नियमित वाचन श्रवण आणि संभाषण यांच्या त्रिसूत्रीमुळे भाषेवरील प्रभुत्व वाढते आणि आत्मविश्वास दृढ होतो. त्याने उदाहरण दिले की आजीची वरणभात ची पाककृती डिजिटल स्वरूपात जतन केल्याने कुटुंबाचा वारसा पुढच्या पिढीपर्यंत पोहोचतो. पावसाळी अधिवेशनात विद्यार्थी परिषदेने स्वच्छता हरित ऊर्जा आणि सार्वजनिक वाहतूक यावर ठराव मांडले आणि प्रशासनाकडे पाठपुरावा केला.",
+  "text_en": "Advanced passage: कविता presents ideas on water, farming, heritage and civic action in अमरावती with arguments and data.",
+  "words": 109,
+  "target_wpm": 140,
+  "questions": [
+   {
+    "q_mr": "",
+    "q_en": "Which of these is mentioned in the passage?",
+    "options": [
+     "मोर",
+     "आंबा",
+     "ससा",
+     "वरणभात"
+    ],
+    "answer": 3
+   },
+   {
+    "q_mr": "",
+    "q_en": "What argument is made?",
+    "options": [
+     "Water needs no saving",
+     "Do nothing for future",
+     "Heritage has no value",
+     "Small steady efforts plus data improve water, soil and heritage"
+    ],
+    "answer": 3
+   }
+  ]
+ }
+]

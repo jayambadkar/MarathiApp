@@ -1,0 +1,63 @@
+/* Baloo 2 (SIL OFL 1.1, Ek Type) — rounded Devanagari + Latin, offline */
+@font-face {
+  font-family: "Baloo 2";
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+  src: url("../assets/fonts/baloo2-full.ttf") format("truetype");
+}
+
+/* Duolingo palette — design tokens (light default + dark theme) */
+:root {
+  --bg: #fff;
+  --surface: #fff;
+  --surface2: #f7f7f7;
+  --ink: #3c3c3c;
+  --muted: #6b6b6b;
+  --line: #e5e5e5;
+  --green: #58a700;
+  --green-dark: #3f7a00;
+  --green-ink: #357000;
+  --green-bg: #d7ffb8;
+  --blue: #1cb0f6;
+  --blue-dark: #1899d6;
+  --blue-ink: #0a6ea8;
+  --blue-bg: #ddf4ff;
+  --blue-border: #84d8ff;
+  --red: #ff4b4b;
+  --red-dark: #b32b2b;
+  --red-bg: #ffdfe0;
+  --orange: #ff9600;
+  --orange-ink: #b25b00;
+  --yellow: #ffc800;
+  --accent: var(--green);
+  --accent-ink: #fff;
+  --accent2: var(--blue);
+  --good: var(--green);
+  --bad: var(--red);
+  --radius: 12px;
+  --rail: #ffffff;
+  --rail-ink: #4b4b4b;
+  --rail-muted: #6b6b6b;
+  --font: "Baloo 2", "Noto Sans Devanagari", "Mukta", system-ui, sans-serif;
+}
+
+[data-theme="dark"] {
+  --bg: #131f24;
+  --surface: #1f2d36;
+  --surface2: #283942;
+  --ink: #f1f7fb;
+  --muted: #a5b4c0;
+  --line: #37464f;
+  --green-bg: #234d1b;
+  --red-bg: #4d1f1f;
+  --blue-bg: #1e3a4c;
+  --blue-border: #1cb0f6;
+  --rail: #131f24;
+  --rail-ink: #e9f2f7;
+  --rail-muted: #a5b4c0;
+  /* Ink tones flip back to bright accents on dark surfaces for contrast. */
+  --green-ink: #7ee787;
+  --blue-ink: #79c0ff;
+  --orange-ink: #ffa657;
+}

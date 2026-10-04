@@ -1,0 +1,17 @@
+{
+  "name": "मराठी शिका — Marathi Tutor",
+  "short_name": "मराठी शिका",
+  "description": "Offline-first Marathi learning app",
+  "display": "standalone",
+  "start_url": "./index.html",
+  "scope": "./",
+  "background_color": "#ffffff",
+  "theme_color": "#58cc02",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

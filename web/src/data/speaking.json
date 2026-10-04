@@ -1,0 +1,362 @@
+[
+ {
+  "id": "sp-001",
+  "level": 1,
+  "kind": "repeat-after-me",
+  "say_mr": "नमस्ते, माझे नाव प्रिया आहे.",
+  "say_translit": "Namaste, maajhe naav Priya aahe.",
+  "say_en": "Hello, my name is Priya.",
+  "tip_en": "Speak slowly; stress NAAM."
+ },
+ {
+  "id": "sp-002",
+  "level": 1,
+  "kind": "repeat-after-me",
+  "say_mr": "मला आंबा आवडतो.",
+  "say_translit": "Mala aamba aavadto.",
+  "say_en": "I like mango.",
+  "tip_en": "Round the long AA in AAM-ba."
+ },
+ {
+  "id": "sp-003",
+  "level": 1,
+  "kind": "repeat-after-me",
+  "say_mr": "मी शाळेत जातो.",
+  "say_translit": "Mi shaalet jaato.",
+  "say_en": "I go to school.",
+  "tip_en": "Keep MI short, JAa-to long."
+ },
+ {
+  "id": "sp-004",
+  "level": 1,
+  "kind": "repeat-after-me",
+  "say_mr": "पाणी द्या, कृपया.",
+  "say_translit": "Paani dya, kripaya.",
+  "say_en": "Water please.",
+  "tip_en": "Soft DY in DYA."
+ },
+ {
+  "id": "sp-005",
+  "level": 1,
+  "kind": "repeat-after-me",
+  "say_mr": "आज हवामान छान आहे.",
+  "say_translit": "Aaj havaamaan chhaan aahe.",
+  "say_en": "Today the weather is nice.",
+  "tip_en": "Breathe on CHH in CHHAAN."
+ },
+ {
+  "id": "sp-006",
+  "level": 1,
+  "kind": "answer-the-question",
+  "say_mr": "तुझे नाव काय आहे?",
+  "say_translit": "Tujhe naav kaay aahe?",
+  "say_en": "What is your name? Answer fully.",
+  "tip_en": "Answer: MAJHE NAAV ... AAHE."
+ },
+ {
+  "id": "sp-007",
+  "level": 1,
+  "kind": "answer-the-question",
+  "say_mr": "तुला कोणते फळ आवडते?",
+  "say_translit": "Tula konate phal aavadte?",
+  "say_en": "Which fruit do you like?",
+  "tip_en": "Answer: MALA ... AAVADTE."
+ },
+ {
+  "id": "sp-008",
+  "level": 1,
+  "kind": "answer-the-question",
+  "say_mr": "तू कुठे राहतोस?",
+  "say_translit": "Tu kuthe raahtos?",
+  "say_en": "Where do you live?",
+  "tip_en": "Answer: MI ... RAHTO/RAHTE."
+ },
+ {
+  "id": "sp-009",
+  "level": 1,
+  "kind": "describe-the-scene",
+  "say_mr": "बागेत फुले आणि फुलपाखरे आहेत.",
+  "say_translit": "Baaget phule aani phulpakhre aahet.",
+  "say_en": "Describe a garden: flowers and butterflies.",
+  "tip_en": "Name 3 colours you see."
+ },
+ {
+  "id": "sp-010",
+  "level": 1,
+  "kind": "describe-the-scene",
+  "say_mr": "मांजर दूध पित आहे.",
+  "say_translit": "Maanjar dudh pit aahe.",
+  "say_en": "A cat is drinking milk. Describe it.",
+  "tip_en": "Say the animal + action."
+ },
+ {
+  "id": "sp-011",
+  "level": 2,
+  "kind": "repeat-after-me",
+  "say_mr": "मी काल बाजारात गेलो होतो.",
+  "say_translit": "Mi kaal baajaaraat gelo hoto.",
+  "say_en": "I went to the market yesterday.",
+  "tip_en": "Past tense: GELO HOTO."
+ },
+ {
+  "id": "sp-012",
+  "level": 2,
+  "kind": "repeat-after-me",
+  "say_mr": "शेतात हिरवेगार पीक डोलत आहे.",
+  "say_translit": "Shetaat hiravegar pik dolat aahe.",
+  "say_en": "The green crop sways in the field.",
+  "tip_en": "Roll the R in HIRA-VE-GAAR."
+ },
+ {
+  "id": "sp-013",
+  "level": 2,
+  "kind": "repeat-after-me",
+  "say_mr": "शिक्षकांनी माझे कौतुक केले.",
+  "say_translit": "Shikshakaanni maajhe kautuk kele.",
+  "say_en": "The teacher praised me.",
+  "tip_en": "Nasal NN in SHIK-SHAKANNI."
+ },
+ {
+  "id": "sp-014",
+  "level": 2,
+  "kind": "repeat-after-me",
+  "say_mr": "आपण मिळून जेवण बनवले.",
+  "say_translit": "Aapan milun jevan banavle.",
+  "say_en": "We cooked food together.",
+  "tip_en": "Link MILUN-JEVAN smoothly."
+ },
+ {
+  "id": "sp-015",
+  "level": 2,
+  "kind": "answer-the-question",
+  "say_mr": "काल तू कुठे गेला होतास?",
+  "say_translit": "Kaal tu kuthe gela hotaas?",
+  "say_en": "Where did you go yesterday?",
+  "tip_en": "Use GELO HOTO / GELE HOTE."
+ },
+ {
+  "id": "sp-016",
+  "level": 2,
+  "kind": "answer-the-question",
+  "say_mr": "तुझा आवडता खेळ कोणता?",
+  "say_translit": "Tujha aavadata khel konata?",
+  "say_en": "What is your favourite game?",
+  "tip_en": "Say MAJHA AAVADTA KHEL..."
+ },
+ {
+  "id": "sp-017",
+  "level": 2,
+  "kind": "answer-the-question",
+  "say_mr": "पावसाळ्यात काय होते?",
+  "say_translit": "Paavsaalyaat kaay hote?",
+  "say_en": "What happens in monsoon?",
+  "tip_en": "Mention rain + fields."
+ },
+ {
+  "id": "sp-018",
+  "level": 2,
+  "kind": "describe-the-scene",
+  "say_mr": "बाजारात भाजी फळे आणि गर्दी आहे.",
+  "say_translit": "Baajaaraat bhaaji phale aani gardi aahe.",
+  "say_en": "Describe a busy market scene.",
+  "tip_en": "Name 3 items + crowd."
+ },
+ {
+  "id": "sp-019",
+  "level": 2,
+  "kind": "describe-the-scene",
+  "say_mr": "मैदानावर मुले क्रिकेट खेळत आहेत.",
+  "say_translit": "Maidaanaavar mule cricket khelat aahet.",
+  "say_en": "Boys play cricket on the ground.",
+  "tip_en": "Say who + where + what."
+ },
+ {
+  "id": "sp-020",
+  "level": 2,
+  "kind": "describe-the-scene",
+  "say_mr": "दिवाळीत घर दिव्यांनी सजले आहे.",
+  "say_translit": "Divaalit ghar divyanni sajle aahe.",
+  "say_en": "The house glows with Diwali lamps.",
+  "tip_en": "Mention light + feeling."
+ },
+ {
+  "id": "sp-021",
+  "level": 3,
+  "kind": "repeat-after-me",
+  "say_mr": "वाचनामुळे भाषा सुधारते आणि विचार स्पष्ट होतात.",
+  "say_translit": "Vaachanaamule bhaasha sudhaarte aani vichaar spashta hotaat.",
+  "say_en": "Reading improves language and clarifies thought.",
+  "tip_en": "Pause at AANI."
+ },
+ {
+  "id": "sp-022",
+  "level": 3,
+  "kind": "repeat-after-me",
+  "say_mr": "प्लास्टिक टाळा आणि कापडी पिशवी वापरा.",
+  "say_translit": "Plastic taala aani kaapadi pishvi vaapra.",
+  "say_en": "Avoid plastic, use cloth bags.",
+  "tip_en": "Command tone on TAALA."
+ },
+ {
+  "id": "sp-023",
+  "level": 3,
+  "kind": "repeat-after-me",
+  "say_mr": "इतिहासातून आपल्याला धैर्य शिकायला मिळते.",
+  "say_translit": "Itihaasaatun aaplyaala dhairya shikaayla milte.",
+  "say_en": "We learn courage from history.",
+  "tip_en": "Stress DHAIR-YA."
+ },
+ {
+  "id": "sp-024",
+  "level": 3,
+  "kind": "answer-the-question",
+  "say_mr": "पर्यावरण वाचवण्यासाठी तू काय करतोस?",
+  "say_translit": "Paryaavaran vaachavnyaasaathi tu kaay kartos?",
+  "say_en": "What do you do to save nature?",
+  "tip_en": "Give 2 actions with AANI."
+ },
+ {
+  "id": "sp-025",
+  "level": 3,
+  "kind": "answer-the-question",
+  "say_mr": "तुझ्या आवडत्या पुस्तकाबद्दल सांग.",
+  "say_translit": "Tujhya aavadatya pustakaabaddal saang.",
+  "say_en": "Tell about your favourite book.",
+  "tip_en": "Name book + one reason."
+ },
+ {
+  "id": "sp-026",
+  "level": 3,
+  "kind": "answer-the-question",
+  "say_mr": "शेतकऱ्यांना योग्य भाव कसा मिळेल?",
+  "say_translit": "Shetkaryanna yogya bhaav kasa milel?",
+  "say_en": "How can farmers get fair price?",
+  "tip_en": "Suggest direct sale idea."
+ },
+ {
+  "id": "sp-027",
+  "level": 3,
+  "kind": "answer-the-question",
+  "say_mr": "तंत्रज्ञानाचा चांगला उपयोग कोणता?",
+  "say_translit": "Tantradnyanacha chaangala upayog konata?",
+  "say_en": "What is a good use of technology?",
+  "tip_en": "Give one example."
+ },
+ {
+  "id": "sp-028",
+  "level": 3,
+  "kind": "describe-the-scene",
+  "say_mr": "नदी भरून वाहत आहे आणि शेत हिरवे आहे.",
+  "say_translit": "Nadi bharun vaahat aahe aani shet hirave aahe.",
+  "say_en": "Describe monsoon river and fields.",
+  "tip_en": "Contrast water + green."
+ },
+ {
+  "id": "sp-029",
+  "level": 3,
+  "kind": "describe-the-scene",
+  "say_mr": "वाचनालयात मुले शांतपणे वाचत आहेत.",
+  "say_translit": "Vaachanaalayaat mule shaantapane vaachat aahet.",
+  "say_en": "Children read quietly in the library.",
+  "tip_en": "Mention place + mood."
+ },
+ {
+  "id": "sp-030",
+  "level": 3,
+  "kind": "describe-the-scene",
+  "say_mr": "जत्रेत पोवाडा सुरू आहे आणि गर्दी ऐकत आहे.",
+  "say_translit": "Jatret povaada suru aahe aani gardi aikat aahe.",
+  "say_en": "A ballad plays at the fair.",
+  "tip_en": "Describe sound + crowd."
+ },
+ {
+  "id": "sp-031",
+  "level": 4,
+  "kind": "repeat-after-me",
+  "say_mr": "पावसाचे पाणी वाचवणे ही काळाची गरज आहे.",
+  "say_translit": "Paavsaache paani vaachavne hi kaalaachi garaj aahe.",
+  "say_en": "Saving rainwater is the need of the hour.",
+  "tip_en": "Slow on KAALACHI GARAJ."
+ },
+ {
+  "id": "sp-032",
+  "level": 4,
+  "kind": "repeat-after-me",
+  "say_mr": "वारशाचे जतन म्हणजे कर्तृत्वाची स्मृती जपणे.",
+  "say_translit": "Vaarsaache jatan mhanje kartrutvaachi smriti japne.",
+  "say_en": "Preserving heritage honours deeds.",
+  "tip_en": "Formal steady pace."
+ },
+ {
+  "id": "sp-033",
+  "level": 4,
+  "kind": "repeat-after-me",
+  "say_mr": "सातत्यपूर्ण प्रयत्नांतून मोठा बदल घडतो.",
+  "say_translit": "Saatyatpurna prayatnaantun motha badal ghadto.",
+  "say_en": "Steady efforts bring big change.",
+  "tip_en": "Emphasise SAATATYA."
+ },
+ {
+  "id": "sp-034",
+  "level": 4,
+  "kind": "answer-the-question",
+  "say_mr": "पाणी टंचाईवर उपाय काय सुचवशील?",
+  "say_translit": "Paani tanchaaivar upaay kaay suchavshil?",
+  "say_en": "What solution for water shortage?",
+  "tip_en": "Propose harvest + reuse."
+ },
+ {
+  "id": "sp-035",
+  "level": 4,
+  "kind": "answer-the-question",
+  "say_mr": "तंत्रज्ञान आणि परंपरा यांचा समतोल कसा साधशील?",
+  "say_translit": "Tantradnyan aani parampara yancha samatol kasa saadhshil?",
+  "say_en": "How to balance tech and tradition?",
+  "tip_en": "Give one example each."
+ },
+ {
+  "id": "sp-036",
+  "level": 4,
+  "kind": "answer-the-question",
+  "say_mr": "वारसा स्थळांचा विकास कसा करावा?",
+  "say_translit": "Vaarasa sthalaancha vikaas kasa karaava?",
+  "say_en": "How to develop heritage sites?",
+  "tip_en": "Mention guide + clean + info."
+ },
+ {
+  "id": "sp-037",
+  "level": 4,
+  "kind": "answer-the-question",
+  "say_mr": "तुझ्या गावासाठी एक प्रकल्प सुचव.",
+  "say_translit": "Tujhya gaavaasaathi ek prakalp suchav.",
+  "say_en": "Propose one project for your village.",
+  "tip_en": "State problem + step + gain."
+ },
+ {
+  "id": "sp-038",
+  "level": 4,
+  "kind": "describe-the-scene",
+  "say_mr": "धरण भरले आहे आणि कालव्यातून पाणी वाहत आहे.",
+  "say_translit": "Dharan bharle aahe aani kaalvyaatun paani vaahat aahe.",
+  "say_en": "Describe a full dam and canals.",
+  "tip_en": "Link dam + farms."
+ },
+ {
+  "id": "sp-039",
+  "level": 4,
+  "kind": "describe-the-scene",
+  "say_mr": "किल्ल्यावर ध्वज फडकत आहे आणि पर्यटक पाहत आहेत.",
+  "say_translit": "Killyaavar dhvaj phadkat aahe aani paryatak paahat aahet.",
+  "say_en": "Flag flies on the fort; tourists watch.",
+  "tip_en": "Mention pride + care."
+ },
+ {
+  "id": "sp-040",
+  "level": 4,
+  "kind": "describe-the-scene",
+  "say_mr": "ग्रामसभा सुरू आहे आणि लोक मुद्दे मांडत आहेत.",
+  "say_translit": "Graamasabha suru aahe aani lok mudde maandat aahet.",
+  "say_en": "Village meeting debates issues.",
+  "tip_en": "Name 2 issues debated."
+ }
+]
