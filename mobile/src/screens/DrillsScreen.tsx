@@ -1,10 +1,19 @@
 import { useEffect, useState } from 'react';
+import type { ReactNode } from 'react';
 import { FlatList, StyleSheet, Text, TextInput, View } from 'react-native';
-import Animated, { FadeIn, SlideInRight } from 'react-native-reanimated';
+import Animated, {
+  FadeInDown,
+  SlideInRight,
+  ZoomIn,
+  useAnimatedStyle,
+  useSharedValue,
+  withSequence,
+  withSpring,
+} from 'react-native-reanimated';
 import { useStore } from '../store';
 import { FONT } from '../theme';
 import type { Theme } from '../theme';
-import { Btn, Card, Chip, Gap, HearBtn, Opt, Screen, Seg, XPBadge } from '../ui';
+import { Btn, Card, Chip, Gap, HearBtn, Opt, Screen, Seg } from '../ui';
 import { stopSpeak } from '../tts';
 import { listenOnce, voiceAvailable } from '../voice';
 import { XP_CORRECT, normEn, normMr, sample, shuffle } from '../lib';
@@ -115,25 +124,59 @@ function streakLevel(streak: number): number {
   return streak >= 5 ? Math.floor(streak / 5) : 0;
 }
 
-function FeedbackBlock({ fb, streak, onNext }: { fb: Fb; streak: number; onNext: () => void }) {
+/** Visual-only grade bounce: a quick springy scale pop (no haptics dep). */
+function GradePop({ children, ok }: { children: ReactNode; ok: boolean }) {
+  const scale = useSharedValue(0.94);
+  const anim = useAnimatedStyle(() => ({ transform: [{ scale: scale.value }] }));
+  useEffect(() => {
+    scale.value = withSequence(
+      withSpring(ok ? 1.03 : 1, { damping: 9, stiffness: 320 }),
+      withSpring(1, { damping: 12, stiffness: 320 }),
+    );
+  }, [ok, scale]);
+  return <Animated.View style={anim}>{children}</Animated.View>;
+}
+
+function sessionSummary(marks: (boolean | undefined)[], total: number): string {
+  const correct = marks.filter((m) => m === true).length;
+  const pctDone = total > 0 ? Math.round((100 * correct) / total) : 0;
+  const cheer =
+    pctDone === 100 ? 'अप्रतिम! 🌟' : pctDone >= 70 ? 'छान काम! 👏' : 'सराव चालू ठेवा! 💪';
+  return `🎉 संच पूर्ण! ${correct}/${total} बरोबर · ${cheer}`;
+}
+
+function FeedbackBlock({
+  fb,
+  streak,
+  summary,
+  onNext,
+}: {
+  fb: Fb;
+  streak: number;
+  summary: string | null;
+  onNext: () => void;
+}) {
   const { t } = useStore();
   const styles = makeStyles(t);
   const leveled = fb.ok && streak > 0 && streak % 5 === 0;
   return (
-    <Animated.View entering={FadeIn}>
-      <Card>
-        <Text style={[styles.fbTitle, fb.ok ? styles.ok : styles.bad]}>
-          {fb.ok ? 'बरोबर! Correct ✓' : 'चूक — Correct answer:'}
-          {streak >= 2 && fb.ok ? `  🔥×${streak}` : ''}
-        </Text>
-        {!fb.ok && fb.answer ? <Text style={styles.fbAnswer}>{fb.answer}</Text> : null}
-        {fb.explain ? <Text style={styles.fbExplain}>{fb.explain}</Text> : null}
-        {leveled ? (
-          <Text style={styles.levelup}>🎉 Streak level {streakLevel(streak)}! छान चाललंय!</Text>
-        ) : null}
-        <Gap />
-        <Btn title="पुढे →" onPress={onNext} />
-      </Card>
+    <Animated.View entering={ZoomIn.springify().damping(16)}>
+      <GradePop ok={fb.ok}>
+        <Card>
+          <Text style={[styles.fbTitle, fb.ok ? styles.ok : styles.bad]}>
+            {fb.ok ? 'बरोबर! Correct ✓' : 'चूक — Correct answer:'}
+            {streak >= 2 && fb.ok ? `  🔥×${streak}` : ''}
+          </Text>
+          {!fb.ok && fb.answer ? <Text style={styles.fbAnswer}>{fb.answer}</Text> : null}
+          {fb.explain ? <Text style={styles.fbExplain}>{fb.explain}</Text> : null}
+          {leveled ? (
+            <Text style={styles.levelup}>🎉 Streak level {streakLevel(streak)}! छान चाललंय!</Text>
+          ) : null}
+          {summary ? <Text style={styles.done}>{summary}</Text> : null}
+          <Gap />
+          <Btn title="पुढे →" onPress={onNext} />
+        </Card>
+      </GradePop>
     </Animated.View>
   );
 }
@@ -267,10 +310,7 @@ export default function DrillsScreen({ navigation, route }: any) {
 
   return (
     <Screen scroll>
-      <View style={styles.header}>
-        <Text style={styles.title}>सराव — Drills</Text>
-        <XPBadge />
-      </View>
+      <Text style={styles.title}>सराव — Drills</Text>
       <Card>
         <Seg options={TAB_OPTIONS} value={tab} onChange={switchTab} />
         <Gap />
@@ -285,9 +325,24 @@ export default function DrillsScreen({ navigation, route }: any) {
       {tab === 'speaking' ? (
         <Card>
           {!prompt ? (
-            <Text style={styles.muted}>या स्तरावर बोलणं prompt नाहीत.</Text>
+            <View style={styles.empty}>
+              <Text style={styles.emptyEmoji}>🎙️</Text>
+              <Text style={styles.emptyTitle}>या स्तरावर बोलणं prompts नाहीत</Text>
+              <Text style={styles.muted}>दुसरा स्तर निवडा किंवा सर्व स्तर पहा.</Text>
+              {level !== 'all' ? (
+                <>
+                  <Gap />
+                  <Btn
+                    title="सर्व स्तर दाखवा"
+                    kind="secondary"
+                    small
+                    onPress={() => changeLevel('all')}
+                  />
+                </>
+              ) : null}
+            </View>
           ) : (
-            <Animated.View key={`sp-${speakIdx}`} entering={SlideInRight.springify()}>
+            <Animated.View key={`sp-${speakIdx}`} entering={SlideInRight.springify().damping(20)}>
               <Text style={styles.muted}>
                 {prompt.kind} · स्तर {prompt.level} · {(speakIdx % speakingPool.length) + 1}/
                 {speakingPool.length}
@@ -320,10 +375,25 @@ export default function DrillsScreen({ navigation, route }: any) {
           )}
         </Card>
       ) : (
-        <Animated.View key={`${tab}-${round}-${idx}`} entering={SlideInRight.springify()}>
+        <Animated.View key={`${tab}-${round}-${idx}`} entering={SlideInRight.springify().damping(20)}>
           <Card>
             {!ex ? (
-              <Text style={styles.muted}>या स्तरावर प्रश्न नाहीत.</Text>
+              <View style={styles.empty}>
+                <Text style={styles.emptyEmoji}>📭</Text>
+                <Text style={styles.emptyTitle}>या स्तरावर प्रश्न नाहीत</Text>
+                <Text style={styles.muted}>दुसरा स्तर निवडा — सोप्यापासून सुरुवात करा! 🌱</Text>
+                {level !== 'all' ? (
+                  <>
+                    <Gap />
+                    <Btn
+                      title="सर्व स्तर दाखवा"
+                      kind="secondary"
+                      small
+                      onPress={() => changeLevel('all')}
+                    />
+                  </>
+                ) : null}
+              </View>
             ) : (
               <>
                 <View style={styles.track}>
@@ -338,18 +408,29 @@ export default function DrillsScreen({ navigation, route }: any) {
 
                 {CHOICE_TYPES.includes(ex.type) &&
                   ex.choices.map((c, ci) => (
-                    <Opt
+                    <Animated.View
                       key={`${c}-${ci}`}
-                      label={c}
-                      state={
-                        fb ? (c === ex.answer ? 'correct' : c === selected ? 'wrong' : 'idle') : 'idle'
-                      }
-                      disabled={!!fb}
-                      onPress={() => {
-                        setSelected(c);
-                        grade({ selected: c });
-                      }}
-                    />
+                      entering={FadeInDown.delay(ci * 45)
+                        .springify()
+                        .damping(16)}>
+                      <Opt
+                        label={c}
+                        state={
+                          fb
+                            ? c === ex.answer
+                              ? 'correct'
+                              : c === selected
+                                ? 'wrong'
+                                : 'idle'
+                            : 'idle'
+                        }
+                        disabled={!!fb}
+                        onPress={() => {
+                          setSelected(c);
+                          grade({ selected: c });
+                        }}
+                      />
+                    </Animated.View>
                   ))}
 
                 {(ex.type === 'translate-en-mr' || ex.type === 'translate-mr-en') && (
@@ -421,7 +502,16 @@ export default function DrillsScreen({ navigation, route }: any) {
       {fb && tab !== 'speaking' ? (
         <>
           <Gap />
-          <FeedbackBlock fb={fb} streak={streak} onNext={next} />
+          <FeedbackBlock
+            fb={fb}
+            streak={streak}
+            summary={
+              idx === queue.length - 1 && queue.length > 0
+                ? sessionSummary(marks, queue.length)
+                : null
+            }
+            onNext={next}
+          />
         </>
       ) : null}
 
@@ -444,7 +534,7 @@ export default function DrillsScreen({ navigation, route }: any) {
             renderItem={({ index }) => (
               <View style={styles.stripItem}>
                 <Chip>
-                  {`Q${index + 1}${marks[index] === undefined ? '' : marks[index] ? ' ✓' : ' ✗'}`}
+                  {`${index === idx ? '▶ ' : ''}Q${index + 1}${marks[index] === undefined ? '' : marks[index] ? ' ✓' : ' ✗'}`}
                 </Chip>
               </View>
             )}
@@ -575,6 +665,27 @@ function makeStyles(t: Theme) {
     fontFamily: FONT,
     fontSize: 14,
     marginTop: 4,
+  },
+  done: {
+    color: t.greenInk,
+    fontFamily: FONT,
+    fontSize: 15,
+    fontWeight: '700',
+    marginTop: 6,
+  },
+  empty: {
+    alignItems: 'center',
+    paddingVertical: 16,
+  },
+  emptyEmoji: {
+    fontSize: 40,
+  },
+  emptyTitle: {
+    color: t.ink,
+    fontFamily: FONT,
+    fontSize: 17,
+    fontWeight: '700',
+    marginTop: 8,
   },
   stripItem: {
     marginRight: 8,

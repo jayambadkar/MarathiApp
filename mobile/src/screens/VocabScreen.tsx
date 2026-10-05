@@ -1,11 +1,20 @@
 import { useEffect, useMemo, useState } from 'react';
+import type { ReactNode } from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
-import Animated, { FadeIn, FlipInYLeft } from 'react-native-reanimated';
+import Animated, {
+  FadeInDown,
+  FlipInYLeft,
+  ZoomIn,
+  useAnimatedStyle,
+  useSharedValue,
+  withSequence,
+  withSpring,
+} from 'react-native-reanimated';
 import AsyncStorage from '../storage';
 import { useStore } from '../store';
 import { FONT } from '../theme';
 import type { Theme } from '../theme';
-import { Btn, Card, Chip, Gap, HearBtn, Opt, Screen, Seg, XPBadge } from '../ui';
+import { Btn, Card, Chip, Gap, HearBtn, Opt, Screen, Seg } from '../ui';
 import { sample, shuffle, shuffleOptions } from '../lib';
 import vocabData from '../data/vocab.json';
 
@@ -63,25 +72,58 @@ function streakLevel(streak: number): number {
   return streak >= 5 ? Math.floor(streak / 5) : 0;
 }
 
-function FeedbackBlock({ fb, streak, onNext }: { fb: Fb; streak: number; onNext: () => void }) {
+/** Visual-only grade bounce: a quick springy scale pop (no haptics dep). */
+function GradePop({ children, ok }: { children: ReactNode; ok: boolean }) {
+  const scale = useSharedValue(0.94);
+  const anim = useAnimatedStyle(() => ({ transform: [{ scale: scale.value }] }));
+  useEffect(() => {
+    scale.value = withSequence(
+      withSpring(ok ? 1.03 : 1, { damping: 9, stiffness: 320 }),
+      withSpring(1, { damping: 12, stiffness: 320 }),
+    );
+  }, [ok, scale]);
+  return <Animated.View style={anim}>{children}</Animated.View>;
+}
+
+function sessionSummary(correct: number, total: number): string {
+  const pctDone = total > 0 ? Math.round((100 * correct) / total) : 0;
+  const cheer =
+    pctDone === 100 ? 'अप्रतिम! 🌟' : pctDone >= 70 ? 'छान काम! 👏' : 'सराव चालू ठेवा! 💪';
+  return `🎉 संच पूर्ण! ${correct}/${total} बरोबर · ${cheer}`;
+}
+
+function FeedbackBlock({
+  fb,
+  streak,
+  summary,
+  onNext,
+}: {
+  fb: Fb;
+  streak: number;
+  summary: string | null;
+  onNext: () => void;
+}) {
   const { t } = useStore();
   const styles = makeStyles(t);
   const leveled = fb.ok && streak > 0 && streak % 5 === 0;
   return (
-    <Animated.View entering={FadeIn}>
-      <Card>
-        <Text style={[styles.fbTitle, fb.ok ? styles.ok : styles.bad]}>
-          {fb.ok ? 'बरोबर! Correct ✓' : 'चूक — Correct answer:'}
-          {streak >= 2 && fb.ok ? `  🔥×${streak}` : ''}
-        </Text>
-        {!fb.ok && fb.answer ? <Text style={styles.fbAnswer}>{fb.answer}</Text> : null}
-        {fb.explain ? <Text style={styles.fbExplain}>{fb.explain}</Text> : null}
-        {leveled ? (
-          <Text style={styles.levelup}>🎉 Streak level {streakLevel(streak)}! छान चाललंय!</Text>
-        ) : null}
-        <Gap />
-        <Btn title="पुढे →" onPress={onNext} />
-      </Card>
+    <Animated.View entering={ZoomIn.springify().damping(16)}>
+      <GradePop ok={fb.ok}>
+        <Card>
+          <Text style={[styles.fbTitle, fb.ok ? styles.ok : styles.bad]}>
+            {fb.ok ? 'बरोबर! Correct ✓' : 'चूक — Correct answer:'}
+            {streak >= 2 && fb.ok ? `  🔥×${streak}` : ''}
+          </Text>
+          {!fb.ok && fb.answer ? <Text style={styles.fbAnswer}>{fb.answer}</Text> : null}
+          {fb.explain ? <Text style={styles.fbExplain}>{fb.explain}</Text> : null}
+          {leveled ? (
+            <Text style={styles.levelup}>🎉 Streak level {streakLevel(streak)}! छान चाललंय!</Text>
+          ) : null}
+          {summary ? <Text style={styles.done}>{summary}</Text> : null}
+          <Gap />
+          <Btn title="पुढे →" onPress={onNext} />
+        </Card>
+      </GradePop>
     </Animated.View>
   );
 }
@@ -100,6 +142,7 @@ export default function VocabScreen({ navigation, route }: any) {
   const [fb, setFb] = useState<Fb | null>(null);
   const [streak, setStreak] = useState<number>(0);
   const [round, setRound] = useState<number>(1);
+  const [tally, setTally] = useState<{ c: number; n: number }>({ c: 0, n: 0 });
 
   useEffect(() => {
     let live = true;
@@ -159,6 +202,7 @@ export default function VocabScreen({ navigation, route }: any) {
     setPicked(null);
     setFb(null);
     setRound((r) => r + 1);
+    setTally({ c: 0, n: 0 });
   }
 
   function changeDir(next: string): void {
@@ -178,6 +222,7 @@ export default function VocabScreen({ navigation, route }: any) {
     const ok = choice.en === word.en;
     award('vocab', ok);
     setStreak((s) => (ok ? s + 1 : 0));
+    setTally((p) => ({ c: p.c + (ok ? 1 : 0), n: p.n + 1 }));
     const nextBox = ok ? Math.min(MAX_BOX, boxOf(srs, word.en) + 1) : 1;
     persist({ boxes: { ...srs.boxes, [word.en]: nextBox } });
     setPicked(choice.en);
@@ -199,10 +244,7 @@ export default function VocabScreen({ navigation, route }: any) {
 
   return (
     <Screen scroll>
-      <View style={styles.header}>
-        <Text style={styles.title}>शब्द-संग्रह — Vocab</Text>
-        <XPBadge />
-      </View>
+      <Text style={styles.title}>शब्द-संग्रह — Vocab</Text>
       <Card>
         <Seg options={DIR_OPTIONS} value={dir} onChange={changeDir} />
         <Gap />
@@ -222,18 +264,33 @@ export default function VocabScreen({ navigation, route }: any) {
       </Card>
       <Gap />
 
-      <Animated.View key={`${round}-${idx}`} entering={FlipInYLeft.springify()}>
+      <Animated.View key={`${round}-${idx}`} entering={FlipInYLeft.springify().damping(16)}>
         <Card>
           {!word ? (
-            <Text style={styles.muted}>या स्तरावर शब्द नाहीत.</Text>
+            <View style={styles.empty}>
+              <Text style={styles.emptyEmoji}>📚</Text>
+              <Text style={styles.emptyTitle}>या स्तरावर शब्द नाहीत</Text>
+              <Text style={styles.muted}>दुसरा स्तर निवडा — रोज थोडे शब्द शिका! 🌱</Text>
+              {level !== 'all' ? (
+                <>
+                  <Gap />
+                  <Btn
+                    title="सर्व स्तर दाखवा"
+                    kind="secondary"
+                    small
+                    onPress={() => changeLevel('all')}
+                  />
+                </>
+              ) : null}
+            </View>
           ) : (
             <>
               <View style={styles.track}>
                 <View style={[styles.fill, { width: `${pct}%` }]} />
               </View>
               <Text style={styles.muted}>
-                प्रश्न {idx + 1}/{queue.length} · पेटी {boxOf(srs, word.en)} · {word.pos} · स्तर{' '}
-                {word.level}
+                प्रश्न {idx + 1}/{queue.length} · {pct}% · पेटी {boxOf(srs, word.en)} · {word.pos} ·
+                स्तर {word.level}
               </Text>
               <Text style={styles.prompt}>{askMr ? word.mr : word.en}</Text>
               <Text style={styles.hint}>
@@ -247,17 +304,28 @@ export default function VocabScreen({ navigation, route }: any) {
                 </>
               ) : null}
               <Gap />
-              {options.map((o) => (
-                <Opt
+              {options.map((o, oi) => (
+                <Animated.View
                   key={o.en}
-                  label={askMr ? o.en : o.mr}
-                  sub={askMr ? o.pos : o.tr || undefined}
-                  state={
-                    fb ? (o.en === word.en ? 'correct' : o.en === picked ? 'wrong' : 'idle') : 'idle'
-                  }
-                  disabled={!!fb}
-                  onPress={() => grade(o)}
-                />
+                  entering={FadeInDown.delay(oi * 45)
+                    .springify()
+                    .damping(16)}>
+                  <Opt
+                    label={askMr ? o.en : o.mr}
+                    sub={askMr ? o.pos : o.tr || undefined}
+                    state={
+                      fb
+                        ? o.en === word.en
+                          ? 'correct'
+                          : o.en === picked
+                            ? 'wrong'
+                            : 'idle'
+                        : 'idle'
+                    }
+                    disabled={!!fb}
+                    onPress={() => grade(o)}
+                  />
+                </Animated.View>
               ))}
             </>
           )}
@@ -267,7 +335,16 @@ export default function VocabScreen({ navigation, route }: any) {
       {fb ? (
         <>
           <Gap />
-          <FeedbackBlock fb={fb} streak={streak} onNext={next} />
+          <FeedbackBlock
+            fb={fb}
+            streak={streak}
+            summary={
+              idx === queue.length - 1 && queue.length > 0
+                ? sessionSummary(tally.c, queue.length)
+                : null
+            }
+            onNext={next}
+          />
         </>
       ) : null}
 
@@ -289,7 +366,7 @@ export default function VocabScreen({ navigation, route }: any) {
             showsHorizontalScrollIndicator={false}
             renderItem={({ item, index }) => (
               <View style={styles.stripItem}>
-                <Chip>{`Q${index + 1} 📦${boxOf(srs, item.en)}`}</Chip>
+                <Chip>{`${index === idx ? '▶ ' : ''}Q${index + 1} 📦${boxOf(srs, item.en)}`}</Chip>
               </View>
             )}
           />
@@ -373,6 +450,27 @@ function makeStyles(t: Theme) {
     fontFamily: FONT,
     fontSize: 14,
     marginTop: 4,
+  },
+  done: {
+    color: t.greenInk,
+    fontFamily: FONT,
+    fontSize: 15,
+    fontWeight: '700',
+    marginTop: 6,
+  },
+  empty: {
+    alignItems: 'center',
+    paddingVertical: 16,
+  },
+  emptyEmoji: {
+    fontSize: 40,
+  },
+  emptyTitle: {
+    color: t.ink,
+    fontFamily: FONT,
+    fontSize: 17,
+    fontWeight: '700',
+    marginTop: 8,
   },
   stripItem: {
     marginRight: 8,

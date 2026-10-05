@@ -16,6 +16,8 @@ export type Settings = {
   translit: boolean;
   theme: 'light' | 'dark';
   level: number;
+  voice?: string;
+  dailyGoalXp: number;
 };
 
 export type Progress = {
@@ -39,6 +41,7 @@ export const DEFAULT_SETTINGS: Settings = {
   translit: false,
   theme: 'light',
   level: 1,
+  dailyGoalXp: 25,
 };
 
 export const DEFAULT_PROGRESS: Progress = {
@@ -91,6 +94,7 @@ export type StoreValue = {
   progress: Progress;
   award: (mode: string, ok: boolean, xp?: number) => void;
   resetAll: () => void;
+  resetProgress: () => void;
   t: Theme;
   dark: boolean;
 };
@@ -149,12 +153,16 @@ export function AppStore({children}: {children: ReactNode}) {
     void AsyncStorage.removeMany([SKEY, PKEY]).catch(() => {});
   }, []);
 
+  const resetProgress = useCallback(() => {
+    setProgress(DEFAULT_PROGRESS);
+  }, []);
+
   const dark = settings.theme === 'dark';
   const t = dark ? darkTheme : lightTheme;
 
   const value = useMemo<StoreValue>(
-    () => ({settings, updateSettings, progress, award, resetAll, t, dark}),
-    [settings, updateSettings, progress, award, resetAll, t, dark],
+    () => ({settings, updateSettings, progress, award, resetAll, resetProgress, t, dark}),
+    [settings, updateSettings, progress, award, resetAll, resetProgress, t, dark],
   );
 
   return <StoreCtx.Provider value={value}>{children}</StoreCtx.Provider>;

@@ -28,17 +28,22 @@ export default function RootNav() {
         }}>
         <Stack.Navigator
           initialRouteName="Home"
-          screenOptions={{ headerShown: false, animation: 'slide_from_right' }}>
-          <Stack.Screen name="Home" component={HomeScreen} />
-          <Stack.Screen name="Chat" component={ChatScreen} />
-          <Stack.Screen name="Sprint" component={SprintsScreen} />
-          <Stack.Screen name="Stories" component={StoriesScreen} />
-          <Stack.Screen name="Drills" component={DrillsScreen} />
-          <Stack.Screen name="Grammar" component={GrammarScreen} />
-          <Stack.Screen name="Vocab" component={VocabScreen} />
-          <Stack.Screen name="Progress" component={ProgressScreen} />
-          <Stack.Screen name="Settings" component={SettingsScreen} />
-          <Stack.Screen name="Help" component={HelpScreen} />
+          screenOptions={{
+            headerShown: false,
+            animation: 'slide_from_right',
+            animationDuration: 250,
+            contentStyle: { backgroundColor: t.bg },
+          }}>
+          <Stack.Screen name="Home" component={HomeScreen} options={{ title: 'मराठी शिका — Home' }} />
+          <Stack.Screen name="Chat" component={ChatScreen} options={{ title: 'गप्पा — Chat' }} />
+          <Stack.Screen name="Sprint" component={SprintsScreen} options={{ title: 'वाचन स्प्रिंट — Sprint' }} />
+          <Stack.Screen name="Stories" component={StoriesScreen} options={{ title: 'गोष्टी — Stories' }} />
+          <Stack.Screen name="Drills" component={DrillsScreen} options={{ title: 'सराव — Drills' }} />
+          <Stack.Screen name="Grammar" component={GrammarScreen} options={{ title: 'व्याकरण — Grammar' }} />
+          <Stack.Screen name="Vocab" component={VocabScreen} options={{ title: 'शब्दसंग्रह — Vocab' }} />
+          <Stack.Screen name="Progress" component={ProgressScreen} options={{ title: 'प्रगती — Progress' }} />
+          <Stack.Screen name="Settings" component={SettingsScreen} options={{ title: 'सेटिंग्ज — Settings' }} />
+          <Stack.Screen name="Help" component={HelpScreen} options={{ title: 'मदत — Help' }} />
         </Stack.Navigator>
       </NavigationContainer>
     </>

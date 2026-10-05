@@ -1,4 +1,5 @@
 import {Platform} from 'react-native';
+import type {ViewStyle} from 'react-native';
 
 export const FONT = Platform.OS === 'ios' ? 'Baloo 2' : 'Baloo2';
 export const FONT_BOLD = Platform.OS === 'ios' ? 'Baloo 2' : 'Baloo2-Bold';
@@ -46,3 +47,59 @@ export const dark = {
 };
 
 export type Theme = typeof light;
+
+/** 4pt-based spacing scale (numbers = density-independent points). */
+export const spacing = {
+  xs: 4,
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 24,
+} as const;
+
+export type Spacing = typeof spacing;
+
+/** Corner-radius scale. */
+export const radii = {
+  sm: 8,
+  md: 12,
+  lg: 16,
+  xl: 24,
+  full: 999,
+} as const;
+
+export type Radii = typeof radii;
+
+/** Soft card shadow, tuned per theme (iOS shadow* + Android elevation). */
+export const cardShadow: ViewStyle = {
+  shadowColor: '#0f2b33',
+  shadowOffset: {width: 0, height: 3},
+  shadowOpacity: 0.08,
+  shadowRadius: 10,
+  elevation: 2,
+};
+
+export const cardShadowDark: ViewStyle = {
+  shadowColor: '#000000',
+  shadowOffset: {width: 0, height: 3},
+  shadowOpacity: 0.45,
+  shadowRadius: 10,
+  elevation: 3,
+};
+
+/** Stronger lift for sheets, modals, and floating elements. */
+export const popShadow: ViewStyle = {
+  shadowColor: '#0f2b33',
+  shadowOffset: {width: 0, height: 6},
+  shadowOpacity: 0.14,
+  shadowRadius: 16,
+  elevation: 4,
+};
+
+export const popShadowDark: ViewStyle = {
+  shadowColor: '#000000',
+  shadowOffset: {width: 0, height: 6},
+  shadowOpacity: 0.55,
+  shadowRadius: 16,
+  elevation: 6,
+};

@@ -1,11 +1,18 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { FlatList, ScrollView, StyleSheet, Text, View } from 'react-native';
-import Animated, { FadeInDown } from 'react-native-reanimated';
+import Animated, {
+  FadeIn,
+  FadeInDown,
+  ZoomIn,
+  useAnimatedStyle,
+  useSharedValue,
+  withTiming,
+} from 'react-native-reanimated';
 import { Timer } from 'lucide-react-native';
 import sprintsData from '../data/sprints.json';
 import { useStore } from '../store';
 import { FONT } from '../theme';
-import { Btn, Card, Gap, HearBtn, Opt, SayText, Screen, Seg, XPBadge } from '../ui';
+import { Btn, Card, Gap, HearBtn, Opt, SayText, Screen, Seg } from '../ui';
 import { XP_CORRECT, shuffleOptions } from '../lib';
 
 const BONUS_XP = 5;
@@ -31,13 +38,34 @@ interface Sprint {
 
 const sprints = sprintsData as unknown as Sprint[];
 
-
+/** Animated pace bar: elapsed vs expected time (words / target WPM). */
+function PaceBar({ elapsed, expected }: { elapsed: number; expected: number }): React.JSX.Element {
+  const { t } = useStore();
+  const [trackW, setTrackW] = useState(0);
+  const pct = expected > 0 ? Math.min(elapsed / expected, 1) : 0;
+  const p = useSharedValue(0);
+  useEffect(() => {
+    p.value = withTiming(pct, { duration: 220 });
+  }, [pct, p]);
+  const fill = useAnimatedStyle(() => ({ width: p.value * trackW }));
+  const over = expected > 0 && elapsed > expected;
+  return (
+    <View
+      style={[styles.pbar, { backgroundColor: t.line }]}
+      onLayout={(e) => setTrackW(e.nativeEvent.layout.width)}>
+      <Animated.View
+        style={[styles.pfill, { backgroundColor: over ? t.orange : t.green }, fill]}
+      />
+    </View>
+  );
+}
 
 export default function SprintsScreen({ navigation, route }: any): React.JSX.Element {
   void navigation;
   void route;
-  const { award, t } = useStore();
+  const { award, t, progress } = useStore();
   const pal = { text: t.ink, muted: t.muted };
+  const sprintXP = progress.byMode.sprint ?? 0;
   const [level, setLevel] = useState('all');
   const [selId, setSelId] = useState<string | null>(null);
   const [running, setRunning] = useState(false);
@@ -137,16 +165,19 @@ export default function SprintsScreen({ navigation, route }: any): React.JSX.Ele
 
   const mm = String(Math.floor(elapsed / 60)).padStart(2, '0');
   const ss = String(Math.floor(elapsed % 60)).padStart(2, '0');
+  const expectedSecs = sprint ? (sprint.words / sprint.target_wpm) * 60 : 0;
+  const liveWpm =
+    sprint && running && elapsed > 1 ? Math.round((sprint.words / elapsed) * 60) : null;
 
   return (
     <Screen>
       <View style={styles.header}>
         <Timer size={22} color={pal.text} />
         <Text style={[styles.title, { color: pal.text }]}>वाचन स्प्रिंट — Sprints</Text>
-        <XPBadge />
       </View>
       <Text style={[styles.small, { color: pal.muted }]}>
         {sprints.length} उतारे · लक्ष्य 40–140 WPM · 🔥 {streak} streak
+        {sprintXP > 0 ? ` · ⭐ ${sprintXP} XP` : ''}
       </Text>
       <Gap />
       <View testID="sprint-level">
@@ -167,15 +198,17 @@ export default function SprintsScreen({ navigation, route }: any): React.JSX.Ele
         horizontal
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={styles.listRow}
-        renderItem={({ item }) => (
-          <View testID={`sprint-${item.id}`}>
-            <Btn
-              title={`${item.id} · L${item.level} · ${item.target_wpm}wpm`}
-              kind={selId === item.id ? 'primary' : 'secondary'}
-              small
-              onPress={() => openSprint(item.id)}
-            />
-          </View>
+        renderItem={({ item, index }) => (
+          <Animated.View entering={FadeInDown.delay(Math.min(index, 10) * 50).duration(350)}>
+            <View testID={`sprint-${item.id}`}>
+              <Btn
+                title={`${item.id} · L${item.level} · ${item.target_wpm}wpm`}
+                kind={selId === item.id ? 'primary' : 'secondary'}
+                small
+                onPress={() => openSprint(item.id)}
+              />
+            </View>
+          </Animated.View>
         )}
       />
       <Gap />
@@ -191,7 +224,7 @@ export default function SprintsScreen({ navigation, route }: any): React.JSX.Ele
           style={styles.flex}
           contentContainerStyle={{paddingBottom: 24}}
           showsVerticalScrollIndicator={false}>
-          <Animated.View entering={FadeInDown.duration(300)}>
+          <Animated.View key={sprint.id} entering={FadeInDown.duration(300)}>
             <Card>
               <Text style={[styles.h3, { color: pal.text }]}>
                 {sprint.title_mr}{' '}
@@ -204,6 +237,9 @@ export default function SprintsScreen({ navigation, route }: any): React.JSX.Ele
                 <Text style={[styles.timer, { color: pal.text }]} testID="sprint-timer">
                   {mm}:{ss}
                 </Text>
+                {liveWpm !== null && (
+                  <Text style={[styles.liveWpm, { color: pal.muted }]}>~{liveWpm} WPM</Text>
+                )}
                 {!running && wpm === null && (
                   <Btn title="▶ वाचन सुरू" kind="primary" small onPress={startTimer} />
                 )}
@@ -215,18 +251,26 @@ export default function SprintsScreen({ navigation, route }: any): React.JSX.Ele
                   <HearBtn text={sprint.text_mr} title="🔊 ऐका" />
                 </View>
               </View>
+              <PaceBar elapsed={elapsed} expected={expectedSecs} />
               <Gap />
-              <SayText
-                text={sprint.text_mr}
-                style={[styles.storyText, { color: pal.text }]}
-                testID="sprint-text"
-              />
-              <Text style={[styles.small, { color: pal.muted }]}>
-                💡 वाक्यावर टॅप करा — ऐकू येईल · long-press = सर्व ऐका
-              </Text>
-              <Text style={[styles.small, { color: pal.muted }]}>{sprint.text_en}</Text>
+              <Animated.View
+                key={`passage-${sprint.id}`}
+                entering={FadeInDown.delay(120).duration(400)}>
+                <SayText
+                  text={sprint.text_mr}
+                  style={[styles.storyText, { color: pal.text }]}
+                  testID="sprint-text"
+                />
+                <Text style={[styles.small, { color: pal.muted }]}>
+                  💡 वाक्यावर टॅप करा — ऐकू येईल · long-press = सर्व ऐका
+                </Text>
+                <Text style={[styles.small, { color: pal.muted }]}>{sprint.text_en}</Text>
+              </Animated.View>
               {wpm !== null && (
-                <View testID="sprint-result">
+                <Animated.View
+                  key={`result-${sprint.id}-${wpm}`}
+                  entering={ZoomIn.springify().damping(15)}
+                  testID="sprint-result">
                   <Gap />
                   <Text style={[styles.body, { color: pal.text }]}>
                     तुमचा वेग: <Text style={styles.bold}>{wpm} WPM</Text> (लक्ष्य{' '}
@@ -239,10 +283,13 @@ export default function SprintsScreen({ navigation, route }: any): React.JSX.Ele
                       </Text>
                     )}
                   </Text>
-                </View>
+                </Animated.View>
               )}
               {wpm !== null && !done && q !== null && sq !== null && (
-                <View testID="sprint-quiz">
+                <Animated.View
+                  key={`quiz-${sprint.id}-${qi}`}
+                  entering={FadeInDown.duration(350)}
+                  testID="sprint-quiz">
                   <Gap />
                   <Text style={[styles.small, { color: pal.muted }]}>
                     प्रश्न {qi + 1}/{sprint.questions.length}
@@ -254,40 +301,43 @@ export default function SprintsScreen({ navigation, route }: any): React.JSX.Ele
                     {q.q_en}
                   </Text>
                   {sq.options.map((o, i) => (
-                    <Opt
-                      key={i}
-                      label={o}
-                      state={
-                        fb
-                          ? i === sq.answer
-                            ? 'correct'
-                            : i === picked
-                              ? 'wrong'
-                              : 'idle'
-                          : 'idle'
-                      }
-                      disabled={fb !== null}
-                      onPress={() => grade(i)}
-                    />
+                    <Animated.View
+                      key={`${qi}-${i}`}
+                      entering={FadeInDown.delay(80 + i * 70).duration(300)}>
+                      <Opt
+                        label={o}
+                        state={
+                          fb
+                            ? i === sq.answer
+                              ? 'correct'
+                              : i === picked
+                                ? 'wrong'
+                                : 'idle'
+                            : 'idle'
+                        }
+                        disabled={fb !== null}
+                        onPress={() => grade(i)}
+                      />
+                    </Animated.View>
                   ))}
                   {fb !== null && (
-                    <View style={styles.row}>
+                    <Animated.View entering={FadeIn.duration(250)} style={styles.row}>
                       <Text style={[styles.body, { color: pal.text }]}>
                         {fb.ok ? '✓ बरोबर!' : `✗ उत्तर: ${fb.answer}`} · 🔥 {streak}
                       </Text>
                       <Btn title="पुढे →" kind="primary" small onPress={nextQ} />
-                    </View>
+                    </Animated.View>
                   )}
-                </View>
+                </Animated.View>
               )}
               {done && (
-                <View testID="sprint-done">
+                <Animated.View entering={FadeInDown.duration(350)} testID="sprint-done">
                   <Gap />
                   <Text style={[styles.body, { color: pal.text }]}>
                     ✅ स्प्रिंट पूर्ण! <Text style={styles.bold}>{wpm} WPM</Text> · पुढचा उतारा निवडा
                     किंवा स्तर बदला.
                   </Text>
-                </View>
+                </Animated.View>
               )}
             </Card>
           </Animated.View>
@@ -336,6 +386,23 @@ const styles = StyleSheet.create({
     fontFamily: FONT,
     fontSize: 22,
     fontWeight: '700',
+    fontVariant: ['tabular-nums'],
+  },
+  liveWpm: {
+    fontFamily: FONT,
+    fontSize: 13,
+    fontVariant: ['tabular-nums'],
+  },
+  pbar: {
+    height: 4,
+    borderRadius: 999,
+    overflow: 'hidden',
+    width: '100%',
+    marginTop: 8,
+  },
+  pfill: {
+    height: 4,
+    borderRadius: 999,
   },
   row: {
     flexDirection: 'row',

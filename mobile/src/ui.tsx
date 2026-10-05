@@ -1,5 +1,5 @@
 import type {ReactNode} from 'react';
-import {useMemo} from 'react';
+import {useEffect, useMemo} from 'react';
 import {
   Pressable,
   ScrollView,
@@ -11,9 +11,15 @@ import {
 } from 'react-native';
 import type {StyleProp, TextStyle, ViewStyle} from 'react-native';
 import {SafeAreaView} from 'react-native-safe-area-context';
-import Animated, {useAnimatedStyle, useSharedValue, withSpring} from 'react-native-reanimated';
+import Animated, {
+  useAnimatedStyle,
+  useSharedValue,
+  withSequence,
+  withSpring,
+  withTiming,
+} from 'react-native-reanimated';
 import {Flame, Star, Volume2} from 'lucide-react-native';
-import {FONT, FONT_BOLD} from './theme';
+import {FONT, FONT_BOLD, cardShadow, cardShadowDark, radii, spacing} from './theme';
 import {useStore} from './store';
 import {speak, stopSpeak} from './tts';
 import {splitSentences} from './lib';
@@ -51,9 +57,15 @@ export function Card({
   style?: StyleProp<ViewStyle>;
   onPress?: () => void;
 }) {
-  const {t} = useStore();
+  const {t, dark} = useStore();
   const inner = (
-    <View style={[styles.card, {backgroundColor: t.surface, borderColor: t.line}, style]}>
+    <View
+      style={[
+        styles.card,
+        dark ? cardShadowDark : cardShadow,
+        {backgroundColor: t.surface, borderColor: t.line},
+        style,
+      ]}>
       {children}
     </View>
   );
@@ -80,7 +92,9 @@ export function Btn({
 }) {
   const {t} = useStore();
   const scale = useSharedValue(1);
+  const shade = useSharedValue(0);
   const anim = useAnimatedStyle(() => ({transform: [{scale: scale.value}]}));
+  const shadeAnim = useAnimatedStyle(() => ({opacity: shade.value}));
   const face = kind === 'primary' ? t.green : kind === 'secondary' ? t.blue : t.red;
   const edge = kind === 'primary' ? t.greenDark : kind === 'secondary' ? t.blueDark : t.redDark;
   return (
@@ -88,10 +102,12 @@ export function Btn({
       onPress={onPress}
       disabled={disabled}
       onPressIn={() => {
-        scale.value = withSpring(0.96, {damping: 15, stiffness: 400});
+        scale.value = withSpring(0.95, {damping: 22, stiffness: 650});
+        shade.value = withTiming(1, {duration: 70});
       }}
       onPressOut={() => {
-        scale.value = withSpring(1, {damping: 15, stiffness: 400});
+        scale.value = withSpring(1, {damping: 16, stiffness: 550});
+        shade.value = withTiming(0, {duration: 140});
       }}>
       <Animated.View
         style={[styles.btnEdge, {backgroundColor: edge}, disabled && styles.dimmed, anim]}>
@@ -103,6 +119,10 @@ export function Btn({
           ]}>
           {icon}
           <Text style={[styles.btnText, small && styles.btnTextSmall]}>{title}</Text>
+          <Animated.View
+            pointerEvents="none"
+            style={[StyleSheet.absoluteFill, styles.btnShade, shadeAnim]}
+          />
         </View>
       </Animated.View>
     </Pressable>
@@ -127,13 +147,37 @@ export function Opt({
   const {t} = useStore();
   const bg = state === 'correct' ? t.greenBg : state === 'wrong' ? t.redBg : t.surface;
   const border = state === 'correct' ? t.green : state === 'wrong' ? t.red : t.line;
+  const pop = useSharedValue(1);
+  const popAnim = useAnimatedStyle(() => ({transform: [{scale: pop.value}]}));
+  const off = disabled || state === 'dim';
+  useEffect(() => {
+    if (state === 'correct' || state === 'wrong') {
+      pop.value = withSequence(
+        withSpring(1.045, {damping: 9, stiffness: 480}),
+        withSpring(1, {damping: 15, stiffness: 420}),
+      );
+    }
+  }, [state, pop]);
   return (
     <Pressable
       onPress={onPress}
-      disabled={disabled || state === 'dim'}
-      style={[styles.opt, {backgroundColor: bg, borderColor: border}, state === 'dim' && styles.dimmed]}>
-      <Text style={[styles.optLabel, {color: t.ink}]}>{label}</Text>
-      {sub ? <Text style={[styles.optSub, {color: t.muted}]}>{sub}</Text> : null}
+      disabled={off}
+      onPressIn={() => {
+        if (!off) pop.value = withSpring(0.98, {damping: 20, stiffness: 600});
+      }}
+      onPressOut={() => {
+        if (!off) pop.value = withSpring(1, {damping: 16, stiffness: 500});
+      }}>
+      <Animated.View
+        style={[
+          styles.opt,
+          {backgroundColor: bg, borderColor: border},
+          state === 'dim' && styles.dimmed,
+          popAnim,
+        ]}>
+        <Text style={[styles.optLabel, {color: t.ink}]}>{label}</Text>
+        {sub ? <Text style={[styles.optSub, {color: t.muted}]}>{sub}</Text> : null}
+      </Animated.View>
     </Pressable>
   );
 }
@@ -179,6 +223,55 @@ export function HearBtn({text, title}: {text: string; title?: string}) {
 
 export function Gap({h = 12}: {h?: number}) {
   return <View style={{height: h}} />;
+}
+
+/** Animated progress bar; width springs toward `value` (0..1). */
+export function Bar({value, color, testID}: {value: number; color?: string; testID?: string}) {
+  const {t} = useStore();
+  const clamped = Math.min(1, Math.max(0, value));
+  const pct = useSharedValue(clamped);
+  const trackW = useSharedValue(0);
+  useEffect(() => {
+    pct.value = withSpring(clamped, {damping: 22, stiffness: 130});
+  }, [clamped, pct]);
+  const fillAnim = useAnimatedStyle(() => ({width: trackW.value * pct.value}));
+  return (
+    <View
+      testID={testID}
+      accessibilityRole="progressbar"
+      accessibilityValue={{min: 0, max: 1, now: clamped}}
+      onLayout={e => {
+        trackW.value = e.nativeEvent.layout.width;
+      }}
+      style={[styles.barTrack, {backgroundColor: t.surface2, borderColor: t.line}]}>
+      <Animated.View
+        style={[styles.barFill, {backgroundColor: color ?? t.green}, fillAnim]}
+      />
+    </View>
+  );
+}
+
+/** Centered empty-state block for lists with nothing to show yet. */
+export function Empty({icon, title, sub}: {icon?: ReactNode; title: string; sub?: string}) {
+  const {t} = useStore();
+  return (
+    <View style={styles.empty}>
+      {icon}
+      <Text style={[styles.emptyTitle, {color: t.ink}]}>{title}</Text>
+      {sub ? <Text style={[styles.emptySub, {color: t.muted}]}>{sub}</Text> : null}
+    </View>
+  );
+}
+
+/** Row header for a content section, with an optional right-side action. */
+export function SectionTitle({children, action}: {children: ReactNode; action?: ReactNode}) {
+  const {t} = useStore();
+  return (
+    <View style={styles.sectionTitle}>
+      <Text style={[styles.sectionTitleText, {color: t.ink}]}>{children}</Text>
+      {action}
+    </View>
+  );
 }
 
 /**
@@ -312,7 +405,7 @@ const styles = StyleSheet.create({
   safe: {flex: 1},
   flex: {flex: 1},
   screen: {padding: 16, gap: 12},
-  card: {borderWidth: 1, borderRadius: 12, padding: 14, gap: 8},
+  card: {borderWidth: 1, borderRadius: radii.lg, padding: 14, gap: 8},
   btnEdge: {borderRadius: 12, paddingBottom: 4},
   dimmed: {opacity: 0.5},
   btnFace: {
@@ -321,8 +414,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8,
+    overflow: 'hidden',
   },
-  btnFaceBig: {paddingVertical: 12, paddingHorizontal: 18},
+  btnFaceBig: {paddingVertical: 12, paddingHorizontal: 18, minHeight: 48},
+  btnShade: {backgroundColor: 'rgba(0,0,0,0.14)', borderRadius: 10},
   btnFaceSmall: {paddingVertical: 8, paddingHorizontal: 12, minHeight: 44, justifyContent: 'center'},
   btnText: {fontFamily: FONT_BOLD, fontWeight: '700', fontSize: 16, color: '#fff'},
   btnTextSmall: {fontSize: 14},
@@ -375,4 +470,22 @@ const styles = StyleSheet.create({
   rowText: {flex: 1, gap: 2},
   rowLabel: {fontFamily: FONT_BOLD, fontWeight: '700', fontSize: 15},
   rowSub: {fontFamily: FONT, fontSize: 13},
+  barTrack: {height: 12, borderRadius: radii.full, borderWidth: 1, overflow: 'hidden'},
+  barFill: {height: '100%', borderRadius: radii.full},
+  empty: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: spacing.sm,
+    paddingVertical: spacing.xl,
+    paddingHorizontal: spacing.lg,
+  },
+  emptyTitle: {fontFamily: FONT_BOLD, fontWeight: '700', fontSize: 17, textAlign: 'center'},
+  emptySub: {fontFamily: FONT, fontSize: 14, textAlign: 'center'},
+  sectionTitle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: spacing.sm,
+  },
+  sectionTitleText: {fontFamily: FONT_BOLD, fontWeight: '700', fontSize: 15, flex: 1},
 });

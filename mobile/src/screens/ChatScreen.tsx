@@ -1,10 +1,19 @@
 import { useEffect, useRef, useState } from 'react';
 import { FlatList, KeyboardAvoidingView, Platform, Pressable, StyleSheet, Text, View } from 'react-native';
-import Animated, { FadeIn } from 'react-native-reanimated';
+import Animated, {
+  FadeIn,
+  cancelAnimation,
+  useAnimatedStyle,
+  useSharedValue,
+  withDelay,
+  withRepeat,
+  withSequence,
+  withTiming,
+} from 'react-native-reanimated';
 import { MessageCircle } from 'lucide-react-native';
 import { useStore } from '../store';
 import { FONT } from '../theme';
-import { Btn, Card, Gap, HearBtn, Screen, TextField, XPBadge } from '../ui';
+import { Btn, Card, Gap, HearBtn, Screen, TextField } from '../ui';
 import { speak, stopSpeak } from '../tts';
 import { listenOnce, voiceAvailable } from '../voice';
 
@@ -157,7 +166,37 @@ async function llmReply(s: ChatSettings, messages: Msg[]): Promise<string> {
 
 // --- Screen ---
 
+const SUGGESTIONS = ['नमस्कार! 🙏', 'माझं नाव ___ आहे', 'मला मराठी शिकायचं आहे'];
 
+function TypingDot({ color, delay }: { color: string; delay: number }) {
+  const y = useSharedValue(0);
+  const anim = useAnimatedStyle(() => ({ transform: [{ translateY: y.value }] }));
+  useEffect(() => {
+    y.value = withDelay(
+      delay,
+      withRepeat(
+        withSequence(withTiming(-4, { duration: 250 }), withTiming(0, { duration: 250 })),
+        -1,
+        false,
+      ),
+    );
+    return () => {
+      cancelAnimation(y);
+    };
+  }, [delay, y]);
+  return <Animated.View style={[styles.typingDot, { backgroundColor: color }, anim]} />;
+}
+
+function TypingDots({ color }: { color: string }) {
+  return (
+    <View style={styles.typingRow} testID="chat-typing">
+      <Text style={[styles.small, { color }]}>लिहितोय</Text>
+      {[0, 1, 2].map((i) => (
+        <TypingDot key={i} color={color} delay={i * 150} />
+      ))}
+    </View>
+  );
+}
 
 export default function ChatScreen({ navigation, route }: any): React.JSX.Element {
   void navigation;
@@ -268,9 +307,6 @@ export default function ChatScreen({ navigation, route }: any): React.JSX.Elemen
             {online ? `online · ${cs.apiStyle || 'chat'}` : 'offline tutor'}
           </Text>
         </View>
-        <View style={styles.noShrink}>
-          <XPBadge />
-        </View>
       </View>
       <Text style={[styles.small, { color: pal.muted }]}>
         {online
@@ -290,8 +326,10 @@ export default function ChatScreen({ navigation, route }: any): React.JSX.Elemen
         renderItem={({ item, index }) => {
           const i = msgs.length - 1 - index;
           const mine = item.role === 'user';
+          // Keys stay stable (m.id); only the newest bubble (index 0 in this
+          // inverted list) fades in, so older messages never replay animation.
           return (
-            <Animated.View entering={FadeIn.duration(200)}>
+            <Animated.View entering={index === 0 ? FadeIn.duration(200) : undefined}>
               <Pressable
                 testID={`chat-msg-${i}`}
                 style={[
@@ -322,15 +360,23 @@ export default function ChatScreen({ navigation, route }: any): React.JSX.Elemen
           );
         }}
       />
-      {busy && (
-        <Text style={[styles.small, { color: pal.muted }]} testID="chat-typing">
-          लिहितोय…
-        </Text>
-      )}
+      {busy && <TypingDots color={pal.muted} />}
       {micMsg !== '' && (
         <Text style={[styles.small, { color: pal.muted }]} testID="chat-mic-msg">
           {micMsg}
         </Text>
+      )}
+      {msgs.length <= 1 && !busy && (
+        <View style={styles.suggestRow}>
+          {SUGGESTIONS.map((s) => (
+            <Pressable
+              key={s}
+              onPress={() => void send(s)}
+              style={[styles.suggestChip, { backgroundColor: pal.chipBg }]}>
+              <Text style={[styles.suggestText, { color: pal.text }]}>{s}</Text>
+            </Pressable>
+          ))}
+        </View>
       )}
       <Gap />
       <KeyboardAvoidingView
@@ -346,11 +392,14 @@ export default function ChatScreen({ navigation, route }: any): React.JSX.Elemen
               onSubmit={() => send(draft)}
             />
           </View>
-          <Btn title="🎤" kind="secondary" small onPress={() => void mic()} />
-          <View style={styles.noShrink}>
-            <Btn title="पाठवा →" kind="primary" disabled={busy || draft.trim() === ''} onPress={() => void send(draft)} />
+          <View style={styles.btnRow}>
+            <Btn title="🎤" kind="secondary" small onPress={() => void mic()} />
+            <View style={styles.spacer} />
+            <Btn title="पुसा" kind="secondary" small onPress={clear} />
+            <View style={styles.noShrink}>
+              <Btn title="पाठवा →" kind="primary" disabled={busy || draft.trim() === ''} onPress={() => void send(draft)} />
+            </View>
           </View>
-          <Btn title="पुसा" kind="secondary" small onPress={clear} />
         </View>
       </KeyboardAvoidingView>
       <Gap />
@@ -411,17 +460,46 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   form: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    flexWrap: 'wrap',
     gap: 8,
   },
   inputWrap: {
+    width: '100%',
+  },
+  btnRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  spacer: {
     flex: 1,
-    flexBasis: 120,
-    minWidth: 120,
   },
   noShrink: {
     flexShrink: 0,
+  },
+  typingRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    paddingVertical: 4,
+  },
+  typingDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+  },
+  suggestRow: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    gap: 8,
+    marginTop: 8,
+  },
+  suggestChip: {
+    borderRadius: 999,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+  },
+  suggestText: {
+    fontFamily: FONT,
+    fontSize: 14,
   },
 });

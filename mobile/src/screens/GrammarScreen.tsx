@@ -1,10 +1,20 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import type { ReactNode } from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
-import Animated, { FadeIn, SlideInRight } from 'react-native-reanimated';
+import Animated, {
+  FadeIn,
+  FadeInDown,
+  SlideInRight,
+  ZoomIn,
+  useAnimatedStyle,
+  useSharedValue,
+  withSequence,
+  withSpring,
+} from 'react-native-reanimated';
 import { useStore } from '../store';
 import { FONT } from '../theme';
 import type { Theme } from '../theme';
-import { Btn, Card, Gap, HearBtn, Opt, Screen, XPBadge } from '../ui';
+import { Btn, Card, Gap, HearBtn, Opt, Screen } from '../ui';
 import { shuffle, shuffleOptions } from '../lib';
 import grammarData from '../data/grammar.json';
 
@@ -51,25 +61,40 @@ function streakLevel(streak: number): number {
   return streak >= 5 ? Math.floor(streak / 5) : 0;
 }
 
+/** Visual-only grade bounce: a quick springy scale pop (no haptics dep). */
+function GradePop({ children, ok }: { children: ReactNode; ok: boolean }) {
+  const scale = useSharedValue(0.94);
+  const anim = useAnimatedStyle(() => ({ transform: [{ scale: scale.value }] }));
+  useEffect(() => {
+    scale.value = withSequence(
+      withSpring(ok ? 1.03 : 1, { damping: 9, stiffness: 320 }),
+      withSpring(1, { damping: 12, stiffness: 320 }),
+    );
+  }, [ok, scale]);
+  return <Animated.View style={anim}>{children}</Animated.View>;
+}
+
 function FeedbackBlock({ fb, streak, onNext }: { fb: Fb; streak: number; onNext: () => void }) {
   const { t } = useStore();
   const styles = makeStyles(t);
   const leveled = fb.ok && streak > 0 && streak % 5 === 0;
   return (
-    <Animated.View entering={FadeIn}>
-      <Card>
-        <Text style={[styles.fbTitle, fb.ok ? styles.ok : styles.bad]}>
-          {fb.ok ? 'बरोबर! Correct ✓' : 'चूक — Correct answer:'}
-          {streak >= 2 && fb.ok ? `  🔥×${streak}` : ''}
-        </Text>
-        {!fb.ok && fb.answer ? <Text style={styles.fbAnswer}>{fb.answer}</Text> : null}
-        {fb.explain ? <Text style={styles.fbExplain}>{fb.explain}</Text> : null}
-        {leveled ? (
-          <Text style={styles.levelup}>🎉 Streak level {streakLevel(streak)}! छान चाललंय!</Text>
-        ) : null}
-        <Gap />
-        <Btn title="पुढे →" onPress={onNext} />
-      </Card>
+    <Animated.View entering={ZoomIn.springify().damping(16)}>
+      <GradePop ok={fb.ok}>
+        <Card>
+          <Text style={[styles.fbTitle, fb.ok ? styles.ok : styles.bad]}>
+            {fb.ok ? 'बरोबर! Correct ✓' : 'चूक — Correct answer:'}
+            {streak >= 2 && fb.ok ? `  🔥×${streak}` : ''}
+          </Text>
+          {!fb.ok && fb.answer ? <Text style={styles.fbAnswer}>{fb.answer}</Text> : null}
+          {fb.explain ? <Text style={styles.fbExplain}>{fb.explain}</Text> : null}
+          {leveled ? (
+            <Text style={styles.levelup}>🎉 Streak level {streakLevel(streak)}! छान चाललंय!</Text>
+          ) : null}
+          <Gap />
+          <Btn title="पुढे →" onPress={onNext} />
+        </Card>
+      </GradePop>
     </Animated.View>
   );
 }
@@ -89,6 +114,7 @@ export default function GrammarScreen({ navigation, route }: any) {
   const [fb, setFb] = useState<Fb | null>(null);
   const [streak, setStreak] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
+  const [done, setDone] = useState<{ score: number; total: number } | null>(null);
 
   const topic: GramTopic | undefined = TOPICS.find((t) => t.id === topicId);
   const qi: number | undefined = quizOn ? order[idx] : undefined;
@@ -103,6 +129,7 @@ export default function GrammarScreen({ navigation, route }: any) {
     setPicked(null);
     setStreak(0);
     setScore(0);
+    setDone(null);
   }
 
   function backToList(): void {
@@ -120,6 +147,7 @@ export default function GrammarScreen({ navigation, route }: any) {
     setFb(null);
     setStreak(0);
     setScore(0);
+    setDone(null);
     setQuizOn(true);
   }
 
@@ -136,18 +164,19 @@ export default function GrammarScreen({ navigation, route }: any) {
   function next(): void {
     setFb(null);
     setPicked(null);
-    if (idx + 1 < order.length) setIdx(idx + 1);
-    else setQuizOn(false);
+    if (idx + 1 < order.length) {
+      setIdx(idx + 1);
+    } else {
+      setDone({ score, total: order.length });
+      setQuizOn(false);
+    }
   }
 
   const pct = order.length ? Math.round((100 * idx) / order.length) : 0;
 
   return (
     <Screen scroll>
-      <View style={styles.header}>
-        <Text style={styles.title}>व्याकरण — Grammar</Text>
-        <XPBadge />
-      </View>
+      <Text style={styles.title}>व्याकरण — Grammar</Text>
       <Card>
         <Text style={styles.muted}>
           {TOPICS.length} विषय · {TOTAL_Q} प्रश्न · 🔥 {streak} streak
@@ -168,16 +197,20 @@ export default function GrammarScreen({ navigation, route }: any) {
             keyExtractor={(t) => t.id}
             scrollEnabled={false}
             showsVerticalScrollIndicator={false}
-            renderItem={({ item }) => (
-              <View style={styles.topicItem}>
+            renderItem={({ item, index }) => (
+              <Animated.View
+                style={styles.topicItem}
+                entering={FadeInDown.delay(Math.min(index, 10) * 40)
+                  .springify()
+                  .damping(16)}>
                 <Opt
-                  label={item.title_mr}
+                  label={`${index + 1}. ${item.title_mr}`}
                   sub={`${item.title_en} · ${item.quiz.length} प्रश्न`}
                   state="idle"
                   disabled={false}
                   onPress={() => openTopic(item.id)}
                 />
-              </View>
+              </Animated.View>
             )}
           />
         </>
@@ -227,10 +260,35 @@ export default function GrammarScreen({ navigation, route }: any) {
                 title={`प्रश्नमंजुषा सुरू करा (${topic.quiz.length} प्रश्न)`}
                 onPress={startQuiz}
               />
-              {score > 0 ? <Text style={styles.muted}>मागील गुण: {score}</Text> : null}
+              {done ? (
+                <>
+                  <Gap />
+                  <Animated.View entering={ZoomIn.springify().damping(16)}>
+                    <Card>
+                      <Text style={styles.doneTitle}>🎉 विषय पूर्ण!</Text>
+                      <Text style={styles.doneScore}>
+                        गुण: {done.score}/{done.total}
+                      </Text>
+                      <Text style={styles.muted}>
+                        {done.score === done.total
+                          ? 'अप्रतिम! 🌟'
+                          : done.score * 2 >= done.total
+                            ? 'छान काम! 👏'
+                            : 'पुन्हा प्रयत्न करा! 💪'}
+                      </Text>
+                      <Gap />
+                      <Btn title="पुन्हा खेळा ↻" kind="secondary" small onPress={startQuiz} />
+                    </Card>
+                  </Animated.View>
+                </>
+              ) : score > 0 ? (
+                <Text style={styles.muted}>मागील गुण: {score}</Text>
+              ) : null}
             </Card>
           ) : (
-            <Animated.View key={`${topic.id}-quiz-${idx}`} entering={SlideInRight.springify()}>
+            <Animated.View
+              key={`${topic.id}-quiz-${idx}`}
+              entering={SlideInRight.springify().damping(20)}>
               <Card>
                 {!q || !sq ? (
                   <Text style={styles.muted}>प्रश्न उपलब्ध नाहीत.</Text>
@@ -246,15 +304,26 @@ export default function GrammarScreen({ navigation, route }: any) {
                     {q.q_en ? <Text style={styles.muted}>{q.q_en}</Text> : null}
                     <Gap />
                     {sq.options.map((o, i) => (
-                      <Opt
+                      <Animated.View
                         key={i}
-                        label={o}
-                        state={
-                          fb ? (i === sq.answer ? 'correct' : i === picked ? 'wrong' : 'idle') : 'idle'
-                        }
-                        disabled={!!fb}
-                        onPress={() => grade(i)}
-                      />
+                        entering={FadeInDown.delay(i * 45)
+                          .springify()
+                          .damping(16)}>
+                        <Opt
+                          label={o}
+                          state={
+                            fb
+                              ? i === sq.answer
+                                ? 'correct'
+                                : i === picked
+                                  ? 'wrong'
+                                  : 'idle'
+                              : 'idle'
+                          }
+                          disabled={!!fb}
+                          onPress={() => grade(i)}
+                        />
+                      </Animated.View>
                     ))}
                   </>
                 )}
@@ -405,6 +474,19 @@ function makeStyles(t: Theme) {
     color: t.ink,
     fontFamily: FONT,
     fontSize: 14,
+    marginTop: 4,
+  },
+  doneTitle: {
+    color: t.greenInk,
+    fontFamily: FONT,
+    fontSize: 18,
+    fontWeight: '700',
+  },
+  doneScore: {
+    color: t.ink,
+    fontFamily: FONT,
+    fontSize: 16,
+    fontWeight: '700',
     marginTop: 4,
   },
   topicItem: {

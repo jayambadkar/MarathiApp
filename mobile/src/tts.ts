@@ -16,7 +16,7 @@ async function ensureInit(): Promise<boolean> {
 }
 
 /** Read text aloud with the Marathi voice. Resolves false on any failure, never throws. */
-export async function speak(text: string, rate: number = 1): Promise<boolean> {
+export async function speak(text: string, rate: number = 1, voiceId?: string): Promise<boolean> {
   try {
     const ok = await ensureInit();
     if (!ok) return false;
@@ -24,6 +24,13 @@ export async function speak(text: string, rate: number = 1): Promise<boolean> {
       await Tts.setDefaultLanguage('mr-IN');
     } catch {
       /* keep previously set language */
+    }
+    if (voiceId) {
+      try {
+        await Tts.setDefaultVoice(voiceId);
+      } catch {
+        /* unknown voice id — speak with the default voice */
+      }
     }
     try {
       await Tts.setDefaultRate(rate);
@@ -34,6 +41,30 @@ export async function speak(text: string, rate: number = 1): Promise<boolean> {
     return true;
   } catch {
     return false;
+  }
+}
+
+export type MarathiVoice = {id: string; name: string; lang: string};
+
+/** List installed Marathi TTS voices. Never throws — returns [] on failure. */
+export async function listMarathiVoices(): Promise<MarathiVoice[]> {
+  try {
+    const voices = (await Tts.voices()) as Array<{
+      id?: string;
+      name?: string;
+      language?: string;
+      lang?: string;
+    }>;
+    return (voices ?? [])
+      .filter(v => (v.language ?? v.lang ?? '').toLowerCase().startsWith('mr'))
+      .map(v => ({
+        id: String(v.id ?? v.name ?? ''),
+        name: String(v.name ?? v.id ?? ''),
+        lang: String(v.language ?? v.lang ?? ''),
+      }))
+      .filter(v => v.id.length > 0);
+  } catch {
+    return [];
   }
 }
 

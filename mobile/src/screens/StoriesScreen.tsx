@@ -1,12 +1,20 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { FlatList, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
-import Animated, { FadeInDown } from 'react-native-reanimated';
+import Animated, {
+  FadeIn,
+  FadeInDown,
+  ZoomIn,
+  interpolateColor,
+  useAnimatedStyle,
+  useSharedValue,
+  withTiming,
+} from 'react-native-reanimated';
 import { BookOpen } from 'lucide-react-native';
 import storiesData from '../data/stories.json';
 import { useStore } from '../store';
 import { FONT } from '../theme';
 import type { Theme } from '../theme';
-import { Btn, Card, Gap, Opt, Screen, Seg, XPBadge } from '../ui';
+import { Btn, Card, Gap, Opt, Screen, Seg } from '../ui';
 import { speak, stopSpeak } from '../tts';
 import { shuffleOptions } from '../lib';
 import { StoryArt } from '../components/StoryArt';
@@ -61,6 +69,82 @@ function palette(dark: boolean, t: Theme): Pal {
 function splitSentences(text: string): string[] {
   const m = text.match(/[^।.!?]+[।.!?]+|[^।.!?]+$/g);
   return (m ?? [text]).map((s) => s.trim()).filter((s) => s.length > 0);
+}
+
+/** Slim animated read-along progress track: progress = active sentence / total. */
+function ReadProgress({ active, total }: { active: number; total: number }): React.JSX.Element {
+  const { t } = useStore();
+  const [trackW, setTrackW] = useState(0);
+  const pct = total > 0 && active >= 0 ? (active + 1) / total : 0;
+  const p = useSharedValue(0);
+  useEffect(() => {
+    p.value = withTiming(pct, { duration: 400 });
+  }, [pct, p]);
+  const fill = useAnimatedStyle(() => ({ width: p.value * trackW }));
+  return (
+    <View
+      style={[styles.pbar, { backgroundColor: t.line }]}
+      onLayout={(e) => setTrackW(e.nativeEvent.layout.width)}>
+      <Animated.View style={[styles.pfill, { backgroundColor: t.green }, fill]} />
+    </View>
+  );
+}
+
+/** One story sentence with a smoothly cross-fading karaoke highlight. */
+function KaraSentence({
+  s,
+  active,
+  hiBg,
+  speed,
+  gm,
+  trail,
+  onToggleGloss,
+}: {
+  s: string;
+  active: boolean;
+  hiBg: string;
+  speed: number;
+  gm: Map<string, string>;
+  trail: boolean;
+  onToggleGloss: (mr: string) => void;
+}): React.JSX.Element {
+  const v = useSharedValue(active ? 1 : 0);
+  useEffect(() => {
+    v.value = withTiming(active ? 1 : 0, { duration: 350 });
+  }, [active, v]);
+  const anim = useAnimatedStyle(() => ({
+    backgroundColor: interpolateColor(v.value, [0, 1], ['rgba(0,0,0,0)', hiBg]),
+  }));
+  return (
+    <Animated.Text
+      style={[anim, styles.sentenceHi]}
+      onLongPress={() => {
+        stopSpeak();
+        void speak(s, speed);
+      }}>
+      {s.split(/\s+/).map((w, j, arr) => {
+        const clean = w.replace(/[।.,?!]/g, '');
+        const en = gm.get(clean) ?? gm.get(w);
+        const glossed = en !== undefined;
+        return (
+          <Text key={j}>
+            {glossed ? (
+              <Text
+                style={styles.glossed}
+                onPress={() => onToggleGloss(gm.has(clean) ? clean : w)}
+              >
+                {w}
+              </Text>
+            ) : (
+              w
+            )}
+            {j < arr.length - 1 ? ' ' : ''}
+          </Text>
+        );
+      })}
+      {trail ? ' ' : ''}
+    </Animated.Text>
+  );
 }
 
 function Reader({ story, onBack }: { story: Story; onBack: () => void }): React.JSX.Element {
@@ -173,7 +257,14 @@ function Reader({ story, onBack }: { story: Story; onBack: () => void }): React.
         <View style={[styles.chip, { backgroundColor: pal.chipBg }]}>
           <Text style={[styles.chipText, { color: pal.text }]}>L{story.level}</Text>
         </View>
+        {playing && active >= 0 && (
+          <Text style={[styles.small, { color: pal.muted }]}>
+            {active + 1}/{sents.length}
+          </Text>
+        )}
       </View>
+      <Gap h={8} />
+      <ReadProgress active={active} total={sents.length} />
       <Gap />
       <StoryArt id={story.id} />
       <Gap />
@@ -198,66 +289,63 @@ function Reader({ story, onBack }: { story: Story; onBack: () => void }): React.
       <Gap />
       <Text style={[styles.storyText, { color: pal.text }]} testID="story-text">
         {sents.map((s, i) => (
-          <Text
+          <KaraSentence
             key={i}
-            style={i === active ? { backgroundColor: pal.hiBg } : undefined}
-            onLongPress={() => {
-              stopSpeak();
-              void speak(s, speed);
-            }}>
-            {s.split(/\s+/).map((w, j, arr) => {
-              const clean = w.replace(/[।.,?!]/g, '');
-              const en = gm.get(clean) ?? gm.get(w);
-              const glossed = en !== undefined;
-              return (
-                <Text key={j}>
-                  {glossed ? (
-                    <Text
-                      style={styles.glossed}
-                      onPress={() => toggleGloss(gm.has(clean) ? clean : w)}
-                    >
-                      {w}
-                    </Text>
-                  ) : (
-                    w
-                  )}
-                  {j < arr.length - 1 ? ' ' : ''}
-                </Text>
-              );
-            })}
-            {i < sents.length - 1 ? ' ' : ''}
-          </Text>
+            s={s}
+            active={i === active}
+            hiBg={pal.hiBg}
+            speed={speed}
+            gm={gm}
+            trail={i < sents.length - 1}
+            onToggleGloss={toggleGloss}
+          />
         ))}
       </Text>
       <Text style={[styles.small, { color: pal.muted }]}>
         💡 शब्दावर टॅप = अर्थ · वाक्यावर long-press = ऐका
       </Text>
       {glossOn !== null && gm.get(glossOn) !== undefined && (
-        <Text style={[styles.small, { color: pal.muted }]}>
-          {glossOn} = {gm.get(glossOn)}
-        </Text>
+        <Animated.View
+          key={glossOn}
+          entering={FadeInDown.duration(220)}
+          style={styles.glossWrap}>
+          <Pressable
+            onPress={() => setGlossOn(null)}
+            style={[styles.glossPill, { backgroundColor: t.surface, borderColor: t.line }]}>
+            <Text style={[styles.body, styles.glossText, { color: pal.text }]} numberOfLines={3}>
+              <Text style={styles.bold}>{glossOn}</Text>
+              <Text style={[styles.small, { color: pal.muted }]}> = {gm.get(glossOn)}</Text>
+            </Text>
+            <Text style={[styles.small, { color: pal.muted }]}>✕</Text>
+          </Pressable>
+        </Animated.View>
       )}
       {showEn && (
-        <Text style={[styles.muted, { color: pal.muted }]} testID="story-en">
-          {story.text_en}
-        </Text>
+        <Animated.View entering={FadeIn.duration(250)}>
+          <Text style={[styles.muted, { color: pal.muted }]} testID="story-en">
+            {story.text_en}
+          </Text>
+        </Animated.View>
       )}
       <Gap />
       {(story.gloss ?? []).length > 0 && (
         <Card>
           <Text style={[styles.h3, { color: pal.text }]}>शब्दार्थ ({(story.gloss ?? []).length} words)</Text>
           <View style={styles.chipRow}>
-            {(story.gloss ?? []).map((g) => (
-              <Pressable
+            {(story.gloss ?? []).map((g, idx) => (
+              <Animated.View
                 key={g.mr}
-                testID={`gloss-${g.mr}`}
-                onPress={() => toggleGloss(g.mr)}
-                style={[styles.chip, { backgroundColor: pal.glossBg }]}
-              >
-                <Text style={[styles.chipText, { color: pal.text }]}>
-                  {glossOn === g.mr ? `${g.mr} = ${g.en}` : g.mr}
-                </Text>
-              </Pressable>
+                entering={FadeIn.delay(Math.min(idx, 12) * 40).duration(250)}>
+                <Pressable
+                  testID={`gloss-${g.mr}`}
+                  onPress={() => toggleGloss(g.mr)}
+                  style={[styles.chip, { backgroundColor: pal.glossBg }]}
+                >
+                  <Text style={[styles.chipText, { color: pal.text }]}>
+                    {glossOn === g.mr ? `${g.mr} = ${g.en}` : g.mr}
+                  </Text>
+                </Pressable>
+              </Animated.View>
             ))}
           </View>
         </Card>
@@ -268,7 +356,10 @@ function Reader({ story, onBack }: { story: Story; onBack: () => void }): React.
         <Text style={[styles.muted, { color: pal.muted }]}>या गोष्टीला प्रश्न नाहीत.</Text>
       )}
       {q !== null && sq !== null && !done && (
-        <View testID="story-quiz">
+        <Animated.View
+          key={`${story.id}-${qi}`}
+          entering={FadeInDown.duration(350)}
+          testID="story-quiz">
           <Text style={[styles.body, { color: pal.text }]}>
             <Text style={styles.bold}>{q.q_mr} </Text>
             <Text style={[styles.small, { color: pal.muted }]}>
@@ -276,23 +367,26 @@ function Reader({ story, onBack }: { story: Story; onBack: () => void }): React.
             </Text>
           </Text>
           {sq.options.map((op, idx) => (
-            <Opt
-              key={idx}
-              label={op}
-              state={picked === idx ? (idx === sq.answer ? 'correct' : 'wrong') : 'idle'}
-              disabled={fb !== null}
-              onPress={() => answer(idx)}
-            />
+            <Animated.View
+              key={`${qi}-${idx}`}
+              entering={FadeInDown.delay(80 + idx * 70).duration(300)}>
+              <Opt
+                label={op}
+                state={picked === idx ? (idx === sq.answer ? 'correct' : 'wrong') : 'idle'}
+                disabled={fb !== null}
+                onPress={() => answer(idx)}
+              />
+            </Animated.View>
           ))}
           {fb !== null && (
-            <View style={styles.row}>
+            <Animated.View entering={FadeIn.duration(250)} style={styles.row}>
               <Text style={[styles.body, { color: pal.text }]}>
                 {fb.ok ? '✓ बरोबर!' : `✗ उत्तर: ${fb.answer}`} · 🔥 {streak}
               </Text>
               <Btn title="पुढे →" kind="primary" small onPress={nextQ} />
-            </View>
+            </Animated.View>
           )}
-        </View>
+        </Animated.View>
       )}
       <Gap />
       <Card>
@@ -304,12 +398,14 @@ function Reader({ story, onBack }: { story: Story; onBack: () => void }): React.
       </Card>
       <Gap />
       {done && (
-        <Celebrate
-          title="अभिनंदन! Story complete!"
-          sub={`+${earned} XP · ${story.title_mr} पूर्ण 🎊`}
-          actionLabel="आणखी गोष्टी →"
-          onAction={onBack}
-        />
+        <Animated.View key="story-done" entering={ZoomIn.springify().damping(16)}>
+          <Celebrate
+            title="अभिनंदन! Story complete!"
+            sub={`+${earned} XP · ${story.title_mr} पूर्ण 🎊`}
+            actionLabel="आणखी गोष्टी →"
+            onAction={onBack}
+          />
+        </Animated.View>
       )}
     </ScrollView>
   );
@@ -318,8 +414,9 @@ function Reader({ story, onBack }: { story: Story; onBack: () => void }): React.
 export default function StoriesScreen({ navigation, route }: any): React.JSX.Element {
   void navigation;
   void route;
-  const { dark, t } = useStore();
+  const { dark, t, progress } = useStore();
   const pal = palette(dark, t);
+  const storiesXP = progress.byMode.stories ?? 0;
   const [level, setLevel] = useState('all');
   const [openId, setOpenId] = useState<string | null>(null);
   const levels = useMemo(
@@ -334,7 +431,6 @@ export default function StoriesScreen({ navigation, route }: any): React.JSX.Ele
       <View style={styles.header}>
         <BookOpen size={22} color={pal.text} />
         <Text style={[styles.title, { color: pal.text }]}>गोष्टी — Stories</Text>
-        <XPBadge />
       </View>
       {story ? (
         <Reader story={story} onBack={() => setOpenId(null)} />
@@ -342,6 +438,7 @@ export default function StoriesScreen({ navigation, route }: any): React.JSX.Ele
         <>
           <Text style={[styles.small, { color: pal.muted }]}>
             {stories.length} leveled tales with read-along audio, word meanings and quizzes.
+            {storiesXP > 0 ? ` · ⭐ ${storiesXP} XP` : ''}
           </Text>
           <Gap />
           <View testID="level-filter">
@@ -362,13 +459,16 @@ export default function StoriesScreen({ navigation, route }: any): React.JSX.Ele
             testID="story-grid"
             showsVerticalScrollIndicator={false}
             renderItem={({ item, index }) => (
-              <Animated.View entering={FadeInDown.delay(Math.min(index, 8) * 40).duration(300)}>
+              <Animated.View entering={FadeInDown.delay(Math.min(index, 10) * 50).duration(350)}>
                 <Pressable onPress={() => setOpenId(item.id)} testID={`story-${item.id}`}>
                   <Card>
-                    <StoryArt id={item.id} size={64} />
-                    <Text style={[styles.h3, { color: pal.text }]}>
-                      {item.title_mr} <Text style={[styles.small, { color: pal.muted }]}>L{item.level}</Text>
-                    </Text>
+                    <View style={styles.cardHead}>
+                      <StoryArt id={item.id} size={64} />
+                      <View style={[styles.chip, { backgroundColor: pal.chipBg }]}>
+                        <Text style={[styles.chipText, { color: pal.text }]}>L{item.level}</Text>
+                      </View>
+                    </View>
+                    <Text style={[styles.h3, { color: pal.text }]}>{item.title_mr}</Text>
                     <Text style={[styles.small, { color: pal.muted }]}>{item.title_en}</Text>
                     <Text style={[styles.small, { color: pal.text }]}>
                       {(item.questions ?? []).length} प्रश्न · {(item.gloss ?? []).length} शब्द
@@ -429,15 +529,54 @@ const styles = StyleSheet.create({
     fontSize: 18,
     lineHeight: 30,
   },
+  sentenceHi: {
+    borderRadius: 4,
+  },
   glossed: {
     fontFamily: FONT,
     textDecorationLine: 'underline',
+  },
+  glossWrap: {
+    alignItems: 'center',
+    paddingVertical: 8,
+    width: '100%',
+  },
+  glossPill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    borderWidth: 1,
+    borderRadius: 12,
+    paddingVertical: 10,
+    paddingHorizontal: 12,
+    maxWidth: '100%',
+    alignSelf: 'center',
+    flexShrink: 1,
+  },
+  glossText: {
+    flexShrink: 1,
+  },
+  pbar: {
+    height: 4,
+    borderRadius: 999,
+    overflow: 'hidden',
+    width: '100%',
+  },
+  pfill: {
+    height: 4,
+    borderRadius: 999,
   },
   row: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
     flexWrap: 'wrap',
+  },
+  cardHead: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    gap: 8,
   },
   chipRow: {
     flexDirection: 'row',
